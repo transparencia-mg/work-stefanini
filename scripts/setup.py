@@ -45,18 +45,6 @@ def create_pre_push():
         print('pre-push file found on .git/hooks/ folder...')
 
 
-def create_source_code_folder():
-    """Create project source code folder."""
-    name = project_name()
-    underscore_name = name.replace('-', '_')
-    if not os.path.exists(underscore_name):
-        print('Creating project source code folder...')
-        os.mkdir(underscore_name)
-        os.system(f'touch {underscore_name}/.gitkeep')
-    else:
-        print(f'Source code folder {underscore_name} found on root project...')
-
-
 def create_docs_folder():
     docs_folder_exist = os.path.exists('docs/')
     mkdocs_foder_exist = os.path.exists('mkdocs.yml')
@@ -72,5 +60,4 @@ if __name__ == '__main__':
     create_gitignore()
     create_pre_commit()
     create_pre_push()
-    create_source_code_folder()
     create_docs_folder()
