@@ -1,8 +1,6 @@
 name: Continuos Integration
 
-on:
-  push:
-    branches: main
+on: [push]
 
 jobs:
   lint_and_tests:
@@ -28,10 +26,3 @@ jobs:
 
       - name: Check security
         run: make security
-
-      - name: Run tests
-        run: make tests
-
-      - name: Deploy docs
-        run: make gh-deploy
-
