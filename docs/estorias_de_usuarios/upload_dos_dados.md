@@ -1,6 +1,6 @@
 # Upload dos dados
 
-- Acesso: Gabriel modificando este arquivo em uma nova branch chamada upload-dos-dados
+- Acesso: Testa Publicação
 - Perfil de acesso: usuário logado
 - Protótipo: Descrito abaixo
 - Regra negocial:
