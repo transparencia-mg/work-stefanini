@@ -13,10 +13,8 @@ def test_venv_folder():
     'expected',
     [
         ('.gitignore'),
-        ('.git/hooks/pre-commit'),
-        ('.git/hooks/pre-push'),
     ],
 )
-def test_gitignore_file(expected):
+def test_files_existence(expected):
     if not setup.project_name() == 'python-project-template':
         assert os.path.exists(expected) == True, f'{expected} must exist.'
