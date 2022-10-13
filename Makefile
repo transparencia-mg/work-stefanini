@@ -54,7 +54,7 @@ security: ## Check python libraries installed with pip-audit
 tests: ## Run python tests
 	@echo "Running python tests..."
 	@$(ACTIVATE_LINUX)
-	pytest -v
+	@pytest -v
 
 gh-deploy: ## Deploy docs
 	@echo "Running mkdocs gh-deploy..."
