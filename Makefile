@@ -56,6 +56,11 @@ tests: ## Run python tests
 	@$(ACTIVATE_LINUX)
 	pytest -v
 
+gh-deploy: ## Deploy docs
+	@echo "Running mkdocs gh-deploy..."
+	@$(ACTIVATE_LINUX)
+	@mkdocs gh-deploy
+
 clean: ## Clean previous python virtual environment
 	@echo "Cleaning previous python virtual environment..."
 	@rm -rf venv
