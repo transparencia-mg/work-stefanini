@@ -32,3 +32,6 @@ jobs:
       - name: Run tests
         run: make tests
 
+      - name: Deploy docs
+        run: make gh-deploy
+
