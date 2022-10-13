@@ -15,11 +15,16 @@
 
 ### Prototipação
 
+[Link para prototipacao]()
+
+![imagem-prototipacao]()
+
 | Item | Nome do Campo | Tipo de Dado | Opções | Domínio | Descrição/Observações |
 |------|---------------|--------------|--------|---------|-----------------------|
 |      |               |              |        |         |                       |
 
 Tipo de Dado:
+
 - O - Obrigatório
 - SU - Seleção Única
 - SM - Seleção Múltipla
@@ -41,7 +46,3 @@ Tipo de Dado:
 - DT - Data (dd/mm/aaaa)
 - DH - Data e Hora (dd/mm/aaaa - hh:mm)
 - NA - Não se aplica
-
-
-
-
