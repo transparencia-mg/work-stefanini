@@ -1,14 +1,24 @@
-# Nome da funcionalidade
+# Upload dos dados
 
-- Acesso:
-- Perfil de acesso:
-- Protótipo:
+- Acesso: Estou escrevendo como será o acesso
+- Perfil de acesso: usuário logado
+- Protótipo: Descrito abaixo
 - Regra negocial:
 - Estória de usuário: **Como** ...; **Eu quero** ...; **Para** ....
 
 ### Critérios de aceite
 
-- Critério 00X – Nome do critério de aceite
+- Critério 001 – Nome do critério de aceite
+	- Dado:
+	- Quando:
+	- Então:
+
+- Critério 002 – Nome do critério de aceite
+	- Dado:
+	- Quando:
+	- Então:
+
+- Critério 003 – Nome do critério de aceite
 	- Dado:
 	- Quando:
 	- Então:
