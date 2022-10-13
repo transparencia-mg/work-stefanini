@@ -1,10 +1,13 @@
-name: Continuos Integration
+name: Publish Documentation
 
-on: [push]
+on:
+  push:
+    branches: main
 
 jobs:
-  lint_and_tests:
+  publish_documentation:
     runs-on: ubuntu-latest
+    needs: lint_and_tests
     steps:
 
       - name: Set up Python
@@ -21,11 +24,5 @@ jobs:
       - name: Install packages
         run: make install
 
-      - name: Run lint
-        run: make lint
-
-      - name: Check security
-        run: make security
-
-      - name: Run tests
-        run: make tests
+      - name: Publish Documentation
+        run: make gh-deploy
