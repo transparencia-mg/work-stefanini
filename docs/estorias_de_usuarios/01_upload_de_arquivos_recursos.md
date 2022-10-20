@@ -1,9 +1,18 @@
-# Upload de Arquivos / Recursos no CKAN
+# Upload de arquivo(s) de dados
 
-**Como** Publicador (usuário logado), **eu quero** fazer upload de um ou mais arquivos/recursos no CKAN, **para** documentar os metadados dos mesmos no padrão [Frictionless Data](https://specs.frictionlessdata.io/#overview).
+**Como** publicador, **eu quero** fazer upload de um ou mais arquivo(s) de dados no portal, **para** documentar os metadados dos mesmos no padrão [Frictionless Data](https://specs.frictionlessdata.io/#overview).
 
-- **Acesso:** Portal Dados Abertos >> Login >> Conjunto de dados >> Adicionar Conjunto de Dados.
-- **Perfil de acesso:** Publicador (usuário logado). 
+- **Acesso:** 
+
+```mermaid
+graph LR;
+    1[Acessar Portal Dados Abertos]-->2;
+    2[Login]-->3;
+    3[Conjunto de dados]-->4;
+    4[Adicionar Conjunto de Dados]
+```
+
+- **Perfil de acesso:** Publicador. 
 - **Protótipo:** Baixa Fidelidade.
 - **Regra negocial:** Para que seja feito o upload de arquivo/recurso, o sistema deve se comportar conforme as regras abaixo:
 	- **RN001:** Ao clicar no botão `Adicionar Conjunto de Dados` página com opção de upload de arquivo/recurso deverá ser carregada. 
@@ -47,30 +56,10 @@
 
 ![imagem-prototipacao]()
 
-| Item | Nome do Campo | Tipo de Dado | Opções | Domínio | Descrição/Observações |
-|------|---------------|--------------|--------|---------|-----------------------|
-|      |               |              |        |         |                       |
-
-Tipo de Dado:
-
-- O - Obrigatório
-- SU - Seleção Única
-- SM - Seleção Múltipla
-- E - Editável
-- L - Somente Leitura
-- A – Alfanumérico
-- N Numérico
-- B – Botão
-- CB – ComboBox
-- CKB – CheckBox
-- CT – Caixa de Texto
-- IM – Imagem
-- LB – Label
-- LK – Link
-- RB – Radio Button
-- TR – TreeView
-- TX – Texto
-- IC - Ícone
-- DT - Data (dd/mm/aaaa)
-- DH - Data e Hora (dd/mm/aaaa - hh:mm)
-- NA - Não se aplica
+| Item |                        Nome do Campo                        | Tipo de Dado[^²] | Opções/Domínio |     Descrição/Observações      |
+|------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
+|    1 | :material-upload: Carregar                                  | B,O              | N/A            | Carregar o recurso.            |
+|    2 | :octicons-trash-24: Lixeira                                 | IMC              | N/A            | Apagar dados do recurso.       |
+|    3 | :fontawesome-solid-circle-chevron-right: Expandir metadados | IMC              | N/A            | Expandir metadados do recurso. |
+|    4 | :fontawesome-solid-circle-chevron-down: Recolher metadados  | IMC              | N/A            | Recolher metadados do recurso. |
+|    5 | :simple-addthis: Adicionar Recurso                          | B                | N/A            | Adiciona novo recurso          |
