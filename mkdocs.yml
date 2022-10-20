@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Work Stefanini CKAN MG
 
 theme:
   name: material
@@ -16,6 +16,10 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra_css:
   - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
