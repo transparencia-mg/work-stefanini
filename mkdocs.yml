@@ -5,6 +5,7 @@ theme:
         # readthedocs
 
 markdown_extensions:
+  - footnotes
   - pymdownx.tasklist  # Lista de tarefas
   - pymdownx.emoji  # Emojis
   - pymdownx.mark
