@@ -25,3 +25,12 @@ extra_css:
   - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
 extra_javascript:
   - https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js
+
+extra: # Footer
+  social:
+    - icon: fontawesome/solid/flag
+      name: Material for MkDocs Icons, Emojis
+      link: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
+    - icon: fontawesome/solid/database
+      name: Tip de dado
+      link: https://transparencia-mg.github.io/work-stefanini/
