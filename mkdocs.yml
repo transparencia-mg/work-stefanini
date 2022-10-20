@@ -56,6 +56,8 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.highlight
+  - toc:
+      permalink: ⚓︎
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
