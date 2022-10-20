@@ -13,7 +13,7 @@
     
     
       
-        <title>Upload dos dados - My Docs</title>
+        <title>Upload de Arquivos / Recursos no CKAN - My Docs</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#upload-dos-dados" class="md-skip">
+        <a href="#upload-de-arquivos-recursos-no-ckan" class="md-skip">
           Skip to content
         </a>
       
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Upload dos dados
+              Upload de Arquivos / Recursos no CKAN
             
           </span>
         </div>
@@ -236,12 +236,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Upload dos dados
+          Upload de Arquivos / Recursos no CKAN
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Upload dos dados
+        Upload de Arquivos / Recursos no CKAN
       </a>
       
         
@@ -343,38 +343,68 @@
                   
 
 
-<h1 id="upload-dos-dados">Upload dos dados</h1>
+<h1 id="upload-de-arquivos-recursos-no-ckan">Upload de Arquivos / Recursos no CKAN</h1>
+<p><strong>Como</strong> Publicador (usuário logado), <strong>eu quero</strong> fazer upload de um ou mais arquivos/recursos no CKAN, <strong>para</strong> documentar os metadados dos mesmos no padrão <a href="https://specs.frictionlessdata.io/#overview">Frictionless Data</a>.</p>
 <ul>
-<li>Acesso: Testa Publicação 6</li>
-<li>Perfil de acesso: usuário logado</li>
-<li>Protótipo: Descrito abaixo</li>
-<li>Regra negocial:</li>
-<li>Estória de usuário: <strong>Como</strong> ...; <strong>Eu quero</strong> ...; <strong>Para</strong> ....</li>
+<li><strong>Acesso:</strong> Portal Dados Abertos &gt;&gt; Login &gt;&gt; Conjunto de dados &gt;&gt; Adicionar Conjunto de Dados.</li>
+<li><strong>Perfil de acesso:</strong> Publicador (usuário logado). </li>
+<li><strong>Protótipo:</strong> Baixa Fidelidade.</li>
+<li><strong>Regra negocial:</strong> Para que seja feito o upload de arquivo/recurso, o sistema deve se comportar conforme as regras abaixo:<ul>
+<li><strong>RN001:</strong> Ao clicar no botão <code>Adicionar Conjunto de Dados</code> página com opção de upload de arquivo/recurso deverá ser carregada. 
+A exibição dos metadados em tela deverá estar desabilita. 
+Opção de adicionar novo recurso deverá existir na tela.
+(Imagem 01).    </li>
+<li><strong>RN002:</strong> Após realizar o upload do arquivo/recurso a exibição dos metadados do mesmo deverá ser habilitada. 
+(Imagem 03).    </li>
+<li><strong>RN003:</strong> Ao adicionar um novo arquivo/recurso, a exibição dos metadados do(s) arquivo(s)/recurso(s) anteriormente carregados deverá(ão) ser desabilitada(s). 
+(Imagem 01).</li>
+<li><strong>RN004:</strong> Ao adicionar um no arquivo/recurso, a exibição dos metadados do mesmo deverá ser habilitada.
+(Imagem 03). </li>
+<li><strong>RN005:</strong> Ao habilitar a exibição dos metadados, sem antes fazer o upload de arquivo/recurso, a exibição dos metadados em branco do mesmo deverá ser habilitada.<br />
+(Imagem 02).</li>
+</ul>
+</li>
 </ul>
 <h3 id="criterios-de-aceite">Critérios de aceite</h3>
 <ul>
 <li>
-<p>Critério 001 – Nome do critério de aceite</p>
+<p><strong>Critério 001 – Adicionar arquivo/recurso</strong></p>
 <ul>
-<li>Dado:</li>
-<li>Quando:</li>
-<li>Então:</li>
+<li><strong>Dado</strong> que estou na tela de <code>Adicionar arquivo/recurso</code>.</li>
+<li><strong>Quando</strong> o botão <code>carregar</code> for acionado.</li>
+<li><strong>Então</strong> o sistema operacional deverá abrir a tela de busca para seleção do arquivo/recurso que desejo carregar.</li>
 </ul>
 </li>
 <li>
-<p>Critério 002 – Nome do critério de aceite</p>
+<p><strong>Critério 002 – Carregamento do arquivo/recurso</strong></p>
 <ul>
-<li>Dado:</li>
-<li>Quando:</li>
-<li>Então:</li>
+<li><strong>Dado</strong> que selecionei a opção <code>carregar</code>.</li>
+<li><strong>Quando</strong> confirmo o carregamento do arquivo na tela de busca do sistema operacional.</li>
+<li><strong>Então</strong> o sistema deverá carregar os metadados do arquivo/recurso em tela.</li>
 </ul>
 </li>
 <li>
-<p>Critério 003 – Nome do critério de aceite</p>
+<p><strong>Critério 003 – Inclusão de mais do arquivo/recurso</strong></p>
 <ul>
-<li>Dado:</li>
-<li>Quando:</li>
-<li>Então:</li>
+<li><strong>Dado</strong> que necessito inserir mais um arquivo/recurso.</li>
+<li><strong>Quando</strong> aciono a opção <code>(+) Adicionar Recurso</code>.</li>
+<li><strong>Então</strong> o sistema irá carregar os metadados de mais arquivo/recurso.</li>
+</ul>
+</li>
+<li>
+<p><strong>Critério 004 – Exclusão do arquivo/recurso</strong></p>
+<ul>
+<li><strong>Dado</strong> que necessito inserir mais um arquivo/recurso.</li>
+<li><strong>Quando</strong></li>
+<li><strong>Então</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>Critério 003 – Exclusão do arquivo/recurso</strong></p>
+<ul>
+<li><strong>Dado</strong></li>
+<li><strong>Quando</strong></li>
+<li><strong>Então</strong></li>
 </ul>
 </li>
 </ul>
