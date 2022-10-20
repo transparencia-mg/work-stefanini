@@ -1,5 +1,9 @@
 site_name: Work Stefanini CKAN MG
 
+# Repository
+repo_name: transparencia-mg/work-stefanini
+repo_url: https://github.com/transparencia-mg/work-stefanini
+
 theme:
   name: material
   features:
@@ -39,3 +43,5 @@ extra: # Footer
     - icon: fontawesome/solid/database
       name: Tip de dado
       link: https://transparencia-mg.github.io/work-stefanini/
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/transparencia-mg/work-stefanini
