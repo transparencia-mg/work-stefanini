@@ -21,30 +21,25 @@
 
 ### Critérios de aceite
 
-- **Critério 001 – Adicionar arquivo/recurso**
+- **Critério 001 – Adicionar arquivo/recurso:**
 	- **Dado** que estou na tela de `Adicionar arquivo/recurso`.
 	- **Quando** o botão `carregar` for acionado.
 	- **Então** o sistema operacional deverá abrir a tela de busca para seleção do arquivo/recurso que desejo carregar.
 
-- **Critério 002 – Carregamento do arquivo/recurso**
+- **Critério 002 – Carregamento do arquivo/recurso:**
 	- **Dado** que selecionei a opção `carregar`.
 	- **Quando** confirmo o carregamento do arquivo na tela de busca do sistema operacional.
 	- **Então** o sistema deverá carregar os metadados do arquivo/recurso em tela.
 
-- **Critério 003 – Inclusão de mais do arquivo/recurso**
+- **Critério 003 – Inclusão de mais do arquivo/recurso:**
 	- **Dado** que necessito inserir mais um arquivo/recurso.
 	- **Quando** aciono a opção `(+) Adicionar Recurso`.
 	- **Então** o sistema irá carregar os metadados de mais arquivo/recurso.
 
-- **Critério 004 – Exclusão do arquivo/recurso**
-	- **Dado** que necessito inserir mais um arquivo/recurso.
-	- **Quando**
-	- **Então**
-
-- **Critério 003 – Exclusão do arquivo/recurso**
-	- **Dado**
-	- **Quando**
-	- **Então**
+- **Critério 004 – Desabilitar a exibição dos metadados:**
+	- **Dado** que carreguei os arquivos/recursos.
+	- **Quando** quero verificar um arquivo/recurso específico que foi carregado.
+	- **Então** clico no ícone (dropdown) que expande e recolher a visibilidade dos metadados de cada arquivo/recurso.
 
 ### Prototipação
 
