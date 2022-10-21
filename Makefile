@@ -11,7 +11,6 @@ setup: clean venv install scripts ## Initial project setup with package installa
 venv: ## Create python virtual environment in 'venv' folder
 	@echo "Creating python virtual environment in 'venv' folder..."
 	@python3 -m venv venv
-	@pip uninstall py -y
 
 install: ## Install python packages
 	@echo "Installing python packages..."
@@ -55,7 +54,9 @@ security: ## Check python libraries installed with pip-audit
 tests: ## Run python tests
 	@echo "Running python tests..."
 	@$(ACTIVATE_LINUX)
+	@pip install py
 	@pytest -v
+	@pip uninstall py -y
 
 security-pull: lint security tests
 
