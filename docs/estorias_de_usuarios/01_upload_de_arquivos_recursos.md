@@ -54,7 +54,7 @@ graph LR;
 
 [Link para prototipacao]()
 
-![imagem-prototipacao]()
+![imagem-prototipacao](assets/figura_01.png)
 
 | Item |                        Nome do Campo                        | Tipo de Dado[^²] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
