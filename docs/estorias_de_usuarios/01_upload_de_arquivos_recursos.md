@@ -30,17 +30,17 @@ graph LR;
 
 ### Critérios de aceite
 
-- **Critério 001 – Adicionar arquivo/recurso:**
+- **Critério 001 – Adicionar arquivo(s) de dados:**
 	- **Dado** que estou na tela de `Adicionar arquivo(s) de dados`.
 	- **Quando** o botão `carregar` for acionado.
 	- **Então** o sistema operacional deverá abrir a tela de busca para seleção do arquivo(s) de dados que desejo carregar.
 
-- **Critério 002 – Carregamento do arquivo/recurso:**
+- **Critério 002 – Carregamento do(s) arquivo(s) de dados:**
 	- **Dado** que selecionei a opção `carregar`.
 	- **Quando** confirmo o carregamento do arquivo(s) de dados na tela de busca do sistema operacional.
 	- **Então** o sistema deverá carregar os metadados do(s) arquivo(s) de dados em tela.
 
-- **Critério 003 – Inclusão de mais do arquivo/recurso:**
+- **Critério 003 – Inclusão de mais arquivo(s) de dados:**
 	- **Dado** que necessito inserir mais arquivo(s) de dados.
 	- **Quando** aciono a opção `(+) arquivo(s) de dados`.
 	- **Então** o sistema irá carregar os metadados de mais arquivo(s) de dados.
@@ -56,10 +56,10 @@ graph LR;
 
 ![imagem-prototipacao](assets/figura_01.png)
 
-| Item |                        Nome do Campo                        | Tipo de Dado[^²] | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
-|    1 | :material-upload: Carregar                                  | B,O              | N/A            | Carregar o recurso.            |
-|    2 | :octicons-trash-24: Lixeira                                 | IMC              | N/A            | Apagar dados do recurso.       |
-|    3 | :fontawesome-solid-circle-chevron-right: Expandir metadados | IMC              | N/A            | Expandir metadados do recurso. |
-|    4 | :fontawesome-solid-circle-chevron-down: Recolher metadados  | IMC              | N/A            | Recolher metadados do recurso. |
-|    5 | :simple-addthis: Adicionar Recurso                          | B                | N/A            | Adiciona novo recurso          |
+|    1 | :material-upload: Carregar                                  | B,O              | N/A            | Carregar arquivo(s) de dados.            |
+|    2 | :octicons-trash-24: Lixeira                                 | IMC              | N/A            | Apagar arquivo(s) de dados.       |
+|    3 | :fontawesome-solid-circle-chevron-right: Expandir metadados | IMC              | N/A            | Expandir metadados do(s) arquivo(s) de dados. |
+|    4 | :fontawesome-solid-circle-chevron-down: Recolher metadados  | IMC              | N/A            | Recolher metadados do(s) arquivo(s) de dados. |
+|    5 | :simple-addthis: Adicionar arquivo(s) de dados                          | B                | N/A            | Adiciona novo arquivo(s) de dados          |
