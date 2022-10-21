@@ -11,6 +11,7 @@ setup: clean venv install scripts ## Initial project setup with package installa
 venv: ## Create python virtual environment in 'venv' folder
 	@echo "Creating python virtual environment in 'venv' folder..."
 	@python3 -m venv venv
+	@pip uninstall py -y
 
 install: ## Install python packages
 	@echo "Installing python packages..."
@@ -49,12 +50,14 @@ lint: lint-blue lint-isort link-prospect
 security: ## Check python libraries installed with pip-audit
 	@echo "Checking python libraries installed with pip-audit..."
 	@$(ACTIVATE_LINUX)
-	@pip-audit
+	@pip-audit --desc
 
 tests: ## Run python tests
 	@echo "Running python tests..."
 	@$(ACTIVATE_LINUX)
 	@pytest -v
+
+security-pull: lint security tests
 
 gh-deploy: ## Deploy docs
 	@echo "Running mkdocs gh-deploy..."
