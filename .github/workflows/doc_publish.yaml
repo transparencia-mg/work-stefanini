@@ -24,6 +24,12 @@ jobs:
         with:  
           fetch-depth: 0
 
+      - name: Install pdf converter
+        run: sudo apt install poppler-utils
+
+      - name: Convert pdf
+        run: make convert-pdf
+
       - name: Create venv
         run: make venv
 
