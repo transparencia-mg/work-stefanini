@@ -3,7 +3,7 @@
 
 ACTIVATE_LINUX:=. venv/bin/activate
 PDFS= $(wildcard docs/assets/pdfs/*.pdf)
-IMAGES= $(patsubst docs/assets/pdfs/%.pdf, docs/assets/images/%.png, $(PDFS))
+IMAGES= $(patsubst docs/assets/pdfs/%.pdf, docs/assets/images/%, $(PDFS))
 
 help: ## Short description to make targets
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
@@ -77,7 +77,7 @@ gh-deploy: ## Deploy docs
 
 convert-pdf: $(IMAGES)
 
-$(IMAGES): docs/assets/images/%.png: docs/assets/pdfs/*.pdf
+$(IMAGES): docs/assets/images/%: docs/assets/pdfs/*.pdf
 	pdftoppm -png $< $@
 
 serve: ## Start mkdocs server
@@ -87,3 +87,6 @@ serve: ## Start mkdocs server
 clean: ## Clean previous python virtual environment
 	@echo "Cleaning previous python virtual environment..."
 	@rm -rf venv
+
+test:
+	echo $(IMAGES)
