@@ -2,9 +2,19 @@
 .PHONY: help setup venv install scripts format lint-blue lint-isort link-prospect lint security tests clean
 
 ACTIVATE_LINUX:=. venv/bin/activate
+PDFS= $(wildcard docs/assets/pdfs/*.pdf)
+IMAGES= $(patsubst docs/assets/pdfs/%.pdf, docs/assets/images/%.png, $(PDFS))
 
 help: ## Short description to make targets
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' Makefile | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-10s\033[0m %s\n", $$1, $$2}'
+
+image: ## Build Docker Container
+	@echo 'Build Docker Image...'
+	@docker build . --file Dockerfile --tag work-stefanini:latest
+
+container: ## Start Docker Container
+	@echo 'Starting Docker Container...'
+	@docker run -it --rm -v /$(PWD):/work_dir -p 8000:8000 work-stefanini:latest bash
 
 setup: clean venv install scripts ## Initial project setup with package installation and needed scripts
 
@@ -64,6 +74,15 @@ gh-deploy: ## Deploy docs
 	@echo "Running mkdocs gh-deploy..."
 	@$(ACTIVATE_LINUX)
 	@mkdocs gh-deploy
+
+convert-pdf: $(IMAGES)
+
+$(IMAGES): docs/assets/images/%.png: docs/assets/pdfs/*.pdf
+	pdftoppm -png $< $@
+
+serve: ## Start mkdocs server
+	@echo "Starting mkdocs server"
+	@mkdocs serve -a 0.0.0.0:8000
 
 clean: ## Clean previous python virtual environment
 	@echo "Cleaning previous python virtual environment..."
