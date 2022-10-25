@@ -1,7 +1,9 @@
 .ONESHELL:
 .PHONY: help setup venv install scripts format lint-blue lint-isort link-prospect lint security tests clean
 
-ACTIVATE_LINUX:=. venv/bin/activate
+ACTIVATE_LINUX=. venv/bin/activate
+INSTALL_PACKAGES=pip install -r requirements.txt
+UNINSTALL_PACKAGES=pip uninstall -r unrequirements.txt -y
 PDFS= $(wildcard docs/assets/pdfs/*.pdf)
 IMAGES= $(patsubst docs/assets/pdfs/%.pdf, docs/assets/images/%, $(PDFS))
 
@@ -25,7 +27,7 @@ venv: ## Create python virtual environment in 'venv' folder
 install: ## Install python packages
 	@echo "Installing python packages..."
 	@$(ACTIVATE_LINUX)
-	@pip install -r requirements.txt
+	@$(INSTALL_PACKAGES)
 
 scripts: ## Run initial setup scripts
 	@echo "Running initial setup scripts..."
@@ -59,14 +61,14 @@ lint: lint-blue lint-isort link-prospect
 security: ## Check python libraries installed with pip-audit
 	@echo "Checking python libraries installed with pip-audit..."
 	@$(ACTIVATE_LINUX)
+	@$(UNINSTALL_PACKAGES)
 	@pip-audit --desc
+	@$(INSTALL_PACKAGES)
 
 tests: ## Run python tests
 	@echo "Running python tests..."
 	@$(ACTIVATE_LINUX)
-	@pip install py
 	@pytest -v
-	@pip uninstall py -y
 
 security-pull: lint security tests
 
@@ -87,6 +89,3 @@ serve: ## Start mkdocs server
 clean: ## Clean previous python virtual environment
 	@echo "Cleaning previous python virtual environment..."
 	@rm -rf venv
-
-test:
-	echo $(IMAGES)
