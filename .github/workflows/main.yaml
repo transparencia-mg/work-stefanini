@@ -12,6 +12,9 @@ jobs:
         with:
           python-version: 3.10.2
 
+      - name: Install pdf converter
+        run: sudo apt install poppler-utils
+
       - name: Check out repository
         uses: actions/checkout@v2
 
