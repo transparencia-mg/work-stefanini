@@ -16,7 +16,7 @@ graph LR;
 - **Protótipo:** Baixa Fidelidade.
 - **Regra negocial:** Para que seja feito o upload de arquivo(s) de dados, o portal deve se comportar conforme as regras abaixo:
 	- **RN001:** Ao clicar no botão `Adicionar Conjunto de Dados` página com opção de upload de arquivo(s) de dados deverá ser carregada. 
-	A exibição dos metadados em tela deverá estar desabilita. 
+	A exibição dos metadados em tela deverá estar desabilitada. 
 	Opção de adicionar novo arquivo(s) de dados deverá existir na tela.
 	(Imagem 01).	
 	- **RN002:** Após realizar o upload do arquivo(s) de dados a exibição dos metadados do mesmo deverá ser habilitada. 
@@ -49,7 +49,12 @@ graph LR;
 	- **Dado** que carreguei o(s) arquivo(s) de dados.
 	- **Quando** quero verificar algum(s) arquivo(s) de dados específico(s) que foi carregado.
 	- **Então** clico no ícone (dropdown) que expande e recolher a visibilidade dos metadados de cada arquivo(s) de dados.
-
+- **RN005 - Capacidade máxima para o tamanho do recurso **
+   - **Dado** que aciono a opção `carregar`.
+   - **E** seleciono o arquivo para upload de tamanho muito grande.
+   - **Quando** confirmo o carregamento do arquivo.
+   - **Então** o sistema deverá informar a mensagem: *Não foi possível carregar este arquivo*.
+   
 ### Prototipação
 
 [Link para prototipacao]()
@@ -59,7 +64,7 @@ graph LR;
 | Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 | :material-upload: Carregar                                  | B,O              | N/A            | Carregar arquivo(s) de dados.            |
-|    2 | :octicons-trash-24: Lixeira                                 | IMC              | N/A            | Apagar arquivo(s) de dados.       |
-|    3 | :fontawesome-solid-circle-chevron-right: Expandir metadados | IMC              | N/A            | Expandir metadados do(s) arquivo(s) de dados. |
-|    4 | :fontawesome-solid-circle-chevron-down: Recolher metadados  | IMC              | N/A            | Recolher metadados do(s) arquivo(s) de dados. |
+|    2 | :octicons-trash-24: Lixeira                                 | IM              | N/A            | Apagar arquivo(s) de dados.       |
+|    3 | :fontawesome-solid-circle-chevron-right: Expandir metadados | IM              | N/A            | Expandir metadados do(s) arquivo(s) de dados. |
+|    4 | :fontawesome-solid-circle-chevron-down: Recolher metadados  | IM              | N/A            | Recolher metadados do(s) arquivo(s) de dados. |
 |    5 | :simple-addthis: Adicionar arquivo(s) de dados                          | B                | N/A            | Adiciona novo arquivo(s) de dados          |
