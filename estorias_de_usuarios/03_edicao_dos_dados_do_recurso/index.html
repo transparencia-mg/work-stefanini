@@ -13,7 +13,7 @@
     
     
       
-        <title>Upload de arquivo(s) de dados - Work Stefanini CKAN MG</title>
+        <title>Edição dos dados do Recurso - Work Stefanini CKAN MG</title>
       
     
     
@@ -68,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#upload-de-arquivos-de-dados" class="md-skip">
+        <a href="#edicao-dos-dados-do-recurso" class="md-skip">
           Skip to content
         </a>
       
@@ -106,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Upload de arquivo(s) de dados
+              Edição dos dados do Recurso
             
           </span>
         </div>
@@ -226,7 +226,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="./" class="md-tabs__link md-tabs__link--active">
+      <a href="../01_upload_de_arquivos_recursos/" class="md-tabs__link md-tabs__link--active">
         Estorias de usuarios
       </a>
     </li>
@@ -343,6 +343,34 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../01_upload_de_arquivos_recursos/" class="md-nav__link">
+        Upload de arquivo(s) de dados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02_inferencia_de_arquivo/" class="md-nav__link">
+        Inferência de metadados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -355,12 +383,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Upload de arquivo(s) de dados
+          Edição dos dados do Recurso
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Upload de arquivo(s) de dados
+        Edição dos dados do Recurso
       </a>
       
         
@@ -396,34 +424,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../02_inferencia_de_arquivo/" class="md-nav__link">
-        Inferência de metadados
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../03_edicao_dos_dados_do_recurso/" class="md-nav__link">
-        Edição dos dados do Recurso
-      </a>
     </li>
   
 
@@ -517,14 +517,14 @@
                 
                   
 
-  <a href="https://github.com/transparencia-mg/work-stefanini/edit/main/docs/estorias_de_usuarios/01_upload_de_arquivos_recursos.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/transparencia-mg/work-stefanini/edit/main/docs/estorias_de_usuarios/03_edicao_dos_dados_do_recurso.md" title="Edit this page" class="md-content__button md-icon">
     
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
-<h1 id="upload-de-arquivos-de-dados">Upload de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr><a class="headerlink" href="#upload-de-arquivos-de-dados" title="Permanent link">⚓︎</a></h1>
-<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong> fazer upload de um ou mais <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> no <abbr title="Portal de Dados Abertos CKAN.">portal</abbr>, <strong>para</strong> documentar os metadados dos mesmos no padrão <a href="https://specs.frictionlessdata.io/#overview">Frictionless Data</a>.</p>
+<h1 id="edicao-dos-dados-do-recurso">Edição dos dados do Recurso<a class="headerlink" href="#edicao-dos-dados-do-recurso" title="Permanent link">⚓︎</a></h1>
+<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong>  fazer o upload do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, <strong>para</strong> que eu possa fazer a edição dos metadados do(s) arquivo(s) de dado e dos dados do recurso.</p>
 <ul>
 <li><strong>Acesso:</strong> </li>
 </ul>
@@ -535,62 +535,59 @@
     4[Adicionar Conjunto de Dados]</div>
 <ul>
 <li><strong>Perfil de acesso:</strong> <abbr title="Usuário logado no sistema.">Publicador</abbr>. </li>
-<li><strong>Protótipo:</strong> Baixa Fidelidade.</li>
-<li><strong>Regra negocial:</strong> Para que seja feito o upload de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, o <abbr title="Portal de Dados Abertos CKAN.">portal</abbr> deve se comportar conforme as regras abaixo:<ul>
-<li><strong>RN001:</strong> Ao clicar no botão <code>Adicionar Conjunto de Dados</code> página com opção de upload de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deverá ser carregada. 
-A exibição dos metadados em tela deverá estar desabilitada. 
-Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deverá existir na tela.
-(Imagem 01).    </li>
-<li><strong>RN002:</strong> Após realizar o upload do <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> a exibição dos metadados do mesmo deverá ser habilitada. 
-(Imagem 03).    </li>
-<li><strong>RN003:</strong> Ao adicionar um novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, a exibição dos metadados do(s) anteriormente carregados deverá(ão) ser desabilitada(s). 
-(Imagem 01).</li>
-<li><strong>RN004:</strong> Ao adicionar um no <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, a exibição dos metadados do mesmo deverá ser habilitada.
-(Imagem 03). </li>
-<li><strong>RN005:</strong> Ao habilitar a exibição dos metadados, sem antes fazer o upload de aarquivo(s) de dados, a exibição dos metadados em branco do mesmo deverá ser habilitada.<br />
-(Imagem 02).</li>
+<li>
+<p><strong>Protótipo:</strong> Baixa Fidelidade.</p>
+</li>
+<li>
+<p><strong>Regra negocial:</strong> Para que os metadados possam ser editados, o sistema deve se comportar conforme as regras abaixo:</p>
+<ul>
+<li><strong>RN001:</strong> Para que seja feita a edição dos metadados do dicionário de dados (Table Schema) e dos dados do recurso o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
+<li><strong>RN002</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>Não</code> tabular, o sistema irá habilitar apenas a edição dos campos dos Dados do Recurso. </li>
+<li><strong>RN003:</strong> Todos os campos do dicionário de dados (Table Schema) e dos dados do recurso deveráo ser editáveis.</li>
+<li><strong>RN004:</strong> No agrupamento Dicionário de Dados, o campo “Tipo de dados”, a combobox irá vir preenchida com a informação pertinente ao campo (texto, número...), já inferida pela Frictionless, podendo ser editado.</li>
+<li><strong>RN005:</strong> No agrupamento Dicionário de Dados,o campo “Formato de dados”, a combobox irá vir preenchida com a informação pertinente ao campo, já inferida pela Frictionless, podendo ser editado.</li>
+<li><strong>RN006:</strong> No agrupamento Dicionário de Dados, o campo <code>Obrigatório</code>, a combobox irá conter as informações <em>SIM</em> ou <em>NÃO</em> e por padrão já deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
+<li><strong>RN007:</strong> No agrupamento Dicionário de Dados, o campo “Único”, a combobox irá conter as informações <em>SIM</em> ou <em>NÃO</em> e por padrão já deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
+<li><strong>RN008:</strong> No agrupamento <code>Dados do Recurso</code> os campos  “Título” e “Descrição” são de preenchimento obrigatório.</li>
 </ul>
 </li>
 </ul>
 <h3 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h3>
 <ul>
 <li>
-<p><strong>Critério 001 – Adicionar <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>:</strong></p>
+<p><strong>Critério 001 – Editar Metadados de arquivos tabulares do dicionário de dados :</strong></p>
 <ul>
-<li><strong>Dado</strong> que estou na tela de <code>Adicionar arquivo(s) de dados</code>.</li>
-<li><strong>Quando</strong> o botão <code>carregar</code> for acionado.</li>
-<li><strong>Então</strong> o sistema operacional deverá abrir a tela de busca para seleção do <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> que desejo carregar.</li>
+<li><strong>Dado</strong>  eu quero fazer a edição dos metadados do dicionário de dados e os dados do recurso </li>
+<li><strong>Quando</strong> o sistema fizer as devidas inferências.</li>
+<li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
 </ul>
 </li>
 <li>
-<p><strong>Critério 002 – Carregamento do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>:</strong></p>
+<p><strong>Critério 002 – Editar Metadados de arquivos <em>NÃO</em> tabulares dos dados do recurso:</strong></p>
 <ul>
-<li><strong>Dado</strong> que selecionei a opção <code>carregar</code>.</li>
-<li><strong>Quando</strong> confirmo o carregamento do <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> na tela de busca do sistema operacional.</li>
-<li><strong>Então</strong> o sistema deverá carregar os metadados do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> em tela.</li>
+<li><strong>Dado</strong> que quero fazer a edição dos metadados dos dados do recurso.</li>
+<li><strong>Quando</strong> o sistema apresentar as informações inferidas deste campo.</li>
+<li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
 </ul>
 </li>
 <li>
-<p><strong>Critério 003 – Inclusão de mais <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>:</strong></p>
+<p><strong>Critério 003 – Editar o campo <code>Restrições</code> de arquivos tabulares do dicionário de dados:</strong></p>
 <ul>
-<li><strong>Dado</strong> que necessito inserir mais <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</li>
-<li><strong>Quando</strong> aciono a opção <code>(+) arquivo(s) de dados</code>.</li>
-<li><strong>Então</strong> o sistema irá carregar os metadados de mais <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</li>
+<li><strong>Dado</strong> que quero fazer a edição dos metadados do campo <code>Restrições</code> do dicionário de dados.</li>
+<li><strong>E</strong> o sistema apresenta a informação padrão deste campo.</li>
+<li><strong>Quando</strong> escolho a opção <code>Enum</code>.</li>
+<li><strong>Então</strong> o sistema exibe o campo texto abaixo da opção para inserir as informações. </li>
 </ul>
 </li>
 <li>
-<p><strong>Critério 004 – Desabilitar a exibição dos metadados:</strong></p>
+<p><strong>Critério 004 – Editar o campo <code>Restrições</code> de arquivos tabulares do dicionário de dados:</strong></p>
 <ul>
-<li><strong>Dado</strong> que carreguei o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</li>
-<li><strong>Quando</strong> quero verificar algum(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> específico(s) que foi carregado.</li>
-<li><strong>Então</strong> clico no ícone (dropdown) que expande e recolher a visibilidade dos metadados de cada <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</li>
+<li><strong>Dado</strong> que quero fazer a edição dos metadados do campo <code>Restrições</code> do dicionário de dados.</li>
+<li><strong>E</strong> o sistema apresenta a informação padrão deste campo.</li>
+<li><strong>Quando</strong> escolho a opção <code>Max e Min</code>.</li>
+<li><strong>Então</strong> o sistema exibe o campo texto abaixo da opção para inserir as informações. </li>
 </ul>
 </li>
-<li><strong>RN005 - Capacidade máxima para o tamanho do recurso </strong></li>
-<li><strong>Dado</strong> que aciono a opção <code>carregar</code>.</li>
-<li><strong>E</strong> seleciono o arquivo para upload de tamanho muito grande.</li>
-<li><strong>Quando</strong> confirmo o carregamento do arquivo.</li>
-<li><strong>Então</strong> o sistema deverá informar a mensagem: <em>Não foi possível carregar este arquivo</em>.</li>
 </ul>
 <h3 id="prototipacao">Prototipação<a class="headerlink" href="#prototipacao" title="Permanent link">⚓︎</a></h3>
 <p><a href="">Link para prototipacao</a></p>
@@ -608,38 +605,52 @@ Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recur
 <tbody>
 <tr>
 <td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16v-6H5l7-7 7 7h-4v6H9m-4 4v-2h14v2H5Z"/></svg></span> Carregar</td>
-<td>B,O</td>
+<td>Título</td>
+<td>O, E, CT</td>
 <td>N/A</td>
-<td>Carregar <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
+<td>Campo título com quantidade de caracteres máximo de 100</td>
 </tr>
 <tr>
 <td>2</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M16 1.75V3h5.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H8V1.75C8 .784 8.784 0 9.75 0h4.5C15.216 0 16 .784 16 1.75zm-6.5 0a.25.25 0 0 1 .25-.25h4.5a.25.25 0 0 1 .25.25V3h-5V1.75z"/><path d="M4.997 6.178a.75.75 0 1 0-1.493.144L4.916 20.92a1.75 1.75 0 0 0 1.742 1.58h10.684a1.75 1.75 0 0 0 1.742-1.581l1.413-14.597a.75.75 0 0 0-1.494-.144l-1.412 14.596a.25.25 0 0 1-.249.226H6.658a.25.25 0 0 1-.249-.226L4.997 6.178z"/><path d="M9.206 7.501a.75.75 0 0 1 .793.705l.5 8.5A.75.75 0 1 1 9 16.794l-.5-8.5a.75.75 0 0 1 .705-.793zm6.293.793A.75.75 0 1 0 14 8.206l-.5 8.5a.75.75 0 0 0 1.498.088l.5-8.5z"/></svg></span> Lixeira</td>
-<td>IM</td>
+<td>Descrição</td>
+<td>O, E, CT</td>
 <td>N/A</td>
-<td>Apagar <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
+<td>Campo título com quantidade de caracteres máximo de 3000</td>
 </tr>
 <tr>
 <td>3</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M0 256c0 141.4 114.6 256 256 256s256-114.6 256-256S397.4 0 256 0 0 114.6 0 256zm241 121c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z"/></svg></span> Expandir metadados</td>
-<td>IM</td>
+<td>Tipo de dados</td>
+<td>CB</td>
 <td>N/A</td>
-<td>Expandir metadados do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
+<td>Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox.</td>
 </tr>
 <tr>
 <td>4</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256 256-114.6 256-256S397.4 0 256 0zM135 241c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 345c-9.4 9.4-24.6 9.4-33.9 0L135 241z"/></svg></span> Recolher metadados</td>
-<td>IM</td>
+<td>Formato de dados</td>
+<td>CB</td>
 <td>N/A</td>
-<td>Recolher metadados do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
+<td>Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox.</td>
 </tr>
 <tr>
 <td>5</td>
-<td><span class="twemoji"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 13.496h-4.501v4.484h-3v-4.484H6v-2.99h4.5V6.021h3.001v4.485H18v2.99zM21 .041H3a3.004 3.004 0 0 0-3 2.99v17.94a3.004 3.004 0 0 0 3 2.988h18a3.005 3.005 0 0 0 3-2.988V3.031a3.005 3.005 0 0 0-3-2.99z"/></svg></span> Adicionar <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></td>
-<td>B</td>
+<td>Restrições</td>
+<td>CB</td>
 <td>N/A</td>
-<td>Adiciona novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></td>
+<td>Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Enum</td>
+<td>O, CT</td>
+<td>N/A</td>
+<td>Ao escolher a opção <code>Enum</code> o usuário deverá informar um conjunto fixo de valores, sendo eles Texto ou Números.</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Max e Min</td>
+<td>O, CT</td>
+<td>N/A</td>
+<td>Ao escolher a opção <code>Max e Min</code> o usuário deverá informar um intervalo de valores.</td>
 </tr>
 </tbody>
 </table>
@@ -668,7 +679,7 @@ Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recur
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../.." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome to MkDocs" rel="prev">
+        <a href="../02_inferencia_de_arquivo/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Inferência de metadados" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -677,20 +688,20 @@ Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recur
               <span class="md-footer__direction">
                 Previous
               </span>
-              Welcome to MkDocs
+              Inferência de metadados
             </div>
           </div>
         </a>
       
       
         
-        <a href="../02_inferencia_de_arquivo/" class="md-footer__link md-footer__link--next" aria-label="Next: Inferência de metadados" rel="next">
+        <a href="../04_criacao_de_novos_metadados/" class="md-footer__link md-footer__link--next" aria-label="Next: Criação de novos metadados" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Inferência de metadados
+              Criação de novos metadados
             </div>
           </div>
           <div class="md-footer__button md-icon">
