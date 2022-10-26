@@ -500,16 +500,10 @@
 <li><strong>Regra negocial:</strong> Para que seja feito o upload de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, o <abbr title="Portal de Dados Abertos CKAN.">portal</abbr> deve se comportar conforme as regras abaixo:<ul>
 <li><strong>RN001:</strong> Ao clicar no botão <code>Adicionar Conjunto de Dados</code> página com opção de upload de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deverá ser carregada. 
 A exibição dos metadados em tela deverá estar desabilitada. 
-Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deverá existir na tela.
-(Imagem 01).    </li>
-<li><strong>RN002:</strong> Após realizar o upload do <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> a exibição dos metadados do mesmo deverá ser habilitada. 
-(Imagem 03).    </li>
-<li><strong>RN003:</strong> Ao adicionar um novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, a exibição dos metadados do(s) anteriormente carregados deverá(ão) ser desabilitada(s). 
-(Imagem 01).</li>
-<li><strong>RN004:</strong> Ao adicionar um no <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, a exibição dos metadados do mesmo deverá ser habilitada.
-(Imagem 03). </li>
-<li><strong>RN005:</strong> Ao habilitar a exibição dos metadados, sem antes fazer o upload de aarquivo(s) de dados, a exibição dos metadados em branco do mesmo deverá ser habilitada.<br />
-(Imagem 02).</li>
+Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deverá existir na tela. </li>
+<li><strong>RN002:</strong> Após realizar o upload do <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> a exibição dos metadados do mesmo deverá ser habilitada.  </li>
+<li><strong>RN003:</strong> Ao adicionar um novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, a exibição dos metadados do(s) anteriormente carregados deverá(ão) ser desabilitada(s). </li>
+<li><strong>RN004:</strong> Ao adicionar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, a exibição dos metadados do mesmo deverá ser habilitada.</li>
 </ul>
 </li>
 </ul>
@@ -547,13 +541,35 @@ Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recur
 <li><strong>Então</strong> clico no ícone (dropdown) que expande e recolher a visibilidade dos metadados de cada <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</li>
 </ul>
 </li>
-<li><strong>RN005 - Capacidade máxima para o tamanho do recurso </strong></li>
+<li><strong>RN005 - Capacidade máxima para o tamanho do recurso </strong><ul>
 <li><strong>Dado</strong> que aciono a opção <code>carregar</code>.</li>
 <li><strong>E</strong> seleciono o arquivo para upload de tamanho muito grande.</li>
 <li><strong>Quando</strong> confirmo o carregamento do arquivo.</li>
 <li><strong>Então</strong> o sistema deverá informar a mensagem: <em>Não foi possível carregar este arquivo</em>.</li>
 </ul>
+</li>
+<li><strong>RN006 - Apresentação da Tela sem carregamento de arquivo </strong><ul>
+<li><strong>Dado</strong> que não tenha carregado nenhum <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></li>
+<li><strong>E</strong> aciono a opção <code>Expandir a exibição dos metadados</code>.</li>
+<li><strong>Então</strong> o sistema deverá habilitar o campo em branco. </li>
+</ul>
+</li>
+<li><strong>RN007 - Apresentação da Tela com carregamento de arquivo tabular </strong><ul>
+<li><strong>Dado</strong> que tenha carregado um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> do tipo tabular</li>
+<li><strong>E</strong> aciono a opção <code>Expandir a exibição dos metadados</code>.</li>
+<li><strong>Então</strong> o sistema deverá habilitar o campo do Dicionário de dados, com as colunas do <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.       </li>
+</ul>
+</li>
+<li><strong>RN008 - Apresentação da Tela com carregamento de arquivo <code>Não</code> tabular </strong><ul>
+<li><strong>Dado</strong> que tenha carregado um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> do tipo <code>Não</code> tabular</li>
+<li><strong>E</strong> aciono a opção <code>Expandir a exibição dos metadados</code>.</li>
+<li>
+<p><strong>Então</strong> o sistema deverá habilitar o campo do Dicionário de dados com o ícone da extensão do arquivo e o nome do arquivo com sua extensão.</p>
 <h3 id="prototipacao">Prototipação<a class="headerlink" href="#prototipacao" title="Permanent link">⚓︎</a></h3>
+</li>
+</ul>
+</li>
+</ul>
 <p><a href="">Link para prototipacao</a></p>
 <p><img alt="imagem-prototipacao" src="assets/figura_01.png" /></p>
 <table>
@@ -600,7 +616,7 @@ Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recur
 <td><span class="twemoji"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 13.496h-4.501v4.484h-3v-4.484H6v-2.99h4.5V6.021h3.001v4.485H18v2.99zM21 .041H3a3.004 3.004 0 0 0-3 2.99v17.94a3.004 3.004 0 0 0 3 2.988h18a3.005 3.005 0 0 0 3-2.988V3.031a3.005 3.005 0 0 0-3-2.99z"/></svg></span> Adicionar <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></td>
 <td>B</td>
 <td>N/A</td>
-<td>Adiciona novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></td>
+<td>Adiciona novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
 </tr>
 </tbody>
 </table>
@@ -610,7 +626,7 @@ Opção de adicionar novo <abbr title="Arquivos de dados são considerados Recur
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 25, 2022 14:37:31</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 26, 2022 12:55:34</span>
       
         <br>
         Created:
