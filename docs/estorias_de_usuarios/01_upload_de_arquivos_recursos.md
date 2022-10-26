@@ -43,20 +43,20 @@ graph LR;
 	   - **Dado** que carreguei o(s) arquivo(s) de dados.
 	   - **Quando** quero verificar algum(s) arquivo(s) de dados específico(s) que foi carregado.
 	   - **Então** clico no ícone (dropdown) que expande e recolher a visibilidade dos metadados de cada arquivo(s) de dados.
-- **RN005 - Capacidade máxima para o tamanho do recurso **
+- **Critério 005 – Capacidade máxima para o tamanho do recurso**
       - **Dado** que aciono a opção `carregar`.
       - **E** seleciono o arquivo para upload de tamanho muito grande.
       - **Quando** confirmo o carregamento do arquivo.
       - **Então** o sistema deverá informar a mensagem: *Não foi possível carregar este arquivo*.
-- **RN006 - Apresentação da Tela sem carregamento de arquivo **
+- **Critério 006 – Apresentação da Tela sem carregamento de arquivo **
       - **Dado** que não tenha carregado nenhum arquivo(s) de dados
       - **E** aciono a opção `Expandir a exibição dos metadados`.
       - **Então** o sistema deverá habilitar o campo em branco. 
-- **RN007 - Apresentação da Tela com carregamento de arquivo tabular **
+- **Critério 007 – Apresentação da Tela com carregamento de arquivo tabular**
       - **Dado** que tenha carregado um arquivo(s) de dados do tipo tabular
       - **E** aciono a opção `Expandir a exibição dos metadados`.
       - **Então** o sistema deverá habilitar o campo do Dicionário de dados, com as colunas do arquivo(s) de dados.       
-- **RN008 - Apresentação da Tela com carregamento de arquivo `Não` tabular **
+- **Critério 008 – Apresentação da Tela com carregamento de arquivo `Não` tabular**
       - **Dado** que tenha carregado um arquivo(s) de dados do tipo `Não` tabular
       - **E** aciono a opção `Expandir a exibição dos metadados`.
       - **Então** o sistema deverá habilitar o campo do Dicionário de dados com o ícone da extensão do arquivo e o nome do arquivo com sua extensão.

@@ -34,9 +34,9 @@ graph LR;
 
 ### Prototipação
 
-[Link para prototipacao]()
+[Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115)
 
-![imagem-prototipacao](assets/figura_01.png)
+![imagem-prototipacao](/assets/figura_01.png)
 
 | Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
