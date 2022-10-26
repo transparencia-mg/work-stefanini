@@ -501,22 +501,20 @@
 </li>
 <li>
 <p><strong>Regra negocial:</strong> Para que os metadados sejam inferidos , o sistema deve se comportar conforme as regras abaixo:</p>
-<ul>
-<li><strong>RN001:</strong> O conjuntos de dados e recursos devem seguir o padrão de metadados de acordo com a biblioteca da Frictionless.</li>
+</li>
+<li><strong>RN001:</strong> O conjuntos de dados e recursos devem seguir o padrão de metadados de acordo com a biblioteca da <a href="https://specs.frictionlessdata.io/#overview">Frictionless</a>.</li>
 <li><strong>RN002:</strong> Ao fazer o carregamento de um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> que <code>Não</code> seja tabular (PDF, Imagem, etc) o sistema deverá apenas fazer a inferência dos dados do recurso e apresentar, em tela, o ícone da extensão e o nome do arquivo com sua extensão.</li>
-<li><strong>RN003:</strong> Para que seja feita a inferência dos metadados do dicionário de dados (Table Schema), o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.    </li>
+<li><strong>RN003:</strong> Para que seja feita a inferência dos metadados do dicionário de dados (Table Schema), o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
 <li><strong>RN004:</strong> Após o carregamento, cada coluna de dados deverá vir na mesma ordem dos campos do o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</li>
 <li><strong>RN005:</strong> O nome do <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser de preenchimento obrigatório e único.   </li>
 <li><strong>RN006:</strong> O nome do recurso deve ser alfanumérico, com letras minúsculas e apenas com <code>.</code>, <code>_</code>ou <code>-</code> para separá-los.</li>
 <li><strong>RN007:</strong> O nome do recurso, usualmente, deverá corresponder ao nome do arquivo sem a extensão.</li>
-<li><strong>RN008:</strong> No campo “Tipo de dados”, do dicionário de dados, deverá conter as seguintes opções predeterminadas na frictionless: 
-Texto, Número, Inteiro, Boleano, Objeto, Lista, Data, Hora, Ddata e Hora, Ano, Ano e Mês, Duração, Geopoint, Geojson, Any. </li>
-<li><strong>RN009:</strong> No campo “Formato de dados”, do dicionário de dados,  deverá conter as opções predeterminadas na frictionless para cada tipo de dado selecionado.
- Ex.: Para o tipo de dado String: Padrão, E-mail, Binário, URI, UUID.</li>
-<li><strong>RN010</strong> - Nos dados do recurso deverão ser apresentados os seguintes campos: 
-  Titulo, Descrição, Formato do recurso, Tipo (Tabular ou não), Encoding (codificação)</li>
-</ul>
-</li>
+<li><strong>RN008:</strong> No agrupamento Dicionário de Dados, o campo “Tipo de dados” será inferido pela Frictionless e deverá conter as opções predeterminadas: Texto, Número, Inteiro, Boleano, Objeto, Lista, Data, Hora, Data e Hora, Ano, Ano e Mês, Duração, Geopoint, Geojson, Any. </li>
+<li><strong>RN009:</strong> No agrupamento Dicionário de Dados, o campo “Formato de dados” será inferido pela Frictionless e deverá conter as opções predeterminadas na Frictionless](https://specs.frictionlessdata.io/#overview): Ex.: Para o tipo de dado String: Padrão, E-mail, Binário, URI, UUID.</li>
+<li><strong>RN010</strong> - No agrupamento dos Dados do Recurso deverão ser apresentados os seguintes campos: 
+      Titulo, Descrição, Formato do recurso, Tipo (Tabular ou não) e Encoding (codificação).</li>
+<li><strong>RN011</strong> - No agrupamento dos Dados do Recurso os campos Título e Descrição serão de preenchimento obrigatório. </li>
+<li><strong>RN012</strong> - No agrupamento dos Dados do Recurso os campos: Formato do recurso, Tipo (Tabular ou não) e Encoding (codificação) serão inferidos pela frictionless e deverão conter as opções predeterminadas na <a href="https://specs.frictionlessdata.io/#overview">Frictionless</a></li>
 </ul>
 <h3 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h3>
 <ul>
@@ -525,11 +523,11 @@ Texto, Número, Inteiro, Boleano, Objeto, Lista, Data, Hora, Ddata e Hora, Ano, 
 <ul>
 <li><strong>Dado</strong>  que possuo um recurso em formato tabular.</li>
 <li><strong>E</strong> aciono o botão <code>Carregar</code></li>
-<li><strong>Então</strong> o sistema deverá fazer a inferência dos metadados do recurso relacionado ao dicionário de dados e dos dados do recurso..</li>
+<li><strong>Então</strong> o sistema deverá fazer a inferência dos metadados do recurso relacionado ao dicionário de dados e dos dados do recurso.</li>
 </ul>
 </li>
 <li>
-<p><strong>Critério 002</strong> – Realizar Inferência dos metadados de arquivos <strong>NÃO</strong> tabulares:**</p>
+<p><strong>Critério 002 – Realizar Inferência dos metadados de arquivos <code>não</code> tabulares:</strong></p>
 <ul>
 <li><strong>Dado</strong> que possuo um recurso em formato <code>não</code> tabular.</li>
 <li><strong>E</strong> aciono o botão <code>Carregar</code></li>
@@ -553,38 +551,87 @@ Texto, Número, Inteiro, Boleano, Objeto, Lista, Data, Hora, Ddata e Hora, Ano, 
 <tbody>
 <tr>
 <td>1</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 16v-6H5l7-7 7 7h-4v6H9m-4 4v-2h14v2H5Z"/></svg></span> Carregar</td>
-<td>B,O</td>
+<td>Nome do Recurso</td>
+<td>O, CT</td>
 <td>N/A</td>
-<td>Carregar <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
+<td>Descrição manual do nome do Recurso.</td>
 </tr>
 <tr>
 <td>2</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M16 1.75V3h5.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H8V1.75C8 .784 8.784 0 9.75 0h4.5C15.216 0 16 .784 16 1.75zm-6.5 0a.25.25 0 0 1 .25-.25h4.5a.25.25 0 0 1 .25.25V3h-5V1.75z"/><path d="M4.997 6.178a.75.75 0 1 0-1.493.144L4.916 20.92a1.75 1.75 0 0 0 1.742 1.58h10.684a1.75 1.75 0 0 0 1.742-1.581l1.413-14.597a.75.75 0 0 0-1.494-.144l-1.412 14.596a.25.25 0 0 1-.249.226H6.658a.25.25 0 0 1-.249-.226L4.997 6.178z"/><path d="M9.206 7.501a.75.75 0 0 1 .793.705l.5 8.5A.75.75 0 1 1 9 16.794l-.5-8.5a.75.75 0 0 1 .705-.793zm6.293.793A.75.75 0 1 0 14 8.206l-.5 8.5a.75.75 0 0 0 1.498.088l.5-8.5z"/></svg></span> Lixeira</td>
-<td>IM</td>
+<td>Título</td>
+<td>CT</td>
 <td>N/A</td>
-<td>Apagar <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
+<td>Campo texto para o título do recurso com tamanho máximo de 100 caracteres</td>
 </tr>
 <tr>
 <td>3</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M0 256c0 141.4 114.6 256 256 256s256-114.6 256-256S397.4 0 256 0 0 114.6 0 256zm241 121c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l87-87-87-87c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L345 239c9.4 9.4 9.4 24.6 0 33.9L241 377z"/></svg></span> Expandir metadados</td>
-<td>IM</td>
+<td>Descrição</td>
+<td>CT</td>
 <td>N/A</td>
-<td>Expandir metadados do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
+<td>Campo texto para a descrição do recurso com tamanho máximo de 5000 caracteres</td>
 </tr>
 <tr>
 <td>4</td>
-<td><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M256 0C114.6 0 0 114.6 0 256s114.6 256 256 256 256-114.6 256-256S397.4 0 256 0zM135 241c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l87 87 87-87c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9L273 345c-9.4 9.4-24.6 9.4-33.9 0L135 241z"/></svg></span> Recolher metadados</td>
-<td>IM</td>
+<td>Tipo de Dado</td>
+<td>CB</td>
 <td>N/A</td>
-<td>Recolher metadados do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</td>
+<td>Seleção automática do tipo possível de dados como: texto, número, etc.</td>
 </tr>
 <tr>
 <td>5</td>
-<td><span class="twemoji"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 13.496h-4.501v4.484h-3v-4.484H6v-2.99h4.5V6.021h3.001v4.485H18v2.99zM21 .041H3a3.004 3.004 0 0 0-3 2.99v17.94a3.004 3.004 0 0 0 3 2.988h18a3.005 3.005 0 0 0 3-2.988V3.031a3.005 3.005 0 0 0-3-2.99z"/></svg></span> Adicionar <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></td>
+<td>Formato de dado</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática com os formatos de dados predeterminados, como: padrão, e-mail, etc.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Obrigatório</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Por padrão, a opção <code>NÃO</code> deverá estar selecionada. Estende-se para estória: <a href="/estorias_de_usuarios/03_edicao_dos_dados_do_recurso">US003 - Editar Metadados</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Único</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Por padrão, a opção <code>NÃO</code> deverá estar selecionada. Estende-se para estória: <a href="/estorias_de_usuarios/03_edicao_dos_dados_do_recurso">US003 - Editar Metadados</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>(+) Adicionar Metadados</td>
 <td>B</td>
 <td>N/A</td>
-<td>Adiciona novo <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></td>
+<td>Escolha de metadados complementares. <a href="/estorias_de_usuarios/03_edicao_dos_dados_do_recurso">US003 - Editar Metadados</a></td>
+</tr>
+<tr>
+<td>09</td>
+<td>Salvar</td>
+<td>B</td>
+<td>N/A</td>
+<td>Ao acionar o botão &lt;<Salvar>&gt; o sistema salva as alterações feitas. Estende-se para estória: <a href="/estorias_de_usuarios/03_edicao_dos_dados_do_recurso">US003 - Editar Metadados</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Tipo  de formato</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática do tipo de extensão: Tabular ou não tabular</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Formato do recurso</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática do formato do recurso, como: xls, csv, etc.</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Codificação</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Descrição manual do tipo de codificação, como UTF-8, etc</td>
 </tr>
 </tbody>
 </table>
@@ -594,7 +641,7 @@ Texto, Número, Inteiro, Boleano, Objeto, Lista, Data, Hora, Ddata e Hora, Ano, 
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 25, 2022 14:41:19</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 26, 2022 14:01:34</span>
       
         <br>
         Created:

@@ -503,50 +503,36 @@
 <p><strong>Regra negocial:</strong> Para que os metadados possam ser editados, o sistema deve se comportar conforme as regras abaixo:</p>
 <ul>
 <li><strong>RN001:</strong> Para que seja feita a edição dos metadados do dicionário de dados (Table Schema) e dos dados do recurso o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
-<li><strong>RN002</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>Não</code> tabular, o sistema irá habilitar apenas a edição dos campos dos Dados do Recurso. </li>
-<li><strong>RN003:</strong> Todos os campos do dicionário de dados (Table Schema) e dos dados do recurso deveráo ser editáveis.</li>
-<li><strong>RN004:</strong> No agrupamento Dicionário de Dados, o campo “Tipo de dados”, a combobox irá vir preenchida com a informação pertinente ao campo (texto, número...), já inferida pela Frictionless, podendo ser editado.</li>
-<li><strong>RN005:</strong> No agrupamento Dicionário de Dados,o campo “Formato de dados”, a combobox irá vir preenchida com a informação pertinente ao campo, já inferida pela Frictionless, podendo ser editado.</li>
-<li><strong>RN006:</strong> No agrupamento Dicionário de Dados, o campo <code>Obrigatório</code>, a combobox irá conter as informações <em>SIM</em> ou <em>NÃO</em> e por padrão já deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
-<li><strong>RN007:</strong> No agrupamento Dicionário de Dados, o campo “Único”, a combobox irá conter as informações <em>SIM</em> ou <em>NÃO</em> e por padrão já deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
-<li><strong>RN008:</strong> No agrupamento <code>Dados do Recurso</code> os campos  “Título” e “Descrição” são de preenchimento obrigatório.</li>
+<li><strong>RN002</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>não</code> tabular, o sistema habilita apenas a edição dos campos dos <code>Dados do Recurso</code>. </li>
+<li><strong>RN003:</strong> Todos os campos do Dicionário de Dados (Table Schema) e dos Dados do Recurso devem ser editáveis.</li>
+<li><strong>RN004:</strong> No agrupamento Dicionário de Dados, no campo “Tipo de dados”, a combobox deve vir preenchida, inferida pela Frictionless, podendo ser editado.</li>
+<li><strong>RN005:</strong> No agrupamento Dicionário de Dados, no campo “Formato de dados”, a combobox deve vir preenchida, inferida pela Frictionless, podendo ser editado.</li>
+<li><strong>RN006:</strong> No agrupamento Dicionário de Dados, no campo <code>Obrigatório</code>, a combobox tem a seguinte apresentação: 
+         - Deverá conter as informações <em>SIM</em> ou <em>NÃO</em> 
+         - Por padrão, deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
+<li><strong>RN007:</strong> No agrupamento Dicionário de Dados, no campo “Único”, a combobox tem a seguinte apresentação: 
+         - Deverá conter as informações <em>SIM</em> ou <em>NÃO</em> 
+         - Por padrão, deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
+<li><strong>RN008:</strong> No agrupamento Dados do Recurso os campos “Título” e “Descrição” são de preenchimento obrigatório.</li>
 </ul>
 </li>
 </ul>
 <h3 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h3>
 <ul>
 <li>
-<p><strong>Critério 001 – Editar Metadados de arquivos tabulares do dicionário de dados :</strong></p>
+<p><strong>Critério 001 – Editar Metadados de arquivos tabulares do Dicionário de Dados:</strong></p>
 <ul>
-<li><strong>Dado</strong>  eu quero fazer a edição dos metadados do dicionário de dados e os dados do recurso </li>
-<li><strong>Quando</strong> o sistema fizer as devidas inferências.</li>
-<li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
-</ul>
-</li>
-<li>
-<p><strong>Critério 002 – Editar Metadados de arquivos <em>NÃO</em> tabulares dos dados do recurso:</strong></p>
-<ul>
-<li><strong>Dado</strong> que quero fazer a edição dos metadados dos dados do recurso.</li>
+<li><strong>Dado</strong>  eu quero fazer a edição dos metadados do Dicionário de Dados e dos Dados do Recurso </li>
 <li><strong>Quando</strong> o sistema apresentar as informações inferidas deste campo.</li>
 <li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
 </ul>
 </li>
 <li>
-<p><strong>Critério 003 – Editar o campo <code>Restrições</code> de arquivos tabulares do dicionário de dados:</strong></p>
+<p><strong>Critério 002 – Editar Metadados de arquivos <em>NÃO</em> tabulares dos Dados do Recurso:</strong></p>
 <ul>
-<li><strong>Dado</strong> que quero fazer a edição dos metadados do campo <code>Restrições</code> do dicionário de dados.</li>
-<li><strong>E</strong> o sistema apresenta a informação padrão deste campo.</li>
-<li><strong>Quando</strong> escolho a opção <code>Enum</code>.</li>
-<li><strong>Então</strong> o sistema exibe o campo texto abaixo da opção para inserir as informações. </li>
-</ul>
-</li>
-<li>
-<p><strong>Critério 004 – Editar o campo <code>Restrições</code> de arquivos tabulares do dicionário de dados:</strong></p>
-<ul>
-<li><strong>Dado</strong> que quero fazer a edição dos metadados do campo <code>Restrições</code> do dicionário de dados.</li>
-<li><strong>E</strong> o sistema apresenta a informação padrão deste campo.</li>
-<li><strong>Quando</strong> escolho a opção <code>Max e Min</code>.</li>
-<li><strong>Então</strong> o sistema exibe o campo texto abaixo da opção para inserir as informações. </li>
+<li><strong>Dado</strong> que quero fazer a edição dos metadados dos Dados do Recurso.</li>
+<li><strong>Quando</strong> o sistema apresentar as informações inferidas deste campo.</li>
+<li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
 </ul>
 </li>
 </ul>
@@ -594,24 +580,24 @@
 </tr>
 <tr>
 <td>5</td>
-<td>Restrições</td>
+<td>Obrigatório</td>
 <td>CB</td>
 <td>N/A</td>
-<td>Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox.</td>
+<td>Usuário poderá escolher alterar para a opção <em>SIM</em></td>
 </tr>
 <tr>
 <td>6</td>
-<td>Enum</td>
-<td>O, CT</td>
+<td>Único</td>
+<td>CB</td>
 <td>N/A</td>
-<td>Ao escolher a opção <code>Enum</code> o usuário deverá informar um conjunto fixo de valores, sendo eles Texto ou Números.</td>
+<td>Usuário poderá escolher alterar para a opção <em>SIM</em></td>
 </tr>
 <tr>
 <td>7</td>
-<td>Max e Min</td>
-<td>O, CT</td>
+<td>(+)Adicionar Metadados</td>
+<td>B</td>
 <td>N/A</td>
-<td>Ao escolher a opção <code>Max e Min</code> o usuário deverá informar um intervalo de valores.</td>
+<td>Ao acionar o botão o usuário poderá acrescentar metadados referentes àquele campo na tabela. Estende-se para estória: [US004] - Criação de novos Metadados</td>
 </tr>
 </tbody>
 </table>
@@ -621,7 +607,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 25, 2022 14:42:22</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 26, 2022 14:01:34</span>
       
         <br>
         Created:
