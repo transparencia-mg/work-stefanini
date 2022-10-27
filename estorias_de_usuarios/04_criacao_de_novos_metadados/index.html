@@ -286,6 +286,16 @@
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_2">
@@ -389,8 +399,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prototipacao" class="md-nav__link">
-    Prototipação
+  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
+    Prototipo Baixa Fidelidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prototipo-alta-fidelidade" class="md-nav__link">
+    Prototipo Alta Fidelidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imagens-prototipo-baixa-fidelidade" class="md-nav__link">
+    Imagens protótipo Baixa Fidelidade
   </a>
   
 </li>
@@ -412,6 +436,76 @@
     <li class="md-nav__item">
       <a href="../05_validacao_de_dados_do_recurso/" class="md-nav__link">
         Validação de dados do recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_edicao_de_dados_do_conjunto_do_recurso/" class="md-nav__link">
+        Edição dos Dados do Conjunto do Recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_validacao_de_dados_do_conjunto_do_recurso/" class="md-nav__link">
+        Validação de dados do recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_salvar_dados_do_recurso/" class="md-nav__link">
+        Salvar dados do recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_publicacao_do_conjunto_do_recurso/" class="md-nav__link">
+        Publicação do Conjunto do recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_geracao_html_do_conjunto/" class="md-nav__link">
+        Geração do HTML do Conjunto
       </a>
     </li>
   
@@ -458,8 +552,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prototipacao" class="md-nav__link">
-    Prototipação
+  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
+    Prototipo Baixa Fidelidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prototipo-alta-fidelidade" class="md-nav__link">
+    Prototipo Alta Fidelidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imagens-prototipo-baixa-fidelidade" class="md-nav__link">
+    Imagens protótipo Baixa Fidelidade
   </a>
   
 </li>
@@ -485,10 +593,8 @@
 
 
 <h1 id="criacao-de-novos-metadados">Criação de novos metadados<a class="headerlink" href="#criacao-de-novos-metadados" title="Permanent link">⚓︎</a></h1>
-<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong>  criar novos metadados, <strong>para</strong> que eu possa validar os dados em um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> Tabulares em relação a sua tabela de forma mais eficaz.</p>
-<ul>
-<li><strong>Acesso:</strong> </li>
-</ul>
+<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong>  criar novos metadados, <strong>para</strong> que eu possa classificar os metadados de um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> de forma mais eficaz.
+- <strong>Acesso:</strong> </p>
 <div class="mermaid">graph LR;
     1[Acessar Portal Dados Abertos]--&gt;2;
     2[Login]--&gt;3;
@@ -502,30 +608,30 @@
 <li>
 <p><strong>Regra negocial:</strong> Para que possa criar novos metadados , o sistema deve se comportar conforme as regras abaixo:</p>
 <ul>
-<li><strong>RN001:</strong> Para que seja feita a criação de novos metadados do dicionário de dados (Table Schema), o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
-<li><strong>RN002</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>Não</code> tabular, o sistema deverá habilitar apenas os dados do recurso para a criação de novos metadados.</li>
-<li><strong>RN003</strong> - Para a criação de um novo metadado do dicionário de dados, o tipo de dado irá impactar na escolha de novos metadados.</li>
-<li><strong>RN004</strong> - Para a criação de de um novo metadado do dicionário de dados, do tipo <code>Lista</code> o sistema irá se comportar da seguinte maneira:<ul>
-<li>Deverá ser criado, ao lado do nome do campo um campo do tipo texto,</li>
+<li><strong>RN001:</strong> Para que seja feita a criação de novos metadados do <abbr title="Table Schema.">dicionário de dados</abbr> (Table Schema), o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
+<li><strong>RN002</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>Não</code> tabular, o sistema deverá habilitar apenas os <abbr title="Data Resource.">dados do recurso</abbr> para a criação de novos metadados.</li>
+<li><strong>RN003</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">dicionário de dados</abbr>, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados.</li>
+<li><strong>RN004</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">dicionário de dados</abbr>, do tipo <code>Lista</code> o sistema irá se comportar da seguinte maneira:<ul>
+<li>Deverá ser criado, ao lado do nome, um campo do tipo texto,</li>
 <li>O intervalo deverá ser separado por <code>(,)</code>. Ex.: Janeiro, Fevereiro, Março, etc.</li>
 <li>Este campo será alfanumérico,</li>
 <li>Este campo será de preenchimento obrigatório.</li>
 </ul>
 </li>
-<li><strong>RN005</strong> - Para a criação de de um novo metadado do dicionário de dados, do tipo <code>Max e Min</code> o sistema irá se comportar da seguinte maneira: <ul>
-<li>Deverá ser criado, ao lado do nome do campo 2 campos texto ( um para o valor mínimo e outro para o valor máximo). </li>
+<li><strong>RN005</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">dicionário de dados</abbr>, do tipo <code>Max e Min</code> o sistema irá se comportar da seguinte maneira: <ul>
+<li>Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). </li>
 <li>Este campo será numérico.</li>
 <li>Este campo será de preenchimento obrigatório.</li>
 </ul>
 </li>
-<li><strong>RN006</strong> - Para a criação de de um novo metadado do dicionário de dados, do tipo <code>Tamanho Maximo e Mínimo</code> o sistema irá se comportar da seguinte maneira: <ul>
-<li>Deverá ser criado, ao lado do nome do campo 2 campos texto ( Quantidade de caracteres mínimo e  máximo). </li>
-<li>Este campo será alfanumérico.</li>
+<li><strong>RN006</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">dicionário de dados</abbr>, do tipo <code>Tamanho Maximo e Mínimo</code> o sistema irá se comportar da seguinte maneira: <ul>
+<li>Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo). </li>
+<li>Este campo será numérico.</li>
 <li>Este campo será de preenchimento obrigatório.</li>
 </ul>
 </li>
-<li><strong>RN007</strong> - Para a criação de de um novo metadado do  dicionário de dados, do tipo <code>Lista de Valores</code> o sistema irá se comportar da seguinte maneira: <ul>
-<li>Deverá ser criado, ao lado do nome do campo um campo do tipo texto,</li>
+<li><strong>RN007</strong> - Para a criação de um novo metadado do  <abbr title="Table Schema.">dicionário de dados</abbr>, do tipo <code>Lista de Valores</code> o sistema irá se comportar da seguinte maneira: <ul>
+<li>Deverá ser criado, ao lado do nome,  um campo do tipo texto,</li>
 <li>O intervalo deverá ser separado por <code>(,)</code>. Ex.: <em>Fluência em Idiomas:</em> Português, Inglês, Espanhol, etc.</li>
 <li>Este campo será alfanumérico,</li>
 <li>Este campo será de preenchimento obrigatório.</li>
@@ -538,43 +644,28 @@
 <h3 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h3>
 <ul>
 <li>
-<p><strong>Critério 001 – Editar Metadados de arquivos tabulares do dicionário de dados :</strong></p>
+<p><strong>Critério 001 – Criar novos Metadados de arquivos tabulares do <abbr title="Table Schema.">dicionário de dados</abbr>:</strong></p>
 <ul>
-<li><strong>Dado</strong>  eu quero fazer a edição dos metadados do dicionário de dados e os dados do recurso </li>
-<li><strong>Quando</strong> o sistema fizer as devidas inferências.</li>
-<li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
+<li><strong>Dado</strong>  eu quero criar novos metadados do <abbr title="Table Schema.">dicionário de dados</abbr> e os <abbr title="Data Resource.">dados do recurso</abbr> </li>
+<li><strong>Quando</strong> o botão <code>Adicionar Metadados</code> for acionado.</li>
+<li><strong>Então</strong> eu escolho qual(is) metadado(s) desejo inserir. </li>
 </ul>
 </li>
 <li>
-<p><strong>Critério 002</strong> – Editar Metadados de arquivos <code>Não</code> tabulares dos dados do recurso:</p>
+<p><strong>Critério 002</strong> – Editar Metadados de arquivos <code>Não</code> tabulares dos <abbr title="Data Resource.">dados do recurso</abbr>:</p>
 <ul>
-<li><strong>Dado</strong> que quero fazer a edição dos metadados dos dados do recurso.</li>
-<li><strong>Quando</strong> o sistema apresentar as informações inferidas deste campo.</li>
-<li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
-</ul>
-</li>
-<li>
-<p><strong>Critério 003</strong> – Editar o campo <code>Restrições</code> de arquivos tabulares do dicionário de dados:</p>
-<ul>
-<li><strong>Dado</strong> que quero fazer a edição dos metadados do campo <code>Restrições</code> do dicionário de dados.</li>
-<li><strong>E</strong> o sistema apresenta a informação padrão deste campo.</li>
-<li><strong>Quando</strong> escolho a opção <code>Enum</code>.</li>
-<li><strong>Então</strong> o sistema exibe o campo texto abaixo da opção para inserir as informações. </li>
-</ul>
-</li>
-<li>
-<p><strong>Critério 004</strong> – Editar o campo <code>Restrições</code> de arquivos tabulares do dicionário de dados:</p>
-<ul>
-<li><strong>Dado</strong> que quero fazer a edição dos metadados do campo <code>Restrições</code> do dicionário de dados.</li>
-<li><strong>E</strong> o sistema apresenta a informação padrão deste campo.</li>
-<li><strong>Quando</strong> escolho a opção <code>Max e Min</code>.</li>
-<li><strong>Então</strong> o sistema exibe o campo texto abaixo da opção para inserir as informações. </li>
+<li><strong>Dado</strong> eu quero criar novos metadados dos <abbr title="Data Resource.">dados do recurso</abbr></li>
+<li><strong>Quando</strong> o botão <code>Adicionar Metadados</code> for acionado.</li>
+<li><strong>Então</strong> eu escolho qual(is) metadado(s) desejo inserir. </li>
 </ul>
 </li>
 </ul>
-<h3 id="prototipacao">Prototipação<a class="headerlink" href="#prototipacao" title="Permanent link">⚓︎</a></h3>
-<p><a href="">Link para prototipacao</a></p>
-<p><img alt="imagem-prototipacao" src="assets/figura_01.png" /></p>
+<h3 id="prototipo-baixa-fidelidade">Prototipo Baixa Fidelidade<a class="headerlink" href="#prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
+<p><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Link para prototipacao</a></p>
+<h3 id="prototipo-alta-fidelidade">Prototipo Alta Fidelidade<a class="headerlink" href="#prototipo-alta-fidelidade" title="Permanent link">⚓︎</a></h3>
+<p><a href="https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&amp;scaling=min-zoom&amp;page-id=2%3A387&amp;starting-point-node-id=217%3A1115">Link para prototipacao</a> </p>
+<h3 id="imagens-prototipo-baixa-fidelidade">Imagens protótipo Baixa Fidelidade<a class="headerlink" href="#imagens-prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
+<p><img alt="imagem-prototipacao" src="/assets/figura_01.png" /></p>
 <table>
 <thead>
 <tr>
@@ -643,7 +734,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 25, 2022 14:43:16</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 27, 2022 18:22:01</span>
       
         <br>
         Created:

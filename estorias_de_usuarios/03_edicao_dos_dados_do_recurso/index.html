@@ -286,6 +286,16 @@
         
           
         
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
       
       
         <label class="md-nav__link" for="__nav_2">
@@ -375,8 +385,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prototipacao" class="md-nav__link">
-    Prototipação
+  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
+    Prototipo Baixa Fidelidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prototipo-alta-fidelidade" class="md-nav__link">
+    Prototipo Alta Fidelidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imagens-prototipo-baixa-fidelidade" class="md-nav__link">
+    Imagens protótipo Baixa Fidelidade
   </a>
   
 </li>
@@ -412,6 +436,76 @@
     <li class="md-nav__item">
       <a href="../05_validacao_de_dados_do_recurso/" class="md-nav__link">
         Validação de dados do recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06_edicao_de_dados_do_conjunto_do_recurso/" class="md-nav__link">
+        Edição dos Dados do Conjunto do Recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../07_validacao_de_dados_do_conjunto_do_recurso/" class="md-nav__link">
+        Validação de dados do recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../08_salvar_dados_do_recurso/" class="md-nav__link">
+        Salvar dados do recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../09_publicacao_do_conjunto_do_recurso/" class="md-nav__link">
+        Publicação do Conjunto do recurso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../10_geracao_html_do_conjunto/" class="md-nav__link">
+        Geração do HTML do Conjunto
       </a>
     </li>
   
@@ -458,8 +552,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#prototipacao" class="md-nav__link">
-    Prototipação
+  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
+    Prototipo Baixa Fidelidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prototipo-alta-fidelidade" class="md-nav__link">
+    Prototipo Alta Fidelidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imagens-prototipo-baixa-fidelidade" class="md-nav__link">
+    Imagens protótipo Baixa Fidelidade
   </a>
   
 </li>
@@ -485,7 +593,7 @@
 
 
 <h1 id="edicao-dos-dados-do-recurso">Edição dos dados do Recurso<a class="headerlink" href="#edicao-dos-dados-do-recurso" title="Permanent link">⚓︎</a></h1>
-<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong>  fazer o upload do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, <strong>para</strong> que eu possa fazer a edição dos metadados do(s) arquivo(s) de dado e dos dados do recurso.</p>
+<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong>  fazer o upload do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, <strong>para</strong> que eu possa fazer a edição dos metadados do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>.</p>
 <ul>
 <li><strong>Acesso:</strong> </li>
 </ul>
@@ -502,43 +610,54 @@
 <li>
 <p><strong>Regra negocial:</strong> Para que os metadados possam ser editados, o sistema deve se comportar conforme as regras abaixo:</p>
 <ul>
-<li><strong>RN001:</strong> Para que seja feita a edição dos metadados do dicionário de dados (Table Schema) e dos dados do recurso o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
-<li><strong>RN002</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>não</code> tabular, o sistema habilita apenas a edição dos campos dos <code>Dados do Recurso</code>. </li>
-<li><strong>RN003:</strong> Todos os campos do Dicionário de Dados (Table Schema) e dos Dados do Recurso devem ser editáveis.</li>
-<li><strong>RN004:</strong> No agrupamento Dicionário de Dados, no campo “Tipo de dados”, a combobox deve vir preenchida, inferida pela Frictionless, podendo ser editado.</li>
-<li><strong>RN005:</strong> No agrupamento Dicionário de Dados, no campo “Formato de dados”, a combobox deve vir preenchida, inferida pela Frictionless, podendo ser editado.</li>
-<li><strong>RN006:</strong> No agrupamento Dicionário de Dados, no campo <code>Obrigatório</code>, a combobox tem a seguinte apresentação: 
-         - Deverá conter as informações <em>SIM</em> ou <em>NÃO</em> 
-         - Por padrão, deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
-<li><strong>RN007:</strong> No agrupamento Dicionário de Dados, no campo “Único”, a combobox tem a seguinte apresentação: 
-         - Deverá conter as informações <em>SIM</em> ou <em>NÃO</em> 
-         - Por padrão, deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
-<li><strong>RN008:</strong> No agrupamento Dados do Recurso os campos “Título” e “Descrição” são de preenchimento obrigatório.</li>
+<li><strong>RN001:</strong> Possibilitar ao Administrador do <abbr title="Portal de Dados Abertos CKAN.">Portal</abbr> (que vai instalar a biblioteca) a opção de configurar os campos/propriedades que serão de preenchimento obrigatórios, visando não criar regras adicionais às preestabelecidas pela Frictionless. </li>
+<li><strong>RN002:</strong> Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do <abbr title="Portal de Dados Abertos CKAN.">Portal</abbr>, de modo a estabelecer quais os campos são de preenchimento obrigatório.</li>
+<li><strong>RN003:</strong> Para que seja feita a edição dos metadados do <abbr title="Table Schema.">Dicionário de Dados</abbr> e dos <abbr title="Data Resource.">Dados do Recurso</abbr>, o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
+<li><strong>RN004:</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>não</code> tabular, o sistema habilita apenas a edição dos campos dos <abbr title="Data Resource.">Dados do Recurso</abbr>. </li>
+<li><strong>RN005:</strong> Todos os campos do <abbr title="Table Schema.">Dicionário de Dados</abbr> e dos <abbr title="Data Resource.">Dados do Recurso</abbr> devem ser editáveis.</li>
+<li><strong>RN006:</strong> No agrupamento <abbr title="Table Schema.">Dicionário de Dados</abbr>, no campo <code>Tipo de dados</code>, a combobox deve vir preenchida, inferida pela Frictionless<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, podendo ser editado.</li>
+<li><strong>RN007:</strong> No agrupamento <abbr title="Table Schema.">Dicionário de Dados</abbr>, no campo <code>Formato de dados</code>, a combobox deve vir preenchida, inferida pela Frictionless<sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, podendo ser editado.</li>
+<li><strong>RN008:</strong> No agrupamento <abbr title="Table Schema.">Dicionário de Dados</abbr>, no campo <code>Obrigatório</code><sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>, a combobox tem a seguinte apresentação:<ul>
+<li>Deverá conter as opções <em>SIM</em> e <em>NÃO</em> </li>
+<li>Por padrão, deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
+</ul>
+</li>
+<li><strong>RN009:</strong> No agrupamento <abbr title="Table Schema.">Dicionário de Dados</abbr>, no campo “Único”<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>, a combobox tem a seguinte apresentação:<ul>
+<li>Deverá conter as opções <em>SIM</em> e <em>NÃO</em></li>
+<li>Por padrão, deverá vir selecionada a opção <em>NÃO</em>, podendo ser editável. </li>
+</ul>
+</li>
+<li><strong>RN010:</strong> No agrupamento <abbr title="Data Resource.">Dados do Recurso</abbr> no campo <code>Tipo do Recurso</code><sup id="fnref:4"><a class="footnote-ref" href="#fn:4">4</a></sup> a combobox deve vir preenchida, inferida pela Frictionless<sup id="fnref3:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, podendo ser editado.</li>
+<li><strong>RN011</strong> No agrupamento <abbr title="Data Resource.">Dados do Recurso</abbr> o campo <code>Formato do Recurso</code><sup id="fnref2:4"><a class="footnote-ref" href="#fn:4">4</a></sup> o campo texto deve vir preenchido, inferido pela Frictionless<sup id="fnref4:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, podendo ser editado.</li>
+<li><strong>RN012:</strong> No agrupamento <abbr title="Data Resource.">Dados do Recurso</abbr> o campo <code>Encoding</code><sup id="fnref3:4"><a class="footnote-ref" href="#fn:4">4</a></sup> o campo texto deve vir preenchido, inferido pela Frictionless<sup id="fnref5:1"><a class="footnote-ref" href="#fn:1">1</a></sup>, podendo ser editado.</li>
 </ul>
 </li>
 </ul>
 <h3 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h3>
 <ul>
 <li>
-<p><strong>Critério 001 – Editar Metadados de arquivos tabulares do Dicionário de Dados:</strong></p>
+<p><strong>Critério 001 – Editar Metadados de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> tabulares do <abbr title="Table Schema.">Dicionário de Dados</abbr>:</strong></p>
 <ul>
-<li><strong>Dado</strong>  eu quero fazer a edição dos metadados do Dicionário de Dados e dos Dados do Recurso </li>
+<li><strong>Dado</strong>  eu quero fazer a edição dos metadados do <abbr title="Table Schema.">Dicionário de Dados</abbr> e dos <abbr title="Data Resource.">Dados do Recurso</abbr>. </li>
 <li><strong>Quando</strong> o sistema apresentar as informações inferidas deste campo.</li>
 <li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
 </ul>
 </li>
 <li>
-<p><strong>Critério 002 – Editar Metadados de arquivos <em>NÃO</em> tabulares dos Dados do Recurso:</strong></p>
+<p><strong>Critério 002 – Editar Metadados de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <em>NÃO</em> tabulares dos <abbr title="Data Resource.">Dados do Recurso</abbr>:</strong></p>
 <ul>
-<li><strong>Dado</strong> que quero fazer a edição dos metadados dos Dados do Recurso.</li>
+<li><strong>Dado</strong> que quero fazer a edição dos metadados dos <abbr title="Data Resource.">Dados do Recurso</abbr>.</li>
 <li><strong>Quando</strong> o sistema apresentar as informações inferidas deste campo.</li>
 <li><strong>Então</strong> escolho a opção que desejo editar e faço a edição.</li>
 </ul>
 </li>
 </ul>
-<h3 id="prototipacao">Prototipação<a class="headerlink" href="#prototipacao" title="Permanent link">⚓︎</a></h3>
-<p><a href="">Link para prototipacao</a></p>
-<p><img alt="imagem-prototipacao" src="assets/figura_01.png" /></p>
+<h3 id="prototipo-baixa-fidelidade">Prototipo Baixa Fidelidade<a class="headerlink" href="#prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
+<p><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Link para prototipacao</a></p>
+<h3 id="prototipo-alta-fidelidade">Prototipo Alta Fidelidade<a class="headerlink" href="#prototipo-alta-fidelidade" title="Permanent link">⚓︎</a></h3>
+<p><a href="https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&amp;scaling=min-zoom&amp;page-id=2%3A387&amp;starting-point-node-id=217%3A1115">Link para prototipacao</a> </p>
+<h3 id="imagens-prototipo-baixa-fidelidade">Imagens protótipo Baixa Fidelidade<a class="headerlink" href="#imagens-prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
+<p><img alt="imagem-prototipacao" src="/assets/figura_01.png" /></p>
 <table>
 <thead>
 <tr>
@@ -552,62 +671,121 @@
 <tbody>
 <tr>
 <td>1</td>
-<td>Título</td>
+<td><abbr title="Table Schema.">Dic Dados</abbr>: Título</td>
 <td>O, E, CT</td>
 <td>N/A</td>
 <td>Campo título com quantidade de caracteres máximo de 100</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Descrição</td>
+<td><abbr title="Table Schema.">Dic Dados</abbr>: Descrição</td>
 <td>O, E, CT</td>
 <td>N/A</td>
-<td>Campo título com quantidade de caracteres máximo de 3000</td>
+<td>Campo descrição com quantidade de caracteres máximo de 3000</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Tipo de dados</td>
+<td><abbr title="Table Schema.">Dic Dados</abbr>: Tipo de dados</td>
 <td>CB</td>
 <td>N/A</td>
 <td>Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox.</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Formato de dados</td>
+<td><abbr title="Table Schema.">Dic Dados</abbr>: Formato de dados</td>
 <td>CB</td>
 <td>N/A</td>
 <td>Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox.</td>
 </tr>
 <tr>
 <td>5</td>
-<td>Obrigatório</td>
+<td><abbr title="Table Schema.">Dic Dados</abbr>: Obrigatório</td>
 <td>CB</td>
 <td>N/A</td>
 <td>Usuário poderá escolher alterar para a opção <em>SIM</em></td>
 </tr>
 <tr>
 <td>6</td>
-<td>Único</td>
+<td><abbr title="Table Schema.">Dic Dados</abbr>: Único</td>
 <td>CB</td>
 <td>N/A</td>
 <td>Usuário poderá escolher alterar para a opção <em>SIM</em></td>
 </tr>
 <tr>
 <td>7</td>
-<td>(+)Adicionar Metadados</td>
+<td><abbr title="Table Schema.">Dic Dados</abbr>: (+)Adicionar Metadados</td>
 <td>B</td>
 <td>N/A</td>
-<td>Ao acionar o botão o usuário poderá acrescentar metadados referentes àquele campo na tabela. Estende-se para estória: [US004] - Criação de novos Metadados</td>
+<td>Ao acionar o botão o usuário poderá acrescentar metadados referentes àquele campo na tabela. Estende-se para estória: <a href="/estorias_de_usuarios/04_criacao_de_novos_metadados">US004  - Criação de novos Metadados</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td><abbr title="Table Schema.">Dic Dados</abbr>:     Salvar</td>
+<td>B</td>
+<td>N/A</td>
+<td>Ao Acionar o botão, o usuário salva todas as alterações feitas nos metadados.</td>
+</tr>
+<tr>
+<td>9</td>
+<td><abbr title="Data Resource.">Dados do Recurso</abbr>: Título</td>
+<td>B</td>
+<td>N/A</td>
+<td>Campo título com quantidade de caracteres máximo de 100</td>
+</tr>
+<tr>
+<td>10</td>
+<td><abbr title="Data Resource.">Dados do Recurso</abbr>: Descrição</td>
+<td>B</td>
+<td>N/A</td>
+<td>Campo descrição com quantidade de caracteres máximo de 3000</td>
+</tr>
+<tr>
+<td>11</td>
+<td><abbr title="Data Resource.">Dados do Recurso</abbr>: Tipo de formato</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática do tipo de extensão: Tabular ou não tabular</td>
+</tr>
+<tr>
+<td>12</td>
+<td><abbr title="Data Resource.">Dados do Recurso</abbr>: Formato</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática do formato do recurso, como: xls, csv, etc.</td>
+</tr>
+<tr>
+<td>13</td>
+<td><abbr title="Data Resource.">Dados do Recurso</abbr>: Codificação (Encoding)</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática do tipo de codificação, como UTF-8, etc</td>
 </tr>
 </tbody>
 </table>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://specs.frictionlessdata.io/table-schema/#types-and-formats">Tipos e Formatos do Table Schema</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://specs.frictionlessdata.io/table-schema/#constraints:~:text=Description-,required,-boolean">Propriedade: Constraints - Required</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://specs.frictionlessdata.io/table-schema/#constraints:~:text=represent%20null%20values.-,unique,-boolean">Propriedade: Constraints - Unique</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://specs.frictionlessdata.io/data-resource/#metadata-properties:~:text=Recommended%20Properties">Propriedade: Recomendações</a>&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:4" title="Jump back to footnote 4 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 26, 2022 14:01:34</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 27, 2022 18:22:01</span>
       
         <br>
         Created:
