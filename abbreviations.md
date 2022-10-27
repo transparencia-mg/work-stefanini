@@ -6,3 +6,9 @@
 *[Publicador]: Usuário logado no sistema.
 *[portal]: Portal de Dados Abertos CKAN.
 *[Portal]: Portal de Dados Abertos CKAN.
+*[Dicionário de Dados]: Table Schema.
+*[dicionário de dados]: Table Schema.
+*[Dic Dados]: Table Schema.
+*[dic Dados]: Table Schema.
+*[Dados do Recurso]: Data Resource.
+*[dados do recurso]: Data Resource.
