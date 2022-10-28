@@ -27,7 +27,7 @@ graph LR;
     - **RN008:** No agrupamento Dicionário de Dados, no campo `Obrigatório`[^2], a combobox tem a seguinte apresentação:
         - Deverá conter as opções *SIM* e *NÃO* 
         - Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável. 
-	- **RN009:** No agrupamento Dicionário de Dados, no campo “Único”[^3], a combobox tem a seguinte apresentação:
+	- **RN009:** No agrupamento Dicionário de Dados, no campo `Único`[^3], a combobox tem a seguinte apresentação:
     	- Deverá conter as opções *SIM* e *NÃO*
     	- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável. 
     - **RN010:** No agrupamento Dados do Recurso no campo `Tipo do Recurso`[^4] a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado.
@@ -55,23 +55,23 @@ graph LR;
 [Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
 ### Imagens protótipo Baixa Fidelidade
 
-![imagem-prototipacao](/assets/figura_01.png)
+![imagem-prototipacao](/assets/imagem.png)
 
 | Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
-|    1 | Dic Dados: Título                 | O, E, CT              | N/A        | Campo título com quantidade de caracteres máximo de 100            |
-|    2 | Dic Dados: Descrição              | O, E, CT              | N/A            | Campo descrição com quantidade de caracteres máximo de 3000      |
-|    3 | Dic Dados: Tipo de dados | CB             | N/A            | Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox. |
-|    4 | Dic Dados: Formato de dados  | CB              | N/A            | Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox. |
+|    1 | Dic Dados: Título                 | O, E, CT              | N/A        | Campo título sem limitação de quantidade de caracteres            |
+|    2 | Dic Dados: Descrição              | O, E, CT              | N/A            | Campo descrição sem limitação de quantidade de caracteres     |
+|    3 | Dic Dados: Tipo de dados | CB             | N/A            | Usuário poderá escolher alterar quaisquer opções dentre as que se apresentem na Combobox. |
+|    4 | Dic Dados: Formato de dados  | CB              | N/A            | Usuário poderá escolher alterar quaisquer opções dentre as que se apresentem na Combobox. |
 |    5 | Dic Dados: Obrigatório                         | CB                | N/A            | Usuário poderá escolher alterar para a opção *SIM*|
 |    6 | Dic Dados: Único  | CB              | N/A            | Usuário poderá escolher alterar para a opção *SIM* |	
 |    7 | Dic Dados: (+)Adicionar Metadados  | B              | N/A            | Ao acionar o botão o usuário poderá acrescentar metadados referentes àquele campo na tabela. Estende-se para estória: [US004  - Criação de novos Metadados](/estorias_de_usuarios/04_criacao_de_novos_metadados)|
-|    8 | Dic Dados: 	Salvar  | B              | N/A            | Ao Acionar o botão, o usuário salva todas as alterações feitas nos metadados. |
-|    9 | Dados do Recurso: Título               | B              | N/A            | Campo título com quantidade de caracteres máximo de 100 |
-|    10 | Dados do Recurso: Descrição           | B              | N/A            | Campo descrição com quantidade de caracteres máximo de 3000 |
-|    11 | Dados do Recurso: Tipo de formato   | CB              | N/A            | Seleção automática do tipo de extensão: Tabular ou não tabular|
-|    12 | Dados do Recurso: Formato            | CB              | N/A            | Seleção automática do formato do recurso, como: xls, csv, etc.    |
-|    13 | Dados do Recurso: Codificação (Encoding)           | CB              | N/A            | Seleção automática do tipo de codificação, como UTF-8, etc |
+|    8 | Dic Dados: 	Salvar  | B              | N/A            | Ao Acionar o botão, o usuário salva todas as alterações feitas nos metadados. Estende-se para a estória: [US008  - Criação de novos Metadados](/estorias_de_usuarios/08_salvar_dados_do_recurso) |
+|    9 | Dados do Recurso: Título               | B              | N/A            | Campo título sem limitação de quantidade de caracteres |
+|    10 | Dados do Recurso: Descrição           | B              | N/A            | Campo descrição sem limitação de quantidade de caracteres  |
+|    11 | Dados do Recurso: Tipo de formato   | CB              | N/A            | Após inferência da Frictionless, o usuário poderá fazer a seleção manual do tipo de extensão: Tabular ou não tabular |
+|    12 | Dados do Recurso: Formato           | CT              | N/A            | Após inferência da Frictionless, o usuário poderá escrever de forma manual o formato do recurso, como: xls, csv, etc.    |
+|    13 | Dados do Recurso: Codificação (Encoding)           | CT              | N/A            | Após inferência da Frictionless, o usuário poderá escrever de forma manual o tipo de codificação, como UTF-8, etc |
 
 [^1]: [Tipos e Formatos do Table Schema](https://specs.frictionlessdata.io/table-schema/#types-and-formats)
 [^2]: [Propriedade: Constraints - Required](https://specs.frictionlessdata.io/table-schema/#constraints:~:text=Description-,required,-boolean)
