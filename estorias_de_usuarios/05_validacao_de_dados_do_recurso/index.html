@@ -406,13 +406,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#criterios-de-aceite" class="md-nav__link">
-    Critérios de aceite
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#prototipacao" class="md-nav__link">
     Prototipação
   </a>
@@ -449,7 +442,7 @@
   
     <li class="md-nav__item">
       <a href="../07_validacao_de_dados_do_conjunto_do_recurso/" class="md-nav__link">
-        Validação de dados do recurso
+        Validação de dados do conjunto do recurso
       </a>
     </li>
   
@@ -531,13 +524,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#criterios-de-aceite" class="md-nav__link">
-    Critérios de aceite
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#prototipacao" class="md-nav__link">
     Prototipação
   </a>
@@ -565,7 +551,7 @@
 
 
 <h1 id="validacao-de-dados-do-recurso">Validação de <abbr title="Data Resource.">dados do recurso</abbr><a class="headerlink" href="#validacao-de-dados-do-recurso" title="Permanent link">⚓︎</a></h1>
-<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong>  Validar as informações do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>  <strong>para</strong> que eu possa preencher os dados do conjunto do recurso. </p>
+<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">Publicador</abbr>, <strong>eu quero</strong>  obter o resultado da validação das informações do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>  <strong>para</strong> que eu possa avançar para a aba do <abbr title="Um conjunto de dados ou &quot;dataset&quot; é uma coleção de dados normalmente tabulados.">Conjunto de Dados</abbr>. </p>
 <ul>
 <li><strong>Acesso:</strong> </li>
 </ul>
@@ -582,28 +568,35 @@
 <li>
 <p><strong>Regra negocial:</strong> Para que possa validar todos os metadados do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> , o sistema deve se comportar conforme as regras abaixo:</p>
 <ul>
-<li><strong>RN001</strong> -</li>
-<li><strong>RN002</strong> - </li>
-<li><strong>RN003</strong> - </li>
-<li><strong>RN004</strong> - </li>
-<li><strong>RN005</strong> - </li>
-<li><strong>RN006</strong> - </li>
-<li><strong>RN007</strong> -   - </li>
+<li><strong>RN001</strong> - Todos os campos, inferidos ou não, serão validados de acordo com as especificações da Frictionless<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
+<li><strong>RN002</strong> - O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a próxima etapa do fluxo.</li>
+<li><strong>RN003</strong> - o resultado da validação fica referenciável por hiperlink em uma badge de validação e armazenado em página estática de acordo com framework da Fricitonless,</li>
+<li><strong>RN004</strong> - Os relatórios de validação deverão ser armazenados no ckan/<abbr title="Portal de Dados Abertos CKAN.">portal</abbr> de dados.  </li>
+<li><strong>RN005</strong> - A lista com os relatorios de validação deverá ser visualizada na aba do fluxo de atividades.</li>
+<li><strong>RN006</strong> - Não haverá limite de tempo para armazenamento da página estática de resultado do relatório de validação dos metadados. </li>
 </ul>
 </li>
-</ul>
-<h3 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h3>
+<li>
+<p><strong>Critério 001 – Validar Campos</strong></p>
 <ul>
-<li><strong>Critério 001 – </strong><ul>
-<li><strong>Dado</strong>  </li>
-<li><strong>Quando</strong> </li>
-<li><strong>Então</strong> </li>
+<li><strong>Dado</strong> realizo todas as possiveis alterações</li>
+<li><strong>Quando</strong> aciono o botão validar </li>
+<li><strong>Então</strong> o sistema deverá fazer a validação dos campos. 
+<div class="highlight"><pre><span></span><code>Regra Negocial DTA - Campos: Título e Descrição são de preenchimentos 
+Obrigatórios.
+</code></pre></div></li>
+</ul>
+</li>
+<li><strong>Critério 002 – Título e Descrição: Campos de preenchimento obrigatórios</strong><ul>
+<li><strong>Dado</strong> que não realizo o preenchimento dos campos: Título e Descrição</li>
+<li><strong>Quando</strong> o aciono o botão <code>Validar</code></li>
+<li><strong>Então</strong> o sistema deverá informar que os campos de preenchimento obrigatório não foram preenchidos.</li>
 </ul>
 </li>
 </ul>
 <h3 id="prototipacao">Prototipação<a class="headerlink" href="#prototipacao" title="Permanent link">⚓︎</a></h3>
 <p><a href="https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&amp;scaling=min-zoom&amp;page-id=2%3A387&amp;starting-point-node-id=217%3A1115">Link para prototipacao</a></p>
-<p><img alt="imagem-prototipacao" src="/assets/figura_01.png" /></p>
+<p><img alt="imagem-prototipacao" src="/assets/figura.png" /></p>
 <table>
 <thead>
 <tr>
@@ -617,62 +610,49 @@
 <tbody>
 <tr>
 <td>1</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Validar</td>
+<td>B,O</td>
+<td>N/A</td>
+<td>Validar todos os campos da aba de Adicionar Dados.</td>
 </tr>
 <tr>
 <td>2</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Próximo</td>
+<td>LK</td>
+<td>N/A</td>
+<td>Após validação dos campos, fica habilitado para avançar para a próxima aba (<abbr title="Um conjunto de dados ou &quot;dataset&quot; é uma coleção de dados normalmente tabulados.">Conjunto de Dados</abbr>)</td>
 </tr>
 <tr>
 <td>3</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Cancelar</td>
+<td>LK</td>
+<td>N/A</td>
+<td>Cancela as informações em tela.</td>
 </tr>
 <tr>
 <td>4</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>5</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>6</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>7</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>Salvar</td>
+<td>B</td>
+<td>N/A</td>
+<td>Salva as informações sem precisar validar. Estende-se para a estória: <a href="/estorias_de_usuarios/08_salvar_dados_do_recurso">US008  -Salvar <abbr title="Data Resource.">dados do recurso</abbr></a></td>
 </tr>
 </tbody>
 </table>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="https://specs.frictionlessdata.io/#overview">Frictionless</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 26, 2022 14:01:34</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">November 4, 2022 14:48:58</span>
       
         <br>
         Created:

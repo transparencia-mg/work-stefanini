@@ -463,7 +463,7 @@
   
     <li class="md-nav__item">
       <a href="../07_validacao_de_dados_do_conjunto_do_recurso/" class="md-nav__link">
-        Validação de dados do recurso
+        Validação de dados do conjunto do recurso
       </a>
     </li>
   
@@ -606,26 +606,26 @@
 <p><strong>Protótipo:</strong> Baixa Fidelidade.</p>
 </li>
 <li>
-<p><strong>Regra negocial:</strong> Para que possa criar novos metadados , o sistema deve se comportar conforme as regras abaixo:</p>
+<p><strong>Regra negocial:</strong> Para que possa criar novos metadados, o sistema deve se comportar conforme as regras abaixo:</p>
 <ul>
-<li><strong>RN001:</strong> Para que seja feita a criação de novos metadados do <abbr title="Table Schema.">dicionário de dados</abbr> (Table Schema), o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
-<li><strong>RN002</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>Não</code> tabular, o sistema deverá habilitar apenas os <abbr title="Data Resource.">dados do recurso</abbr> para a criação de novos metadados.</li>
-<li><strong>RN003</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">dicionário de dados</abbr>, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados.</li>
-<li><strong>RN004</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">dicionário de dados</abbr>, do tipo <code>Lista</code> o sistema irá se comportar da seguinte maneira:<ul>
+<li><strong>RN001:</strong> Para que seja feita a criação de novos metadados do <abbr title="Table Schema.">Dicionário de Dados</abbr>, o(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> deve ser em formato tabular.</li>
+<li><strong>RN002</strong> - Ao carregar um <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> <code>Não</code> tabular, o sistema deverá habilitar apenas os <abbr title="Data Resource.">Dados do Recurso</abbr> para a criação de novos metadados.</li>
+<li><strong>RN003</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">Dicionário de Dados</abbr>, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados.</li>
+<li><strong>RN004</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">Dicionário de Dados</abbr>, do tipo <code>Lista</code> o sistema irá se comportar da seguinte maneira:<ul>
 <li>Deverá ser criado, ao lado do nome, um campo do tipo texto,</li>
 <li>O intervalo deverá ser separado por <code>(,)</code>. Ex.: Janeiro, Fevereiro, Março, etc.</li>
 <li>Este campo será alfanumérico,</li>
 <li>Este campo será de preenchimento obrigatório.</li>
 </ul>
 </li>
-<li><strong>RN005</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">dicionário de dados</abbr>, do tipo <code>Max e Min</code> o sistema irá se comportar da seguinte maneira: <ul>
-<li>Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). </li>
+<li><strong>RN005</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">Dicionário de Dados</abbr>, do tipo <code>Max e Min</code> o sistema irá se comportar da seguinte maneira: <ul>
+<li>Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). Ex.: <em>Ano:</em> Mínimo: 2016 à Máximo: 2022</li>
 <li>Este campo será numérico.</li>
 <li>Este campo será de preenchimento obrigatório.</li>
 </ul>
 </li>
 <li><strong>RN006</strong> - Para a criação de um novo metadado do <abbr title="Table Schema.">dicionário de dados</abbr>, do tipo <code>Tamanho Maximo e Mínimo</code> o sistema irá se comportar da seguinte maneira: <ul>
-<li>Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo). </li>
+<li>Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo).  Ex.: <em>CPF:</em> Mínimo: 11 à Máximo: 14</li>
 <li>Este campo será numérico.</li>
 <li>Este campo será de preenchimento obrigatório.</li>
 </ul>
@@ -637,7 +637,6 @@
 <li>Este campo será de preenchimento obrigatório.</li>
 </ul>
 </li>
-<li></li>
 </ul>
 </li>
 </ul>
@@ -665,7 +664,7 @@
 <h3 id="prototipo-alta-fidelidade">Prototipo Alta Fidelidade<a class="headerlink" href="#prototipo-alta-fidelidade" title="Permanent link">⚓︎</a></h3>
 <p><a href="https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&amp;scaling=min-zoom&amp;page-id=2%3A387&amp;starting-point-node-id=217%3A1115">Link para prototipacao</a> </p>
 <h3 id="imagens-prototipo-baixa-fidelidade">Imagens protótipo Baixa Fidelidade<a class="headerlink" href="#imagens-prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
-<p><img alt="imagem-prototipacao" src="/assets/figura_01.png" /></p>
+<p><img alt="imagem-prototipacao" src="/assets/imagem.png" /></p>
 <table>
 <thead>
 <tr>
@@ -726,6 +725,34 @@
 <td>N/A</td>
 <td>Ao escolher a opção <code>Max e Min</code> o usuário deverá informar um intervalo de valores.</td>
 </tr>
+<tr>
+<td>8</td>
+<td>Validar</td>
+<td>B,O</td>
+<td>N/A</td>
+<td>Validar todos os campos da aba de Adicionar Dados. Estende-se para a estória: <a href="/estorias_de_usuarios/05_validacao_de_dados_do_recurso">US005  -Validação de <abbr title="Data Resource.">Dados do Recurso</abbr></a></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Próximo</td>
+<td>LK</td>
+<td>N/A</td>
+<td>Após validação dos campos, fica habilitado o avanço para a próxima aba (<abbr title="Um conjunto de dados ou &quot;dataset&quot; é uma coleção de dados normalmente tabulados.">Conjunto de Dados</abbr>). Estende-se para a estória: <a href="/estorias_de_usuarios/06_edicao_de_dados_do_conjunto_do_recurso">US008  -Edição de Dados do Conjunto</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Cancelar</td>
+<td>LK</td>
+<td>N/A</td>
+<td>Cancela as informações em tela.</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Salvar</td>
+<td>B</td>
+<td>N/A</td>
+<td>Salva as informações sem precisar validar. Estende-se para a estória: <a href="/estorias_de_usuarios/08_salvar_dados_do_recurso">US008  -Salvar <abbr title="Data Resource.">dados do recurso</abbr></a></td>
+</tr>
 </tbody>
 </table>
 
@@ -734,7 +761,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">October 27, 2022 18:22:01</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">November 4, 2022 14:48:58</span>
       
         <br>
         Created:
