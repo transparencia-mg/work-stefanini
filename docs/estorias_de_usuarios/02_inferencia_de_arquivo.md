@@ -37,16 +37,30 @@ graph LR;
 	- **Dado**  que possuo um recurso em formato tabular.
 	- **E** aciono o botão `Carregar`
 	- **Então** o sistema deverá fazer a inferência dos metadados do recurso relacionado ao dicionário de dados e dos dados do recurso.
-
 - **Critério 002 – Realizar Inferência dos metadados de arquivos `não` tabulares:**
 	- **Dado** que possuo um recurso em formato `não` tabular.
 	- **E** aciono o botão `Carregar`
 	- **Então** o sistema fará apenas a inferência dos dados do Recurso.
-### Prototipação
 
-[Link para prototipacao]()
+````
+Regra Negocial DTA - Campos: Tipo, Formato e Encoding dos Dados do Recurso
+não são editáveis. 
+````
 
-![imagem-prototipacao](assets/figura_01.png)
+- **Critério 003 – Dados do Recurso não editáveis:**
+    - **Dado** que a frictionless fez a inferência dos Dados do Recurso.
+    - **Então** verifico se os campos Tipo, formato e Encoding foram inferidos e não estão habilitados para edição. 
+
+### Prototipo Baixa Fidelidade
+
+[Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
+
+### Prototipo Alta Fidelidade
+
+[Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
+### Imagens protótipo Baixa Fidelidade
+
+![imagem-prototipacao](/assets/imagem.png)
 
 | Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|

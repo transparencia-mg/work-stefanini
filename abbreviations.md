@@ -12,3 +12,5 @@
 *[dic Dados]: Table Schema.
 *[Dados do Recurso]: Data Resource.
 *[dados do recurso]: Data Resource.
+*[Conjunto de Dados]: Um conjunto de dados ou "dataset" é uma coleção de dados normalmente tabulados.
+*[conjunto de dados]: Um conjunto de dados ou "dataset" é uma coleção de dados normalmente tabulados.
