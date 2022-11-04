@@ -14,21 +14,21 @@ graph LR;
 - **Perfil de acesso:** Publicador. 
 - **Protótipo:** Baixa Fidelidade.
 
-- **Regra negocial:** Para que possa criar novos metadados , o sistema deve se comportar conforme as regras abaixo:
-	- **RN001:** Para que seja feita a criação de novos metadados do dicionário de dados (Table Schema), o(s) arquivo(s) de dados deve ser em formato tabular.
-	- **RN002** - Ao carregar um arquivo(s) de dados `Não` tabular, o sistema deverá habilitar apenas os dados do recurso para a criação de novos metadados.
-	- **RN003** - Para a criação de um novo metadado do dicionário de dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados.
-	- **RN004** - Para a criação de um novo metadado do dicionário de dados, do tipo `Lista` o sistema irá se comportar da seguinte maneira:
+- **Regra negocial:** Para que possa criar novos metadados, o sistema deve se comportar conforme as regras abaixo:
+	- **RN001:** Para que seja feita a criação de novos metadados do Dicionário de Dados, o(s) arquivo(s) de dados deve ser em formato tabular.
+	- **RN002** - Ao carregar um arquivo(s) de dados `Não` tabular, o sistema deverá habilitar apenas os Dados do Recurso para a criação de novos metadados.
+	- **RN003** - Para a criação de um novo metadado do Dicionário de Dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados.
+	- **RN004** - Para a criação de um novo metadado do Dicionário de Dados, do tipo `Lista` o sistema irá se comportar da seguinte maneira:
 		   - Deverá ser criado, ao lado do nome, um campo do tipo texto,
 	       - O intervalo deverá ser separado por `(,)`. Ex.: Janeiro, Fevereiro, Março, etc.
 	       - Este campo será alfanumérico,
 	       - Este campo será de preenchimento obrigatório.
-    - **RN005** - Para a criação de um novo metadado do dicionário de dados, do tipo `Max e Min` o sistema irá se comportar da seguinte maneira: 
-	       - Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). 
+    - **RN005** - Para a criação de um novo metadado do Dicionário de Dados, do tipo `Max e Min` o sistema irá se comportar da seguinte maneira: 
+	       - Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). Ex.: *Ano:* Mínimo: 2016 à Máximo: 2022
 	       - Este campo será numérico.
 	       - Este campo será de preenchimento obrigatório.
 	- **RN006** - Para a criação de um novo metadado do dicionário de dados, do tipo `Tamanho Maximo e Mínimo` o sistema irá se comportar da seguinte maneira: 
-	       - Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo). 
+	       - Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo).  Ex.: *CPF:* Mínimo: 11 à Máximo: 14
 	       - Este campo será numérico.
 	       - Este campo será de preenchimento obrigatório.
 	- **RN007** - Para a criação de um novo metadado do  dicionário de dados, do tipo `Lista de Valores` o sistema irá se comportar da seguinte maneira: 
@@ -36,8 +36,7 @@ graph LR;
 	       - O intervalo deverá ser separado por `(,)`. Ex.: *Fluência em Idiomas:* Português, Inglês, Espanhol, etc.
 	       - Este campo será alfanumérico,
 	       - Este campo será de preenchimento obrigatório.
-	- 
- 
+
 ### Critérios de aceite
 
 - **Critério 001 – Criar novos Metadados de arquivos tabulares do dicionário de dados:**
@@ -58,10 +57,10 @@ graph LR;
 ### Prototipo Alta Fidelidade
 
 [Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
-
 ### Imagens protótipo Baixa Fidelidade
 
-![imagem-prototipacao](/assets/figura_01.png)
+![imagem-prototipacao](/assets/imagem.png)
+
 
 | Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
@@ -72,3 +71,7 @@ graph LR;
 |    5 | Restrições                         | CB                | N/A            | Usuário poderá escolher qualquer informação dentre as que se apresentem na Combobox.|
 |    6 | Enum  | O, CT              | N/A            | Ao escolher a opção `Enum` o usuário deverá informar um conjunto fixo de valores, sendo eles Texto ou Números. |	
 |    7 | Max e Min  | O, CT              | N/A            | Ao escolher a opção `Max e Min` o usuário deverá informar um intervalo de valores. |
+|    8 |  Validar     | B,O             |  N/A       | Validar todos os campos da aba de Adicionar Dados. Estende-se para a estória: [US005  -Validação de Dados do Recurso](/estorias_de_usuarios/05_validacao_de_dados_do_recurso)
+|    9 |   Próximo            |   LK            |      N/A      | Após validação dos campos, fica habilitado o avanço para a próxima aba (Conjunto de Dados). Estende-se para a estória: [US008  -Edição de Dados do Conjunto](/estorias_de_usuarios/06_edicao_de_dados_do_conjunto_do_recurso) |
+|    10| Cancelar |     LK         |       N/A      | Cancela as informações em tela. |
+|   11 | Salvar  |     B          |       N/A      | Salva as informações sem precisar validar. Estende-se para a estória: [US008  -Salvar dados do recurso](/estorias_de_usuarios/08_salvar_dados_do_recurso) |

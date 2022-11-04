@@ -61,11 +61,16 @@ graph LR;
       - **E** aciono a opção `Expandir a exibição dos metadados`.
       - **Então** o sistema deverá habilitar o campo do Dicionário de dados com o ícone da extensão do arquivo e o nome do arquivo com sua extensão.
 
-        ### Prototipação
+### Prototipo Baixa Fidelidade
 
-[Link para prototipacao]()
+[Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
 
-![imagem-prototipacao](assets/figura_01.png)
+### Prototipo Alta Fidelidade
+
+[Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
+### Imagens protótipo Baixa Fidelidade
+
+![imagem-prototipacao](/assets/imagem.png)
 
 | Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
