@@ -12,7 +12,6 @@ graph LR;
     4[Adicionar Conjunto de Dados]
 ```
 
-
 - **Perfil de acesso:** Publicador. 
 - **Protótipo:** Baixa Fidelidade.
 
@@ -20,26 +19,27 @@ graph LR;
 
 	- **RN001:** Manter a conformidade com a especificação da Frictionless 
 	- **RN002:** Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório. 
-	- **RN003:** - Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca, informando quando campos deverão ser restritos a edição. 
+	- **RN003:** - Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca, informando quando os campos deverão ser restritos a edição. 
 	- **RN004:** Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do Portal.
 	- **RN005:** Para que seja feita a edição dos metadados do Dicionário de Dados e dos Dados do Recurso, o(s) arquivo(s) de dados deve ser em formato tabular.
 	- **RN006:** - Ao carregar um arquivo(s) de dados `não` tabular, o sistema habilita apenas a edição dos campos dos Dados do Recurso. 
 	- **RN007:** No agrupamento Dicionário de Dados, no campo `Tipo de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1] , podendo ser editado.
 	- **RN008:** No agrupamento Dicionário de Dados, no campo `Formato de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado.
     - **RN009:** No agrupamento Dicionário de Dados, no campo `Obrigatório`[^2], a combobox tem a seguinte apresentação:
-        - Deverá conter as opções *SIM* e *NÃO* 
+        - Deverão conter as opções *SIM* e *NÃO* 
         - Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
 	- **RN010:** No agrupamento Dicionário de Dados, no campo `Único`[^3], a combobox tem a seguinte apresentação:
-    	- Deverá conter as opções *SIM* e *NÃO*
+    	- Deverão conter as opções *SIM* e *NÃO*
     	- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
     - **RN011:** No agrupamento Dados do Recurso no campo `Tipo do Recurso`[^4] a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.  
     - **RN012** No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.  
     - **RN013:** No agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
+    - **RN014:** Após a publicação do conjunto de dados, a edição de um recurso ou adição de um novo, só poderá ser feita uma de cada vez. 
 
 ### Critérios de aceite
 
 - **Critério 001 – Editar Metadados de arquivo(s) de dados tabulares do Dicionário de Dados:**
-	- **Dado**  eu quero fazer a edição dos metadados do Dicionário de Dados e dos Dados do Recurso. 
+	- **Dado**  que eu quero fazer a edição dos metadados do Dicionário de Dados e dos Dados do Recurso. 
 	- **Quando** o sistema apresentar as informações inferidas deste campo.
 	- **Então** escolho a opção que desejo editar e faço a edição.
 

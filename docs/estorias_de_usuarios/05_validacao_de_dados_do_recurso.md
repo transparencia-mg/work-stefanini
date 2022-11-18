@@ -1,6 +1,6 @@
 # Validação de dados do recurso
 
-**Como** Publicador, **eu quero**  obter o resultado da validação das informações do(s) arquivo(s) de dados  **para** que eu possa avançar para a aba do Conjunto de Dados. 
+**Como** Publicador, **eu quero**  obter o resultado da validação das informações do(s) arquivo(s) de dados  **para** que eu possa publicar o Conjunto de Dados no Portal. 
 
 - **Acesso:** 
 
@@ -28,13 +28,13 @@ graph LR;
 	- **Quando** aciono o botão validar 
 	- **Então** o sistema deverá fazer a validação dos campos. 
 ```
-Regra Negocial DTA - Campos: Título e Descrição são de preenchimentos 
+Regra Negocial DTA - Campos: Título, Descrição são de preenchimento obrigatórios. 
 Obrigatórios.
 ```
 - **Critério 002 – Título e Descrição: Campos de preenchimento obrigatórios**
-	- **Dado** que não realizo o preenchimento dos campos: Título e Descrição
+	- **Dado** que não realizo o preenchimento dos campos: Título e/ou Descrição
 	- **Quando** o aciono o botão `Validar`
-	- **Então** o sistema deverá informar que os campos de preenchimento obrigatório não foram preenchidos.
+	- **Então** o sistema deve informar que os campos de preenchimento obrigatório não foram preenchidos.
 
 
 
