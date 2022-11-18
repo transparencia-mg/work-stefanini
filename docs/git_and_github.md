@@ -12,10 +12,9 @@ graph TD;
     1((Início))-->2;
     2{git iniciado no projeto?}
     2 --> |não| 3[git init]
-    3 --> 11{Repositório Github}
-    11 --> |sim| 12[git remote add <nome_remote> <endereço_remote>]
-    12 --> 5
-    11 --> |não| 5
+    3 --> 11[Cria repositório Github]
+    11 --> 12[git remote add <nome_remote> <endereço_remote>]
+    12 --> 4
     2 --> |sim| 4[git status]
     4 --> 5{Commitar na branch main?}
     5 --> |sim| 6[git add <file_name>]
@@ -24,8 +23,13 @@ graph TD;
     5 --> |não| 8{Criar nova branch?}
     8 --> |sim| 9[git pull origin main]
     9 --> 10[git checkout -b <nova_branch_nome>]
-    10 --> 5
+    10 --> 13{Commitar?}
+    13 --> |sim| 14[git add <file_name>]
+    14 --> 15[git commit -m <commit_message_entre_aspas>]
+    
+```
+
+10 --> 5
     10 --> 13{Criar Pull Request Github?}
     13 --> |sim| 14[git push <nome_remote> <nova_branch_nome>]
     14 --> 15[Abrir/aprovar PR Github]
-```
