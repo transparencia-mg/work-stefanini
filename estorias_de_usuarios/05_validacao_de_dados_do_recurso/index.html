@@ -427,8 +427,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../06_edicao_de_dados_do_conjunto_do_recurso/" class="md-nav__link">
-        Edição dos Dados do Conjunto do Recurso
+      <a href="../06_edicao_do_conjunto_de_dados/" class="md-nav__link">
+        Edição do Conjunto de Dados
       </a>
     </li>
   
@@ -551,7 +551,7 @@
 
 
 <h1 id="validacao-de-dados-do-recurso">Validação de <abbr title="Data Resource.">dados do recurso</abbr><a class="headerlink" href="#validacao-de-dados-do-recurso" title="Permanent link">⚓︎</a></h1>
-<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">Publicador</abbr>, <strong>eu quero</strong>  obter o resultado da validação das informações do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>  <strong>para</strong> que eu possa avançar para a aba do <abbr title="Um conjunto de dados ou &quot;dataset&quot; é uma coleção de dados normalmente tabulados.">Conjunto de Dados</abbr>. </p>
+<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">Publicador</abbr>, <strong>eu quero</strong>  obter o resultado da validação das informações do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>  <strong>para</strong> que eu possa publicar o <abbr title="Um conjunto de dados ou &quot;dataset&quot; é uma coleção de dados normalmente tabulados.">Conjunto de Dados</abbr> no <abbr title="Portal de Dados Abertos CKAN.">Portal</abbr>. </p>
 <ul>
 <li><strong>Acesso:</strong> </li>
 </ul>
@@ -582,15 +582,15 @@
 <li><strong>Dado</strong> realizo todas as possiveis alterações</li>
 <li><strong>Quando</strong> aciono o botão validar </li>
 <li><strong>Então</strong> o sistema deverá fazer a validação dos campos. 
-<div class="highlight"><pre><span></span><code>Regra Negocial DTA - Campos: Título e Descrição são de preenchimentos 
+<div class="highlight"><pre><span></span><code>Regra Negocial DTA - Campos: Título, Descrição são de preenchimento obrigatórios. 
 Obrigatórios.
 </code></pre></div></li>
 </ul>
 </li>
 <li><strong>Critério 002 – Título e Descrição: Campos de preenchimento obrigatórios</strong><ul>
-<li><strong>Dado</strong> que não realizo o preenchimento dos campos: Título e Descrição</li>
+<li><strong>Dado</strong> que não realizo o preenchimento dos campos: Título e/ou Descrição</li>
 <li><strong>Quando</strong> o aciono o botão <code>Validar</code></li>
-<li><strong>Então</strong> o sistema deverá informar que os campos de preenchimento obrigatório não foram preenchidos.</li>
+<li><strong>Então</strong> o sistema deve informar que os campos de preenchimento obrigatório não foram preenchidos.</li>
 </ul>
 </li>
 </ul>
@@ -652,7 +652,7 @@ Obrigatórios.
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">November 4, 2022 14:48:58</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">November 18, 2022 16:13:12</span>
       
         <br>
         Created:
@@ -702,13 +702,13 @@ Obrigatórios.
       
       
         
-        <a href="../06_edicao_de_dados_do_conjunto_do_recurso/" class="md-footer__link md-footer__link--next" aria-label="Next: Edição dos Dados do Conjunto do Recurso" rel="next">
+        <a href="../06_edicao_do_conjunto_de_dados/" class="md-footer__link md-footer__link--next" aria-label="Next: Edição do Conjunto de Dados" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Edição dos Dados do Conjunto do Recurso
+              Edição do Conjunto de Dados
             </div>
           </div>
           <div class="md-footer__button md-icon">
