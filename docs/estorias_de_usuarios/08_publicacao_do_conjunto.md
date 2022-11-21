@@ -1,4 +1,4 @@
-# Salvar dados do recurso
+# Publicação do Conjunto de dados
 
 **Como** publicador, **eu quero**  Validar as informações do(s) arquivo(s) de dados  **para** que eu possa preencher os dados do conjunto do recurso. 
 
