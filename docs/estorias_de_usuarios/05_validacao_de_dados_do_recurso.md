@@ -1,4 +1,4 @@
-# Validação de dados do recurso
+# Validação do conjunto de dados
 
 **Como** Publicador, **eu quero**  obter o resultado da validação das informações do(s) arquivo(s) de dados  **para** que eu possa publicar o Conjunto de Dados no Portal. 
 
