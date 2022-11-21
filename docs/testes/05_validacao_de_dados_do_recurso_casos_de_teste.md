@@ -10,13 +10,9 @@ Casos de teste para estória de usuário [validação de dados do recurso](../..
       - **Funcionalidade associada ao CT:**
       - **Resultado Esperado:**
       - **Resultado final:**
-      - **Versão:**
-      - **Executado em:**
-      - **Testado por:**
       - **Observação:**
       - **Necessita ser retestado?**
       - **Evidências:**
-      	- [link vídeo 1]()
-      	- [link vídeo 1]()
+        - [2022MMDD_vX_responsável]()
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
