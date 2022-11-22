@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Geração do HTML do Conjunto de dados
-=======
-# Geração do HTML do Conjunto
->>>>>>> 62c209b (altera nomes das estorias)
 
 **Como** publicador, **eu quero**  Validar as informações do(s) arquivo(s) de dados  **para** que eu possa preencher os dados do conjunto do recurso. 
 
@@ -15,11 +11,6 @@ graph LR;
     3[Conjunto de dados]-->4;
     4[Adicionar Conjunto de Dados]
 ```
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 62c209b (altera nomes das estorias)
 - **Perfil de acesso:** Publicador. 
 - **Protótipo:** Baixa Fidelidade.
 
@@ -30,11 +21,7 @@ graph LR;
 	- **RN004** - 
     - **RN005** - 
 	- **RN006** - 
-<<<<<<< HEAD
 	- **RN007** -
-=======
-	- **RN007** - 	- 
->>>>>>> 62c209b (altera nomes das estorias)
  
 ### Critérios de aceite
 

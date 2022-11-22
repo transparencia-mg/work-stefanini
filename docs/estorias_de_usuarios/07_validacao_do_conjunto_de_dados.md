@@ -1,6 +1,6 @@
 # Validação do conjunto de dados
 
-**Como** publicador, **eu quero** obter o resultado da validação das informações dos metadados do conjunto de dados  **para** que eu faça a publicação do mesmo no Portal.
+**Como** publicador, **eu quero**  validar os metadados do conjunto de dados  **para** que eu faça a publicação do mesmo no Portal.
 
 - **Acesso:** 
 
@@ -56,7 +56,7 @@ Palavras-chave: são de preenchimento obrigatórios.
 ![imagem-prototipacao](/assets/imagem.png)
 
 
-| Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^3] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 |    Título               |    O, CT          |     N/A    | Campo título sem limitação de quantidade de caracteres.
 |    2 |           Descrição    |    O, CT           |       N/A     |Campo descrição sem limitação de quantidade de caracteres |
@@ -81,3 +81,4 @@ Palavras-chave: são de preenchimento obrigatórios.
 
 [^1]:Ao salvar os dados e não publicá-los o mesmo ficará com o status de rascunho e poderá ser acessado na lista de conjuntos do usuário. 
 [^2]::[gitnore](https://www.toptal.com/developers/gitignore/)
+[^3]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
