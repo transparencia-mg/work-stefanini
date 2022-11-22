@@ -81,7 +81,7 @@ extra: # Footer
   social:
     - icon: fontawesome/brands/youtube
       name: Playlist YouTube.
-      link: https://www.youtube.com/channel/UCGh9KLhsTdo_LjD-JZMiMBQ
+      link: https://www.youtube.com/playlist?list=PLCbgbVHsUygAIzR_jxHEUt0NRc-MNF7cy
     - icon: fontawesome/solid/flag
       name: Material for MkDocs Icons, Emojis.
       link: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search
