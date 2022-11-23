@@ -101,4 +101,4 @@ plugins:
       type: datetime
       enable_creation_date: true
   - mike:
-    version_selector: true
+      version_selector: true
