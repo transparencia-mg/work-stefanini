@@ -45,6 +45,8 @@ $ mike deploy --push --update-aliases <minor>.<major> latest
 ```
 Confira também [issue](https://github.com/transparencia-mg/work-stefanini/issues/17) utilizado para documentar processo de versionamento.
 
+Visualização local da documentação versionada poderá ser feita via comando `mike serve`
+
 ## Contribuições
 
 Encontrou algo errado ou gostaria de enviar alguma sugestão. 
