@@ -8,6 +8,7 @@ edit_uri: edit/main/docs/
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
   features:
     # - announce.dismiss
     - content.code.annotate
@@ -91,9 +92,13 @@ extra: # Footer
     - icon: fontawesome/brands/github-alt
       name: Repositório GitHub da documentação.
       link: https://github.com/transparencia-mg/work-stefanini
+  version:
+    provider: mike
 
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true 
       type: datetime
       enable_creation_date: true
+  - mike:
+    version_selector: true
