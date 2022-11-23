@@ -1,6 +1,6 @@
 # Welcome to MkDocs
 
-Teste mike gh-deploy
+Teste mike gh-deploy Definitivo - não pode publicar na v0.2
 
 # Tipo de Dado
 
