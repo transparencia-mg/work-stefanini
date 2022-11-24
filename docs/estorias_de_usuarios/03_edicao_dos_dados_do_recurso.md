@@ -63,7 +63,7 @@ graph LR;
 
 ![imagem-prototipacao](/assets/imagem.png)
 
-| Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^5] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 | Dic Dados: Título                 | O, E, CT              | N/A        | Campo título sem limitação de quantidade de caracteres            |
 |    2 | Dic Dados: Descrição              | O, E, CT              | N/A            | Campo descrição sem limitação de quantidade de caracteres     |
@@ -87,3 +87,4 @@ graph LR;
 [^2]: [Propriedade: Constraints - Required](https://specs.frictionlessdata.io/table-schema/#constraints:~:text=Description-,required,-boolean)
 [^3]: [Propriedade: Constraints - Unique](https://specs.frictionlessdata.io/table-schema/#constraints:~:text=represent%20null%20values.-,unique,-boolean)
 [^4]: [Propriedade: Recomendações](https://specs.frictionlessdata.io/data-resource/#metadata-properties:~:text=Recommended%20Properties) 
+[^5]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)

@@ -44,7 +44,7 @@ Obrigatórios.
 
 ![imagem-prototipacao](/assets/figura.png)
 
-| Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^2] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 |  Validar     | B,O             |  N/A       | Validar todos os campos da aba de Adicionar Dados.
 |    2 |   Próximo            |   LK            |      N/A      | Após validação dos campos, fica habilitado para avançar para a próxima aba (Conjunto de Dados) |
@@ -52,3 +52,4 @@ Obrigatórios.
 |    4 | Salvar  |     B          |       N/A      | Salva as informações sem precisar validar. Estende-se para a estória: [US008  -Salvar dados do recurso](/estorias_de_usuarios/08_salvar_dados_do_recurso) |
 
 [^1]: [Frictionless](https://specs.frictionlessdata.io/#overview)
+[^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
