@@ -72,10 +72,15 @@ tests: ## Run python tests
 
 security-pull: lint security tests
 
-gh-deploy: ## Deploy docs
+gh-deploy-mkdocs: ## Deploy docs
 	@echo "Running mkdocs gh-deploy..."
 	@$(ACTIVATE_LINUX)
 	@mkdocs gh-deploy
+
+gh-deploy-mike: ## Deploy docs
+	@echo "Running mike deploy..."
+	@$(ACTIVATE_LINUX)
+	@mike deploy dev
 
 convert-pdf: $(IMAGES)
 
