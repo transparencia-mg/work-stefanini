@@ -14,3 +14,5 @@
 *[dados do recurso]: Data Resource.
 *[Conjunto de Dados]: Um conjunto de dados ou "dataset" é uma coleção de dados normalmente tabulados.
 *[conjunto de dados]: Um conjunto de dados ou "dataset" é uma coleção de dados normalmente tabulados.
+*[Usuário Externo]: Entende-se por usuário externo todo servidor público, jornalistas, pesquisadores, fornecedores, ativistas, cidadãos, etc que tenham interesse nas informações divulgadas no Portal.
+*[usuário externo]: Entende-se por usuário externo todo servidor público, jornalistas, pesquisadores, fornecedores, ativistas, cidadãos, etc que tenham interesse nas informações divulgadas no Portal.
