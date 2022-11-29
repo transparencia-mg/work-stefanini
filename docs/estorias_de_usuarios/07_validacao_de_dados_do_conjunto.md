@@ -1,6 +1,6 @@
 # Validação do conjunto de dados
 
-**Como** publicador, **eu quero**  validar os metadados do conjunto de dados  **para** que eu faça a publicação do mesmo no Portal.
+**Como** publicador, **eu quero** obter o resultado da validação das informações dos metadados do conjunto de dados  **para** que eu faça a publicação do mesmo no Portal.
 
 - **Acesso:** 
 
