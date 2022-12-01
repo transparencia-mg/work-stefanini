@@ -13,7 +13,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221125_1.0_Weslley_Nogueira_CT01](https://www.youtube.com/watch?v=Xxe4KNyATw0)
 
 - **CT 002 –** Carregar coluna de dados
       - **Complexidade[^¹]:** Simples
@@ -24,7 +24,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221125_1.0_Weslley_Nogueira_CT02](https://www.youtube.com/watch?v=lganvWDF440&feature=youtu.be)
 
 - **CT 003 –** Checar inferência do dicionário de dados
       - **Complexidade[^¹]:** Médio
@@ -35,7 +35,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Não
       - **Evidências:** 
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221125_1.0_Weslley_Nogueira_CT03](https://www.youtube.com/watch?v=Hspnt9eBfGE)
 
 - **CT 004 –** Checar campo "obrigatório".
       - **Complexidade[^¹]:** Muito simples
@@ -46,7 +46,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221125_1.0_Weslley_Nogueira_CT04](https://www.youtube.com/watch?v=928c2c3oxcY)
 
 - **CT 005 –** Checar campo "único".
       - **Complexidade[^¹]:** Muito simples
@@ -57,7 +57,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221125_1.0_Weslley_Nogueira_CT05](https://www.youtube.com/watch?v=LbLu5Vk2pag)
 
 - **CT 006 –** Checar inferência dos dados do recurso de um arquivo tabular
       - **Complexidade[^¹]:** Muito Simples
@@ -68,7 +68,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221128_1.0_Weslley_Nogueira_CT06](https://www.youtube.com/watch?v=cVZTIrZXDpo)
             
 - **CT 007 –** Carregar arquivo não tabular
       - **Complexidade[^¹]:** Simples
@@ -79,7 +79,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221128_1.0_Weslley_Nogueira_CT07](https://www.youtube.com/watch?v=7-BdtL3fQvs)
 
 - **CT 008 –** Checar inferência dos dados do recurso de um arquivo não tabular
       - **Complexidade[^¹]:** Simples
@@ -90,7 +90,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221130_1.0_Weslley_Nogueira_CT08](https://www.youtube.com/watch?v=txtb5Y3D7uU)
 
 - **CT 009 –** Verificar a não apresentação dos campos do dicionário de dados
       - **Complexidade[^¹]:** Simples
@@ -101,7 +101,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem obrsevação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)  
+        - [20221130_1.0_Weslley_Nogueira_CT09](https://www.youtube.com/watch?v=7s-amEvQFdE)  
         
 - **CT 010 –** Validação do ícone expandir
       - **Complexidade[^¹]:** Muito simples
@@ -112,7 +112,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem obrsevação
       - **Necessita ser retestado?** Não
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)   
+        - [20221130_1.0_Weslley_Nogueira_CT10](https://www.youtube.com/watch?v=JQqHusU2sPs)   
 
 - **CT 011 –** Validação do ícone da Lixeira
       - **Complexidade[^¹]:** Muito simples
@@ -123,7 +123,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Sem observação
       - **Necessita ser retestado?** Sim
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221201_1.0_Weslley_Nogueira_CT11](https://www.youtube.com/watch?v=f78gbNRn1hE)
 
 - **CT 012 –** Carregar um arquivo de tamanho muito grande
       - **Complexidade[^¹]:** Simples
@@ -134,7 +134,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Foi carregado um arquivo do tipo MP4, de tamanho aproximadamente 1.5GB
       - **Necessita ser retestado?** Sim
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)    
+        - [20221201_1.0_Weslley_Nogueira_CT12](https://www.youtube.com/watch?v=K5yvAktH5a8&feature=youtu.be)    
 
 - **CT 013 –** Carregar um arquivo corrompido
       - **Complexidade[^¹]:** Simples
@@ -145,6 +145,6 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Foi renomeado um arquivo do tipo .CSV para .MP4 para ser carregado o arquivo no sistema, entretando o sistema reconheceu o arquivo como se fosse um arquivo do tipo .MP4
       - **Necessita ser retestado?** Sim
       - **Evidências:**
-        - [2022MMDD_vX_responsável](https://www.google.com/)
+        - [20221201_1.0_Weslley_Nogueira_CT13](https://www.youtube.com/watch?v=cJX9waEDUuU)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
