@@ -80,7 +80,7 @@ gh-deploy-mkdocs: ## Deploy docs
 gh-deploy-mike: ## Deploy docs
 	@echo "Running mike deploy..."
 	@$(ACTIVATE_LINUX)
-	@mike deploy dev
+	@mike deploy --push dev
 
 convert-pdf: $(IMAGES)
 
