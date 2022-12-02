@@ -47,10 +47,8 @@ graph LR;
 	- **Dado** que quero fazer a edição dos metadados dos Dados do Recurso.
 	- **Quando** o sistema apresentar as informações inferidas deste campo.
 	- **Então** escolho a opção que desejo editar e faço a edição.
-- **Critério 003 – Editar Metadados de arquivo(s) de dados *NÃO* tabulares dos Dados do Recurso:**
-	- **Dado** que quero fazer a edição dos metadados dos Dados do Recurso.
-	- **Quando** o sistema apresentar as informações inferidas deste campo.
-	- **Então** escolho a opção que desejo editar e faço a edição.	
+
+
 
 ### Prototipo Baixa Fidelidade
 
