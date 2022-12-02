@@ -35,6 +35,10 @@
 	- o ajuste do ambiente para testes
 	- correções de edição de metadados do recurso dos testes do dia 25/11
 
+- Denner mostrou telas ajustadas do protótipo
+
+- Andreia comentou sobre conteúdo e formato de demonstração no site estático das estórias que restam  
+
 ## Decisões
 
 -  Wesley fazer a correspondência entre regras e critérios das estórias e os casos de testes
@@ -49,7 +53,9 @@
 
 - Pensar na estrutura para demonstrar os testes consecutivos de um mesmo caso
 
-- Estudo de reaproveitamento da extensão `ckanext-validation`   
+- Estudo de reaproveitamento da extensão `ckanext-validation`
+
+- Gabriel subir nova versão depois do `push` da Andreia    
 
 ## Referências
 
