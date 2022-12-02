@@ -30,14 +30,14 @@
 	- Denner sugeriu que menu lateral esquerdo com a lista de recursos deverá subir e ficar no mesmo nível das view. Abaixo deverá ser apresentado a nova visualização dos metadados.
 
 - Pergunta Andreia: arquivo datapackage.json continua sendo publicado como recurso?
-	- Resposta Gabriel e André: Não. Usuário leigo conseguirá as informações do conjunto/recursos nas páginas html mais amigáveis. Usuário avançado terá acesso ao arquivo baixando o conjunto com ferramentas de desenvolvimento (vide [Decisões](https://github.com/transparencia-mg/work-stefanini/blob/20221201-ata-reuniao/docs/atas_de_reuniao/20221201_estoria_usuario_melhoria_paginas_html.md#decis%C3%B5es)).
+	- Resposta Gabriel e André: Não. Usuário leigo conseguirá as informações do conjunto/recursos nas páginas html mais amigáveis. Usuário avançado terá acesso ao arquivo baixando o conjunto com ferramentas de desenvolvimento (vide [Decisões](https://github.com/transparencia-mg/work-stefanini/blob/main/docs/atas_de_reuniao/20221201_estoria_usuario_melhoria_paginas_html.md#decis%C3%B5es)).
 
 - Sobre em qual página do conjunto a inclusão das validações deverá ser feita - tópico a ser estudado por Gileno [extensão ckanext-validation](https://github.com/frictionlessdata/ckanext-validation), com sugestão de visualização com emprego dessa extensão repassada durante a reunião:
 - ![image](https://user-images.githubusercontent.com/52294411/205134527-7d2dad5e-ae29-4c0b-bf7c-d8872d348113.png)
 
 	- Extensão ainda utiliza goodtables? Se sim, qual previsão para atualização?
 
-- André explicou Andreia importância de mostrar validações e históricos das mesmas (vide [Decisões](https://github.com/transparencia-mg/work-stefanini/blob/20221201-ata-reuniao/docs/atas_de_reuniao/20221201_estoria_usuario_melhoria_paginas_html.md#decis%C3%B5es)).
+- André explicou Andreia importância de mostrar validações e históricos das mesmas (vide [Decisões](https://github.com/transparencia-mg/work-stefanini/blob/main/docs/atas_de_reuniao/20221201_estoria_usuario_melhoria_paginas_html.md#decis%C3%B5es)).
 - Sugestão foi de manter a última validação (referente à última atualização no conjunto de dados) em destaque, e as validações anteriores como hiperlink ao lado de cada atualização correspondente, na aba 'Fluxo de Atividades' - exemplo: 
 - ![image](https://user-images.githubusercontent.com/52294411/205135766-34bed313-13ca-45e4-b046-4ce86eb957c1.png) 
 
