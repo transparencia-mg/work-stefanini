@@ -15,13 +15,13 @@
 
 ## Assuntos tratados
 
-- Andreia comentou sobre as atualizações das ferramentas open source e as consequências e decisões relacionadas (atualizações do _bootstrap_, p. ex). Há os prazos das sprints e as  
+- Andreia comentou sobre as atualizações das ferramentas open source e as consequências e decisões relacionadas (atualizações do _bootstrap_, p. ex). Há os prazos das sprints 
 
 - Gabriel comentou que o estudo aprofundado das ferramentas que existem é necessário, para evitar retrabalho. Essa avaliação (ex.: ckan-mapper que faz o 'de-para' das nomenclaturas dos metadados) é necessária e o pedido para ele ocorrer foi feita na reunião de _sprint review_ anterior. Dois dias perdidos para pesquisa podem ser fundamentais para garantir a usabilidade do produto, sem ter que incorrer num risco grande de manutenção. A essência do trabalho são os formulários para fazer o `datapackage.json`, que representa a principal 'dor' do usuário 'publicador'.
 
 - Gabriel comentou sobre a verificação dos resultados dos casos de testes:
 	- testes com resultado diferente do comportamento esperado
-	- testes de inclusão de mais um arquivo (Gileno comentou que essa atualização foi feita na última semana, depois que  
+	- testes de inclusão de mais um arquivo (Gileno comentou que essa atualização foi feita na última semana)  
 	- correspondência entre a numeração dos vídeos e a numeração das regras e critérios
 
 - Gabriel pediu para escrever as histórias no momento em que elas estiverem sendo discutidos em reunião, André comentou sobre o mesmo modus operandi para as atas.
