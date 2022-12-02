@@ -2,15 +2,15 @@
 
 **Como** um usuário externo, **eu quero** analisar os dados do conjunto publicado **para** que eu possa compreender e usar melhor dados do conjunto.
 
-
 - **Acesso:** 
 
 ```mermaid
 graph LR;
     1[Acessar Portal Dados Abertos]-->2;
     2[Login]-->3;
-    3[Conjunto de dados]
-    ```
+    3[Conjunto de dados]-->4;
+    4[Adicionar Conjunto de Dados]
+```
 
 - **Perfil de acesso:** usuário externo
 - **Protótipo:** Baixa Fidelidade.
