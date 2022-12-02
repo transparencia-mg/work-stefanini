@@ -37,7 +37,7 @@
 
 ## Decisões
 
--  Wesley fazer a correspondência entre regras e critérios das estórias e 
+-  Wesley fazer a correspondência entre regras e critérios das estórias e os casos de testes
 
 -  Um issue por história para trabalhar por testes (dessa forma Gileno pode fazer as corerções numa branch para cada issue)
 
