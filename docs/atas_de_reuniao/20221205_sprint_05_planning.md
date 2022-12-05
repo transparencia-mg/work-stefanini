@@ -34,7 +34,7 @@
 
 ## Pendências
 
-- Publicar versão 0.5 documento com especificações (construído até última sexta 02/12/2022)
+- Publicar versão 0.4 documento com especificações (construído até última sexta 02/12/2022)
 - Investigar porque Andreia (administradora organização Stefanini) recebeu `internal server error` ao tentar adicionar usuário nesta organização.
 - Solicitar TI atualizar ambiente homologação versão desenvolvimento CKAN.
 
@@ -42,4 +42,5 @@
 
 - [Issue instalação versão dev CKAN](https://github.com/transparencia-mg/work-stefanini/issues/71)
 - [Issue problema criação usuário Andreia](https://github.com/transparencia-mg/work-stefanini/issues/72)
+- [Versão 0.4 publicada](https://transparencia-mg.github.io/work-stefanini/0.4/)
 
