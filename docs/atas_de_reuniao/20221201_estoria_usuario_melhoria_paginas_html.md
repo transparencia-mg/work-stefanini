@@ -47,7 +47,7 @@
 
 1. Verificar por que preview (explorador de dados) não está carregando, mesmo com arquivos pequenos (i.e. menos de 100 linhas), mesmo depois de lançar o fetch manualmente para o datastore via GUI. Isse registrado em https://github.com/dados-mg/issues/issues/74
 
-1. Verificar por que usuário deslogado não acessa versões anteriores dos conjuntos
+1. Verificar por que usuário deslogado não acessa versões anteriores dos conjuntos. Issue registrado em https://github.com/transparencia-mg/work-stefanini/issues/79
 
 - Identificamos que a nova opção do CKAN de visualizar versões antigas de um conjunto só aparece para usuários logados. Usuário conseguem visualizar o diff de conjuntos de suas organizações. 
 
