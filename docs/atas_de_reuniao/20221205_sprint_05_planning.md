@@ -40,6 +40,7 @@
 
 ## Referências
 
+- [Gravação do Evento](https://youtu.be/L1_KzTAbnfM)
 - [Issue instalação versão dev CKAN](https://github.com/transparencia-mg/work-stefanini/issues/71)
 - [Issue problema criação usuário Andreia](https://github.com/transparencia-mg/work-stefanini/issues/72)
 - [Versão 0.4 publicada](https://transparencia-mg.github.io/work-stefanini/0.4/)
