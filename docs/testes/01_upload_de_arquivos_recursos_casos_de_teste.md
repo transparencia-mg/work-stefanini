@@ -4,7 +4,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
 ## Casos de Teste
 
-- **CT 001 –** Carregar arquivo tabular
+#### **CT 001 –** Carregar arquivo tabular
       - **Complexidade[^¹]:** Simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Executar o uploads de um arquivo do tipo tabular (CSV, XLS, etc)
@@ -15,7 +15,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221125_1.0_Weslley_Nogueira_CT01](https://www.youtube.com/watch?v=Xxe4KNyATw0)
 
-- **CT 002 –** Carregar coluna de dados
+#### **CT 002 –** Carregar coluna de dados
       - **Complexidade[^¹]:** Simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Verificar se as colunas foram apresentadas
@@ -26,7 +26,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221125_1.0_Weslley_Nogueira_CT02](https://www.youtube.com/watch?v=lganvWDF440&feature=youtu.be)
 
-- **CT 003 –** Checar inferência do dicionário de dados
+#### **CT 003 –** Checar inferência do dicionário de dados
       - **Complexidade[^¹]:** Médio
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Verificar se foi feita a inferência correta do tipo de dado e formato de dado
@@ -37,7 +37,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:** 
         - [20221125_1.0_Weslley_Nogueira_CT03](https://www.youtube.com/watch?v=Hspnt9eBfGE)
 
-- **CT 004 –** Checar campo "obrigatório".
+#### **CT 004 –** Checar campo "obrigatório".
       - **Complexidade[^¹]:** Muito simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Verificar se o campo obrigatório vem por padrão a opção "Não"
@@ -48,7 +48,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221125_1.0_Weslley_Nogueira_CT04](https://www.youtube.com/watch?v=928c2c3oxcY)
 
-- **CT 005 –** Checar campo "único".
+#### **CT 005 –** Checar campo "único".
       - **Complexidade[^¹]:** Muito simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Verificar se o campo único vem por padrão a opção "Não"
@@ -59,7 +59,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221125_1.0_Weslley_Nogueira_CT05](https://www.youtube.com/watch?v=LbLu5Vk2pag)
 
-- **CT 006 –** Checar inferência dos dados do recurso de um arquivo tabular
+#### **CT 006 –** Checar inferência dos dados do recurso de um arquivo tabular
       - **Complexidade[^¹]:** Muito Simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Verificar se os campos "Tipo", "Formato" e "Codificação" foram inferidos corretamente e sem permissão de edição.
@@ -70,7 +70,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221128_1.0_Weslley_Nogueira_CT06](https://www.youtube.com/watch?v=cVZTIrZXDpo)
             
-- **CT 007 –** Carregar arquivo não tabular
+#### **CT 007 –** Carregar arquivo não tabular
       - **Complexidade[^¹]:** Simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Ao executar o upload de um arquivo do tipo não tabular (PDF, JPEG, etc), informando o nome do arquivo com a sua extensão e uma imagem do tipo do arquivo
@@ -81,7 +81,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221128_1.0_Weslley_Nogueira_CT07](https://www.youtube.com/watch?v=7-BdtL3fQvs)
 
-- **CT 008 –** Checar inferência dos dados do recurso de um arquivo não tabular
+#### **CT 008 –** Checar inferência dos dados do recurso de um arquivo não tabular
       - **Complexidade[^¹]:** Simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Verificar se os campos "Tipo", "Formato" e "Codificação" foram inferidos corretamente e sem permissão de edição
@@ -92,7 +92,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221130_1.0_Weslley_Nogueira_CT08](https://www.youtube.com/watch?v=txtb5Y3D7uU)
 
-- **CT 009 –** Verificar a não apresentação dos campos do dicionário de dados
+#### **CT 009 –** Verificar a não apresentação dos campos do dicionário de dados
       - **Complexidade[^¹]:** Simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Ao inserir um arquivo não tabular não haverá inferência do dicionário de dados. Somente a inferência dos dados do recurso
@@ -103,7 +103,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221130_1.0_Weslley_Nogueira_CT09](https://www.youtube.com/watch?v=7s-amEvQFdE)  
         
-- **CT 010 –** Validação do ícone expandir
+#### **CT 010 –** Validação do ícone expandir
       - **Complexidade[^¹]:** Muito simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Quando nenhum arquivo for carregado, o ícone deverá estar expandido
@@ -114,7 +114,9 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Evidências:**
         - [20221130_1.0_Weslley_Nogueira_CT10](https://www.youtube.com/watch?v=JQqHusU2sPs)   
 
-- **CT 011 –** Validação do ícone da Lixeira
+#### **CT 011 –** Validação do ícone da Lixeira
+
+1. teste I
       - **Complexidade[^¹]:** Muito simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Ao acionar o ícone da lixeira, o arquivo carregado deverá ser apagado e a tela deverá voltar em branco
@@ -124,8 +126,20 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Necessita ser retestado?** Sim
       - **Evidências:**
         - [20221201_1.0_Weslley_Nogueira_CT11](https://www.youtube.com/watch?v=f78gbNRn1hE)
+1. teste II
+      - **Complexidade[^¹]:** Muito simples
+      - **Necessidade de massa de Teste:** Sim
+      - **Funcionalidade associada ao CT:** Ao acionar o ícone da lixeira, o arquivo carregado deverá ser apagado e a tela deverá voltar em branco
+      - **Resultado Esperado:** Ao carregr um arquivo do tipo tabular ou não tabular o sistema deverá apagar o carregamento do arquivo
+      - **Resultado final:** 
+      - **Observação:** 
+      - **Necessita ser retestado?** 
+      - **Evidências:**
+        - []()
 
-- **CT 012 –** Carregar um arquivo de tamanho muito grande
+#### **CT 012 –** Carregar um arquivo de tamanho muito grande
+
+1. teste I
       - **Complexidade[^¹]:** Simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Verificar comportamento do sistema e em caso de time out o sistema apresentará a seguinte mensagem: "Não foi possível carregar este arquivo"
@@ -134,9 +148,22 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Observação:** Foi carregado um arquivo do tipo MP4, de tamanho aproximadamente 1.5GB
       - **Necessita ser retestado?** Sim
       - **Evidências:**
-        - [20221201_1.0_Weslley_Nogueira_CT12](https://www.youtube.com/watch?v=K5yvAktH5a8&feature=youtu.be)    
+        - [20221201_1.0_Weslley_Nogueira_CT12](https://www.youtube.com/watch?v=K5yvAktH5a8&feature=youtu.be)
 
-- **CT 013 –** Carregar um arquivo corrompido
+1. teste II
+      - **Complexidade[^¹]:** Simples
+      - **Necessidade de massa de Teste:** Sim
+      - **Funcionalidade associada ao CT:** Verificar comportamento do sistema e em caso de time out o sistema apresentará a seguinte mensagem: "Não foi possível carregar este arquivo"
+      - **Resultado Esperado:** Ao carregr um arquivo do tipo tabular ou não tabular de tamanho muito grande o sistema deverá aparecer a seguinte mensagem: "Não foi possível carregar este arquivo"
+      - **Resultado final:** 
+      - **Observação:** 
+      - **Necessita ser retestado?** 
+      - **Evidências:**
+        - []()
+
+#### **CT 013 –** Carregar um arquivo corrompido
+
+1. teste I
       - **Complexidade[^¹]:** Simples
       - **Necessidade de massa de Teste:** Sim
       - **Funcionalidade associada ao CT:** Verificar apresentação da seguinte mensagem: "Não foi possível carregar este arquivo"
@@ -146,5 +173,16 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
       - **Necessita ser retestado?** Sim
       - **Evidências:**
         - [20221201_1.0_Weslley_Nogueira_CT13](https://www.youtube.com/watch?v=cJX9waEDUuU)
+
+1. teste II
+  - **Complexidade[^¹]:** Simples
+      - **Necessidade de massa de Teste:** Sim
+      - **Funcionalidade associada ao CT:** Verificar apresentação da seguinte mensagem: "Não foi possível carregar este arquivo"
+      - **Resultado Esperado:** Ao carregar um arquivo corrompido o sistema não deverá permitir carregar esse tipo de arquivo, introduzindo a seguinte mensagem: "Não foi possível carregar este arquivo"
+      - **Resultado final:** 
+      - **Observação:** 
+      - **Necessita ser retestado?** 
+      - **Evidências:**
+        - []()
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
