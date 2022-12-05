@@ -73,6 +73,7 @@ markdown_extensions:
         - abbreviations.md
 
 extra_css:
+  - assets/style.css
   - https://unpkg.com/mermaid@8.5.1/dist/mermaid.css
 extra_javascript:
   - assets/style.js

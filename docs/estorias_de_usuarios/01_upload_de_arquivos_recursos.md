@@ -72,10 +72,14 @@ graph LR;
 
 ![imagem-prototipacao](/assets/imagem.png)
 
-| Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^1] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
-|    1 | :material-upload: Carregar                                  | B,O              | N/A            | Carregar arquivo(s) de dados.            |
-|    2 | :octicons-trash-24: Lixeira                                 | IM              | N/A            | Apagar arquivo(s) de dados.       |
+|    1 | :material-upload: Carregar| B,O| N/A| Carregar arquivo(s) de dados.            |
+|    2 | :octicons-trash-24: Lixeira| IM| N/A| Apagar arquivo(s) de dados.       |
 |    3 | :fontawesome-solid-circle-chevron-right: Expandir metadados | IM              | N/A            | Expandir metadados do(s) arquivo(s) de dados. |
 |    4 | :fontawesome-solid-circle-chevron-down: Recolher metadados  | IM              | N/A            | Recolher metadados do(s) arquivo(s) de dados. |
-|    5 | :simple-addthis: Adicionar arquivo(s) de dados           | B                  | N/A            | Adiciona novo arquivo(s) de dados.   |
+|    5 | :simple-addthis: Adicionar arquivo(s) de dados  | B  | N/A  | Adiciona novo arquivo(s) de dados.   |
+|    6 | :material-content-save: Salvar          | B                  | N/A            | Salva as edições dos metadados do arquivo(s) de dados.   |
+
+
+[^1]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)

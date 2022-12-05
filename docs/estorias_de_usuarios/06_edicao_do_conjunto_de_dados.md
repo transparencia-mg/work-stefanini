@@ -35,7 +35,8 @@ graph LR;
     - **RN007** - No campo `Visibilidade`, a combobox tem a seguinte apresentação:
     	- Deverão conter as opções *Privada* e *Pública* 
         - Por padrão, deverá vir selecionada a opção *Privada*, podendo ser editável, a depender da configuração do Administrador do Portal. 
-    - **RN008** - A combobox `Frequência de Atualização` deverá conter as seguintes informações: **A PREENCHER** e como padrão  
+    - **RN008** - A combobox `Frequência de Atualização` deverá conter as seguintes informações: **A PREENCHER** e como padrão 
+    - **RN009** - Para o campo `Visibilidade` deverá vir preenchido, como padrão,a opção Privada, podendo ser editável. 
 
 
 ### Critérios de aceite
@@ -124,7 +125,7 @@ o e-mail do usuário logado e sem a possibilidade de alteração.
 
 ![imagem-prototipacao](/assets/imagem.png)
 
-| Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^2] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 |    Título               |    O, CT          |     N/A    | Campo título sem limitação de quantidade de caracteres.
 |    2 |           Descrição    |    O, CT           |       N/A     |Campo descrição sem limitação de quantidade de caracteres |
@@ -148,3 +149,4 @@ o e-mail do usuário logado e sem a possibilidade de alteração.
 |    20 | Grupos  |         CT    |     N/A      | Campo para informar grupos que compõe aquele determinado conjunto. O campo será auto completado.[^1]|
 
 [^1]:[gitnore](https://www.toptal.com/developers/gitignore/)
+[^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)

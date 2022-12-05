@@ -47,10 +47,8 @@ graph LR;
 	- **Dado** que quero fazer a edição dos metadados dos Dados do Recurso.
 	- **Quando** o sistema apresentar as informações inferidas deste campo.
 	- **Então** escolho a opção que desejo editar e faço a edição.
-- **Critério 003 – Editar Metadados de arquivo(s) de dados *NÃO* tabulares dos Dados do Recurso:**
-	- **Dado** que quero fazer a edição dos metadados dos Dados do Recurso.
-	- **Quando** o sistema apresentar as informações inferidas deste campo.
-	- **Então** escolho a opção que desejo editar e faço a edição.	
+
+
 
 ### Prototipo Baixa Fidelidade
 
@@ -63,7 +61,7 @@ graph LR;
 
 ![imagem-prototipacao](/assets/imagem.png)
 
-| Item |                        Nome do Campo                        | Tipo de Dado | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^5] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 | Dic Dados: Título                 | O, E, CT              | N/A        | Campo título sem limitação de quantidade de caracteres            |
 |    2 | Dic Dados: Descrição              | O, E, CT              | N/A            | Campo descrição sem limitação de quantidade de caracteres     |
@@ -72,7 +70,7 @@ graph LR;
 |    5 | Dic Dados: Obrigatório                         | CB                | N/A            | Usuário poderá escolher alterar para a opção *SIM*|
 |    6 | Dic Dados: Único  | CB              | N/A            | Usuário poderá escolher alterar para a opção *SIM* |	
 |    7 | Dic Dados: (+)Adicionar Metadados  | B              | N/A            | Ao acionar o botão o usuário poderá acrescentar metadados referentes àquele campo na tabela. Estende-se para estória: [US004  - Criação de novos Metadados](/estorias_de_usuarios/04_criacao_de_novos_metadados)|
-|    8 | Dic Dados: 	Salvar  | B              | N/A            | Ao Acionar o botão, o usuário salva todas as alterações feitas nos metadados. Estende-se para a estória: [US008  - Salvar dados do recurso](/estorias_de_usuarios/08_salvar_dados_do_recurso) |
+|    8 | Dic Dados: 	Salvar  | B              | N/A            | Ao Acionar o botão, o usuário salva todas as alterações feitas nos metadados. Estende-se para a estória: [US008  - Salvar dados do recurso](/estorias_de_usuarios/05_validacao_de_dados_do_recurso) |
 |    9 | Dados do Recurso: Título               | B              | N/A            | Campo título sem limitação de quantidade de caracteres |
 |    10 | Dados do Recurso: Descrição           | B              | N/A            | Campo descrição sem limitação de quantidade de caracteres  |
 |    11 | Dados do Recurso: Tipo de formato   | CB              | N/A            | Após inferência da Frictionless, o usuário poderá fazer a seleção manual do tipo de extensão: Tabular ou não tabular |
@@ -81,9 +79,10 @@ graph LR;
 |    14 |  Validar     | B,O             |  N/A       | Validar todos os campos da aba de Adicionar Dados. Estende-se para a estória: [US005  -Validação de Dados do Recurso](/estorias_de_usuarios/05_validacao_de_dados_do_recurso)
 |    15 |   Próximo            |   LK            |      N/A      | Após validação dos campos, fica habilitado o avanço para a próxima aba (Conjunto de Dados). Estende-se para a estória: [US008  -Edição de Dados do Conjunto](/estorias_de_usuarios/06_edicao_de_dados_do_conjunto_do_recurso) |
 |    16| Cancelar |     LK         |       N/A      | Cancela as informações em tela. |
-|   17| Salvar  |     B          |       N/A      | Salva as informações sem precisar validar. Estende-se para a estória: [US008  -Salvar dados do recurso](/estorias_de_usuarios/08_salvar_dados_do_recurso) |
+|   17| Salvar  |     B          |       N/A      | Salva as informações sem precisar validar. Estende-se para a estória: [US008  - Salvar dados do recurso](/estorias_de_usuarios/08_salvar_dados_do_recurso) |
 
 [^1]: [Frictionless](https://specs.frictionlessdata.io/)
 [^2]: [Propriedade: Constraints - Required](https://specs.frictionlessdata.io/table-schema/#constraints:~:text=Description-,required,-boolean)
 [^3]: [Propriedade: Constraints - Unique](https://specs.frictionlessdata.io/table-schema/#constraints:~:text=represent%20null%20values.-,unique,-boolean)
 [^4]: [Propriedade: Recomendações](https://specs.frictionlessdata.io/data-resource/#metadata-properties:~:text=Recommended%20Properties) 
+[^5]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)

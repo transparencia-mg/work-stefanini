@@ -1,13 +1,6 @@
 name: Publish Documentation
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - "docs/**.md"
-      - "mkdocs.yml"
-  workflow_dispatch:
+on: push
 
 jobs:
   publish_documentation:
