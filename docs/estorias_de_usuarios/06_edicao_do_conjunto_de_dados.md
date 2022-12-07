@@ -35,7 +35,7 @@ graph LR;
     - **RN007** - No campo `Visibilidade`, a combobox tem a seguinte apresentação:
     	- Deverão conter as opções *Privada* e *Pública* 
         - Por padrão, deverá vir selecionada a opção *Privada*, podendo ser editável, a depender da configuração do Administrador do Portal. 
-    - **RN008** - A combobox `Frequência de Atualização` deverá conter as seguintes informações: **A PREENCHER** e como padrão 
+    - **RN008** - A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda** e como padrão a opção **selecione**.
     - **RN009** - Para o campo `Visibilidade` deverá vir preenchido, como padrão,a opção Privada, podendo ser editável. 
 
 
