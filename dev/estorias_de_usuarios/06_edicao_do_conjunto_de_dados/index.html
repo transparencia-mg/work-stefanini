@@ -1214,8 +1214,11 @@
 <li>Por padrão, deverá vir selecionada a opção <em>Privada</em>, podendo ser editável, a depender da configuração do Administrador do <abbr title="Portal de Dados Abertos CKAN.">Portal</abbr>. </li>
 </ul>
 </li>
-<li><strong>RN008</strong> - A combobox <code>Frequência de Atualização</code> deverá conter as seguintes informações: <strong>A PREENCHER</strong> e como padrão </li>
-<li><strong>RN009</strong> - Para o campo <code>Visibilidade</code> deverá vir preenchido, como padrão,a opção Privada, podendo ser editável. </li>
+<li><strong>RN008</strong> - A combobox <code>Frequência de Atualização</code> deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda<strong> e como padrão a opção </strong>selecione**.</li>
+<li><strong>RN009</strong> - O campo <code>Licença</code> deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.<ul>
+<li>OBS: As opções de licenças deveão ser descritas no arquivo de configuração.</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -1298,10 +1301,36 @@ Palavras-chave: São de preenchimento obrigatórios.
 o e-mail do usuário logado e sem a possibilidade de alteração. 
 </code></pre></div>
 <ul>
-<li><strong>Critério 007 – Apresentar Nome e e-mail do <abbr title="Usuário logado no sistema.">Publicador</abbr></strong><ul>
+<li>
+<p><strong>Critério 007 – Apresentar Nome e e-mail do <abbr title="Usuário logado no sistema.">Publicador</abbr></strong></p>
+<ul>
 <li><strong>Dado</strong> que estou editando as informações da aba de <code>Conjunto de Dados</code></li>
 <li><strong>E</strong> estou informando os dados dos <code>Contribuidores</code></li>
 <li><strong>Então</strong> o sistema já apresenta os dados do <abbr title="Usuário logado no sistema.">Publicador</abbr> em tela sem a possibilidade de alteração.</li>
+</ul>
+</li>
+<li>
+<p><strong>Critério 008 – Escolher frequência de atualização</strong></p>
+<ul>
+<li><strong>Dado</strong> que quero informar a frequência de atualização do conjunto. </li>
+<li><strong>Quando</strong> estou no campo de <code>Frequência de Atualização</code></li>
+<li><strong>Então</strong> o sistema deve apresentar por padrão a opção <code>selecione</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Critério 009 – Informar Licença existente na biblioteca</strong></p>
+<ul>
+<li><strong>Dado</strong> que quero informar a licença. </li>
+<li><strong>Quando</strong> estou no campo de <code>Licença</code></li>
+<li><strong>Então</strong> o sistema deve apresentar o campo texto com o recurso de autocompletar que ao iniciar a digitação já apresenta a licença para seleção.</li>
+</ul>
+</li>
+<li>
+<p><strong>Critério 009 – Informar Licença que não consta na biblioteca</strong></p>
+<ul>
+<li><strong>Dado</strong> que quero informar a licença. </li>
+<li><strong>Quando</strong> estou no campo de <code>Licença</code></li>
+<li><strong>Então</strong> o sistema deve possibilitar ao usuário informar outro dado que não esteja na lista. </li>
 </ul>
 </li>
 </ul>
@@ -1483,7 +1512,7 @@ o e-mail do usuário logado e sem a possibilidade de alteração.
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">November 24, 2022 10:41:47</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 8, 2022 17:49:49</span>
       
         <br>
         Created:
