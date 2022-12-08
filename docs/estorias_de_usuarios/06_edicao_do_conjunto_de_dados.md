@@ -36,8 +36,8 @@ graph LR;
     	- Deverão conter as opções *Privada* e *Pública* 
         - Por padrão, deverá vir selecionada a opção *Privada*, podendo ser editável, a depender da configuração do Administrador do Portal. 
     - **RN008** - A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda** e como padrão a opção **selecione**.
-    - **RN009** - O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As informações deverão vir da biblioteca da Frictionless e caso não seja encontrada, poderá ser descrita. 
-
+    - **RN009** - O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.
+    	- OBS: As opções de licenças deveão ser descritas no arquivo de configuração.
 
 ### Critérios de aceite
 
