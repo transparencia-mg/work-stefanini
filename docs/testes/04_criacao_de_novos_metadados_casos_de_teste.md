@@ -8,9 +8,8 @@ Casos de teste para estória de usuário [criação de novos metadados](../../es
 
   - **Complexidade[^¹]:** `Médio`
   - **Necessidade de massa de Teste:** `Sim`
-  - **Funcionalidade associada ao CT:** `Verificar o comportamento de um metadado do tipo lista
-      - **Resultado Esperado:** Ao criar um metadado o tipo lista o sistema deverá criar um campo do tipo texto e terá de ser separado por ",". Deverá ser de preenchimento alfanumérico e de caráter obrigatório`
-  - **Resultado Esperado:** `Ao criar um metadado o tipo lista o sistema deverá criar um campo do tipo texto e terá de ser separado por ",". Deverá ser de preenchimento alfanumérico e de caráter obrigatório`
+  - **Funcionalidade associada ao CT:** `Verificar o comportamento de um metadado do tipo lista`
+      - **Resultado Esperado:** `Ao criar um metadado o tipo lista o sistema deverá criar um campo do tipo texto e terá de ser separado por ",". Deverá ser de preenchimento alfanumérico e de caráter obrigatório`
 
   - **Resultados:**  
     - **Resultado 001:** `Descrever o resultado que é obtido após a realização do teste.`

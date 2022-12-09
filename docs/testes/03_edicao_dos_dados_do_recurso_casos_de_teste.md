@@ -92,7 +92,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
 
   - **Complexidade[^¹]:** `Simples`
   - **Necessidade de massa de Teste:** `Sim`
-  - **Funcionalidade associada ao CT:** `Ao carregar um arquivo do tipo tabular o sistema deve vir por padrão o Encoding (codificação) utf-8, podendo ser editável`
+  - **Funcionalidade associada ao CT:** `Verificar o comportamento do sistema ao carregar um arquivo do tipo tabular se vem por padrão o Encoding (codificação) utf-8`
   - **Resultado Esperado:** `Ao carregar um arquivo do tipo tabular o sistema deve vir por padrão o Encoding (codificação) utf-8, podendo ser editável`
 
   - **Resultados:**  
