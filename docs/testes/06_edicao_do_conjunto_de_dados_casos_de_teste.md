@@ -21,7 +21,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.`
 
 #### **CT 006.002 –** validação de um usuário submetido a apenas uma organização no menu Criar Conjunto de Dados
 
-  - **Complexidade[^¹]:** ``
+  - **Complexidade[^¹]:** `Médio`
   - **Necessidade de massa de Teste:** `Sim`
   - **Funcionalidade associada ao CT:** `Verificar o comportamento do sistema quando o usuário está no menu Criar Conjunto de Dados e é submetido a apenas uma organização`
   - **Resultado Esperado:** `Quando o usuário é submetido a apenas uma organização o sistema apresenta a organização e impossibilita a edição`
@@ -117,7 +117,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.`
         - **Evidências:** `é a evidência de que o teste foi executado através de vídeo`
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
-#### **CT 006.008 –** validação Adicionar contribuidor do Publicador
+#### **CT 006.009 –** validação Adicionar contribuidor do Publicador
 
   - **Complexidade[^¹]:** `Simples`
   - **Necessidade de massa de Teste:** `Sim`
