@@ -36,8 +36,8 @@ graph LR;
     	- Deverão conter as opções *Privada* e *Pública* 
         - Por padrão, deverá vir selecionada a opção *Privada*, podendo ser editável, a depender da configuração do Administrador do Portal. 
     - **RN008** - A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda** e como padrão a opção **selecione**.
-    - **RN009** - Para o campo `Visibilidade` deverá vir preenchido, como padrão,a opção Privada, podendo ser editável. 
-
+    - **RN009** - O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.
+    	- OBS: As opções de licenças deveão ser descritas no arquivo de configuração.
 
 ### Critérios de aceite
 
@@ -114,6 +114,21 @@ o e-mail do usuário logado e sem a possibilidade de alteração.
 	- **E** estou informando os dados dos `Contribuidores`
 	- **Então** o sistema já apresenta os dados do Publicador em tela sem a possibilidade de alteração.
 
+
+- **Critério 008 – Escolher frequência de atualização**
+	- **Dado** que quero informar a frequência de atualização do conjunto. 
+	- **Quando** estou no campo de `Frequência de Atualização`
+	- **Então** o sistema deve apresentar por padrão a opção `selecione`
+
+- **Critério 009 – Informar Licença existente na biblioteca**
+	- **Dado** que quero informar a licença. 
+	- **Quando** estou no campo de `Licença`
+	- **Então** o sistema deve apresentar o campo texto com o recurso de autocompletar que ao iniciar a digitação já apresenta a licença para seleção.
+
+- **Critério 009 – Informar Licença que não consta na biblioteca**
+	- **Dado** que quero informar a licença. 
+	- **Quando** estou no campo de `Licença`
+	- **Então** o sistema deve possibilitar ao usuário informar outro dado que não esteja na lista. 
 ### Prototipo Baixa Fidelidade
 
 [Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
