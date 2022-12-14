@@ -6,8 +6,8 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
 #### **CT 001.001 –** Carregar arquivo tabular
 
-  - **Complexidade[^¹]:** `Simples`
-  - **Necessidade de massa de Teste:** `Sim`
+  - **Complexidade[^¹]:** Simples
+  - **Necessidade de massa de Teste:** Sim
   - **Funcionalidade associada ao CT:** `Executar o upload de um arquivo do tipo tabular (CSV, XLS, etc)`
   - **Resultado Esperado:** `Ao carregar um arquivo do tipo tabular o sistema deve reconhecer o formato do arquivo`
 
