@@ -11,6 +11,7 @@
 
 - Weslley mostrou para Gabriel que existim 4 branchs para mergiar na atual `sprint-06`.
 - Gabriel acompanhou Weslley mo merge de todas as 4 branchs.
+- Revisão fluxos [git e github](../git_and_github.md).
 - Resumo dos códigos utilizados em cada merge:
 
 ```
