@@ -4,15 +4,47 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
 
 ## Casos de Teste
 
-- **CT 001 –** Nome do caso de teste
-      - **Complexidade[^¹]:**
-      - **Necessidade de massa de Teste:**
-      - **Funcionalidade associada ao CT:**
-      - **Resultado Esperado:**
-      - **Resultado final:**
-      - **Observação:**
-      - **Necessita ser retestado?**
-      - **Evidências:**
-        - [2022MMDD_vX_responsável]()
+#### **CT 002.001 –** Validação de inferência de um arquivo tabular
+
+  - **Complexidade[^¹]:** `Simples`
+  - **Necessidade de massa de Teste:** `Sim`
+  - **Funcionalidade associada ao CT:** `Verificar o comportamento do sistema ao carregar um arquivo do tipo tabular`
+  - **Resultado Esperado:** `Ao carregar um arquivo do tipo tabular o sistema deverá aparecer os dicionários e a edição de metadados de cada dicionário`
+
+  - **Resultados:**  
+    - **Resultado 001:** `Descrever o resultado que é obtido após a realização do teste.`
+        - **Observação:** `Observação sobre o teste realizado ou a massa de teste utilizada`
+        - **Necessita ser retestado?** `S/N`
+        - **Evidências:** `é a evidência de que o teste foi executado através de vídeo`
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+
+#### **CT 002.002 –** Validação de inferência de um arquivo não tabular
+
+  - **Complexidade[^¹]:** `Simples`
+  - **Necessidade de massa de Teste:** `Sim`
+  - **Funcionalidade associada ao CT:** `Verificar o comportamento do sistema ao carregar um arquivo do tipo não tabular`
+  - **Resultado Esperado:** `Ao carregar um arquivo do tipo não tabular o sistema fará apenas a inferência dos dados do Recurso`
+
+  - **Resultados:**  
+    - **Resultado 001:** `Descrever o resultado que é obtido após a realização do teste.`
+        - **Observação:** `Observação sobre o teste realizado ou a massa de teste utilizada`
+        - **Necessita ser retestado?** `S/N`
+        - **Evidências:** `é a evidência de que o teste foi executado através de vídeo`
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+
+
+#### **CT 002.003 –** Validação dos dados do recurso não editável
+
+  - **Complexidade[^¹]:** `Simples`
+  - **Necessidade de massa de Teste:** `Sim`
+  - **Funcionalidade associada ao CT:** `Verificar o comportamento do sistema ao carregar um arquivo do tipo não tabular`
+  - **Resultado Esperado:** `Ao carregar um arquivo do tipo não tabular o sistema sistema fará apenas a inferência dos dados do Recurso, fornecendo os campos Tipo, formato e Encoding não habilitados para edição.`
+
+  - **Resultados:**  
+    - **Resultado 001:** `Descrever o resultado que é obtido após a realização do teste.`
+        - **Observação:** `Observação sobre o teste realizado ou a massa de teste utilizada`
+        - **Necessita ser retestado?** `S/N`
+        - **Evidências:** `é a evidência de que o teste foi executado através de vídeo.`
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
