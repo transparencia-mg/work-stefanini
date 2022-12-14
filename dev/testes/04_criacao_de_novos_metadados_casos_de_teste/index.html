@@ -995,6 +995,47 @@
     Casos de Teste
   </a>
   
+    <nav class="md-nav" aria-label="Casos de Teste">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ct-004001-checar-a-criacao-de-um-metadado-do-tipo-lista" class="md-nav__link">
+    CT 004.001 – Checar a criação de um metadado do tipo lista
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ct-004002-checar-a-criacao-de-um-metadado-do-tipo-max-e-min" class="md-nav__link">
+    CT 004.002 – Checar a criação de um metadado do tipo "Max" e "Min"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ct-004003-checar-a-criacao-campo-de-metadado-de-valores-maximo-e-minimo" class="md-nav__link">
+    CT 004.003 – Checar a criação campo de metadado de valores "Máximo"  e "Mínimo"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ct-004004-checar-a-validacao-do-metadado-do-tipo-lista-de-valores" class="md-nav__link">
+    CT 004.004 – Checar a validação do metadado do tipo "Lista de valores"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ct-004005-checar-a-validacao-de-um-arquivo-nao-tabular" class="md-nav__link">
+    CT 004.005 – Checar a validação de um arquivo não tabular
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1113,6 +1154,47 @@
     Casos de Teste
   </a>
   
+    <nav class="md-nav" aria-label="Casos de Teste">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ct-004001-checar-a-criacao-de-um-metadado-do-tipo-lista" class="md-nav__link">
+    CT 004.001 – Checar a criação de um metadado do tipo lista
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ct-004002-checar-a-criacao-de-um-metadado-do-tipo-max-e-min" class="md-nav__link">
+    CT 004.002 – Checar a criação de um metadado do tipo "Max" e "Min"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ct-004003-checar-a-criacao-campo-de-metadado-de-valores-maximo-e-minimo" class="md-nav__link">
+    CT 004.003 – Checar a criação campo de metadado de valores "Máximo"  e "Mínimo"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ct-004004-checar-a-validacao-do-metadado-do-tipo-lista-de-valores" class="md-nav__link">
+    CT 004.004 – Checar a validação do metadado do tipo "Lista de valores"
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ct-004005-checar-a-validacao-de-um-arquivo-nao-tabular" class="md-nav__link">
+    CT 004.005 – Checar a validação de um arquivo não tabular
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -1138,17 +1220,108 @@
 <h1 id="casos-de-teste-criacao-de-novos-metadados">Casos de Teste Criação de novos metadados<a class="headerlink" href="#casos-de-teste-criacao-de-novos-metadados" title="Permanent link">⚓︎</a></h1>
 <p>Casos de teste para estória de usuário <a href="../../estorias_de_usuarios/04_criacao_de_novos_metadados">criação de novos metadados</a>.</p>
 <h2 id="casos-de-teste">Casos de Teste<a class="headerlink" href="#casos-de-teste" title="Permanent link">⚓︎</a></h2>
+<h4 id="ct-004001-checar-a-criacao-de-um-metadado-do-tipo-lista"><strong>CT 004.001 –</strong> Checar a criação de um metadado do tipo lista<a class="headerlink" href="#ct-004001-checar-a-criacao-de-um-metadado-do-tipo-lista" title="Permanent link">⚓︎</a></h4>
 <ul>
-<li><strong>CT 001 –</strong> Nome do caso de teste<ul>
-<li><strong>Complexidade<sup id="fnref:¹"><a class="footnote-ref" href="#fn:¹">1</a></sup>:</strong></li>
-<li><strong>Necessidade de massa de Teste:</strong></li>
-<li><strong>Funcionalidade associada ao CT:</strong></li>
-<li><strong>Resultado Esperado:</strong></li>
-<li><strong>Resultado final:</strong></li>
-<li><strong>Observação:</strong></li>
-<li><strong>Necessita ser retestado?</strong></li>
-<li><strong>Evidências:</strong><ul>
-<li><a href="">2022MMDD_vX_responsável</a></li>
+<li><strong>Complexidade<sup id="fnref5:¹"><a class="footnote-ref" href="#fn:¹">1</a></sup>:</strong> <code>Médio</code></li>
+<li><strong>Necessidade de massa de Teste:</strong> <code>Sim</code></li>
+<li>
+<p><strong>Funcionalidade associada ao CT:</strong> <code>Verificar o comportamento de um metadado do tipo lista</code></p>
+<ul>
+<li><strong>Resultado Esperado:</strong> <code>Ao criar um metadado o tipo lista o sistema deverá criar um campo do tipo texto e terá de ser separado por ",". Deverá ser de preenchimento alfanumérico e de caráter obrigatório</code></li>
+</ul>
+</li>
+<li>
+<p><strong>Resultados:</strong>  </p>
+<ul>
+<li><strong>Resultado 001:</strong> <code>Descrever o resultado que é obtido após a realização do teste.</code><ul>
+<li><strong>Observação:</strong> <code>Observação sobre o teste realizado ou a massa de teste utilizada</code></li>
+<li><strong>Necessita ser retestado?</strong> <code>S/N</code></li>
+<li><strong>Evidências:</strong> <code>é a evidência de que o teste foi executado através de vídeo</code></li>
+<li><a href="Link_para_video_youtube">2022MMDD_vX_responsável_CTXX</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="ct-004002-checar-a-criacao-de-um-metadado-do-tipo-max-e-min"><strong>CT 004.002 –</strong> Checar a criação de um metadado do tipo "Max" e "Min"<a class="headerlink" href="#ct-004002-checar-a-criacao-de-um-metadado-do-tipo-max-e-min" title="Permanent link">⚓︎</a></h4>
+<ul>
+<li><strong>Complexidade<sup id="fnref4:¹"><a class="footnote-ref" href="#fn:¹">1</a></sup>:</strong> <code>Médio</code></li>
+<li><strong>Necessidade de massa de Teste:</strong> <code>Sim</code></li>
+<li><strong>Funcionalidade associada ao CT:</strong> <code>Verificar o comportamento do sistema da criação de um metadado do tipo "Max" e "Min"</code></li>
+<li>
+<p><strong>Resultado Esperado:</strong> <code>Ao criar um metadado o sistema deverá criar dois campos contendo um valor máximo e um valor minimo, de preenchimento numérico e de caráter obrigatório.</code></p>
+</li>
+<li>
+<p><strong>Resultados:</strong>  </p>
+<ul>
+<li><strong>Resultado 001:</strong> <code>Descrever o resultado que é obtido após a realização do teste.</code><ul>
+<li><strong>Observação:</strong> <code>Observação sobre o teste realizado ou a massa de teste utilizada</code></li>
+<li><strong>Necessita ser retestado?</strong> <code>S/N</code></li>
+<li><strong>Evidências:</strong> <code>é a evidência de que o teste foi executado através de vídeo</code></li>
+<li><a href="Link_para_video_youtube">2022MMDD_vX_responsável_CTXX</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="ct-004003-checar-a-criacao-campo-de-metadado-de-valores-maximo-e-minimo"><strong>CT 004.003 –</strong> Checar a criação campo de metadado de valores "Máximo"  e "Mínimo"<a class="headerlink" href="#ct-004003-checar-a-criacao-campo-de-metadado-de-valores-maximo-e-minimo" title="Permanent link">⚓︎</a></h4>
+<ul>
+<li><strong>Complexidade<sup id="fnref3:¹"><a class="footnote-ref" href="#fn:¹">1</a></sup>:</strong> <code>Médio</code></li>
+<li><strong>Necessidade de massa de Teste:</strong> <code>Sim</code></li>
+<li><strong>Funcionalidade associada ao CT:</strong> <code>Verificar o comportamento do sistema da criação do metadado valores "Máximo"  e "Mínimo"</code></li>
+<li>
+<p><strong>Resultado Esperado:</strong> <code>Ao criar um metadado o sistema deverá criar dois campos contendo um valor máximo e um valor minimo, de preenchimento numérico e de caráter obrigatório.</code></p>
+</li>
+<li>
+<p><strong>Resultados:</strong>  </p>
+<ul>
+<li><strong>Resultado 001:</strong> <code>Descrever o resultado que é obtido após a realização do teste.</code><ul>
+<li><strong>Observação:</strong> <code>Observação sobre o teste realizado ou a massa de teste utilizada</code></li>
+<li><strong>Necessita ser retestado?</strong> <code>S/N</code></li>
+<li><strong>Evidências:</strong> <code>é a evidência de que o teste foi executado através de vídeo</code></li>
+<li><a href="Link_para_video_youtube">2022MMDD_vX_responsável_CTXX</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="ct-004004-checar-a-validacao-do-metadado-do-tipo-lista-de-valores"><strong>CT 004.004 –</strong> Checar a validação do metadado do tipo "Lista de valores"<a class="headerlink" href="#ct-004004-checar-a-validacao-do-metadado-do-tipo-lista-de-valores" title="Permanent link">⚓︎</a></h4>
+<ul>
+<li><strong>Complexidade<sup id="fnref2:¹"><a class="footnote-ref" href="#fn:¹">1</a></sup>:</strong> <code>Médio</code></li>
+<li><strong>Necessidade de massa de Teste:</strong> <code>Sim</code></li>
+<li><strong>Funcionalidade associada ao CT:</strong> <code>Verificar o comportamento do sistema do tipo "Lista de valores"</code></li>
+<li>
+<p><strong>Resultado Esperado:</strong> <code>Ao criar um metadado o tipo lista o sistema deverá criar um campo do tipo texto e terá de ser separado por ",". Deverá ser de  preenchimento alfanumérico e de caráter obrigatório</code></p>
+</li>
+<li>
+<p><strong>Resultados:</strong>  </p>
+<ul>
+<li><strong>Resultado 001:</strong> <code>Descrever o resultado que é obtido após a realização do teste.</code><ul>
+<li><strong>Observação:</strong> <code>Observação sobre o teste realizado ou a massa de teste utilizada</code></li>
+<li><strong>Necessita ser retestado?</strong> <code>S/N</code></li>
+<li><strong>Evidências:</strong> <code>é a evidência de que o teste foi executado através de vídeo</code></li>
+<li><a href="Link_para_video_youtube">2022MMDD_vX_responsável_CTXX</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="ct-004005-checar-a-validacao-de-um-arquivo-nao-tabular"><strong>CT 004.005 –</strong> Checar a validação de um arquivo não tabular<a class="headerlink" href="#ct-004005-checar-a-validacao-de-um-arquivo-nao-tabular" title="Permanent link">⚓︎</a></h4>
+<ul>
+<li><strong>Complexidade<sup id="fnref:¹"><a class="footnote-ref" href="#fn:¹">1</a></sup>:</strong> <code>Simples</code></li>
+<li><strong>Necessidade de massa de Teste:</strong> <code>Sim</code></li>
+<li><strong>Funcionalidade associada ao CT:</strong> <code>Verificar o comportamento do sistema ao carregar um arquivo não tabular</code></li>
+<li>
+<p><strong>Resultado Esperado:</strong> <code>Ao carregar um arquivo do tipo não tabular o sistema deverá apenas  permitir a edição dos dados do recurso</code></p>
+</li>
+<li>
+<p><strong>Resultados:</strong>  </p>
+<ul>
+<li><strong>Resultado 001:</strong> <code>Descrever o resultado que é obtido após a realização do teste.</code><ul>
+<li><strong>Observação:</strong> <code>Observação sobre o teste realizado ou a massa de teste utilizada</code></li>
+<li><strong>Necessita ser retestado?</strong> <code>S/N</code></li>
+<li><strong>Evidências:</strong> <code>é a evidência de que o teste foi executado através de vídeo</code></li>
+<li><a href="Link_para_video_youtube">2022MMDD_vX_responsável_CTXX</a></li>
 </ul>
 </li>
 </ul>
@@ -1160,7 +1333,7 @@
 <hr />
 <ol>
 <li id="fn:¹">
-<p>Muito Simples, Simples, Médio, Complexo, Muito Complexo.&#160;<a class="footnote-backref" href="#fnref:¹" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p>Muito Simples, Simples, Médio, Complexo, Muito Complexo.&#160;<a class="footnote-backref" href="#fnref:¹" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:¹" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref3:¹" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref4:¹" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref5:¹" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -1170,7 +1343,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">November 21, 2022 14:27:04</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 9, 2022 02:00:26</span>
       
         <br>
         Created:
