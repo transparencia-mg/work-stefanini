@@ -37,6 +37,7 @@
 - Publicar versão 0.4 documento com especificações (construído até última sexta 02/12/2022)
 - Investigar porque Andreia (administradora organização Stefanini) recebeu `internal server error` ao tentar adicionar usuário nesta organização.
 - Solicitar TI atualizar ambiente homologação versão desenvolvimento CKAN.
+- Criar novo modelo de casos de teste (previsão para testes falhos)
 
 ## Referências
 
