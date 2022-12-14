@@ -6,8 +6,8 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
 #### **CT 001.001 –** Carregar arquivo tabular
 
-  - **Complexidade[^¹]:** `Simples`
-  - **Necessidade de massa de Teste:** `Sim`
+  - **Complexidade[^¹]:** Simples
+  - **Necessidade de massa de Teste:** Sim
   - **Funcionalidade associada ao CT:** `Executar o upload de um arquivo do tipo tabular (CSV, XLS, etc)`
   - **Resultado Esperado:** `Ao carregar um arquivo do tipo tabular o sistema deve reconhecer o formato do arquivo`
 
@@ -189,7 +189,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
     - **Resultado 001:** `O sistema carrega o arquivo corrompido, não aparecendo a mensagem`
         - **Observação:** `Foi renomeado um arquivo do tipo .CSV para .MP4 para ser carregado o arquivo no sistema, entretando o sistema reconheceu o arquivo como se fosse um arquivo do tipo .MP4`
         - **Necessita ser retestado?** `Sim`
-        - **Evidências:** `é a evidência de que o teste foi executado através de vídeo`
+        - **Evidências:** `é a evidência de que o teste foi executado através de vídeo.`
         - [20221201_1.0_Weslley_Nogueira_CT13](https://www.youtube.com/watch?v=cJX9waEDUuU)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
