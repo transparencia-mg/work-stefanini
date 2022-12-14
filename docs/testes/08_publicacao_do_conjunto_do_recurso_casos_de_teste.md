@@ -4,12 +4,12 @@ Casos de teste para estória de usuário [publicação do conjunto de dados](../
 
 ## Casos de Teste
 
-#### **CT 001.001 –** Nome do caso de teste
+#### **CT 008.001 –** Validação do campo "título" do Conjunto de Dados
 
-  - **Complexidade[^¹]:** `verificar o rodapé`
-  - **Necessidade de massa de Teste:** `S/N`
-  - **Funcionalidade associada ao CT:** `Descreve a funcionalidade que deve ser testada`
-  - **Resultado Esperado:** `é o resultado ideal que deve ser alcançado uma vez que o caso de teste foi executado`
+  - **Complexidade[^¹]:** `Simples`
+  - **Necessidade de massa de Teste:** `Sim`
+  - **Funcionalidade associada ao CT:** `Verificar o comportamento do sistema ao preencher o campo título`
+  - **Resultado Esperado:** `Ao preencher o campo título do conjunto de dados o usuário deve criar um nome para o conjunto de dados. Esse campo é de caráter obrigatório, sendo não possível continuar para a próxima etapa se o usuário deixar de preencher esse campo`
 
   - **Resultados:**  
     - **Resultado 001:** `Descrever o resultado que é obtido após a realização do teste.`
