@@ -5,17 +5,19 @@
 - **Acesso:** 
 
 ```mermaid
-graph LR;
+graph TD;
     1[Acessar Portal Dados Abertos]-->2;
     2[Login]-->3;
     3[Conjunto de dados]-->4;
-    4[Adicionar Conjunto de Dados]
+    4[Adicionar Conjunto de Dados]-->5;
+    5[Adicionar metadados do Conjunto de Dados]-->6;
+    6[Adicionar dados]
 ```
 
 - **Perfil de acesso:** Publicador. 
 - **Protótipo:** Baixa Fidelidade.
 - **Regra negocial:** Para que seja feito o upload de arquivo(s) de dados, o portal deve se comportar conforme as regras abaixo:
-       - **RN001:** Ao clicar no botão `Adicionar Conjunto de Dados` página com opção de upload de arquivo(s) de dados deverá ser carregada. 
+       - **RN001:** Ao clicar na opção `Adicionar arquivo(s) de dados` página com opção de upload de arquivo(s) de dados deverá ser carregada. 
 	A exibição dos metadados em tela deverá estar desabilitada. 
 	Opção de adicionar novo arquivo(s) de dados deverá existir na tela.	
        - **RN002:** Após realizar o upload do arquivo(s) de dados a exibição dos metadados do mesmo deverá ser habilitada. 	
