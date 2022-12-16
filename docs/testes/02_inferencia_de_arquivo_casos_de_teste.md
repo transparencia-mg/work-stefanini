@@ -16,7 +16,7 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
         - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
         - **Necessita ser retestado?** S/N
         - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 2.0 Weslley Nogueira CT002.001](https://www.youtube.com/watch?v=1e0U9EskrwI)
 
 #### **CT 002.002 –** Validação de inferência de um arquivo não tabular
 
@@ -30,7 +30,7 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
         - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
         - **Necessita ser retestado?** S/N
         - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 2.0 Weslley Nogueira CT002 002](https://www.youtube.com/watch?v=b6mKDSlU7iw)
 
 
 #### **CT 002.003 –** Validação dos dados do recurso não editável
@@ -45,6 +45,6 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
         - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
         - **Necessita ser retestado?** S/N
         - **Evidências:** é a evidência de que o teste foi executado através de vídeo.
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 2.0 Weslley Nogueira CT002 003](https://www.youtube.com/watch?v=OEqX4YNDRZY)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
