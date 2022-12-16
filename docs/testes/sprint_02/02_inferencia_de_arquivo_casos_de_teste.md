@@ -32,7 +32,6 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
         - **Evidências:** 
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
-
 #### **CT 002.003 –** Validação dos dados do recurso não editável
 
   - **Complexidade[^¹]:** Simples

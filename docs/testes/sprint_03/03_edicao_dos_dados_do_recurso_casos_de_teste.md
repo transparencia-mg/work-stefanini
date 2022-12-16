@@ -5,7 +5,6 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
 ## Casos de Teste
 
 #### **CT 003.001 –** Validação do tipo de metadado de um arquivo tabular
-
   - **Complexidade[^¹]:** Simples
   - **Necessidade de massa de Teste:** Sim
   - **Funcionalidade associada ao CT:** Verificar se o sistema ao preenche automaticamente o tipo de metadado
