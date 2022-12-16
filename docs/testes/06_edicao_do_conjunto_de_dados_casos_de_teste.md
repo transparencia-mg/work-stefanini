@@ -122,13 +122,13 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
   - **Complexidade[^¹]:** Simples
   - **Necessidade de massa de Teste:** Sim
   - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema quando o usuário está na aba Conjunto de Dados, na parte de Contribuidores
-  - **Resultado Esperado:** O sistema já apresenta a url do Publicador em tela com a possibilidade de alteração
+  - **Resultado Esperado:** O sistema já apresenta o campo da url do Publicador em tela com a possibilidade de alteração
 
   - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
+    - **Resultado 001:** Resultado obtido com sucesso. O sistema apresenta o campo da URL do publicador em tela com a possibilidade de alteração
+        - **Observação:** Teste realizado em ambiente local
+        - **Necessita ser retestado?** Não
+        - **Evidências:** 
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 #### **CT 006.010 –** validação Adicionar contribuidor do Publicador
@@ -139,10 +139,10 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
   - **Resultado Esperado:** O sistema deve apresentar novos campos (autor, e-mail e URL) para a adição do novo contribuidor
 
   - **Resultados:**  
-    - **Resultado 001:** O sistema 
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
+    - **Resultado 001:** Resultado obtido com sucesso. Ao adicionar um novo contribuidor aparece todos os campos da criação do contribuidor 
+        - **Observação:** Teste realizado em ambiente local
+        - **Necessita ser retestado?** Não
+        - **Evidências:** 
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
