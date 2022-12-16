@@ -15,7 +15,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 1 2 Weslley Nogueira CT003 001](https://youtu.be/QnaVhd2MAQI)
 
 #### **CT 003.002 –** Checar a validação do formato de dado do metadado para "padrão" de um arquivo tabular
 
@@ -29,7 +29,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 1 2 Weslley Nogueira CT003 002](https://youtu.be/PQNX7UwFyzY)
         
 #### **CT 003.003 –** Validação do campo "Obrigatório" de um arquivo tabular
 
@@ -43,7 +43,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 1 2 Weslley Nogueira CT003 003](https://youtu.be/RChb1FYWcrc)
 
 #### **CT 003.004 –** Validação do campo "único" de um arquivo tabular
 
@@ -57,7 +57,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 1 2 Weslley Nogueira CT003 004](https://youtu.be/CnGlA9_ZATk)
 
 #### **CT 003.005 –** Checar a validação do formato do metadado de um arquivo tabular
 
@@ -71,7 +71,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 1 2 Weslley Nogueira CT003 005](https://youtu.be/0nqEnM5bpNE)
 
 #### **CT 003.006 –** Checar a validação do tipo do metadado de um arquivo tabular
 
@@ -85,7 +85,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 1 2 Weslley Nogueira CT003 006](https://youtu.be/MPJw4Ux2Abo)
 
 #### **CT 003.007 –** Checar a validação do campo "Encoding" de um arquivo tabular
 
@@ -99,7 +99,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 1 2 Weslley Nogueira CT003 007](https://youtu.be/kPOrW4-4MhA)
 
 #### **CT 003.008 –** Checar a validação de um arquivo não tabular
 
@@ -113,6 +113,6 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 1 2 Weslley Nogueira CT003 008](https://youtu.be/7mvHKTY0sPA)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.

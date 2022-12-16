@@ -16,7 +16,7 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:**
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 2.0 Weslley Nogueira CT002.001](https://www.youtube.com/watch?v=1e0U9EskrwI)
 
 #### **CT 002.002 –** Validação de inferência de um arquivo não tabular
 
@@ -30,7 +30,7 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 2.0 Weslley Nogueira CT002 002](https://www.youtube.com/watch?v=b6mKDSlU7iw)
 
 #### **CT 002.003 –** Validação dos dados do recurso não editável
 
@@ -44,7 +44,7 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Sim
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221215 2.0 Weslley Nogueira CT002 003](https://www.youtube.com/watch?v=OEqX4YNDRZY)
 
     - **Resultado 002:** O sistema comporta corretamente ao inserir um arquivo não tabular os campos: Format, Type e Encoding não estão habilitados para edição. 
         - **Observação:** Teste realizado em ambiente local, em 20221216
