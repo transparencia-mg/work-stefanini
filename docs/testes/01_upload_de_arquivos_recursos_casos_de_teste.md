@@ -13,7 +13,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema se comporta como previsto, abrindo a tela de busca para a seleção do arquivo(s) de dados que se deseja carregar
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221125_1.0_Weslley_Nogueira_CT01](https://www.youtube.com/watch?v=Xxe4KNyATw0) 
@@ -27,7 +27,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema se comporta como previsto, possibilitando e edição dos metadados
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221125_1.0_Weslley_Nogueira_CT02](https://www.youtube.com/watch?v=lganvWDF440&feature=youtu.be) 
@@ -41,7 +41,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema se comporta corretamente, fazendo a inferência correta do tipo de dado e formato de dado
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221125_1.0_Weslley_Nogueira_CT03](https://www.youtube.com/watch?v=Hspnt9eBfGE) 
@@ -55,7 +55,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema comporta corretamente, retornando por padrão a opção "Não" no campo obrigatório
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221125_1.0_Weslley_Nogueira_CT04](https://www.youtube.com/watch?v=928c2c3oxcY)
@@ -69,7 +69,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema comporta corretamente, retornando por padrão a opção "Não" no campo único
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221125_1.0_Weslley_Nogueira_CT05](https://www.youtube.com/watch?v=LbLu5Vk2pag)
@@ -83,7 +83,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema comporta corretamente, retornando os campos "Tipo", "Formato" e "Codificação" já pré-definidos
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221128_1.0_Weslley_Nogueira_CT06](https://www.youtube.com/watch?v=cVZTIrZXDpo) 
@@ -97,7 +97,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema comportou corretamete. Ao carregar um arquivo do tipo não tabular aparece a extensão do tipo do arquivo referenciado
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221128_1.0_Weslley_Nogueira_CT07](https://www.youtube.com/watch?v=7-BdtL3fQvs)        
@@ -111,7 +111,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema comportou corretamete. Apresentando as opções: Tipo", "Formato" e "Codificação"
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221130_1.0_Weslley_Nogueira_CT08](https://www.youtube.com/watch?v=txtb5Y3D7uU)
@@ -125,7 +125,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema comportou corretamente. Carregando um arquivo do tipo não tabular não aparece a inferência do dicionario de dados
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221130_1.0_Weslley_Nogueira_CT09](https://www.youtube.com/watch?v=7s-amEvQFdE)
@@ -139,7 +139,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema comportou corretamente a opção de expandir só aparece quando se carrega um arquivo do tipo tabular
-        - **Observação:** Sem obrsevação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221130_1.0_Weslley_Nogueira_CT10](https://www.youtube.com/watch?v=JQqHusU2sPs)
@@ -153,13 +153,13 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O botão da lixeira não apaga o arquivo
-        - **Observação:** Sem observação
+        - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Sim
         - **Evidências:** 
         - [20221201_1.0_Weslley_Nogueira_CT11](https://www.youtube.com/watch?v=f78gbNRn1hE)
 
     - **Resultado 002:** O sistema comporta corretamente, ao inferir um arquivo do tipo tabular ou não tabular é apagado após clicar no ícone da lixeira
-        - **Observação:** Corrigido a funcionalidade em 20221202
+        - **Observação:** Teste realizado em ambiente local. Corrigido a funcionalidade em 20221202
         - **Necessita ser retestado?** Não
         - **Evidências:** 
         - [20221206_1.1_Weslley_Nogueira_CT11](https://www.youtube.com/watch?v=f4xkueGxZH8)  
@@ -173,7 +173,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** Ao carregar um aquivo de tamanho muito grande, não aparece a mensagem
-        - **Observação:** Foi carregado um arquivo do tipo MP4, de tamanho aproximadamente 1.5GB
+        - **Observação:** Teste realizado em ambiente local. Foi carregado um arquivo do tipo MP4, de tamanho aproximadamente 1.5GB
         - **Necessita ser retestado?** Sim
         - **Evidências:** 
         - [20221201_1.0_Weslley_Nogueira_CT12](https://www.youtube.com/watch?v=K5yvAktH5a8&feature=youtu.be)
@@ -187,7 +187,7 @@ Casos de teste para estória de usuário [upload de arquivo(s) de dados](../../e
 
   - **Resultados:**  
     - **Resultado 001:** O sistema carrega o arquivo corrompido, não aparecendo a mensagem
-        - **Observação:** Foi renomeado um arquivo do tipo .CSV para .MP4 para ser carregado o arquivo no sistema, entretando o sistema reconheceu o arquivo como se fosse um arquivo do tipo .MP4
+        - **Observação:** Teste realizado em ambiente local. Foi renomeado um arquivo do tipo .CSV para .MP4 para ser carregado o arquivo no sistema, entretando o sistema reconheceu o arquivo como se fosse um arquivo do tipo .MP4
         - **Necessita ser retestado?** Sim
         - **Evidências:** é a evidência de que o teste foi executado através de vídeo.
         - [20221201_1.0_Weslley_Nogueira_CT13](https://www.youtube.com/watch?v=cJX9waEDUuU)

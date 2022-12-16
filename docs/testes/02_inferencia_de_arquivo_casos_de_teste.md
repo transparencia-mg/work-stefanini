@@ -12,10 +12,10 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
   - **Resultado Esperado:** Ao carregar um arquivo do tipo tabular o sistema deverá aparecer os dicionários e a edição de metadados de cada dicionário
 
   - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
+    - **Resultado 001:** O sistema comporta corretamente ao inserir um arquivo tabular
+        - **Observação:** Teste realizado em ambiente local
+        - **Necessita ser retestado?** Não
+        - **Evidências:**
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 #### **CT 002.002 –** Validação de inferência de um arquivo não tabular
@@ -26,10 +26,10 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
   - **Resultado Esperado:** Ao carregar um arquivo do tipo não tabular o sistema fará apenas a inferência dos dados do Recurso
 
   - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
+    - **Resultado 001:** O sistema comporta corretamente ao inserir um arquivo não tabular
+        - **Observação:** Teste realizado em ambiente local
+        - **Necessita ser retestado?** Não
+        - **Evidências:** 
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 
@@ -41,10 +41,16 @@ Casos de teste para estória de usuário [inferencia de metadados](../../estoria
   - **Resultado Esperado:** Ao carregar um arquivo do tipo não tabular o sistema sistema fará apenas a inferência dos dados do Recurso, fornecendo os campos Tipo, formato e Encoding não habilitados para edição.
 
   - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo.
+    - **Resultado 001:** Ao fazer os testes inserindo um arquivo do tipo não tabular os campos: Format, Type e Encoding estão habilitados para edição. O que não está de acordo com a Regra Negocial DTA
+        - **Observação:** Teste realizado em ambiente local
+        - **Necessita ser retestado?** Sim
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+
+    - **Resultado 002:** O sistema comporta corretamente ao inserir um arquivo não tabular os campos: Format, Type e Encoding não estão habilitados para edição. 
+        - **Observação:** Teste realizado em ambiente local, em 20221216
+        - **Necessita ser retestado?** Não
+        - **Evidências:** 
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
