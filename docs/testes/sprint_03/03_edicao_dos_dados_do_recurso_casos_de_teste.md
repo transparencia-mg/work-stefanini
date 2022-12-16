@@ -5,18 +5,17 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
 ## Casos de Teste
 
 #### **CT 003.001 –** Validação do tipo de metadado de um arquivo tabular
-
   - **Complexidade[^¹]:** Simples
   - **Necessidade de massa de Teste:** Sim
   - **Funcionalidade associada ao CT:** Verificar se o sistema ao preenche automaticamente o tipo de metadado
   - **Resultado Esperado:** Ao carregar um arquivo do tipo tabular o sistema deve preencher automaticamente o tipo do formato do metadado (String, Integer, Data, etc)
 
   - **Resultados:**  
-    - **Resultado 001:** Resultado obtido com sucesso. Carregar um arquivo do tipo tabular o sistema preencheu automaticamente o formato do metadado para padrão
+    - **Resultado 001:** Resultado obtido com sucesso. Carregar um arquivo do tipo tabular o sistema preencheu automaticamente o tipo do formato do metadado
         - **Observação:** Teste realizado em ambiente local
-        - **Necessita ser retestado?** não
-        - **Evidências:**
-        - [20221215 1 2 Weslley Nogueira CT003 001](https://youtu.be/QnaVhd2MAQI)
+        - **Necessita ser retestado?** Não
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 #### **CT 003.002 –** Checar a validação do formato de dado do metadado para "padrão" de um arquivo tabular
 
@@ -26,15 +25,15 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
   - **Resultado Esperado:** Ao carregar um arquivo do tipo tabular o sistema deve reconhecer que o formato vem na opção defaut (padrão)
 
   - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [20221215 1 2 Weslley Nogueira CT003 002](https://youtu.be/PQNX7UwFyzY)
-
+    - **Resultado 001:** Resultado obtido com sucesso. Carregar um arquivo do tipo tabular o sistema preencheu automaticamente o formato do metadado para padrão
+        - **Observação:** Teste realizado em ambiente local
+        - **Necessita ser retestado?** não
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        
 #### **CT 003.003 –** Validação do campo "Obrigatório" de um arquivo tabular
 
-  - **Complexidade[^¹]:** Muito simples
+  - **Complexidade[^¹]:** Muito Simples
   - **Necessidade de massa de Teste:** Sim
   - **Funcionalidade associada ao CT:** Verificar se após inserir o metadado vem por padrão a obrigatoriedade "Não"
   - **Resultado Esperado:** Quando editar um metadado o campo "obrigatório" deve vir por padrão a opção "não", o usuário tem a permissão para alterar esse campo para "sim"
@@ -43,8 +42,8 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
     - **Resultado 001:** Resultado obtido com sucesso, ao editar um metadado o campo "obrigatório" vem por padrão a opção "não"
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
-        - **Evidências:**
-        - [20221215 1 2 Weslley Nogueira CT003 003](https://youtu.be/RChb1FYWcrc)
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 #### **CT 003.004 –** Validação do campo "único" de um arquivo tabular
 
@@ -57,8 +56,8 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
     - **Resultado 001:** Resultado obtido com sucesso, ao editar um metadado o campo "único" vem por padrão a opção "não"
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
-        - **Evidências:**
-        - [20221215 1 2 Weslley Nogueira CT003 004](https://youtu.be/CnGlA9_ZATk)
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 #### **CT 003.005 –** Checar a validação do formato do metadado de um arquivo tabular
 
@@ -71,8 +70,8 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
     - **Resultado 001:** Resultado obtido com sucesso, ao editar um metadado o campo formato pode ser editável
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
-        - **Evidências:**
-        - [20221215 1 2 Weslley Nogueira CT003 005](https://youtu.be/0nqEnM5bpNE)
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 #### **CT 003.006 –** Checar a validação do tipo do metadado de um arquivo tabular
 
@@ -85,8 +84,8 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
     - **Resultado 001:** Resultado obtido com sucesso, ao editar um metadado o campo Tipo tem opções podendo ser editável
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
-        - **Evidências:**
-        - [20221215 1 2 Weslley Nogueira CT003 006](https://youtu.be/MPJw4Ux2Abo)
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 #### **CT 003.007 –** Checar a validação do campo "Encoding" de um arquivo tabular
 
@@ -99,8 +98,8 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
     - **Resultado 001:** Resultado obtido com sucesso, ao editar um metadado o campo encoding pode ser editável
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
-        - **Evidências:**
-        - [20221215 1 2 Weslley Nogueira CT003 007](https://youtu.be/kPOrW4-4MhA)
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 #### **CT 003.008 –** Checar a validação de um arquivo não tabular
 
@@ -113,8 +112,7 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
     - **Resultado 001:** Resultado obtido com sucesso, ao inserir um arquivo não tabular aparece somente a edição dos dados do recurso
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
-        - **Evidências:**
-        - [20221215 1 2 Weslley Nogueira CT003 008
-](https://youtu.be/7mvHKTY0sPA)
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
