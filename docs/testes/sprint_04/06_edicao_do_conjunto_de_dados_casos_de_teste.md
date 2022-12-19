@@ -1,6 +1,6 @@
 # Casos de Teste Edição do Conjunto de Dados
 
-Casos de teste para estória de usuário [edição do conjunto de dados](../../estorias_de_usuarios/06_edicao_do_conjunto_de_dados).
+Casos de teste para estória de usuário [edição do conjunto de dados](https://transparencia-mg.github.io/work-stefanini/dev/estorias_de_usuarios/sprint_04/06_edicao_do_conjunto_de_dados/).
 
 ## Casos de Teste
 
@@ -16,7 +16,7 @@ Casos de teste para estória de usuário [edição do conjunto de dados](../../e
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 001](https://youtu.be/wl7vLubdvMc)
 
 #### **CT 006.002 –** Validar botão "Adicionar conjunto de dados"
 
@@ -31,7 +31,7 @@ Casos de teste para estória de usuário [edição do conjunto de dados](../../e
 o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 002](https://youtu.be/RubRfughhYI)
 
 #### **CT 006.003 –** validação de um usuário submetido a apenas uma organização no menu Criar Conjunto de Dados
 
@@ -45,7 +45,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 003](https://youtu.be/FBPDcgXMvrE)
 
 #### **CT 006.004 –** validação de um usuário submetido a apenas uma organização no menu organizações
 
@@ -59,7 +59,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 004](https://youtu.be/3HxPZJybE2o)
 
 #### **CT 006.005 –** validação de um usuário submetido a mais de uma organização no menu Criar Conjunto de Dados
 
@@ -73,7 +73,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 005](https://youtu.be/8PmXJR-Jf78)
 
 #### **CT 006.006 –** validação de um usuário submetido a mais de uma organização no menu Organizações
 
@@ -87,7 +87,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 006](https://youtu.be/sIb-6ByJSFI)
 
 #### **CT 006.007 –** validação do avanço para a próxima aba
 
@@ -101,7 +101,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 007](https://youtu.be/aZsi1JEitMM)
 
 #### **CT 006.008 –** validação da apresentação do Nome e e-mail do Publicador
 
@@ -115,7 +115,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 008](https://youtu.be/tPGnodKVxDQ)
 
 #### **CT 006.009 –** validação da apresentação da URL do Publicador
 
@@ -129,7 +129,7 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 009](https://youtu.be/OjkbUOyLe6o)
 
 #### **CT 006.010 –** validação Adicionar contribuidor do Publicador
 
@@ -143,6 +143,6 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Observação:** Teste realizado em ambiente local
         - **Necessita ser retestado?** Não
         - **Evidências:** 
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+        - [20221216 1 2 Weslley Nogueira CT006 010](https://youtu.be/967vWiCSu3o)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
