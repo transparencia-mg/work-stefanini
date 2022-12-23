@@ -145,4 +145,18 @@ o campo deve vir preenchido e sem a possibilidade de alteração.
         - **Evidências:** 
         - [20221216 1 2 Weslley Nogueira CT006 010](https://youtu.be/967vWiCSu3o)
 
+#### **CT 006.011 –** validação de escolher frequência de atualização
+
+  - **Complexidade[^¹]:** Simples
+  - **Necessidade de massa de Teste:** Sim
+  - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema quando o usuário desejar selecionar o tipo de frequência de atualização
+  - **Resultado Esperado:** O sistema deve permitir qual será a frequência de atualização da criação do conjunto de dados (diário, semanal, mensal, etc)
+
+  - **Resultados:**  
+    - **Resultado 001:** Resultado obtido com sucesso. Ao adicionar um novo contribuidor aparece todos os campos da criação do contribuidor 
+        - **Observação:** Teste realizado em ambiente local
+        - **Necessita ser retestado?** Não
+        - **Evidências:** 
+        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
