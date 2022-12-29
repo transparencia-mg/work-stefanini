@@ -19,7 +19,7 @@ No [Planejamento Estratégico 2020-2023 da CGE](https://cge.mg.gov.br/phocadownl
 
 - Desenvolvimento de serviço/aplicativo para automação da carga de dados no Portal de Dados Abertos;
 - Condução de avaliações de qualidade dos dados publicados via modelos de maturidade de publicação de dados abertos;
-- Promoção de iniciativas de engajamento e criação de "data literacy" entre usuários (incluindo servidores públicos).
+- Promoção de iniciativas de engajamento e criação de "data literacy" entre usuários (incluindo servidores públicos). 
 
 Essas ações indicam um compromisso com a adoção de um processo de abertura de dados automatizado e que possua controle de qualidade dos dados publicados.
 
