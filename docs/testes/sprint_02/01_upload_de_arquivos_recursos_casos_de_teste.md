@@ -29,6 +29,8 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 ## Resultados obtidos
 
 ### Resultado 001
-- Data:
-- Necessita ser retestado:
+- Data: 09/01/2023
+- Necessita ser retestado: Sim
 - Evidências:
+  - [Comentário GitHub](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1376292172)
+  - [Vídeo Gravado](https://www.youtube.com/watch?v=xiNy4uF6Y7A)
