@@ -22,50 +22,37 @@ Para que seja feito o upload de arquivo(s) de dados, o portal deve se comportar 
 ### **Critério 001 – Adicionar arquivo(s) de dados:**
 - **Dado** que estou na tela de `Adicionar arquivo(s) de dados`.
 - **Quando** o botão `carregar` for acionado.
-- **Então** o sistema operacional deverá abrir a tela de busca para seleção do arquivo(s) de dados que desejo carregar.
+- **Então** o sistema deverá incluir quantos arquivo(s) de dados sejam necessários.
 
 #### **Regra negocial 001.001**: 
 Ao clicar na opção `Adicionar arquivo(s) de dados` página com opção de upload de arquivo(s) de dados deverá ser carregada. A exibição dos metadados em tela deverá estar desabilitada. Opção de adicionar novo arquivo(s) de dados deverá existir na tela.
 
-#### **Regra negocial 001.002**: 
+#### **Regra negocial 001.002**:
+Caso não tenha sido carregado nenhum arquivo(s) de dados e aciono a opção `Expandir a exibição dos metadados` o sistema deverá habilitar o campo em branco.
+
+#### **Regra negocial 001.003**:
+Ao clicar na opção `Escolher arquivo` o sistema operacional deverá abrir a tela de busca para seleção do arquivo(s) de dados que desejo carregar.
+
+#### **Regra negocial 001.004**:
+Ao clicar na opção `carregar`, caso tenha selecionado um arquivo para upload de tamanho muito grande o sistema deverá informar uma mensagem de erro.
+
+#### **Regra negocial 001.005**: 
 Ao clicar na opção `carregar`, após selecionar o carregamento do arquivo(s) de dados na tela de busca do sistema operacional, o sistema deverá carregar os metadados do(s) arquivo(s) de dados selecionado em tela.
 
-### **Critério 002 – Inclusão de mais arquivo(s) de dados:**
-- **Dado** que necessito inserir mais arquivo(s) de dados.
-- **Quando** aciono a opção `(+) arquivo(s) de dados`.
-- **Então** o sistema irá carregar os metadados de mais arquivo(s) de dados.
+#### **Regra negocial 001.006**:
+Ao carregar arquivo(s) de dados do tipo tabular, o sistema deverá habilitar o campo do Dicionário de dados, com as colunas do arquivo(s) de dados selecionado.  
 
-#### **Regra negocial 002.001**:
+#### **Regra negocial 001.007**:
+Ao carregar arquivo(s) de dados do tipo `Não` tabular, o sistema deverá habilitar o campo do Dicionário de dados com o ícone da extensão do arquivo e o nome do arquivo com sua extensão.
+
+#### **Regra negocial 001.008**:
 Ao adicionar um novo arquivo(s) de dados, a exibição dos metadados do(s) anteriormente carregados deverá(ão) ser desabilitada(s). 
 
-#### **Regra negocial 002.002**:
+#### **Regra negocial 001.009**:
 Ao adicionar um arquivo(s) de dados, a exibição dos metadados do mesmo deverá ser habilitada.
 
-### **Critério 003 – Desabilitar a exibição dos metadados:**
-- **Dado** que carreguei o(s) arquivo(s) de dados.
-- **Quando** quero verificar algum(s) arquivo(s) de dados específico(s) que foi(ram) carregado(s).
-- **Então** clico no ícone (dropdown) que expande e recolher a visibilidade dos metadados de cada arquivo(s) de dados.
-
-### **Critério 004 – Capacidade máxima para o tamanho do recurso**
-- **Dado** que aciono a opção `carregar`.
-- **E** seleciono o arquivo para upload de tamanho muito grande.
-- **Quando** confirmo o carregamento do arquivo.
-- **Então** o sistema deverá informar a mensagem: *Não foi possível carregar este arquivo*.
-
-### **Critério 005 – Apresentação da Tela sem carregamento de arquivo **
-- **Dado** que não tenha carregado nenhum arquivo(s) de dados
-- **E** aciono a opção `Expandir a exibição dos metadados`.
-- **Então** o sistema deverá habilitar o campo em branco. 
-
-### **Critério 007 – Apresentação da Tela com carregamento de arquivo tabular**
-- **Dado** que tenha carregado um arquivo(s) de dados do tipo tabular
-- **E** aciono a opção `Expandir a exibição dos metadados`.
-- **Então** o sistema deverá habilitar o campo do Dicionário de dados, com as colunas do arquivo(s) de dados.       
-
-### **Critério 008 – Apresentação da Tela com carregamento de arquivo `Não` tabular**
-- **Dado** que tenha carregado um arquivo(s) de dados do tipo `Não` tabular
-- **E** aciono a opção `Expandir a exibição dos metadados`.
-- **Então** o sistema deverá habilitar o campo do Dicionário de dados com o ícone da extensão do arquivo e o nome do arquivo com sua extensão.
+#### **Regra negocial 001.010**:
+Ao adicionar mais de um arquivo(s) de dados poderei clicar no ícone (dropdown) que expande e recolher sua visibilidade.
 
 ## Prototipação
 
