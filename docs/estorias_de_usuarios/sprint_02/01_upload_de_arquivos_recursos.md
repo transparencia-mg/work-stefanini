@@ -15,6 +15,7 @@ graph TD;
 ```
 - **Perfil de acesso:** Publicador. 
 - **Testes:** [Resultados Obtidos](../../testes/01_upload_de_arquivos_recursos/#resultados-obtidos)
+
 - **Status:** Em revisão. 
 
 ## Critérios de aceite
