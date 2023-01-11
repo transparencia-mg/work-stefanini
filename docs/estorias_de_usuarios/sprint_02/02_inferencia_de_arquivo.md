@@ -1,6 +1,6 @@
 # Inferência de metadados
 
-**Como** publicador, **eu quero**  que o sistema faça a inferência do(s) arquivo(s) de dados carregado(s), **para** me auxiliar na documentação dos metadados do(s) mesmo(s).
+**Como** publicador, **eu quero**  que o sistema faça a inferência do(s) arquivo(s) de dados carregado(s), **para** me auxiliar na documentação do(s) metadado(s) do(s) mesmo(s).
 
 - **Acesso:** 
 
@@ -26,7 +26,7 @@ graph TD;
 Para que seja feito a inferência de arquivo(s) de dados, o portal deve se comportar conforme as critérios de aceite abaixo:
 
 ### **Critério 001 – Realizar Inferência dos metadados de arquivo(s) de dados:**
-- **Dado** que possuo um recurso em formato tabular.
+- **Dado** que possuo um recurso tabular ou não.
 - **Quando** o botão `carregar` for acionado.
 - **Então** o sistema deverá fazer a inferência dos metadados do recurso, inclusive do dicionário de dados para recursos tabulares.
 

@@ -1,50 +1,18 @@
 # Casos de Teste Inferência de metadados
 
-Casos de teste para estória de usuário [inferencia de metadados](../../estorias_de_usuarios/02_inferencia_de_arquivo).
+Registra os testes de todas as regras negociais pensadas para a a estória de usuário [inferência de arquivo(s) de dados](../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo), bem como testes adicionais previstos abaixo:
 
-## Casos de Teste
+- **CT 001.001 – Comportamento arquivo tablular:** Ao carregar um arquivo do tipo tabular o sistema deverá inferir o dicionário de dados do mesmo.
 
-#### **CT 002.001 –** Validação de inferência de um arquivo tabular
+- **CT 001.002 – Comportamento arquivo não tablular:** Ao carregar um arquivo do tipo não tabular o sistema fará apenas a inferência dos dados do recurso, fornecendo os campos Tipo, Formato e Encoding não habilitados para edição, conforme relatado na [Regra Negocial 001.0012 da estória de usuário](../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo/#regra-negocial-0010012). 
 
-  - **Complexidade[^¹]:** Simples
-  - **Necessidade de massa de Teste:** Sim
-  - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema ao carregar um arquivo do tipo tabular
-  - **Resultado Esperado:** Ao carregar um arquivo do tipo tabular o sistema deverá aparecer os dicionários e a edição de metadados de cada dicionário
+- **CT 001.003 – Comportamento arquivo não tablular:** Ao carregar um arquivo do tipo não tabular o sistema não incluirá nada no campo Encoding, ficando este também não habilitado para edição.
 
-  - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [20221215 2.0 Weslley Nogueira CT002.001](https://www.youtube.com/watch?v=1e0U9EskrwI)
+## Resultados obtidos
 
-#### **CT 002.002 –** Validação de inferência de um arquivo não tabular
-
-  - **Complexidade[^¹]:** Simples
-  - **Necessidade de massa de Teste:** Sim
-  - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema ao carregar um arquivo do tipo não tabular
-  - **Resultado Esperado:** Ao carregar um arquivo do tipo não tabular o sistema fará apenas a inferência dos dados do Recurso
-
-  - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [20221215 2.0 Weslley Nogueira CT002 002](https://www.youtube.com/watch?v=b6mKDSlU7iw)
-
-
-#### **CT 002.003 –** Validação dos dados do recurso não editável
-
-  - **Complexidade[^¹]:** Simples
-  - **Necessidade de massa de Teste:** Sim
-  - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema ao carregar um arquivo do tipo não tabular
-  - **Resultado Esperado:** Ao carregar um arquivo do tipo não tabular o sistema sistema fará apenas a inferência dos dados do Recurso, fornecendo os campos Tipo, formato e Encoding não habilitados para edição.
-
-  - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo.
-        - [20221215 2.0 Weslley Nogueira CT002 003](https://www.youtube.com/watch?v=OEqX4YNDRZY)
-
-[^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()
