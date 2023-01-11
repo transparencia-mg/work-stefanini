@@ -5,51 +5,70 @@
 - **Acesso:** 
 
 ```mermaid
-graph LR;
+graph TD;
     1[Acessar Portal Dados Abertos]-->2;
     2[Login]-->3;
     3[Conjunto de dados]-->4;
-    4[Adicionar Conjunto de Dados]
+    4[Adicionar Conjunto de Dados]-->5;
+    5[Adicionar metadados do Conjunto de Dados]-->6;
+    6[Adicionar dados]
 ```
+- **Perfil de acesso:** Publicador. 
+
+- **Testes:** [Resultados Obtidos](../../testes/02_inferencia_de_arquivo_casos_de_teste/#resultados-obtidos).
+
+- **Status:** Em revisão.
 
 - **Perfil de acesso:** Publicador. 
-- **Protótipo:** Baixa Fidelidade.
 
-- **Regra negocial:** Para que os metadados sejam inferidos , o sistema deve se comportar conforme as regras abaixo:
-     - **RN001:** O conjuntos de dados e recursos devem seguir o padrão de metadados de acordo com a biblioteca da [Frictionless](https://specs.frictionlessdata.io/#overview).
-     - **RN002:** Ao fazer o carregamento de um arquivo(s) de dados que `Não` seja tabular (PDF, Imagem, etc) o sistema deverá apenas fazer a inferência dos dados do recurso e apresentar, em tela, o ícone da extensão e o nome do arquivo com sua extensão.
-     - **RN003:** Para que seja feita a inferência dos metadados do dicionário de dados (Table Schema), o(s) arquivo(s) de dados deve ser em formato tabular.
-     - **RN004:** Após o carregamento, cada coluna de dados deverá vir na mesma ordem dos campos do o(s) arquivo(s) de dados.
-     - **RN005:** O nome do arquivo(s) de dados deve ser de preenchimento obrigatório e único.	
-     - **RN006:** O nome do recurso deve ser alfanumérico, com letras minúsculas e apenas com `.`, `_`ou `-` para separá-los.
-     - **RN007:** O nome do recurso, usualmente, deverá corresponder ao nome do arquivo sem a extensão.
-     - **RN008:** No agrupamento Dicionário de Dados, o campo “Tipo de dados” será inferido pela Frictionless e deverá conter as opções predeterminadas: Texto, Número, Inteiro, Boleano, Objeto, Lista, Data, Hora, Data e Hora, Ano, Ano e Mês, Duração, Geopoint, Geojson, Any. 
-     - **RN009:** No agrupamento Dicionário de Dados, o campo “Formato de dados” será inferido pela Frictionless e deverá conter as opções predeterminadas na Frictionless](https://specs.frictionlessdata.io/#overview): Ex.: Para o tipo de dado String: Padrão, E-mail, Binário, URI, UUID.
-     - **RN010** - No agrupamento dos Dados do Recurso deverão ser apresentados os seguintes campos: 
-      Titulo, Descrição, Formato do recurso, Tipo (Tabular ou não) e Encoding (codificação).
-     - **RN011** - No agrupamento dos Dados do Recurso os campos Título e Descrição serão de preenchimento obrigatório. 
-     - **RN012** - No agrupamento dos Dados do Recurso os campos: Formato do recurso, Tipo (Tabular ou não) e Encoding (codificação) serão inferidos pela frictionless e deverão conter as opções predeterminadas na [Frictionless](https://specs.frictionlessdata.io/#overview)
+## Critérios de aceite
+Para que seja feito a inferência de arquivo(s) de dados, o portal deve se comportar conforme as critérios de aceite abaixo:
+
+### **Critério 001 – Realizar Inferência dos metadados de arquivo(s) de dados:**
+- **Dado** que possuo um recurso em formato tabular.
+- **Quando** o botão `carregar` for acionado.
+- **Então** o sistema deverá fazer a inferência dos metadados do recurso, inclusive do dicionário de dados para recursos tabulares.
+
+#### **Regra negocial 001.001**: 
+O conjuntos de dados e recursos devem seguir o padrão de metadados de acordo com a biblioteca da [Frictionless](https://specs.frictionlessdata.io/#overview).
+
+#### **Regra negocial 001.002**: 
+Ao fazer o carregamento de um arquivo(s) de dados que `Não` seja tabular (PDF, Imagem, etc) o sistema deverá apenas fazer a inferência dos dados do recurso e apresentar, em tela, o ícone da extensão e o nome do arquivo com sua extensão.
+
+#### **Regra negocial 001.003**:
+Para que seja feita a inferência dos metadados do dicionário de dados (Table Schema), o(s) arquivo(s) de dados deve ser em formato tabular.
+
+#### **Regra negocial 001.004**:
+Após o carregamento de arquivo(s) de dados tabular, cada coluna de dados deverá vir na mesma ordem dos campos do o(s) arquivo(s) de dados.
+
+#### **Regra negocial 001.005**:
+O campo nome do arquivo(s) de dados deve ser de preenchimento obrigatório e único, conforme [especificação Frictionless](https://specs.frictionlessdata.io/data-resource/#metadata-properties).	
+
+#### **Regra negocial 001.006**:
+O nome do recurso deve ser alfanumérico, com letras minúsculas e apenas com `.`, `_`ou `-` para separá-los.
+
+#### **Regra negocial 001.007**:
+O nome do recurso, usualmente, deverá corresponder ao nome do arquivo sem a extensão.
+
+#### **Regra negocial 001.008**:
+No agrupamento Dicionário de Dados, o campo “Tipo de dados” será inferido pela Frictionless e deverá conter as opções predeterminadas: Texto, Número, Inteiro, Boleano, Objeto, Lista, Data, Hora, Data e Hora, Ano, Ano e Mês, Duração, Geopoint, Geojson, Any. 
+
+#### **Regra negocial 001.009**:
+No agrupamento Dicionário de Dados, o campo “Formato de dados” será inferido pela Frictionless e deverá conter as opções predeterminadas na [ especificação Frictionless](https://specs.frictionlessdata.io/#overview): Ex.: Para o tipo de dado String: Padrão, E-mail, Binário, URI, UUID.
+
+#### **Regra negocial 001.0010**:
+No agrupamento dos Dados do Recurso deverão ser apresentados os seguintes campos: 
+Titulo, Descrição, Formato do recurso, Tipo (Tabular ou não) e Encoding (codificação).
+
+#### **Regra negocial 001.0011**:
+No agrupamento dos Dados do Recurso os campos: Formato do recurso, Tipo (Tabular ou não) e Encoding (codificação) serão inferidos pela frictionless e deverão conter as opções predeterminadas pela [mesma](https://specs.frictionlessdata.io/#overview). 
  
+#### **Regra negocial 001.0012**:
+Serão campos obrigatórios de preenchimento aqueles especificados pela [Frictionless](https://specs.frictionlessdata.io/data-resource/#metadata-properties) e ou incluídos em arquivo de configuração da extensão, conforme regras definidas nas estória de edição dos dados dos recursos e conjuntos.
 
-### Critérios de aceite 
+> Regra Negocial DTA a ser incluída apenas em arquivo de configuração durante instalação da extensão:
 
-- **Critério 001 – Realizar Inferência dos metadados de arquivos tabulares:**
-	- **Dado**  que possuo um recurso em formato tabular.
-	- **E** aciono o botão `Carregar`
-	- **Então** o sistema deverá fazer a inferência dos metadados do recurso relacionado ao dicionário de dados e dos dados do recurso.
-- **Critério 002 – Realizar Inferência dos metadados de arquivos `não` tabulares:**
-	- **Dado** que possuo um recurso em formato `não` tabular.
-	- **E** aciono o botão `Carregar`
-	- **Então** o sistema fará apenas a inferência dos dados do Recurso.
-
-````
-Regra Negocial DTA - Campos: Tipo, Formato e Encoding dos Dados do Recurso
-não são editáveis. 
-````
-
-- **Critério 003 – Dados do Recurso não editáveis:**
-    - **Dado** que a frictionless fez a inferência dos Dados do Recurso.
-    - **Então** verifico se os campos Tipo, formato e Encoding foram inferidos e não estão habilitados para edição. 
+> - Campos: Tipo, Formato e Encoding dos Dados do Recurso são obrigatórios e não são editáveis. 
 
 ### Prototipo Baixa Fidelidade
 
