@@ -1,69 +1,38 @@
 # Modelo Estória de Usuário
 
-**Como** `definir quem é o ator` **eu quero** `definir qual é o objetivo` **para** `É a justificativa para o objetivo`
+**Como** XXXX, **eu quero** XXXXX, **para** XXXXX.
 
 - **Acesso:** 
 
 ```mermaid
-graph LR;
-    1[Acessar Portal Dados Abertos]-->2;
-    2[Login]-->3;
-    3[Conjunto de dados]-->4;
-    4[Adicionar Conjunto de Dados]
+
 ```
 
-- **Perfil de acesso:** `Ator` 
-- **Protótipo:** Baixa Fidelidade.
-- **Regra negocial:** Para que seja feita a estoria de usuário, o portal deve se comportar conforme as regras abaixo:
-       - **RN001:** 	
-       - **RN002:** 
-       - **RN003:** 
-       - **RN004:** 
- 	   - **RN005:** 
-	   - **RN006:** 
+- **Perfil de acesso:** XXXXX. 
 
-### Critérios de aceite
+- **Testes:** [Resultados Obtidos]().
 
-- **Critério 001 –**
-       - **Dado** `Pré-condição do cenário, em que ponto ele se inicia`
-       - **Quando** `Ação que está sendo desempenhada`
-       - **Então** `Resultado esperado de suas ações`
+- **Status:** XXXXX. 
 
-- **Critério 002 –**
-	   - **Dado** 
-	   - **E** 
-	   - **Então** 
+## Critérios de aceite
+Para que seja feito o XXXXX, o portal deve se comportar conforme as critérios de aceite abaixo:
 
-- **Critério 003 –**
-	   - **Dado** 
-	   - **Quando** 
-	   - **E**
-	   - **Então** 
+### **Critério 001 – XXXXXX:**
+- **Dado** XXXXX.
+- **Quando** XXXXX.
+- **Então** XXXXX.
 
-- **Critério 004 –**
-	   - **Dado** 
-	   - **Quando** 
-	   - **Então** 
+#### **Regra negocial 001.001**: 
+XXXXX.
 
-### Prototipo Baixa Fidelidade
+## Prototipação
 
-[Link para prototipacao de baixa fidelidade](link_para_prototipo_baixa_fidelidade)
-
-### Prototipo Alta Fidelidade
-
-[Link para prototipacao de alta fidelidade](link_para_prototipo_alta_fidelidade) 
-### Imagens protótipo Baixa Fidelidade
-
-![imagem da prototipacao de baixa fidelidade](/caminho_pasta_imagens)
+- [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
 
 | Item |                        Nome do Campo                        | Tipo de Dado[^1] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
-|    1 |           |            |              |                    |
-|    2 |           |            |              |                    |                
-|    3 |           |            |              |                    |
-|    4 |           |            |              |                    |
-|    5 |           |            |              |                    |
-|    6 |           |            |              |                    |
+|    | | | ||
 
+- [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
 
-[^1]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^1]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)
