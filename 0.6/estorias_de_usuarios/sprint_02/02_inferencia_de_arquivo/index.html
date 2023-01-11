@@ -765,29 +765,15 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
-    Prototipo Baixa Fidelidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prototipo-alta-fidelidade" class="md-nav__link">
-    Prototipo Alta Fidelidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#imagens-prototipo-baixa-fidelidade" class="md-nav__link">
-    Imagens protótipo Baixa Fidelidade
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prototipacao" class="md-nav__link">
+    Prototipação
+  </a>
   
 </li>
       
@@ -1720,29 +1706,15 @@
   
 </li>
         
-          <li class="md-nav__item">
-  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
-    Prototipo Baixa Fidelidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prototipo-alta-fidelidade" class="md-nav__link">
-    Prototipo Alta Fidelidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#imagens-prototipo-baixa-fidelidade" class="md-nav__link">
-    Imagens protótipo Baixa Fidelidade
-  </a>
-  
-</li>
-        
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prototipacao" class="md-nav__link">
+    Prototipação
+  </a>
   
 </li>
       
@@ -1767,21 +1739,23 @@
 
 
 <h1 id="inferencia-de-metadados">Inferência de metadados<a class="headerlink" href="#inferencia-de-metadados" title="Permanent link">⚓︎</a></h1>
-<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong>  que o sistema faça a inferência do recurso carregado, <strong>para</strong> me auxiliar na documentação dos metadados do recurso.</p>
+<p><strong>Como</strong> <abbr title="Usuário logado no sistema.">publicador</abbr>, <strong>eu quero</strong>  que o sistema faça a inferência do(s) <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr> carregado(s), <strong>para</strong> me auxiliar na documentação do(s) metadado(s) do(s) mesmo(s).</p>
 <ul>
 <li><strong>Acesso:</strong> </li>
 </ul>
-<p><div class="mermaid">graph TD;
+<div class="mermaid">graph TD;
     1[Acessar Portal Dados Abertos]--&gt;2;
     2[Login]--&gt;3;
     3[Conjunto de dados]--&gt;4;
     4[Adicionar Conjunto de Dados]--&gt;5;
     5[Adicionar metadados do Conjunto de Dados]--&gt;6;
     6[Adicionar dados]</div>
-- <strong>Perfil de acesso:</strong> <abbr title="Usuário logado no sistema.">Publicador</abbr>. </p>
 <ul>
 <li>
-<p><strong>Testes:</strong> <a href="../../testes/02_inferencia_de_arquivo_casos_de_teste/#resultados-obtidos">Resultados Obtidos</a>.</p>
+<p><strong>Perfil de acesso:</strong> <abbr title="Usuário logado no sistema.">Publicador</abbr>. </p>
+</li>
+<li>
+<p><strong>Testes:</strong> <a href="../../../testes/sprint_02/02_inferencia_de_arquivo_casos_de_teste/#resultados-obtidos">Resultados Obtidos</a>.</p>
 </li>
 <li>
 <p><strong>Status:</strong> Em revisão.</p>
@@ -1794,7 +1768,7 @@
 <p>Para que seja feito a inferência de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>, o <abbr title="Portal de Dados Abertos CKAN.">portal</abbr> deve se comportar conforme as critérios de aceite abaixo:</p>
 <h3 id="criterio-001-realizar-inferencia-dos-metadados-de-arquivos-de-dados"><strong>Critério 001 – Realizar Inferência dos metadados de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr>:</strong><a class="headerlink" href="#criterio-001-realizar-inferencia-dos-metadados-de-arquivos-de-dados" title="Permanent link">⚓︎</a></h3>
 <ul>
-<li><strong>Dado</strong> que possuo um recurso em formato tabular.</li>
+<li><strong>Dado</strong> que possuo um recurso tabular ou não.</li>
 <li><strong>Quando</strong> o botão <code>carregar</code> for acionado.</li>
 <li><strong>Então</strong> o sistema deverá fazer a inferência dos metadados do recurso, inclusive do <abbr title="Table Schema.">dicionário de dados</abbr> para recursos tabulares.</li>
 </ul>
@@ -1829,12 +1803,10 @@ Titulo, Descrição, Formato do recurso, Tipo (Tabular ou não) e Encoding (codi
 <li>Campos: Tipo, Formato e Encoding dos <abbr title="Data Resource.">Dados do Recurso</abbr> são obrigatórios e não são editáveis. </li>
 </ul>
 </blockquote>
-<h3 id="prototipo-baixa-fidelidade">Prototipo Baixa Fidelidade<a class="headerlink" href="#prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
-<p><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Link para prototipacao</a></p>
-<h3 id="prototipo-alta-fidelidade">Prototipo Alta Fidelidade<a class="headerlink" href="#prototipo-alta-fidelidade" title="Permanent link">⚓︎</a></h3>
-<p><a href="https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&amp;scaling=min-zoom&amp;page-id=2%3A387&amp;starting-point-node-id=217%3A1115">Link para prototipacao</a> </p>
-<h3 id="imagens-prototipo-baixa-fidelidade">Imagens protótipo Baixa Fidelidade<a class="headerlink" href="#imagens-prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
-<p><img alt="imagem-prototipacao" src="/assets/imagem.png" /></p>
+<h2 id="prototipacao">Prototipação<a class="headerlink" href="#prototipacao" title="Permanent link">⚓︎</a></h2>
+<ul>
+<li><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Prototipo baixa fidelidade</a></li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -1932,6 +1904,9 @@ Titulo, Descrição, Formato do recurso, Tipo (Tabular ou não) e Encoding (codi
 </tr>
 </tbody>
 </table>
+<ul>
+<li><a href="https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&amp;scaling=min-zoom&amp;page-id=2%3A387&amp;starting-point-node-id=217%3A1115">Prototipo alta fidelidade Figma</a> </li>
+</ul>
 <div class="footnote">
 <hr />
 <ol>
@@ -1946,7 +1921,7 @@ Titulo, Descrição, Formato do recurso, Tipo (Tabular ou não) e Encoding (codi
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 11, 2023 14:31:50</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 11, 2023 20:45:55</span>
       
         <br>
         Created:
