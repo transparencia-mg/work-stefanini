@@ -1,6 +1,6 @@
 # Inferência de metadados
 
-**Como** publicador, **eu quero**  que o sistema faça a inferência do recurso carregado, **para** me auxiliar na documentação dos metadados do recurso.
+**Como** publicador, **eu quero**  que o sistema faça a inferência do(s) arquivo(s) de dados carregado(s), **para** me auxiliar na documentação dos metadados do(s) mesmo(s).
 
 - **Acesso:** 
 
@@ -13,9 +13,10 @@ graph TD;
     5[Adicionar metadados do Conjunto de Dados]-->6;
     6[Adicionar dados]
 ```
+
 - **Perfil de acesso:** Publicador. 
 
-- **Testes:** [Resultados Obtidos](../../testes/02_inferencia_de_arquivo_casos_de_teste/#resultados-obtidos).
+- **Testes:** [Resultados Obtidos](../../../testes/sprint_02/02_inferencia_de_arquivo_casos_de_teste/#resultados-obtidos).
 
 - **Status:** Em revisão.
 
@@ -70,16 +71,10 @@ Serão campos obrigatórios de preenchimento aqueles especificados pela [Frictio
 
 > - Campos: Tipo, Formato e Encoding dos Dados do Recurso são obrigatórios e não são editáveis. 
 
-### Prototipo Baixa Fidelidade
+## Prototipação
 
-[Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
+- [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
 
-### Prototipo Alta Fidelidade
-
-[Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
-### Imagens protótipo Baixa Fidelidade
-
-![imagem-prototipacao](/assets/imagem.png)
 
 | Item |                        Nome do Campo                        | Tipo de Dado[^1] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
@@ -95,5 +90,10 @@ Serão campos obrigatórios de preenchimento aqueles especificados pela [Frictio
 |    10 | Dados do Recurso: Tipo de formato      | CB                | N/A            | Seleção automática do tipo de extensão: Tabular ou não tabular |
 |   11 |Dados do Recurso: Formato do recurso  | CB       | N/A            | Seleção automática do formato do recurso, como: xls, csv, etc.     |
 |   12 | Dados do Recurso: Codificação   | CB                | N/A            | Descrição manual do tipo de codificação, como UTF-8, etc |
+
+- [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
+
+[^1]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)
+
 
 [^1]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
