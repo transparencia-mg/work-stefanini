@@ -80,7 +80,7 @@ gh-deploy-mkdocs: ## Deploy docs
 gh-deploy-mike: ## Deploy docs
 	@echo "Running mike deploy..."
 	@$(ACTIVATE_LINUX)
-	@mike deploy --push dev
+	@mike deploy --push --update-aliases 0.6 latest
 
 convert-pdf: $(IMAGES)
 
