@@ -22,5 +22,6 @@ Testes da aplicação dos critérios e das regras da estória de usuário [infer
 - Data: XX/01/2023
 - Necessita ser retestado: XXX
 - Evidências:
-  - [Comentário GitHub]()
-  - [Vídeo Gravado]()
+    - [Comentário GitHub]()
+    - [Vídeo Gravado]()
+
