@@ -1,8 +1,8 @@
 # Casos de Teste Validação de dados do recurso
 
-Testes da aplicação dos critérios e das regras da estória de usuário [validação de dados do recurso](../../estorias_de_usuarios/05_validacao_de_dados_do_recurso).
+Testes da aplicação dos critérios e das regras da estória de usuário [validação de dados do recurso](../../estorias_de_usuarios/05_validacao_de_dados_do_recurso)
 
-## Testes realizados pelo Stefanini em ambiente prórpio
+## Testes realizados pela Stefanini em ambiente prórpio
 
 #### **CT 005.001 –** Validação do campo "Titulo" de um arquivo tabular
 

@@ -2,7 +2,7 @@
 
 Testes da aplicação dos critérios e das regras da estória de usuário [criação de novos metadados](../../estorias_de_usuarios/04_criacao_de_novos_metadados).
 
-## Testes realizados pelo Stefanini em ambiente prórpio
+## Testes realizados pela Stefanini em ambiente prórpio
 
 #### **CT 004.001 –** Checar a criação de um metadado do tipo lista
 

@@ -2,7 +2,7 @@
 
 Testes da aplicação dos critérios e das regras da estória de usuário [edição dos dados do recurso](../../estorias_de_usuarios/03_edicao_dos_dados_do_recurso).
 
-## Testes realizados pelo Stefanini em ambiente prórpio
+## Testes realizados pela Stefanini em ambiente prórpio
 
 #### **CT 003.001 –** Validação do campo "Obrigatório" de um arquivo tabular
 
