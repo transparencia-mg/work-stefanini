@@ -1,8 +1,8 @@
 # Casos de Teste Edição dos dados do Recurso
 
-Casos de teste para estória de usuário [edição dos dados do recurso](../../estorias_de_usuarios/03_edicao_dos_dados_do_recurso).
+Testes para os critérios e regras da estória de usuário [edição dos dados do recurso](../../estorias_de_usuarios/03_edicao_dos_dados_do_recurso).
 
-## Casos de Teste
+## Testes realizados pelo Stefanini em ambiente prórpio
 
 #### **CT 003.001 –** Validação do campo "Obrigatório" de um arquivo tabular
 
@@ -118,3 +118,22 @@ Casos de teste para estória de usuário [edição dos dados do recurso](../../e
 ](https://youtu.be/7mvHKTY0sPA)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
+
+## Testes realizados pela equipe DCTA em ambiente próprio 
+
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()
+- issues relacionados
+
+## Testes realizados pela equipe DCTA em ambiente da CGE 
+
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()

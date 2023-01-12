@@ -1,8 +1,8 @@
 # Casos de Teste Validação de dados do recurso
 
-Casos de teste para estória de usuário [validação de dados do recurso](../../estorias_de_usuarios/05_validacao_de_dados_do_recurso).
+Testes para os critérios e regras da estória de usuário [validação de dados do recurso](../../estorias_de_usuarios/05_validacao_de_dados_do_recurso).
 
-## Casos de Teste
+## Testes realizados pelo Stefanini em ambiente prórpio
 
 #### **CT 005.001 –** Validação do campo "Titulo" de um arquivo tabular
 
@@ -89,3 +89,22 @@ Casos de teste para estória de usuário [validação de dados do recurso](../..
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
+
+## Testes realizados pela equipe DCTA em ambiente próprio 
+
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()
+- issues relacionados
+
+## Testes realizados pela equipe DCTA em ambiente da CGE 
+
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()

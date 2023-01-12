@@ -1,8 +1,8 @@
 # Casos de Teste Criação de novos metadados
 
-Casos de teste para estória de usuário [criação de novos metadados](../../estorias_de_usuarios/04_criacao_de_novos_metadados).
+Testes para os critérios e regras da estória de usuário [criação de novos metadados](../../estorias_de_usuarios/04_criacao_de_novos_metadados).
 
-## Casos de Teste
+## Testes realizados pelo Stefanini em ambiente prórpio
 
 #### **CT 004.001 –** Checar a criação de um metadado do tipo lista
 
@@ -75,3 +75,22 @@ Casos de teste para estória de usuário [criação de novos metadados](../../es
         - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
 
 [^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
+
+## Testes realizados pela equipe DCTA em ambiente próprio 
+
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()
+- issues relacionados
+
+## Testes realizados pela equipe DCTA em ambiente da CGE 
+
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()
