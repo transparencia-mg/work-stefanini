@@ -1,6 +1,6 @@
 # Casos de Teste Upload de arquivo(s) de dados 
 
-Registra os testes de todas as regras negociais pensadas para a a estória de usuário [upload de arquivo(s) de dados](../../../estorias_de_usuarios/sprint_02/01_upload_de_arquivos_recursos), bem como testes adicionais previstos abaixo:
+Registra os testes de todas as regras negociais pensadas para a a estória de usuário [upload de arquivo(s) de dados](../../../estorias_de_usuarios/sprint_02/01_upload_de_arquivos_recursos), bem como testes adicionais caso necessário:
 
 - **CT 001.001 – Identificação formato arquivo carregado:** Ao carregar um arquivo do tipo tabular o sistema deve reconhecer o formato do mesmo.
 

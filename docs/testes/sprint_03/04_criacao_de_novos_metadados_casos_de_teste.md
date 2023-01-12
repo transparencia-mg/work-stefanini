@@ -1,77 +1,36 @@
-# Casos de Teste Criação de novos metadados
+# Casos de Teste Criação de Novos Metadados
 
-Casos de teste para estória de usuário [criação de novos metadados](../../estorias_de_usuarios/04_criacao_de_novos_metadados).
+Registra os testes de todas as regras negociais pensadas para a a estória de usuário [criação de novos metadados](../../estorias_de_usuarios/04_criacao_de_novos_metadados), bem como testes adicionais caso necessário:
 
-## Casos de Teste
+- **CT 001.001 – Edição metadados recurso - dicionário de dados:** 
+Opção de inclusão de propriedade `Max e Min` deverá aparecer no dicionário de dados apenas se campo for numérico.
 
-#### **CT 004.001 –** Checar a criação de um metadado do tipo lista
+- **CT 001.002 – Edição metadados recurso - dicionário de dados:** 
+Opção de inclusão de propriedade `Tamanho Maximo e Mínimo` deverá aparecer no dicionário de dados apenas se campo for texto.
 
-  - **Complexidade[^¹]:** Médio
-  - **Necessidade de massa de Teste:** Sim
-  - **Funcionalidade associada ao CT:** Verificar o comportamento de um metadado do tipo lista
-      - **Resultado Esperado:** Ao criar um metadado o tipo lista o sistema deverá criar um campo do tipo texto e terá de ser separado por ",". Deverá ser de preenchimento alfanumérico e de caráter obrigatório
+- **CT 001.003 – Edição metadados recurso - dicionário de dados:** 
+Opção de inclusão de propriedade `Lista de Valores` deverá aparecer no dicionário de dados para campos numéricos e texto.
 
-  - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+## Testes realizados pela Stefanini em ambiente prórpio
 
-#### **CT 004.002 –** Checar a criação de um metadado do tipo "Max" e "Min"
+- [Testes realizados na versão 0.5 do documento](0.5/testes/sprint_03/04_criacao_de_novos_metadados_casos_de_teste/)
 
-  - **Complexidade[^¹]:** Médio
-  - **Necessidade de massa de Teste:** Sim
-  - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema da criação de um metadado do tipo "Max" e "Min"
-  - **Resultado Esperado:** Ao criar um metadado o sistema deverá criar dois campos contendo um valor máximo e um valor minimo, de preenchimento numérico e de caráter obrigatório.
+## Testes realizados pela equipe DCTA em ambiente próprio 
 
-  - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+    - [Comentário GitHub]()
+    - [Vídeo Gravado]()
+    - [Issues relacionados]()
 
-#### **CT 004.003 –** Checar a criação campo de metadado de valores "Máximo"  e "Mínimo"
+## Testes realizados pela equipe DCTA em ambiente da CGE 
 
-  - **Complexidade[^¹]:** Médio
-  - **Necessidade de massa de Teste:** Sim
-  - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema da criação do metadado os valores "Máximo"  e "Mínimo"
-  - **Resultado Esperado:** Ao criar um metadado o sistema deverá criar dois campos contendo um valor máximo e um valor minimo, de preenchimento numérico e de caráter obrigatório.
-
-  - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
-
-#### **CT 004.004 –** Checar a validação do metadado do tipo "Lista de valores"
-
-  - **Complexidade[^¹]:** Médio
-  - **Necessidade de massa de Teste:** Sim
-  - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema do tipo "Lista de valores"
-  - **Resultado Esperado:** Ao criar um metadado o tipo lista o sistema deverá criar um campo do tipo texto e terá de ser separado por ",". Deverá ser de  preenchimento alfanumérico e de caráter obrigatório
-
-  - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
-
-#### **CT 004.005 –** Checar a validação de um arquivo não tabular
-
-  - **Complexidade[^¹]:** Simples
-  - **Necessidade de massa de Teste:** Sim
-  - **Funcionalidade associada ao CT:** Verificar o comportamento do sistema ao carregar um arquivo não tabular
-  - **Resultado Esperado:** Ao carregar um arquivo do tipo não tabular o sistema deverá apenas  permitir a edição dos dados do recurso
-
-  - **Resultados:**  
-    - **Resultado 001:** Descrever o resultado que é obtido após a realização do teste.
-        - **Observação:** Observação sobre o teste realizado ou a massa de teste utilizada
-        - **Necessita ser retestado?** S/N
-        - **Evidências:** é a evidência de que o teste foi executado através de vídeo
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
-
-[^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+    - [Comentário GitHub]()
+    - [Vídeo Gravado]()
+    - [Issues relacionados]()
