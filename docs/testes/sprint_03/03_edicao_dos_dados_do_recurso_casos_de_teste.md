@@ -128,6 +128,7 @@ Testes da aplicação dos critérios e das regras da estória de usuário [ediç
   - [Comentário GitHub]()
   - [Vídeo Gravado]()
 - issues relacionados
+  - https://github.com/transparencia-mg/work-stefanini/issues/105
 
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 

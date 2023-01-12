@@ -19,7 +19,8 @@ Testes da aplicação dos critérios e das regras da estória de usuário [uploa
 - Evidências:
   - [Comentário GitHub](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1376292172)
   - [Vídeo Gravado](https://www.youtube.com/watch?v=xiNy4uF6Y7A)
-
+  - issues relacionados:
+    - https://github.com/transparencia-mg/work-stefanini/issues/94
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
 ### Resultado 001
@@ -30,7 +31,7 @@ Testes da aplicação dos critérios e das regras da estória de usuário [uploa
   - [Vídeo Gravado]()
 
 ## Testes realizados pela Stefanini em ambiente prórpio
-  
+
 - **CT 001 –** Carregar arquivo tabular
       - **Complexidade[^¹]:** Simples
       - **Necessidade de massa de Teste:** Sim
