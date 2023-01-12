@@ -1,8 +1,29 @@
 # Casos de Teste Edição do Conjunto de Dados
 
-Casos de teste para estória de usuário [edição do conjunto de dados](../../estorias_de_usuarios/06_edicao_do_conjunto_de_dados).
+Testes da aplicação dos critérios e das regras da estória de usuário [edição do conjunto de dados](../../estorias_de_usuarios/06_edicao_do_conjunto_de_dados).
 
-## Casos de Teste
+## Testes realizados pela equipe DCTA em ambiente próprio 
+
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()
+- issues relacionados:
+  - https://github.com/transparencia-mg/work-stefanini/issues/132
+
+## Testes realizados pela equipe DCTA em ambiente CGE 
+
+### Resultado 001
+- Data: XX/01/2023
+- Necessita ser retestado: XXX
+- Evidências:
+  - [Comentário GitHub]()
+  - [Vídeo Gravado]()
+
+
+## [Testes realizados pela Stefanini em ambiente prórpio](https://github.com/transparencia-mg/work-stefanini/issues/132)
 
 #### **CT 006.001 –** Validar botão "Adicionar conjunto de dados"
 
