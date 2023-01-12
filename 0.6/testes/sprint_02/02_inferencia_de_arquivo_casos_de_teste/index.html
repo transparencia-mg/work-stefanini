@@ -1333,7 +1333,7 @@
   
     <li class="md-nav__item">
       <a href="../../sprint_03/04_criacao_de_novos_metadados_casos_de_teste/" class="md-nav__link">
-        Casos de Teste Criação de novos metadados
+        Casos de Teste Criação de Novos Metadados
       </a>
     </li>
   
@@ -1599,7 +1599,18 @@
 
 
 <h1 id="casos-de-teste-inferencia-de-metadados">Casos de Teste Inferência de metadados<a class="headerlink" href="#casos-de-teste-inferencia-de-metadados" title="Permanent link">⚓︎</a></h1>
-<p>Testes da aplicação dos critérios e das regras da estória de usuário <a href="../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo">inferência de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></a></p>
+<p>Registra os testes de todas as regras negociais pensadas para a a estória de usuário <a href="../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo">inferência de <abbr title="Arquivos de dados são considerados Recursos nos Portais de Dados CKAN.">arquivo(s) de dados</abbr></a>, bem como testes adicionais caso necessário:</p>
+<ul>
+<li>
+<p><strong>CT 001.001 – Comportamento arquivo tablular:</strong> Ao carregar um arquivo do tipo tabular o sistema deverá inferir o <abbr title="Table Schema.">dicionário de dados</abbr> do mesmo.</p>
+</li>
+<li>
+<p><strong>CT 001.002 – Comportamento arquivo não tablular:</strong> Ao carregar um arquivo do tipo não tabular o sistema fará apenas a inferência dos <abbr title="Data Resource.">dados do recurso</abbr>, fornecendo os campos Tipo, Formato e Encoding não habilitados para edição, conforme relatado na <a href="../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo/#regra-negocial-0010012">Regra Negocial 001.0012 da estória de usuário</a>. </p>
+</li>
+<li>
+<p><strong>CT 001.003 – Comportamento arquivo não tablular:</strong> Ao carregar um arquivo do tipo não tabular o sistema não incluirá nada no campo Encoding, ficando este também não habilitado para edição.</p>
+</li>
+</ul>
 <h2 id="testes-realizados-pela-stefanini-em-ambiente-prorpio">Testes realizados pela Stefanini em ambiente prórpio<a class="headerlink" href="#testes-realizados-pela-stefanini-em-ambiente-prorpio" title="Permanent link">⚓︎</a></h2>
 <ul>
 <li><a href="testes/sprint_02/02_inferencia_de_arquivo_casos_de_teste/">Testes realizados na versão 0.5 do documento</a></li>
@@ -1633,7 +1644,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 12, 2023 14:48:26</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 12, 2023 17:49:12</span>
       
         <br>
         Created:
