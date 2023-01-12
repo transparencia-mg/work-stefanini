@@ -1,6 +1,6 @@
 # Casos de Teste Validação de dados do recurso
 
-Testes para os critérios e regras da estória de usuário [validação de dados do recurso](../../estorias_de_usuarios/05_validacao_de_dados_do_recurso).
+Testes da aplicação dos critérios e das regras da estória de usuário [validação de dados do recurso](../../estorias_de_usuarios/05_validacao_de_dados_do_recurso).
 
 ## Testes realizados pelo Stefanini em ambiente prórpio
 

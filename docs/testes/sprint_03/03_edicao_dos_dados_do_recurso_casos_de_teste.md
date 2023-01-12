@@ -1,6 +1,6 @@
 # Casos de Teste Edição dos dados do Recurso
 
-Testes para os critérios e regras da estória de usuário [edição dos dados do recurso](../../estorias_de_usuarios/03_edicao_dos_dados_do_recurso).
+Testes da aplicação dos critérios e das regras da estória de usuário [edição dos dados do recurso](../../estorias_de_usuarios/03_edicao_dos_dados_do_recurso).
 
 ## Testes realizados pelo Stefanini em ambiente prórpio
 

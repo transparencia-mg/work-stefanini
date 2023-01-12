@@ -1,6 +1,6 @@
 # Casos de Teste Criação de novos metadados
 
-Testes para os critérios e regras da estória de usuário [criação de novos metadados](../../estorias_de_usuarios/04_criacao_de_novos_metadados).
+Testes da aplicação dos critérios e das regras da estória de usuário [criação de novos metadados](../../estorias_de_usuarios/04_criacao_de_novos_metadados).
 
 ## Testes realizados pelo Stefanini em ambiente prórpio
 
