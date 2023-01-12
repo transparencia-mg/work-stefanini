@@ -1,65 +1,89 @@
 # Edição dos dados do Recurso
 
-**Como** publicador, **eu quero**  fazer o upload do(s) arquivo(s) de dados, **para** que eu possa fazer a edição dos metadados do(s) arquivo(s) de dados.
+**Como** publicador, **eu quero**  fazer o upload do(s) arquivo(s) de dados, **para** que eu possa fazer a edição do(s) metadado(s) do(s) mesmo(s).
 
 - **Acesso:** 
 
 ```mermaid
-graph LR;
+graph TD;
     1[Acessar Portal Dados Abertos]-->2;
     2[Login]-->3;
     3[Conjunto de dados]-->4;
-    4[Adicionar Conjunto de Dados]
+    4[Adicionar Conjunto de Dados]-->5;
+    5[Adicionar metadados do Conjunto de Dados]-->6;
+    6[Adicionar dados]
 ```
 
 - **Perfil de acesso:** Publicador. 
-- **Protótipo:** Baixa Fidelidade.
 
-- **Regra negocial:** Para que os metadados possam ser editados, o sistema deve se comportar conforme as regras abaixo:
+- **Testes:** [Resultados Obtidos](../../../testes/sprint_03/03_edicao_dos_dados_do_recurso_casos_de_teste/#resultados-obtidos).
 
-	- **RN001:** Manter a conformidade com a especificação da Frictionless 
-	- **RN002:** Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório. 
-	- **RN003:** - Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca, informando quando os campos deverão ser restritos a edição. 
-	- **RN004:** Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do Portal.
-	- **RN005:** Para que seja feita a edição dos metadados do Dicionário de Dados e dos Dados do Recurso, o(s) arquivo(s) de dados deve ser em formato tabular.
-	- **RN006:** - Ao carregar um arquivo(s) de dados `não` tabular, o sistema habilita apenas a edição dos campos dos Dados do Recurso. 
-	- **RN007:** No agrupamento Dicionário de Dados, no campo `Tipo de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1] , podendo ser editado.
-	- **RN008:** No agrupamento Dicionário de Dados, no campo `Formato de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado.
-    - **RN009:** No agrupamento Dicionário de Dados, no campo `Obrigatório`[^2], a combobox tem a seguinte apresentação:
-        - Deverão conter as opções *SIM* e *NÃO* 
-        - Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
-	- **RN010:** No agrupamento Dicionário de Dados, no campo `Único`[^3], a combobox tem a seguinte apresentação:
-    	- Deverão conter as opções *SIM* e *NÃO*
-    	- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
-    - **RN011:** No agrupamento Dados do Recurso no campo `Tipo do Recurso`[^4] a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.  
-    - **RN012** No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.  
-    - **RN013:** No agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
-    - **RN014:** Após a publicação do conjunto de dados, a edição de um recurso ou adição de um novo, só poderá ser feita uma de cada vez. 
+- **Status:** Em revisão.
 
-### Critérios de aceite
+- **Perfil de acesso:** Publicador. 
 
-- **Critério 001 – Editar Metadados de arquivo(s) de dados tabulares do Dicionário de Dados:**
-	- **Dado**  que eu quero fazer a edição dos metadados do Dicionário de Dados e dos Dados do Recurso. 
-	- **Quando** o sistema apresentar as informações inferidas deste campo.
-	- **Então** escolho a opção que desejo editar e faço a edição.
+## Critérios de aceite
+Para que seja feito a edição dos dados de recursos, o portal deve se comportar conforme as critérios de aceite abaixo:
 
-- **Critério 002 – Editar Metadados de arquivo(s) de dados *NÃO* tabulares dos Dados do Recurso:**
-	- **Dado** que quero fazer a edição dos metadados dos Dados do Recurso.
-	- **Quando** o sistema apresentar as informações inferidas deste campo.
-	- **Então** escolho a opção que desejo editar e faço a edição.
+### **Critério 001 – Editar Metadados de arquivo(s) de dados:**
+- **Dado** que quero fazer a edição dos metadados dos Dados do Recurso, tabulares ou não.
+- **Quando** o sistema apresentar as informações inferidas.
+- **Então** escolho a opção que desejo editar e faço a edição.
 
+#### **Regra negocial 001.001**: 
+Manter a conformidade com a especificação da Frictionless.
 
+#### **Regra negocial 001.002**: 
+Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório. 
 
-### Prototipo Baixa Fidelidade
+#### **Regra negocial 001.003**: 
+Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca, informando quando os campos deverão ser restritos a edição. 
 
-[Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
+#### **Regra negocial 001.004**: 
+Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do Portal.
 
-### Prototipo Alta Fidelidade
+#### **Regra negocial 001.005**: 
+Para que seja feita a edição dos metadados do Dicionário de Dados e dos Dados do Recurso, o(s) arquivo(s) de dados deve ser em formato tabular.
 
-[Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
-### Imagens protótipo Baixa Fidelidade
+#### **Regra negocial 001.006**: 
+Ao carregar um arquivo(s) de dados `não` tabular, o sistema habilita apenas a edição dos campos dos Dados do Recurso. 
 
-![imagem-prototipacao](/assets/imagem.png)
+#### **Regra negocial 001.007**: 
+No agrupamento Dicionário de Dados, no campo `Tipo de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1] , podendo ser editado.
+
+#### **Regra negocial 001.008**: 
+No agrupamento Dicionário de Dados, no campo `Formato de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado.
+
+#### **Regra negocial 001.009**: 
+No agrupamento Dicionário de Dados, no campo `Obrigatório`[^2], a combobox tem a seguinte apresentação:
+
+- Deverão conter as opções *SIM* e *NÃO* 
+- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
+
+#### **Regra negocial 001.010**: 
+No agrupamento Dicionário de Dados, no campo `Único`[^3], a combobox tem a seguinte apresentação:
+
+- Deverão conter as opções *SIM* e *NÃO*
+- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
+
+#### **Regra negocial 001.011**: 
+No agrupamento Dados do Recurso no campo `Tipo do Recurso`[^4] a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.  
+
+#### **Regra negocial 001.012**: 
+No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.  
+
+#### **Regra negocial 001.013**: 
+Para arquivos tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
+
+#### **Regra negocial 001.014**: 
+Para arquivos não tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve sem preenchimento e não editável.
+
+#### **Regra negocial 001.015**: 
+Após a publicação do conjunto de dados, a edição de um recurso ou adição de um novo, só poderá ser feita uma de cada vez. 
+
+## Prototipação
+
+- [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
 
 | Item |                        Nome do Campo                        | Tipo de Dado[^5] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
@@ -80,6 +104,8 @@ graph LR;
 |    15 |   Próximo            |   LK            |      N/A      | Após validação dos campos, fica habilitado o avanço para a próxima aba (Conjunto de Dados). Estende-se para a estória: [US008  -Edição de Dados do Conjunto](/estorias_de_usuarios/06_edicao_de_dados_do_conjunto_do_recurso) |
 |    16| Cancelar |     LK         |       N/A      | Cancela as informações em tela. |
 |   17| Salvar  |     B          |       N/A      | Salva as informações sem precisar validar. Estende-se para a estória: [US008  - Salvar dados do recurso](/estorias_de_usuarios/08_salvar_dados_do_recurso) |
+
+- [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
 
 [^1]: [Frictionless](https://specs.frictionlessdata.io/)
 [^2]: [Propriedade: Constraints - Required](https://specs.frictionlessdata.io/table-schema/#constraints:~:text=Description-,required,-boolean)
