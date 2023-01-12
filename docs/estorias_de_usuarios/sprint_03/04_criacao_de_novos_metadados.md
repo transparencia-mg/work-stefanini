@@ -1,66 +1,69 @@
 # Criação de novos metadados
 
-**Como** publicador, **eu quero**  criar novos metadados, **para** que eu possa classificar os metadados de um arquivo(s) de dados de forma mais eficaz.
+**Como** publicador, **eu quero**  criar novos metadados, **para** que eu possa documentar os metadados de um arquivo(s) de dados de forma mais eficaz.
+
 - **Acesso:** 
 
 ```mermaid
-graph LR;
+graph TD;
     1[Acessar Portal Dados Abertos]-->2;
     2[Login]-->3;
     3[Conjunto de dados]-->4;
-    4[Adicionar Conjunto de Dados]
+    4[Adicionar Conjunto de Dados]-->5;
+    5[Adicionar metadados do Conjunto de Dados]-->6;
+    6[Adicionar dados]
 ```
 
 - **Perfil de acesso:** Publicador. 
-- **Protótipo:** Baixa Fidelidade.
 
-- **Regra negocial:** Para que possa criar novos metadados, o sistema deve se comportar conforme as regras abaixo:
-	- **RN001:** Para que seja feita a criação de novos metadados do Dicionário de Dados, o(s) arquivo(s) de dados deve ser em formato tabular.
-	- **RN002** - Ao carregar um arquivo(s) de dados `Não` tabular, o sistema deverá habilitar apenas os Dados do Recurso para a criação de novos metadados.
-	- **RN003** - Para a criação de um novo metadado do Dicionário de Dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados.
-	- **RN004** - Para a criação de um novo metadado do Dicionário de Dados, do tipo `Lista` o sistema irá se comportar da seguinte maneira:
-		   - Deverá ser criado, ao lado do nome, um campo do tipo texto,
-	       - O intervalo deverá ser separado por `(,)`. Ex.: Janeiro, Fevereiro, Março, etc.
-	       - Este campo será alfanumérico,
-	       - Este campo será de preenchimento obrigatório.
-    - **RN005** - Para a criação de um novo metadado do Dicionário de Dados, do tipo `Max e Min` o sistema irá se comportar da seguinte maneira: 
-	       - Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). Ex.: *Ano:* Mínimo: 2016 à Máximo: 2022
-	       - Este campo será numérico.
-	       - Este campo será de preenchimento obrigatório.
-	- **RN006** - Para a criação de um novo metadado do dicionário de dados, do tipo `Tamanho Maximo e Mínimo` o sistema irá se comportar da seguinte maneira: 
-	       - Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo).  Ex.: *CPF:* Mínimo: 11 à Máximo: 14
-	       - Este campo será numérico.
-	       - Este campo será de preenchimento obrigatório.
-	- **RN007** - Para a criação de um novo metadado do  dicionário de dados, do tipo `Lista de Valores` o sistema irá se comportar da seguinte maneira: 
-	       - Deverá ser criado, ao lado do nome,  um campo do tipo texto,
-	       - O intervalo deverá ser separado por `(,)`. Ex.: *Fluência em Idiomas:* Português, Inglês, Espanhol, etc.
-	       - Este campo será alfanumérico,
-	       - Este campo será de preenchimento obrigatório.
+- **Testes:** [Resultados Obtidos](../../../testes/sprint_03/04_criacao_de_novos_metadados_casos_de_teste/#resultados-obtidos).
 
-### Critérios de aceite
+- **Status:** Em revisão.
 
-- **Critério 001 – Criar novos Metadados de arquivos tabulares do dicionário de dados:**
-	- **Dado**  eu quero criar novos metadados do dicionário de dados e os dados do recurso 
-	- **Quando** o botão `Adicionar Metadados` for acionado.
-	- **Então** eu escolho qual(is) metadado(s) desejo inserir. 
+- **Perfil de acesso:** Publicador. 
 
-- **Critério 002** – Editar Metadados de arquivos `Não` tabulares dos dados do recurso:
-	- **Dado** eu quero criar novos metadados dos dados do recurso
-	- **Quando** o botão `Adicionar Metadados` for acionado.
-	- **Então** eu escolho qual(is) metadado(s) desejo inserir. 
+## Critérios de aceite
+Para que seja feito a edição dos dados de recursos, o portal deve se comportar conforme as critérios de aceite abaixo:
 
+### **Critério 001 – Editar Metadados de arquivo(s) de dados:**
+- **Dado** eu quero criar novos metadados dos dados do recurso e dicionário de dados para arquivos tabulares
+- **Quando** o botão `Adicionar Metadados` for acionado.
+- **Então** eu escolho qual(is) metadado(s) desejo inserir. 
 
-### Prototipo Baixa Fidelidade
+#### **Regra negocial 001.001**: 
+Para que seja feita a criação de novos metadados do Dicionário de Dados, o(s) arquivo(s) de dados deve(m) ser de formato tabular.
 
-[Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
+#### **Regra negocial 001.002**:
+Ao carregar um arquivo(s) de dados `Não` tabular, o sistema deverá habilitar apenas os Dados do Recurso para a criação de novos metadados.
 
-### Prototipo Alta Fidelidade
+#### **Regra negocial 001.003**:
+Para a criação de um novo metadado do Dicionário de Dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados.
 
-[Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
-### Imagens protótipo Baixa Fidelidade
+#### **Regra negocial 001.005**:
+Para a criação de um novo metadado do Dicionário de Dados, do tipo `Max e Min` o sistema irá se comportar da seguinte maneira: 
 
-![imagem-prototipacao](/assets/imagem.png)
+- Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). Ex.: *Ano:* Mínimo: 2016 à Máximo: 2022
+- Este campo será numérico.
+- Este campo será de preenchimento obrigatório.
 
+#### **Regra negocial 001.006**:
+Para a criação de um novo metadado do dicionário de dados, do tipo `Tamanho Maximo e Mínimo` o sistema irá se comportar da seguinte maneira: 
+
+- Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo).  Ex.: *CPF:* Mínimo: 11 à Máximo: 14
+- Este campo será numérico.
+- Este campo será de preenchimento obrigatório.
+
+#### **Regra negocial 001.007**:
+Para a criação de um novo metadado do  dicionário de dados, do tipo `Lista de Valores` o sistema irá se comportar da seguinte maneira: 
+
+- Deverá ser criado, ao lado do nome,  um campo do tipo texto,
+- O intervalo deverá ser separado por `(,)`. Ex.: *Fluência em Idiomas:* Português, Inglês, Espanhol, etc.
+- Este campo será alfanumérico,
+- Este campo será de preenchimento obrigatório.
+
+## Prototipação
+
+- [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
 
 | Item |                        Nome do Campo                        | Tipo de Dado[^1] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
@@ -76,4 +79,4 @@ graph LR;
 |    10| Cancelar |     LK         |       N/A      | Cancela as informações em tela. |
 |   11 | Salvar  |     B          |       N/A      | Salva as informações sem precisar validar. Estende-se para a estória: [US008  -Salvar dados do recurso](/estorias_de_usuarios/08_salvar_dados_do_recurso) |
 
-[^1]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+- [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 

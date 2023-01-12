@@ -7,7 +7,6 @@ Testes da aplicação dos critérios e das regras da estória de usuário [uploa
 - [Testes realizados na versão 0.4 do documento](0.4/testes/01_upload_de_arquivos_recursos_casos_de_teste/)
 - [Testes realizados na versão 0.5 do documento](0.5/testes/sprint_02/01_upload_de_arquivos_recursos_casos_de_teste/)
 
-
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
 ### Resultado 001

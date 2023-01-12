@@ -2,6 +2,7 @@
 
 Testes da aplicação dos critérios e das regras da estória de usuário [inferência de arquivo(s) de dados](../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo)
 
+
 ## Testes realizados pela Stefanini em ambiente prórpio
 
 - [Testes realizados na versão 0.5 do documento](testes/sprint_02/02_inferencia_de_arquivo_casos_de_teste/)
