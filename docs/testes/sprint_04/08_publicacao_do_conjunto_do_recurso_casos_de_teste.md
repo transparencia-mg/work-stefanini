@@ -2,6 +2,12 @@
 
 Testes da aplicação dos critérios e das regras da estória de usuário [validação do conjunto de dados](../../estorias_de_usuarios/07_validacao_de_dados_do_conjunto).
 
+
+## Testes realizados pela Stefanini em ambiente prórpio
+
+- [issue](https://github.com/transparencia-mg/work-stefanini/issues/146)
+
+
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
 ### Resultado 001
@@ -21,7 +27,4 @@ Testes da aplicação dos critérios e das regras da estória de usuário [valid
   - [Comentário GitHub]()
   - [Vídeo Gravado]()
 
-## Testes realizados pela Stefanini em ambiente prórpio
-
-- [issue](https://github.com/transparencia-mg/work-stefanini/issues/146)
 

@@ -2,6 +2,12 @@
 
 Testes da aplicação dos critérios e das regras da estória de usuário [edição do conjunto de dados](../../estorias_de_usuarios/06_edicao_do_conjunto_de_dados).
 
+
+## Testes realizados pela Stefanini em ambiente prórpio
+
+- [issue](https://github.com/transparencia-mg/work-stefanini/issues/132)
+
+
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
 ### Resultado 001
@@ -21,9 +27,5 @@ Testes da aplicação dos critérios e das regras da estória de usuário [ediç
   - [Comentário GitHub]()
   - [Vídeo Gravado]()
 
-
-## Testes realizados pela Stefanini em ambiente prórpio
-
-- [issue](https://github.com/transparencia-mg/work-stefanini/issues/132)
 
 
