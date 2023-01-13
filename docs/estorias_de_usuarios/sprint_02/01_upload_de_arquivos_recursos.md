@@ -1,6 +1,6 @@
 # Upload de arquivo(s) de dados
 
-**Como** publicador, **eu quero** fazer upload de um ou mais arquivo(s) de dados no portal, **para** documentar os metadados do(s) mesmo(s) no padrão [Frictionless Data](https://specs.frictionlessdata.io/#overview).
+**Como** publicador, **eu quero** fazer upload de um ou mais arquivo(s) de dados no portal, **para** documentar os metadados do(s) mesmo(s) no padrão [Frictionless Data](https://specs.frictionlessdata.io/#testes-realizados-pela-stefanini-em-ambiente-prorpio).
 
 - **Acesso:** 
 
