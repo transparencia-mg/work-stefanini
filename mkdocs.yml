@@ -106,3 +106,5 @@ plugins:
       enable_creation_date: true
   - mike:
       version_selector: true
+  - search:
+      lang: pt
