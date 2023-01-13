@@ -15,7 +15,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Versão do pacote:** XXX
 - **Necessita ser retestado:** XXX
 - **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
-- Evidências:    
+- **Evidências:**    
     - [Vídeo Gravado]()
     - [Issues relacionados]():
 
@@ -26,7 +26,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Versão do pacote:** XXX
 - **Necessita ser retestado:** XXX
 - **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
-- Evidências:    
+- **Evidências:**    
     - [Vídeo Gravado]()
     - [Issues relacionados]():
     
@@ -37,6 +37,6 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Versão do pacote:** XXX
 - **Necessita ser retestado:** XXX
 - **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
-- Evidências:    
+- **Evidências:**    
     - [Vídeo Gravado]()
     - [Issues relacionados]():
