@@ -81,6 +81,9 @@ extra_javascript:
 
 extra: # Footer
   social:
+    - icon: fontawesome/solid/diagram-project
+      name: GitHub Project Board
+      link: https://github.com/orgs/transparencia-mg/projects/2
     - icon: fontawesome/brands/youtube
       name: Playlist YouTube.
       link: https://www.youtube.com/playlist?list=PLCbgbVHsUygAIzR_jxHEUt0NRc-MNF7cy
