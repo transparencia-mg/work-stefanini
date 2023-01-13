@@ -1,37 +1,42 @@
-# Modelo Casos de Teste 
+# Casos de Teste
 
-Casos de teste para estória de usuário [nome da estória](link_para_estoria).
+Registra os testes de todas as regras negociais pensadas para a a estória de usuário [XXXXXX](), bem como testes adicionais previstos abaixo:
 
-## Casos de Teste
+- **CT 001.001 – XXXXXX:** XXXXX.
 
-`Número caso de teste deverá seguir numeração da regra da estória de usuário`
-`Caso haja mais um caso de teste para a mesma regra da estória de usuário utilizar 001.001, 001.002, etc`
+- **CT 001.002 – XXXXXX:** XXXXX.
 
-#### **CT 001.001 –** Nome do caso de teste
+## Testes realizados pela Stefanini em ambiente prórpio
 
-  - **Complexidade[^¹]:** `verificar o rodapé`
-  - **Necessidade de massa de Teste:** `S/N`
-  - **Funcionalidade associada ao CT:** `Descreve a funcionalidade que deve ser testada`
-  - **Resultado Esperado:** `é o resultado ideal que deve ser alcançado uma vez que o caso de teste foi executado`
+- [Testes realizados na versão XX do documento]()
 
-  - **Resultados:**  
-    - **Resultado 001:** `Descrever o resultado que é obtido após a realização do teste.`
-        - **Observação:** `Observação sobre o teste realizado ou a massa de teste utilizada`
-        - **Necessita ser retestado?** `S/N`
-        - **Evidências:** `é a evidência de que o teste foi executado através de vídeo`
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)
+### Resultado 001
+- **Data:** XX/XX/2023
+- **Versão do pacote:** XXX
+- **Necessita ser retestado:** XXX
+- **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
+- Evidências:    
+    - [Vídeo Gravado]()
+    - [Issues relacionados]():
+
+## Testes realizados pela equipe DCTA em ambiente próprio 
+
+### Resultado 001
+- **Data:** XX/XX/2023
+- **Versão do pacote:** XXX
+- **Necessita ser retestado:** XXX
+- **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
+- Evidências:    
+    - [Vídeo Gravado]()
+    - [Issues relacionados]():
     
-    - **Resultado 002:** `Descrever o resultado que é obtido após a realização do teste.`
-        - **Observação:** `Observação sobre o teste realizado ou a massa de teste utilizada`
-        - **Necessita ser retestado?** `S/N`
-        - **Evidências:** `é a evidência de que o teste foi executado através de vídeo`
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)  
-    
-    - **Resultado 003:** `Descrever o resultado que é obtido após a realização do teste.`
-        - **Observação:** `Observação sobre o teste realizado ou a massa de teste utilizada`
-        - **Necessita ser retestado?** `S/N`
-        - **Evidências:** `é a evidência de que o teste foi executado através de vídeo`
-        - [2022MMDD_vX_responsável_CTXX](Link_para_video_youtube)  
+## Testes realizados pela equipe DCTA em ambiente da CGE 
 
-
-[^¹]: Muito Simples, Simples, Médio, Complexo, Muito Complexo.
+### Resultado 001
+- **Data:** XX/XX/2023
+- **Versão do pacote:** XXX
+- **Necessita ser retestado:** XXX
+- **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
+- Evidências:    
+    - [Vídeo Gravado]()
+    - [Issues relacionados]():
