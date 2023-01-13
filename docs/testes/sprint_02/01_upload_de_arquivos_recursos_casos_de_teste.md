@@ -37,9 +37,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Data:** 13/01/2023
 - **Versão do pacote:** 0.15
 - **Necessita ser retestado:** Sim
-- **Itens para correção:** Documentados em comentário do issue [
-\#83 - Upload de Dados: Desenvolvimento
-](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1382436313)
+- **Itens para correção:** Documentados em comentário do issue [#83 - Upload de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1382436313)
 - Evidências:
     - [Vídeo Gravado](https://youtu.be/cjZm-ejO32Q)
     - [Issues relacionados](https://github.com/transparencia-mg/work-stefanini/issues/94)
@@ -49,12 +47,8 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Data:** 09/01/2023
 - **Versão do pacote:** 0.14
 - **Necessita ser retestado:** Sim
-- **Itens para correção:** Documentados em comentário do issue [
-\#83 - Upload de Dados: Desenvolvimento
-](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1376292172)
-
-- Evidências:
-    
+- **Itens para correção:** Documentados em comentário do issue [#83 - Upload de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1376292172)
+- Evidências:    
     - [Vídeo Gravado](https://www.youtube.com/watch?v=xiNy4uF6Y7A)
     - [Issues relacionados](https://github.com/transparencia-mg/work-stefanini/issues/94):
 
@@ -64,10 +58,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Data:** XX/XX/2023
 - **Versão do pacote:** XXX
 - **Necessita ser retestado:** XXX
-- **Itens para correção:** Documentados em comentário do issue [
-\#83 - Upload de Dados: Desenvolvimento
-]()
-
+- **Itens para correção:** Documentados em comentário do issue [#83 - Upload de Dados: Desenvolvimento]()
 - Evidências:
     
     - [Vídeo Gravado]()
