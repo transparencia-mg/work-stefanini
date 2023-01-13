@@ -35,7 +35,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 ### Resultado 002
 - **Data:** 13/01/2023
-- **Versão do pacote:** 0.15
+- **Versão do pacote:** [0.15](https://pypi.org/project/ckanext-datapackage-creator/0.0.15/)
 - **Necessita ser retestado:** Sim
 - **Itens para correção:** Documentados em comentário do issue [#83 - Upload de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1382436313)
 - **Evidências:**
@@ -45,7 +45,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 ### Resultado 001
 - **Data:** 09/01/2023
-- **Versão do pacote:** 0.14
+- **Versão do pacote:** [0.14](https://pypi.org/project/ckanext-datapackage-creator/0.0.14/)
 - **Necessita ser retestado:** Sim
 - **Itens para correção:** Documentados em comentário do issue [#83 - Upload de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1376292172)
 - **Evidências:**    
