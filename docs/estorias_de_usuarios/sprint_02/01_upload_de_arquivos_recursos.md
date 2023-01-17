@@ -53,9 +53,6 @@ Ao carregar arquivo(s) de dados do tipo `Não` tabular, o sistema deverá habili
 Ao adicionar um novo arquivo(s) de dados, a exibição dos metadados do(s) anteriormente carregados deverá(ão) ser desabilitada(s). 
 
 #### **Regra negocial 001.009**:
-Ao adicionar um arquivo(s) de dados, a exibição dos metadados do mesmo deverá ser habilitada.
-
-#### **Regra negocial 001.010**:
 Ao adicionar mais de um arquivo(s) de dados poderei clicar no ícone (dropdown) que expande e recolher sua visibilidade.
 
 ## Prototipação
