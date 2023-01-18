@@ -34,7 +34,7 @@ No menu superior, ou `Navbar` para os mais íntimos, é possível encontrar opç
 
 ![site_navbar](https://imgur.com/OQrf9Ee.png)
 
-No canto superiro direito deste mesmo menu, conforme demonstrado na figura acima, é possível acessar, também, o link para o [repositório GitHub do projeto](https://github.com/transparencia-mg/work-stefanini), bem como como ferramenta de busca (muito fácil de utilizar e com ótima capacidade de encontrar o que precisamos).
+No canto superior direito deste mesmo menu, conforme demonstrado na figura acima, é possível acessar, também, o link para o [repositório GitHub do projeto](https://github.com/transparencia-mg/work-stefanini), bem como ferramenta de busca (muito fácil de utilizar e com ótima capacidade de encontrar o que precisamos).
 
 Na parte inferior da página, ou `footer` para os mais íntimos, temos acesso a alguns links muito úteis como:
 
