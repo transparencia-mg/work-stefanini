@@ -69,6 +69,8 @@ Serão campos obrigatórios de preenchimento aqueles especificados pela [Frictio
 
 > Regra Negocial DTA a ser incluída apenas em arquivo de configuração durante instalação da extensão:
 
+> - Campos: Título e Descrição são obrigatórios e editáveis. 
+
 > - Campos: Tipo, Formato e Encoding dos Dados do Recurso são obrigatórios e não são editáveis. 
 
 ## Prototipação
