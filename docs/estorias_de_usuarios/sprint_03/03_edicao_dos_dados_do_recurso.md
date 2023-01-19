@@ -49,10 +49,10 @@ Para que seja feita a edição dos metadados do Dicionário de Dados e dos Dados
 Ao carregar um arquivo(s) de dados `não` tabular, o sistema habilita apenas a edição dos campos dos Dados do Recurso. 
 
 #### **Regra negocial 001.007**: 
-No agrupamento Dicionário de Dados, no campo `Tipo de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1] , podendo ser editado.
+No agrupamento Dicionário de Dados, no campo `Tipo de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1] , podendo ser editado, a depender da configuração do Administrador do Portal.
 
 #### **Regra negocial 001.008**: 
-No agrupamento Dicionário de Dados, no campo `Formato de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado.
+No agrupamento Dicionário de Dados, no campo `Formato de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
 
 #### **Regra negocial 001.009**: 
 No agrupamento Dicionário de Dados, no campo `Obrigatório`[^2], a combobox tem a seguinte apresentação:
@@ -76,7 +76,7 @@ No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto d
 Para arquivos tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
 
 #### **Regra negocial 001.014**: 
-Para arquivos não tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve sem preenchimento e não editável.
+Para arquivos não tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
 
 #### **Regra negocial 001.015**: 
 Após a publicação do conjunto de dados, a edição de um recurso ou adição de um novo, só poderá ser feita uma de cada vez. 

@@ -37,7 +37,7 @@ Todos os campos, inferidos ou não, serão validados de acordo com as especifica
 O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a próxima etapa do fluxo.
 
 #### **Regra negocial 001.001**:
-O resultado da validação fica referenciável por hiperlink em uma badge de validação e armazenado em página estática de acordo com framework da Fricitonless,
+O resultado da validação fica referenciável por hiperlink em uma badge de validação e armazenado em página estática de acordo com [framework da Fricitonless](https://repository.frictionlessdata.io/docs/reports.html).
 
 #### **Regra negocial 001.001**:
 Os relatórios de validação deverão ser armazenados no ckan/portal de dados.  

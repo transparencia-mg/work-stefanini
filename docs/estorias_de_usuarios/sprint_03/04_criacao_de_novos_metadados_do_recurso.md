@@ -1,4 +1,4 @@
-# Criação de novos metadados
+# Criação de novos metadados do recurso
 
 **Como** publicador, **eu quero**  criar novos metadados, **para** que eu possa documentar os metadados de um arquivo(s) de dados de forma mais eficaz.
 
@@ -37,21 +37,21 @@ Para que seja feita a criação de novos metadados do Dicionário de Dados, o(s)
 Ao carregar um arquivo(s) de dados `Não` tabular, o sistema deverá habilitar apenas os Dados do Recurso para a criação de novos metadados.
 
 #### **Regra negocial 001.003**:
-Para a criação de um novo metadado do Dicionário de Dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados.
+Para a criação de um novo metadado do Dicionário de Dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados. Exemplo desta regra pode ser obtido nas especificações da propriedade [`required`](https://specs.frictionlessdata.io/table-schema/#constraints) do table schema.
 
 #### **Regra negocial 001.005**:
 Para a criação de um novo metadado do Dicionário de Dados, do tipo `Max e Min` o sistema irá se comportar da seguinte maneira: 
 
 - Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). Ex.: *Ano:* Mínimo: 2016 à Máximo: 2022
 - Este campo será numérico.
-- Este campo será de preenchimento obrigatório.
+- Tendo sido adiconado este campo, o mesmo será de preenchimento obrigatório.
 
 #### **Regra negocial 001.006**:
 Para a criação de um novo metadado do dicionário de dados, do tipo `Tamanho Maximo e Mínimo` o sistema irá se comportar da seguinte maneira: 
 
 - Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo).  Ex.: *CPF:* Mínimo: 11 à Máximo: 14
 - Este campo será numérico.
-- Este campo será de preenchimento obrigatório.
+- Tendo sido adiconado este campo, o mesmo será de preenchimento obrigatório.
 
 #### **Regra negocial 001.007**:
 Para a criação de um novo metadado do  dicionário de dados, do tipo `Lista de Valores` o sistema irá se comportar da seguinte maneira: 
@@ -59,7 +59,7 @@ Para a criação de um novo metadado do  dicionário de dados, do tipo `Lista de
 - Deverá ser criado, ao lado do nome,  um campo do tipo texto,
 - O intervalo deverá ser separado por `(,)`. Ex.: *Fluência em Idiomas:* Português, Inglês, Espanhol, etc.
 - Este campo será alfanumérico,
-- Este campo será de preenchimento obrigatório.
+- Tendo sido adiconado este campo, o mesmo será de preenchimento obrigatório.
 
 ## Prototipação
 
