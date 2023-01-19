@@ -14,7 +14,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Data:** XX/XX/2023
 - **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
 - **Necessita ser retestado:** XXX
-- **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
+- **Itens testados:** Documentados em comentário do issue [XXXXXX]()
 - **Evidências:**    
     - [Vídeo Gravado]()
     - [Issues relacionados]():
@@ -25,7 +25,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Data:** XX/XX/2023
 - **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
 - **Necessita ser retestado:** XXX
-- **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
+- **Itens testados:** Documentados em comentário do issue [XXXXXX]()
 - **Evidências:**    
     - [Vídeo Gravado]()
     - [Issues relacionados]():
@@ -36,7 +36,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Data:** XX/XX/2023
 - **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
 - **Necessita ser retestado:** XXX
-- **Itens para correção:** Documentados em comentário do issue [XXXXXX]()
+- **Itens testados:** Documentados em comentário do issue [XXXXXX]()
 - **Evidências:**    
     - [Vídeo Gravado]()
     - [Issues relacionados]():

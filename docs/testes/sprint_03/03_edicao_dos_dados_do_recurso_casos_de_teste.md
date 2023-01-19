@@ -1,6 +1,12 @@
 # Casos de Teste Edição dos dados do Recurso
 
-Testes da aplicação dos critérios e das regras da estória de usuário [edição dos dados do recurso](../../estorias_de_usuarios/03_edicao_dos_dados_do_recurso).
+Registra os testes de todas as regras negociais pensadas para a a estória de usuário [edição dos dados do recurso](../../estorias_de_usuarios/03_edicao_dos_dados_do_recurso), bem como testes adicionais caso necessário:
+
+- **CT 001.001 – Edição metadados recurso:** 
+Sistema deverár salvar informação incluída pelo usuário nos metadados do recurso após inferência, tendo sido este campo inferido ou não, arquivos tabulares ou não.
+
+- **CT 001.002 – Edição metadados dicionário de dados recurso:** 
+Sistema deverár salvar informação incluída pelo usuário nos metadados do dicionário de dados do recurso após inferência, tendo sido este campo inferido ou não, arquivos tabulares.
 
 ## Testes realizados pela Stefanini em ambiente prórpio
 
@@ -11,21 +17,22 @@ Testes da aplicação dos critérios e das regras da estória de usuário [ediç
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
 ### Resultado 001
-- Data: XX/01/2023
-- Necessita ser retestado: XXX
-- Evidências:
-  - [Comentário GitHub]()
-  - [Vídeo Gravado]()
-- [comentários no issue relacionado](https://github.com/transparencia-mg/work-stefanini/issues/105)
+- **Data:** XX/0X/2023
+- **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
+- **Necessita ser retestado:** XXX
+- **Itens testados:** Documentados em comentário do issue []()
+- **Evidências:**    
+    - [Vídeo Gravado]()
 
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
 ### Resultado 001
-- Data: XX/01/2023
-- Necessita ser retestado: XXX
-- Evidências:
-  - [Comentário GitHub]()
-  - [Vídeo Gravado]()
+- **Data:** XX/0X/2023
+- **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
+- **Necessita ser retestado:** XXX
+- **Itens testados:** Documentados em comentário do issue []()
+- **Evidências:**    
+    - [Vídeo Gravado]()
 
 
 
