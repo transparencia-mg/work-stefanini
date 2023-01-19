@@ -18,14 +18,21 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
-### Resultado 001
-- **Data:** XX/XX/2023
-- **Versão do pacote:** XXX
-- **Necessita ser retestado:** XXX
-- **Itens para correção:** Documentados em comentário do issue [#83 - Upload de Dados: Desenvolvimento]()
+### Resultado 002
+- **Data:** 19/01/2023
+- **Versão do pacote:** [0.17](https://pypi.org/project/ckanext-datapackage-creator/0.0.17/)
+- **Necessita ser retestado:** Não
+- **Itens para correção:** Documentados em comentário do issue [#96 - Inferência de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/100#issuecomment-1397571407)
 - **Evidências:**    
     - [Vídeo Gravado]()
-    - [Issues relacionados]():
+
+### Resultado 001
+- **Data:** 17/01/2023
+- **Versão do pacote:** [0.15](https://pypi.org/project/ckanext-datapackage-creator/0.0.15/)
+- **Necessita ser retestado:** Sim
+- **Itens para correção:** Documentados em comentário do issue [#96 - Inferência de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/100#issuecomment-1386062281)
+- **Evidências:**    
+    - [Vídeo Gravado](https://www.youtube.com/watch?v=ZnyEAvwwiqg)
 
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 

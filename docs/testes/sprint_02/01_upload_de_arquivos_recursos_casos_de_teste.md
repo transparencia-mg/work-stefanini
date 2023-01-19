@@ -33,6 +33,14 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
+### Resultado 003
+- **Data:** 19/01/2023
+- **Versão do pacote:** [0.17](https://pypi.org/project/ckanext-datapackage-creator/0.0.17/)
+- **Necessita ser retestado:** Não
+- **Itens para correção:** Documentados em comentário do issue [#83 - Upload de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1397496912)
+- **Evidências:**
+    - [Vídeo Gravado]()
+
 ### Resultado 002
 - **Data:** 13/01/2023
 - **Versão do pacote:** [0.15](https://pypi.org/project/ckanext-datapackage-creator/0.0.15/)
