@@ -16,7 +16,7 @@ graph TD;
 
 - **Perfil de acesso:** Publicador. 
 
-- **Testes:** [Resultados Obtidos](../../../testes/sprint_03/04_criacao_de_novos_metadados_casos_de_teste/#resultados-obtidos).
+- **Testes:** [Resultados Obtidos](../../../testes/sprint_03/04_criacao_de_novos_metadados_do_recurso_casos_de_teste/#resultados-obtidos).
 
 - **Status:** Em revisão.
 
