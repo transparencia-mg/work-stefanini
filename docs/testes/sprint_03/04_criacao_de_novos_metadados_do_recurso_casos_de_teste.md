@@ -1,6 +1,6 @@
 # Casos de Teste Criação de Novos Metadados
 
-Registra os testes de todas as regras negociais pensadas para a a estória de usuário [criação de novos metadados](../../estorias_de_usuarios/04_criacao_de_novos_metadados_do_recurso), bem como testes adicionais caso necessário:
+Registra os testes de todas as regras negociais pensadas para a a estória de usuário [criação de novos metadados](../../../estorias_de_usuarios/sprint_03/04_criacao_de_novos_metadados_do_recurso), bem como testes adicionais caso necessário:
 
 - **CT 001.001 – Edição metadados recurso - dicionário de dados:** 
 Opção de inclusão de propriedade `Max e Min` deverá aparecer no dicionário de dados apenas se campo for numérico.
