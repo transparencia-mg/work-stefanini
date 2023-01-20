@@ -10,8 +10,6 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 - **CT 001.004 – Comportamento arquivo não tablular:** Tendo sido feita configuração **para DTA**, conforme relatado na [Regra Negocial 001.0012 da estória de usuário](../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo/#regra-negocial-0010012), os campos Tipo, Formato e Encoding serão obrigatórios. 
 
-- **CT 001.005 – Comportamento arquivo não tablular:** Havendo erro durante o processo de `describe` realizado pela Frictionless sistema deverá mostrar mensagem clara deste problema e não mensagem genérica. 
-
 ## Testes realizados pela Stefanini em ambiente prórpio
 
 - [Testes realizados na versão 0.5 do documento](testes/sprint_02/02_inferencia_de_arquivo_casos_de_teste/)
