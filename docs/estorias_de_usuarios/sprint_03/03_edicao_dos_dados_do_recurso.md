@@ -55,8 +55,6 @@ Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opçã
     - type
     - enconding
 
-
-
 #### **Regra negocial 001.004**: 
 Caso algum campo obrigatório do dicionário de dados não seja preenchido o sistema deverá informar mensagem no seguinte padrão: 
 
@@ -74,36 +72,39 @@ Para que seja feita a edição dos metadados do Dicionário de Dados e dos Dados
 Ao carregar um arquivo(s) de dados `não` tabular, o sistema habilita apenas a edição dos campos dos Dados do Recurso. 
 
 #### **Regra negocial 001.008**: 
-No agrupamento Dicionário de Dados, no campo `Tipo de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1] , podendo ser editado, a depender da configuração do Administrador do Portal.
+No agrupamento Dicionário de Dados, no campo `Tipo de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado.
 
 #### **Regra negocial 001.009**: 
-No agrupamento Dicionário de Dados, no campo `Formato de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
+No agrupamento Dicionário de Dados, no campo `Formato de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado.
 
 #### **Regra negocial 001.010**: 
+No agrupamento Dicionário de Dados, no campo `Formato de dados` deverá ser um campo aberto caso o campo `Tipo de dados` for algum formato de data.
+
+#### **Regra negocial 001.011**: 
 No agrupamento Dicionário de Dados, no campo `Obrigatório`[^2], a combobox tem a seguinte apresentação:
 
 - Deverão conter as opções *SIM* e *NÃO* 
-- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
+- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável.  
 
-#### **Regra negocial 001.011**: 
+#### **Regra negocial 001.012**: 
 No agrupamento Dicionário de Dados, no campo `Único`[^3], a combobox tem a seguinte apresentação:
 
 - Deverão conter as opções *SIM* e *NÃO*
-- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
-
-#### **Regra negocial 001.012**: 
-No agrupamento Dados do Recurso no campo `Tipo do Recurso`[^4] a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.  
+- Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável.  
 
 #### **Regra negocial 001.013**: 
-No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.  
+No agrupamento Dados do Recurso no campo `Tipo do Recurso`[^4] a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.  
 
 #### **Regra negocial 001.014**: 
-Para arquivos tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.
+No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.  
 
 #### **Regra negocial 001.015**: 
-Para arquivos não tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.
+Para arquivos tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.
 
 #### **Regra negocial 001.016**: 
+Para arquivos não tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.
+
+#### **Regra negocial 001.017**: 
 Após a publicação do conjunto de dados, a edição de um recurso ou adição de um novo, só poderá ser feita uma de cada vez. 
 
 ## Prototipação
