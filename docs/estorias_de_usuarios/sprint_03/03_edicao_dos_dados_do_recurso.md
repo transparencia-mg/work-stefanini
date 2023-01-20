@@ -101,12 +101,6 @@ No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto d
 #### **Regra negocial 001.015**: 
 Para arquivos tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.
 
-#### **Regra negocial 001.016**: 
-Para arquivos não tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.
-
-#### **Regra negocial 001.017**: 
-Após a publicação do conjunto de dados, a edição de um recurso ou adição de um novo, só poderá ser feita uma de cada vez. 
-
 ## Prototipação
 
 - [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
