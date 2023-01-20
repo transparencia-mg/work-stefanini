@@ -39,7 +39,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Necessita ser retestado:** Não
 - **Itens testados:** Documentados em comentário do issue [#83 - Upload de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/93#issuecomment-1397496912)
 - **Evidências:**
-    - [Vídeo Gravado]()
+    - [Vídeo Gravado](https://youtu.be/07qn2pjlsO8)
 
 ### Resultado 002
 - **Data:** 13/01/2023

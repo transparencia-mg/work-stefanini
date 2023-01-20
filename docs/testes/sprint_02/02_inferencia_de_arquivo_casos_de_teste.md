@@ -24,7 +24,8 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 - **Necessita ser retestado:** Não
 - **Itens testados:** Documentados em comentário do issue [#96 - Inferência de Dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/100#issuecomment-1397571407)
 - **Evidências:**    
-    - [Vídeo Gravado]()
+    - [Primeiro vídeo](https://youtu.be/07qn2pjlsO8)
+    - [Segundo vídeo]()
 
 ### Resultado 001
 - **Data:** 17/01/2023
