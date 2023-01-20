@@ -8,7 +8,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 - **CT 001.003 – Comportamento arquivo não tablular:** A extensão, como default deverá apresentar os campos Tipo, Formato e Encoding como não obrigatórios e habilitados para edição.
 
-- **CT 001.004 – Comportamento arquivo não tablular:** Tendo sido feita configuração **para DTA**, conforme relatado na [Regra Negocial 001.0012 da estória de usuário](../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo/#regra-negocial-0010012), os campos Tipo, Formato e Encoding serão obrigatórios e não habilitados para edição. 
+- **CT 001.004 – Comportamento arquivo não tablular:** Tendo sido feita configuração **para DTA**, conforme relatado na [Regra Negocial 001.0012 da estória de usuário](../../../estorias_de_usuarios/sprint_02/02_inferencia_de_arquivo/#regra-negocial-0010012), os campos Tipo, Formato e Encoding serão obrigatórios. 
 
 - **CT 001.005 – Comportamento arquivo não tablular:** Havendo erro durante o processo de `describe` realizado pela Frictionless sistema deverá mostrar mensagem clara deste problema e não mensagem genérica. 
 

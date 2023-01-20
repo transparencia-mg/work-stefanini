@@ -67,16 +67,16 @@ No agrupamento Dicionário de Dados, no campo `Único`[^3], a combobox tem a seg
 - Por padrão, deverá vir selecionada a opção *NÃO*, podendo ser editável, a depender da configuração do Administrador do Portal.  
 
 #### **Regra negocial 001.011**: 
-No agrupamento Dados do Recurso no campo `Tipo do Recurso`[^4] a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.  
+No agrupamento Dados do Recurso no campo `Tipo do Recurso`[^4] a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.  
 
 #### **Regra negocial 001.012**: 
-No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.  
+No agrupamento Dados do Recurso o campo `Formato do Recurso`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.  
 
 #### **Regra negocial 001.013**: 
-Para arquivos tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
+Para arquivos tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.
 
 #### **Regra negocial 001.014**: 
-Para arquivos não tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser editado, a depender da configuração do Administrador do Portal.
+Para arquivos não tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] o campo texto deve vir preenchido, inferido pela Frictionless[^1], podendo ser requerido e/ou editado, a depender da configuração do Administrador do Portal.
 
 #### **Regra negocial 001.015**: 
 Após a publicação do conjunto de dados, a edição de um recurso ou adição de um novo, só poderá ser feita uma de cada vez. 
