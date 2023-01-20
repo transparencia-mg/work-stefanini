@@ -17,10 +17,10 @@ Sistema deverár salvar informação incluída pelo usuário nos metadados do di
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
 ### Resultado 001
-- **Data:** XX/0X/2023
-- **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
-- **Necessita ser retestado:** XXX
-- **Itens testados:** Documentados em comentário do issue []()
+- **Data:** 20/01/2023
+- **Versão do pacote:** [0.20](https://pypi.org/project/ckanext-datapackage-creator/0.0.20/)
+- **Necessita ser retestado:** Sim
+- **Itens testados:** Documentados em comentário do issue [# 107 - Edição dos Dados do Recurso: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/111#issuecomment-1398786142)
 - **Evidências:**    
     - [Vídeo Gravado]()
 
