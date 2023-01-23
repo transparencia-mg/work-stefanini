@@ -1,10 +1,9 @@
 # Edição do Conjunto de Dados
 
-**Como** publicador, **eu quero**  editar os metadados do conjunto de dados **para** que eu possa abançar para a aba de Adicionar Dados.
+**Como** publicador, **eu quero**  editar os metadados do conjunto de dados **para** que eu possa melhor documentar o mesmo, antes de avançar para a aba de Adicionar Dados.
 
-- **Acessos:**
+- **Acesso 1:**
 
-1 - 
 ```mermaid
 graph LR;
     1[Acessar Portal Dados Abertos]-->2;
@@ -12,7 +11,9 @@ graph LR;
     3[Conjunto de dados]-->4;
     4[Adicionar Conjunto de Dados]
 ```
-2 -
+
+- **Acesso 2:**
+
 ```mermaid
 graph LR;
     1[Acessar Portal Dados Abertos]-->2;
@@ -23,86 +24,71 @@ graph LR;
 ```
 
 - **Perfil de acesso:** Publicador. 
-- **Protótipo:** Baixa Fidelidade.
 
-- **Regra negocial:** Para que possa editar todos os metadados do conjunto de dados, o sistema deve se comportar conforme as regras abaixo:
-	- **RN001:** Manter a conformidade com a especificação da Frictionless. 
-	- **RN002:** Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório. 
-	- **RN003:** - Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca, informando quando os campos deverão ser restritos à edição. 
-	- **RN004:** Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do Portal.
-    - **RN005** - O campo Organização deve ser de preenchimento obrigatório.
-    - **RN006** - Deverá ser mantido o campo busca dentro da combobox da Organização. 
-    - **RN007** - No campo `Visibilidade`, a combobox tem a seguinte apresentação:
-    	- Deverão conter as opções *Privada* e *Pública* 
-        - Por padrão, deverá vir selecionada a opção *Privada*, podendo ser editável, a depender da configuração do Administrador do Portal. 
-    - **RN008** - A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda** e como padrão a opção **selecione**.
-    - **RN009** - O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.
-    	- OBS: As opções de licenças deveão ser descritas no arquivo de configuração.
+- **Testes:** [Resultados Obtidos](../../../testes/sprint_04/06_edicao_do_conjunto_de_dados_casos_de_teste/#resultados-obtidos).
 
-### Critérios de aceite
+- **Status:** Em revisão.
 
-- **Critério 001 – Edição dos dados do Conjunto do Recurso**
-	- **Dado** que quero fazer a edição do conjunto de dados. 
-	- **Quando** aciono o botão `Criar Conjunto de Dados`,
-	- **Então** o sistema apresenta os campos para fazer a edição dos dados.
+- **Perfil de acesso:** Publicador. 
 
-```
-Regra Negocial (1) DTA: Campo Organização:
-1,2 - Quando o usuário estiver submetido a apenas UMA organização, 
+## Critérios de aceite
+Para que seja feito a edição dos dados do conjunto, o portal deve se comportar conforme as critérios de aceite abaixo:
+
+### **Critério 001 – Editar Metadados de arquivo(s) de dados:**
+- **Dado** que quero fazer a edição dos metadados conjunto de dados.
+- **Quando** aciono o botão `Criar Conjunto de Dados`.
+- **Então**o sistema apresenta os campos para fazer a edição dos dados.
+
+#### **Regra negocial 001.001**: 
+Manter a conformidade com a especificação da Frictionless.
+
+#### **Regra negocial 001.002**: 
+Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório.
+
+#### **Regra negocial 001.003**: 
+Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca, informando quando os campos deverão ser restritos à edição. 
+
+#### **Regra negocial 001.004**: 
+Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do Portal.
+
+#### **Regra negocial 001.005**: 
+O campo Organização deve ser de preenchimento obrigatório.
+
+#### **Regra negocial 001.006**: 
+Quando o usuário estiver submetido a apenas uma organização, 
 o campo deve vir preenchido e sem a possibilidade de alteração. 
-```
 
-- **Critério 002 – Usuário submetido a apenas uma organização**
+#### **Regra negocial 001.007**: 
+Quando o usuário estiver submetido a mais de uma organização, deverá ser mantido o campo busca das organizações vinculadas ao usuário dentro da combobox da Organização, e como padrão a opção **selecione** 
 
-	- **Dado** que estou no menu `Criar Conjunto de Dados`. 
-	- **E**	clico em `Adicionar Conjunto de Dados`,
-	- **Então** o sistema apresenta a organização e impossibilita 
-	a edição. 
+#### **Regra negocial 001.008**: 
+No campo `Visibilidade`, a combobox tem a seguinte apresentação:
 
-- **Critério 003 – Usuário submetido a apenas uma organização** 
+- Deverão conter as opções *Privada* e *Pública* 
+- Por padrão, deverá vir selecionada a opção *Privada*, podendo ser editável, a depender da configuração do Administrador do Portal. 
 
-	- **Dado** que eu estou no menu `Organizações`. 
-	- **E** escolho a organização,
-	- **Quando** clico em `Adicionar Conjunto de Dados`,
-	- **Então** o sistema apresenta a organização e impossibilita a edição.
+#### **Regra negocial 001.009**: 
+A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda** e como padrão a opção **selecione**.
 
-````
-Regra Negocial DTA (2): Campo Organização:
-1 - Quando o usuário estiver submetido a duas ou mais organizações,
-o campo não deve vir preenchido e com a possibilidade de selecionar 
-a organização na qual faz parte.
-````
+#### **Regra negocial 001.010**: 
+O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.
 
-- **Critério 004 – Usuário submetido a mais de uma organização**
-	- **Dado** que estou no menu `Criar Conjunto de Dados`. 
-	- **Quando** clico em `Adicionar Conjunto de Dados`,
-	- **E** tenho mais de uma organização submetida ao meu usuário,
-	- **Então** o sistema não apresenta a organização e possibilita a seleção da organização na qual faz parte. 
+#### **Regra negocial 001.011**: 
+Quando tento acionar o botão `Adicionar Dados`
 
-````
-Regra Negocial DTA (3) - Campo Organização:
-Quando o usuário estiver submetido a duas ou mais organizações, 
-mas estiver criando um novo conjunto de dados pelo menu Organizações, 
-a mesma já deverá vir preenchida e sem a possibilidade de alteração.
-````
+- **Critério 006 – Habilitar avanço para a próxima Aba**
+	- **Dado** que quero avançar para a aba `Adicionar Dados`. 
+	- **E** ,
+	- **Então** o sistema só habilita o mesmo, após o preenchimento dos campos obrigatórios.
 
-- **Critério 005 – Usuário submetido a mais de uma organização**
 
-	- **Dado** que estou no menu `Organizações`.
-	- **E** escolho a organização, 
-	- **Quando** clico em `Adicionar Conjunto de Dados`,
-	- **E** tenho mais de uma organização submetida ao meu usuário,
-	- **Então** o sistema apresenta a organização e impossibilita a seleção das organizações da qual faz parte. 
 
 ````
 Regra Negocial DTA (4) - Campos Título, Descrição, Licença, Autor e 
 Palavras-chave: São de preenchimento obrigatórios.
 ````
 
-- **Critério 006 – Habilitar avanço para a próxima Aba**
-	- **Dado** que quero avançar para a aba `Adicionar Dados`. 
-	- **E** tento acionar o botão `Adicionar Dados`,
-	- **Então** o sistema só habilita o mesmo, após o preenchimento dos campos obrigatórios.
+
 
 ````
 Regra Negocial DTA (5) - Campo Publicador: Deverá vir preenchido com o nome e
