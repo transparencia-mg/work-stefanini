@@ -1728,7 +1728,7 @@
 <li><strong>Então</strong> os metadados do recurso documentado deverá ser validado frente seu respectivo dado. </li>
 </ul>
 <h4 id="regra-negocial-001001"><strong>Regra negocial 001.001</strong>:<a class="headerlink" href="#regra-negocial-001001" title="Permanent link">⚓︎</a></h4>
-<p>Todos os campos, inferidos ou não, serão validados de acordo com as especificações da Frictionless<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></p>
+<p>Todos os campos, inferidos ou não, serão validados de acordo com as especificações da da <a href="https://specs.frictionlessdata.io/#overview">Frictionless</a>.</p>
 <h4 id="regra-negocial-001001_1"><strong>Regra negocial 001.001</strong>:<a class="headerlink" href="#regra-negocial-001001_1" title="Permanent link">⚓︎</a></h4>
 <p>O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a próxima etapa do fluxo.</p>
 <h4 id="regra-negocial-001001_2"><strong>Regra negocial 001.001</strong>:<a class="headerlink" href="#regra-negocial-001001_2" title="Permanent link">⚓︎</a></h4>
@@ -1739,6 +1739,20 @@
 <p>Não haverá limite de tempo para armazenamento da página estática de resultado do relatório de validação dos metadados. </p>
 <h4 id="regra-negocial-001001_5"><strong>Regra negocial 001.001</strong><a class="headerlink" href="#regra-negocial-001001_5" title="Permanent link">⚓︎</a></h4>
 <p>Além da validação frictionless o sistema deverá validar campos cujo o preenchimento seja obrigatório segundo arquivo de configuração utilizado durante instalação da extensão.</p>
+<blockquote>
+<p>Regra Negocial DTA a ser incluída apenas em arquivo de configuração durante instalação da extensão:</p>
+<ul>
+<li>
+<p>Campos: Título e Descrição são obrigatórios e editáveis. </p>
+</li>
+<li>
+<p>Campos: Tipo, Formato e Encoding dos <abbr title="Data Resource.">Dados do Recurso</abbr> são obrigatórios e não são editáveis. </p>
+</li>
+<li>
+<p>Campos: Título e Descrição do <abbr title="Table Schema.">dicionário de dados</abbr> são obrigatórios</p>
+</li>
+</ul>
+</blockquote>
 <h2 id="prototipacao">Prototipação<a class="headerlink" href="#prototipacao" title="Permanent link">⚓︎</a></h2>
 <ul>
 <li><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Prototipo baixa fidelidade</a></li>
@@ -1748,7 +1762,7 @@
 <tr>
 <th>Item</th>
 <th>Nome do Campo</th>
-<th>Tipo de Dado<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></th>
+<th>Tipo de Dado<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></th>
 <th>Opções/Domínio</th>
 <th>Descrição/Observações</th>
 </tr>
@@ -1791,10 +1805,7 @@
 <hr />
 <ol>
 <li id="fn:1">
-<p><a href="https://specs.frictionlessdata.io/#overview">Frictionless</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
-</li>
-<li id="fn:2">
-<p><a href="../modelos/tipos_dado_formulario_html.md">Tipos de dados</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p><a href="../modelos/tipos_dado_formulario_html.md">Tipos de dados</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -1804,7 +1815,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 26, 2023 19:03:41</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 26, 2023 19:59:37</span>
       
         <br>
         Created:
