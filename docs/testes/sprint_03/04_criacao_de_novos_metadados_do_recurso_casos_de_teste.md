@@ -2,13 +2,13 @@
 
 Registra os testes de todas as regras negociais pensadas para a a estória de usuário [criação de novos metadados](../../../estorias_de_usuarios/sprint_03/04_criacao_de_novos_metadados_do_recurso), bem como testes adicionais caso necessário:
 
-- **CT 001.001 – Edição metadados recurso - dicionário de dados:** 
+- **CT 001.001:** 
 Opção de inclusão de propriedade `Max e Min` deverá aparecer no dicionário de dados apenas se campo for numérico.
 
-- **CT 001.002 – Edição metadados recurso - dicionário de dados:** 
+- **CT 001.002:** 
 Opção de inclusão de propriedade `Tamanho Maximo e Mínimo` deverá aparecer no dicionário de dados apenas se campo for texto.
 
-- **CT 001.003 – Edição metadados recurso - dicionário de dados:** 
+- **CT 001.003:** 
 Opção de inclusão de propriedade `Lista de Valores` deverá aparecer no dicionário de dados para campos numéricos e texto.
 
 ## Testes realizados pela Stefanini em ambiente prórpio

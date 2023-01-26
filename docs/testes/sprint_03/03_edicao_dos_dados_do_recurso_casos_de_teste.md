@@ -2,10 +2,10 @@
 
 Registra os testes de todas as regras negociais pensadas para a a estória de usuário [edição dos dados do recurso](../../../estorias_de_usuarios/sprint_03/03_edicao_dos_dados_do_recurso/), bem como testes adicionais caso necessário:
 
-- **CT 001.001 – Edição metadados recurso:** 
+- **CT 001.001:** 
 Sistema deverár salvar informação incluída pelo usuário nos metadados do recurso após inferência, tendo sido este campo inferido ou não, arquivos tabulares ou não.
 
-- **CT 001.002 – Edição metadados dicionário de dados recurso:** 
+- **CT 001.002:** 
 Sistema deverár salvar informação incluída pelo usuário nos metadados do dicionário de dados do recurso após inferência, tendo sido este campo inferido ou não, arquivos tabulares.
 
 ## Testes realizados pela Stefanini em ambiente prórpio
@@ -18,7 +18,7 @@ Sistema deverár salvar informação incluída pelo usuário nos metadados do di
 
 ### Resultado 001
 - **Data:** 20/01/2023
-- **Versão do pacote:** [0.20](https://pypi.org/project/ckanext-datapackage-creator/0.0.20/)
+- **Versão do pacote:** [0.0.20](https://pypi.org/project/ckanext-datapackage-creator/0.0.20/)
 - **Necessita ser retestado:** Sim
 - **Itens testados:** Documentados em comentário do issue [# 107 - Edição dos Dados do Recurso: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/111#issuecomment-1398786142)
 - **Evidências:**    

@@ -16,7 +16,7 @@ graph TD;
 
 - **Perfil de acesso:** Publicador. 
 
-- **Testes:** [Resultados Obtidos](../../../testes/sprint_03/03_edicao_dos_dados_do_recurso_casos_de_teste/#resultados-obtidos).
+- **Testes:** [Resultados Finais Obtidos](../../../testes/sprint_03/03_edicao_dos_dados_do_recurso_casos_de_teste/#testes-realizados-pela-equipe-dcta-em-ambiente-da-cge).
 
 - **Status:** Em revisão.
 
