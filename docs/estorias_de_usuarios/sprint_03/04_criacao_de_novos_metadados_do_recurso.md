@@ -34,10 +34,10 @@ Para que seja feito a edição dos dados de recursos, o portal deve se comportar
 Para que seja feita a criação de novos metadados do Dicionário de Dados, o(s) arquivo(s) de dados deve(m) ser de formato tabular.
 
 #### **Regra negocial 001.002**:
-Ao carregar um arquivo(s) de dados `Não` tabular, o sistema deverá habilitar apenas os Dados do Recurso para a criação de novos metadados.
+Ao carregar um arquivo(s) de dados não tabular, o sistema deverá habilitar apenas os Dados do Recurso para a criação de novos metadados.
 
 #### **Regra negocial 001.003**:
-Para a criação de um novo metadado do Dicionário de Dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados. Exemplo desta regra pode ser obtido nas especificações da propriedade [`required`](https://specs.frictionlessdata.io/table-schema/#constraints) do table schema.
+Para a criação de um novo metadado do Dicionário de Dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados. Exemplo desta regra pode ser obtido nas especificações da propriedade [`required` do table schema frictionless](https://specs.frictionlessdata.io/table-schema/#constraints).
 
 #### **Regra negocial 001.004**:
 Para a criação de um novo metadado do Dicionário de Dados, do tipo `Max e Min` o sistema irá se comportar da seguinte maneira: 

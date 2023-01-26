@@ -15,17 +15,6 @@ Incluir tipo de dado errado em dicionário de dados e verificar relatório de va
 
 - [issue](https://github.com/transparencia-mg/work-stefanini/issues/125)
 
-
-## Testes realizados pela equipe DCTA em ambiente próprio 
-
-### Resultado 001
-- **Data:** XX/0X/2023
-- **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
-- **Necessita ser retestado:** XXX
-- **Itens testados:** Documentados em comentário do issue []()
-- **Evidências:**    
-    - [Vídeo Gravado]()
-
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
 ### Resultado 001

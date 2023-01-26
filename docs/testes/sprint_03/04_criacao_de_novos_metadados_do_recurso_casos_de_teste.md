@@ -16,24 +16,13 @@ Opção de inclusão de propriedade `Lista de Valores` deverá aparecer no dicio
 - [Testes realizados na versão 0.5 do documento](0.5/testes/sprint_03/04_criacao_de_novos_metadados_casos_de_teste/)
 - [issue](https://github.com/transparencia-mg/work-stefanini/issues/118)
 
-
-## Testes realizados pela equipe DCTA em ambiente próprio 
-
-### Resultado 001
-- **Data:** XX/0X/2023
-- **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
-- **Necessita ser retestado:** XXX
-- **Itens testados:** Documentados em comentário do issue []()
-- **Evidências:**    
-    - [Vídeo Gravado]()
-
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
 ### Resultado 001
 - **Data:** XX/0X/2023
 - **Versão do pacote:** [0.0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
 - **Necessita ser retestado:** XXX
-- **Itens testados:** Documentados em comentário do issue []()
+- **Itens testados:** Documentados em comentário do issue [# 113 - Criação de novos metadados: Desenvolvimento]()
 - **Evidências:**    
     - [Vídeo Gravado]()
     - [Dataset Utilizado durante teste]()
