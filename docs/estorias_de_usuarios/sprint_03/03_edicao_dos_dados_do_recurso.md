@@ -31,7 +31,7 @@ Para que seja feito a edição dos dados de recursos, o portal deve se comportar
 - **Então** escolho a opção que desejo editar e faço a edição.
 
 #### **Regra negocial 001.001**: 
-Manter a conformidade com a especificação da Frictionless.
+Manter a conformidade com a especificação da [Frictionless](https://specs.frictionlessdata.io/#overview).
 
 #### **Regra negocial 001.002**: 
 Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório. Os campos configuráveis serão os listados abaixo, devendo esta informação constar nas instruções de instalação da biblioteca:
@@ -69,7 +69,7 @@ Os campos dos formulários deverão estar em conformidade com a especificação 
 Para que seja feita a edição dos metadados do Dicionário de Dados e dos Dados do Recurso, o(s) arquivo(s) de dados deve ser em formato tabular.
 
 #### **Regra negocial 001.007**: 
-Ao carregar um arquivo(s) de dados `não` tabular, o sistema habilita apenas a edição dos campos dos Dados do Recurso. 
+Ao carregar um arquivo(s) de dados não tabular, o sistema habilita apenas a edição dos campos dos Dados do Recurso. 
 
 #### **Regra negocial 001.008**: 
 No agrupamento Dicionário de Dados, no campo `Tipo de dados`, a combobox deve vir preenchida, inferida pela Frictionless[^1], podendo ser editado.

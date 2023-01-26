@@ -45,7 +45,7 @@ $ mike deploy --push --update-aliases <minor>.<major> latest
 ```
 Confira também [issue](https://github.com/transparencia-mg/work-stefanini/issues/17) utilizado para documentar processo de versionamento.
 
-Visualização local da documentação versionada poderá ser feita via comando `mike serve`
+Visualização local da documentação versionada poderá ser feita via comando `mike serve`. Comando `mike set-default --push latest` configura a última versão como a default.
 
 ## Contribuições
 
