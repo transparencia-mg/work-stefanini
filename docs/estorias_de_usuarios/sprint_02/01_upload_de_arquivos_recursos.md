@@ -18,7 +18,7 @@ graph TD;
 
 - **Testes:** [Resultados Finais Obtidos](../../../testes/sprint_02/01_upload_de_arquivos_recursos_casos_de_teste/#testes-realizados-pela-equipe-dcta-em-ambiente-da-cge).
 
-- **Status:** Em revisão. 
+- **Status:** Finalizado. 
 
 ## Critérios de aceite
 Para que seja feito o upload de arquivo(s) de dados, o portal deve se comportar conforme as critérios de aceite abaixo:

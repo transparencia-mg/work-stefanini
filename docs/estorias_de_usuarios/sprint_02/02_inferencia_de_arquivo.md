@@ -16,9 +16,9 @@ graph TD;
 
 - **Perfil de acesso:** Publicador. 
 
-- **Testes:** [Resultados Obtidos](../../../testes/sprint_02/02_inferencia_de_arquivo_casos_de_teste/#resultados-obtidos).
+- **Testes:** [Resultados Finais Obtidos](../../../testes/sprint_02/02_inferencia_de_arquivo_casos_de_teste/#testes-realizados-pela-equipe-dcta-em-ambiente-da-cge).
 
-- **Status:** Em revisão.
+- **Status:** Finalizado.
 
 - **Perfil de acesso:** Publicador. 
 
@@ -34,10 +34,10 @@ Para que seja feito a inferência de arquivo(s) de dados, o portal deve se compo
 O conjuntos de dados e recursos devem seguir o padrão de metadados de acordo com a biblioteca da [Frictionless](https://specs.frictionlessdata.io/#overview).
 
 #### **Regra negocial 001.002**: 
-Ao fazer o carregamento de um arquivo(s) de dados que `Não` seja tabular (PDF, Imagem, etc) o sistema deverá apenas fazer a inferência dos dados do recurso e apresentar, em tela, o ícone da extensão e o nome do arquivo com sua extensão.
+Ao fazer o carregamento de um arquivo(s) de dados que não seja tabular (PDF, Imagem, etc) o sistema deverá apenas fazer a inferência dos dados do recurso e apresentar, em tela, o ícone com nome da extensão.
 
 #### **Regra negocial 001.003**:
-Para que seja feita a inferência dos metadados do dicionário de dados (Table Schema), o(s) arquivo(s) de dados deve ser em formato tabular.
+Para que seja feita a inferência dos metadados do dicionário de dados, o(s) arquivo(s) de dados deve ser em formato tabular.
 
 #### **Regra negocial 001.004**:
 Após o carregamento de arquivo(s) de dados tabular, cada coluna de dados deverá vir na mesma ordem dos campos do o(s) arquivo(s) de dados.
@@ -64,15 +64,6 @@ Titulo, Descrição, Formato do recurso, Tipo (Tabular ou não) e Encoding (codi
 #### **Regra negocial 001.0011**:
 No agrupamento dos Dados do Recurso os campos: Formato do recurso, Tipo (Tabular ou não) e Encoding (codificação) serão inferidos pela frictionless e deverão conter as opções predeterminadas pela [mesma](https://specs.frictionlessdata.io/#overview). 
  
-#### **Regra negocial 001.0012**:
-Serão campos obrigatórios de preenchimento aqueles especificados pela [Frictionless](https://specs.frictionlessdata.io/data-resource/#metadata-properties) e ou incluídos em arquivo de configuração da extensão, conforme regras definidas nas estória de edição dos dados dos recursos e conjuntos.
-
-> Regra Negocial DTA a ser incluída apenas em arquivo de configuração durante instalação da extensão:
-
-> - Campos: Título e Descrição são obrigatórios e editáveis. 
-
-> - Campos: Tipo, Formato e Encoding dos Dados do Recurso são obrigatórios e não são editáveis. 
-
 ## Prototipação
 
 - [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
