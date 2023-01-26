@@ -44,10 +44,10 @@ Ao clicar na opção `carregar`, caso tenha selecionado um arquivo para upload d
 Ao clicar na opção `carregar`, após selecionar o carregamento do arquivo(s) de dados na tela de busca do sistema operacional, o sistema deverá carregar os metadados do(s) arquivo(s) de dados selecionado em tela.
 
 #### **Regra negocial 001.006**:
-Ao carregar arquivo(s) de dados do tipo tabular, o sistema deverá habilitar o campo do Dicionário de dados, com as colunas do arquivo(s) de dados selecionado.  
+Ao carregar arquivo(s) de dados do tipo tabular, o sistema deverá habilitar o campo do Dicionário de Dados, com as colunas do arquivo(s) de dados selecionado.  
 
 #### **Regra negocial 001.007**:
-Ao carregar arquivo(s) de dados do tipo `Não` tabular, o sistema deverá habilitar o campo do Dicionário de dados com o ícone da extensão do arquivo e o nome do arquivo com sua extensão.
+Ao carregar arquivo(s) de dados do tipo não tabular, o sistema deverá habilitar o campo do Dicionário de Dados com o ícone da extensão do arquivo.
 
 #### **Regra negocial 001.008**:
 Ao adicionar um novo arquivo(s) de dados, a exibição dos metadados do(s) anteriormente carregados deverá(ão) ser desabilitada(s). 
