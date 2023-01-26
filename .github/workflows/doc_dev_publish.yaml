@@ -3,7 +3,7 @@ name: Publish Documentation
 on:
   push:
     branches:
-      - sprint-06-new-version
+      - main
 
 jobs:
   publish_documentation:
