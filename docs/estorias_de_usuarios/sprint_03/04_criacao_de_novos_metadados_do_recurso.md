@@ -26,7 +26,7 @@ graph TD;
 Para que seja feito a edição dos dados de recursos, o portal deve se comportar conforme as critérios de aceite abaixo:
 
 ### **Critério 001 – Editar Metadados de arquivo(s) de dados:**
-- **Dado** eu quero criar novos metadados dos dados do recurso e dicionário de dados para arquivos tabulares
+- **Dado** eu quero criar novos metadados dos dados do recurso e dicionário de dados para arquivos tabulares ou não.
 - **Quando** o botão `Adicionar Metadados` for acionado.
 - **Então** eu escolho qual(is) metadado(s) desejo inserir. 
 
@@ -39,21 +39,21 @@ Ao carregar um arquivo(s) de dados `Não` tabular, o sistema deverá habilitar a
 #### **Regra negocial 001.003**:
 Para a criação de um novo metadado do Dicionário de Dados, a inferência do tipo de dado irá impactar diretamente na escolha de novos metadados. Exemplo desta regra pode ser obtido nas especificações da propriedade [`required`](https://specs.frictionlessdata.io/table-schema/#constraints) do table schema.
 
-#### **Regra negocial 001.005**:
+#### **Regra negocial 001.004**:
 Para a criação de um novo metadado do Dicionário de Dados, do tipo `Max e Min` o sistema irá se comportar da seguinte maneira: 
 
 - Deverá ser criado, ao lado do nome, dois campos do tipo texto (um para o valor mínimo e outro para o valor máximo). Ex.: *Ano:* Mínimo: 2016 à Máximo: 2022
-- Este campo será numérico.
+- Este campo será inteiro.
 - Tendo sido adiconado este campo, o mesmo será de preenchimento obrigatório.
 
-#### **Regra negocial 001.006**:
+#### **Regra negocial 001.005**:
 Para a criação de um novo metadado do dicionário de dados, do tipo `Tamanho Maximo e Mínimo` o sistema irá se comportar da seguinte maneira: 
 
 - Deverá ser criado, ao lado do nome, dois campos do tipo texto (Quantidade de caracteres mínimo e  máximo).  Ex.: *CPF:* Mínimo: 11 à Máximo: 14
-- Este campo será numérico.
+- Este campo será inteiro.
 - Tendo sido adiconado este campo, o mesmo será de preenchimento obrigatório.
 
-#### **Regra negocial 001.007**:
+#### **Regra negocial 001.006**:
 Para a criação de um novo metadado do  dicionário de dados, do tipo `Lista de Valores` o sistema irá se comportar da seguinte maneira: 
 
 - Deverá ser criado, ao lado do nome,  um campo do tipo texto,

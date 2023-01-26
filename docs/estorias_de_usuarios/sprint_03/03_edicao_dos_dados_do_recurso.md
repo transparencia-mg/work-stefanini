@@ -63,7 +63,7 @@ Table Schema `field`: This field is required
 ```
 
 #### **Regra negocial 001.005**: 
-Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do Portal, devendo ser incluído um `*` para indicar campos obrigatórios
+Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do Portal, devendo ser incluído um `*` (asterisco) para indicar campos obrigatórios.
 
 #### **Regra negocial 001.006**: 
 Para que seja feita a edição dos metadados do Dicionário de Dados e dos Dados do Recurso, o(s) arquivo(s) de dados deve ser em formato tabular.
