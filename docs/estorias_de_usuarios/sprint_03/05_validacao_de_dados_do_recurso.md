@@ -31,7 +31,7 @@ Para que seja feito a edição dos dados de recursos, o portal deve se comportar
 - **Então** os metadados do recurso documentado deverá ser validado frente seu respectivo dado. 
 
 #### **Regra negocial 001.001**: 
-Todos os campos, inferidos ou não, serão validados de acordo com as especificações da Frictionless[^1]
+Todos os campos, inferidos ou não, serão validados de acordo com as especificações da da [Frictionless](https://specs.frictionlessdata.io/#overview).
 
 #### **Regra negocial 001.001**:
 O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a próxima etapa do fluxo.
@@ -48,11 +48,19 @@ Não haverá limite de tempo para armazenamento da página estática de resultad
 #### **Regra negocial 001.001**
 Além da validação frictionless o sistema deverá validar campos cujo o preenchimento seja obrigatório segundo arquivo de configuração utilizado durante instalação da extensão.
 
+> Regra Negocial DTA a ser incluída apenas em arquivo de configuração durante instalação da extensão:
+
+> - Campos: Título e Descrição são obrigatórios e editáveis. 
+
+> - Campos: Tipo, Formato e Encoding dos Dados do Recurso são obrigatórios e não são editáveis. 
+
+> - Campos: Título e Descrição do dicionário de dados são obrigatórios
+
 ## Prototipação
 
 - [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
 
-| Item |                        Nome do Campo                        | Tipo de Dado[^2] | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^1] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 |  Validar     | B,O             |  N/A       | Validar todos os campos da aba de Adicionar Dados.
 |    2 |   Próximo            |   LK            |      N/A      | Após validação dos campos, fica habilitado para avançar para a próxima aba (Conjunto de Dados) |
@@ -61,5 +69,4 @@ Além da validação frictionless o sistema deverá validar campos cujo o preenc
 
 - [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
 
-[^1]: [Frictionless](https://specs.frictionlessdata.io/#overview)
-[^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^1]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
