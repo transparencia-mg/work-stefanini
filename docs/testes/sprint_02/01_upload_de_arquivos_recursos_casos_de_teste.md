@@ -26,8 +26,10 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 ## Testes realizados pela Stefanini em ambiente prórpio
 
-- [Testes realizados na versão 0.4 do documento](0.4/testes/01_upload_de_arquivos_recursos_casos_de_teste/)
-- [Testes realizados na versão 0.5 do documento](0.5/testes/sprint_02/01_upload_de_arquivos_recursos_casos_de_teste/)
+- [Testes realizados na versão 0.4 do documento](https://transparencia-mg.github.io/work-stefanini/0.4/testes/01_upload_de_arquivos_recursos_casos_de_teste/)
+- [Testes realizados na versão 0.5 do documento](https://transparencia-mg.github.io/work-stefanini/0.5/testes/01_upload_de_arquivos_recursos_casos_de_teste/)
+
+https://transparencia-mg.github.io/work-stefanini/0.5/testes/01_upload_de_arquivos_recursos_casos_de_teste/
 
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 

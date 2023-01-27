@@ -10,7 +10,7 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 ## Testes realizados pela Stefanini em ambiente prórpio
 
-- [Testes realizados na versão 0.5 do documento](testes/sprint_02/02_inferencia_de_arquivo_casos_de_teste/)
+- [Testes realizados na versão 0.5 do documento](https://transparencia-mg.github.io/work-stefanini/0.5/testes/02_inferencia_de_arquivo_casos_de_teste/)
 
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
