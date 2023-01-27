@@ -40,7 +40,7 @@ Para que seja feito a edição dos dados do conjunto, o portal deve se comportar
 - **Então**o sistema apresenta os campos para fazer a edição dos dados.
 
 #### **Regra negocial 001.001**: 
-Manter a conformidade com a especificação da Frictionless.
+Manter a conformidade com a especificação da [Frictionless](https://specs.frictionlessdata.io/#overview).
 
 #### **Regra negocial 001.002**: 
 Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório.
@@ -74,57 +74,14 @@ A combobox `Frequência de Atualização` deverá conter as seguintes informaç�
 O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.
 
 #### **Regra negocial 001.011**: 
-Quando tento acionar o botão `Adicionar Dados`
+O sistema deverá apresentar o primeiro campo `Contribuidores` em tela, com as informações do usuário logado, sem a possibilidade de alteração.
 
-- **Critério 006 – Habilitar avanço para a próxima Aba**
-	- **Dado** que quero avançar para a aba `Adicionar Dados`. 
-	- **E** ,
-	- **Então** o sistema só habilita o mesmo, após o preenchimento dos campos obrigatórios.
+#### **Regra negocial 001.012**: 
+O sistema deve apresentar por padrão a opção `selecione` no campo de `Frequência de Atualização`.
 
+## Prototipação
 
-
-````
-Regra Negocial DTA (4) - Campos Título, Descrição, Licença, Autor e 
-Palavras-chave: São de preenchimento obrigatórios.
-````
-
-
-
-````
-Regra Negocial DTA (5) - Campo Publicador: Deverá vir preenchido com o nome e
-o e-mail do usuário logado e sem a possibilidade de alteração. 
-````
-
-- **Critério 007 – Apresentar Nome e e-mail do Publicador**
-	- **Dado** que estou editando as informações da aba de `Conjunto de Dados`
-	- **E** estou informando os dados dos `Contribuidores`
-	- **Então** o sistema já apresenta os dados do Publicador em tela sem a possibilidade de alteração.
-
-
-- **Critério 008 – Escolher frequência de atualização**
-	- **Dado** que quero informar a frequência de atualização do conjunto. 
-	- **Quando** estou no campo de `Frequência de Atualização`
-	- **Então** o sistema deve apresentar por padrão a opção `selecione`
-
-- **Critério 009 – Informar Licença existente na biblioteca**
-	- **Dado** que quero informar a licença. 
-	- **Quando** estou no campo de `Licença`
-	- **Então** o sistema deve apresentar o campo texto com o recurso de autocompletar que ao iniciar a digitação já apresenta a licença para seleção.
-
-- **Critério 009 – Informar Licença que não consta na biblioteca**
-	- **Dado** que quero informar a licença. 
-	- **Quando** estou no campo de `Licença`
-	- **Então** o sistema deve possibilitar ao usuário informar outro dado que não esteja na lista. 
-### Prototipo Baixa Fidelidade
-
-[Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
-
-### Prototipo Alta Fidelidade
-
-[Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
-### Imagens protótipo Baixa Fidelidade
-
-![imagem-prototipacao](/assets/imagem.png)
+- [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
 
 | Item |                        Nome do Campo                        | Tipo de Dado[^2] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
@@ -148,6 +105,8 @@ o e-mail do usuário logado e sem a possibilidade de alteração.
 |    18 | Valor |         CT    |          N/A | Campo para descrever o valor da propriedade  |
 |    19 | Palavras-Chave |    CT         |   N/A        | Campo para informar as palavras-chave que compõe aquele determinado conjunto, sendo separado por vírgula.  |
 |    20 | Grupos  |         CT    |     N/A      | Campo para informar grupos que compõe aquele determinado conjunto. O campo será auto completado.[^1]|
+
+- [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
 
 [^1]:[gitnore](https://www.toptal.com/developers/gitignore/)
 [^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
