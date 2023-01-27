@@ -934,34 +934,27 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-        
           <li class="md-nav__item">
-  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
-    Prototipo Baixa Fidelidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prototipo-alta-fidelidade" class="md-nav__link">
-    Prototipo Alta Fidelidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#imagens-prototipo-baixa-fidelidade" class="md-nav__link">
-    Imagens protótipo Baixa Fidelidade
+  <a href="#regra-negocial-001012" class="md-nav__link">
+    Regra negocial 001.012:
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prototipacao" class="md-nav__link">
+    Prototipação
+  </a>
   
 </li>
       
@@ -1740,34 +1733,27 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-        
           <li class="md-nav__item">
-  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
-    Prototipo Baixa Fidelidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#prototipo-alta-fidelidade" class="md-nav__link">
-    Prototipo Alta Fidelidade
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#imagens-prototipo-baixa-fidelidade" class="md-nav__link">
-    Imagens protótipo Baixa Fidelidade
+  <a href="#regra-negocial-001012" class="md-nav__link">
+    Regra negocial 001.012:
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prototipacao" class="md-nav__link">
+    Prototipação
+  </a>
   
 </li>
       
@@ -1833,7 +1819,7 @@
 <li><strong>Então</strong>o sistema apresenta os campos para fazer a edição dos dados.</li>
 </ul>
 <h4 id="regra-negocial-001001"><strong>Regra negocial 001.001</strong>:<a class="headerlink" href="#regra-negocial-001001" title="Permanent link">⚓︎</a></h4>
-<p>Manter a conformidade com a especificação da Frictionless.</p>
+<p>Manter a conformidade com a especificação da <a href="https://specs.frictionlessdata.io/#overview">Frictionless</a>.</p>
 <h4 id="regra-negocial-001002"><strong>Regra negocial 001.002</strong>:<a class="headerlink" href="#regra-negocial-001002" title="Permanent link">⚓︎</a></h4>
 <p>Possibilitar ao Administrador do <abbr title="Portal de Dados Abertos CKAN.">Portal</abbr> (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório.</p>
 <h4 id="regra-negocial-001003"><strong>Regra negocial 001.003</strong>:<a class="headerlink" href="#regra-negocial-001003" title="Permanent link">⚓︎</a></h4>
@@ -1858,61 +1844,13 @@ o campo deve vir preenchido e sem a possibilidade de alteração. </p>
 <h4 id="regra-negocial-001010"><strong>Regra negocial 001.010</strong>:<a class="headerlink" href="#regra-negocial-001010" title="Permanent link">⚓︎</a></h4>
 <p>O campo <code>Licença</code> deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.</p>
 <h4 id="regra-negocial-001011"><strong>Regra negocial 001.011</strong>:<a class="headerlink" href="#regra-negocial-001011" title="Permanent link">⚓︎</a></h4>
-<p>Quando tento acionar o botão <code>Adicionar Dados</code></p>
+<p>O sistema deverá apresentar o primeiro campo <code>Contribuidores</code> em tela, com as informações do usuário logado, sem a possibilidade de alteração.</p>
+<h4 id="regra-negocial-001012"><strong>Regra negocial 001.012</strong>:<a class="headerlink" href="#regra-negocial-001012" title="Permanent link">⚓︎</a></h4>
+<p>O sistema deve apresentar por padrão a opção <code>selecione</code> no campo de <code>Frequência de Atualização</code>.</p>
+<h2 id="prototipacao">Prototipação<a class="headerlink" href="#prototipacao" title="Permanent link">⚓︎</a></h2>
 <ul>
-<li><strong>Critério 006 – Habilitar avanço para a próxima Aba</strong><ul>
-<li><strong>Dado</strong> que quero avançar para a aba <code>Adicionar Dados</code>. </li>
-<li><strong>E</strong> ,</li>
-<li><strong>Então</strong> o sistema só habilita o mesmo, após o preenchimento dos campos obrigatórios.</li>
+<li><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Prototipo baixa fidelidade</a></li>
 </ul>
-</li>
-</ul>
-<div class="highlight"><pre><span></span><code>Regra Negocial DTA (4) - Campos Título, Descrição, Licença, Autor e 
-Palavras-chave: São de preenchimento obrigatórios.
-</code></pre></div>
-<div class="highlight"><pre><span></span><code>Regra Negocial DTA (5) - Campo Publicador: Deverá vir preenchido com o nome e
-o e-mail do usuário logado e sem a possibilidade de alteração. 
-</code></pre></div>
-<ul>
-<li>
-<p><strong>Critério 007 – Apresentar Nome e e-mail do <abbr title="Usuário logado no sistema.">Publicador</abbr></strong></p>
-<ul>
-<li><strong>Dado</strong> que estou editando as informações da aba de <code>Conjunto de Dados</code></li>
-<li><strong>E</strong> estou informando os dados dos <code>Contribuidores</code></li>
-<li><strong>Então</strong> o sistema já apresenta os dados do <abbr title="Usuário logado no sistema.">Publicador</abbr> em tela sem a possibilidade de alteração.</li>
-</ul>
-</li>
-<li>
-<p><strong>Critério 008 – Escolher frequência de atualização</strong></p>
-<ul>
-<li><strong>Dado</strong> que quero informar a frequência de atualização do conjunto. </li>
-<li><strong>Quando</strong> estou no campo de <code>Frequência de Atualização</code></li>
-<li><strong>Então</strong> o sistema deve apresentar por padrão a opção <code>selecione</code></li>
-</ul>
-</li>
-<li>
-<p><strong>Critério 009 – Informar Licença existente na biblioteca</strong></p>
-<ul>
-<li><strong>Dado</strong> que quero informar a licença. </li>
-<li><strong>Quando</strong> estou no campo de <code>Licença</code></li>
-<li><strong>Então</strong> o sistema deve apresentar o campo texto com o recurso de autocompletar que ao iniciar a digitação já apresenta a licença para seleção.</li>
-</ul>
-</li>
-<li>
-<p><strong>Critério 009 – Informar Licença que não consta na biblioteca</strong></p>
-<ul>
-<li><strong>Dado</strong> que quero informar a licença. </li>
-<li><strong>Quando</strong> estou no campo de <code>Licença</code></li>
-<li><strong>Então</strong> o sistema deve possibilitar ao usuário informar outro dado que não esteja na lista. </li>
-</ul>
-</li>
-</ul>
-<h3 id="prototipo-baixa-fidelidade">Prototipo Baixa Fidelidade<a class="headerlink" href="#prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
-<p><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Link para prototipacao</a></p>
-<h3 id="prototipo-alta-fidelidade">Prototipo Alta Fidelidade<a class="headerlink" href="#prototipo-alta-fidelidade" title="Permanent link">⚓︎</a></h3>
-<p><a href="https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&amp;scaling=min-zoom&amp;page-id=2%3A387&amp;starting-point-node-id=217%3A1115">Link para prototipacao</a> </p>
-<h3 id="imagens-prototipo-baixa-fidelidade">Imagens protótipo Baixa Fidelidade<a class="headerlink" href="#imagens-prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
-<p><img alt="imagem-prototipacao" src="/assets/imagem.png" /></p>
 <table>
 <thead>
 <tr>
@@ -2066,6 +2004,9 @@ o e-mail do usuário logado e sem a possibilidade de alteração.
 </tr>
 </tbody>
 </table>
+<ul>
+<li><a href="https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&amp;scaling=min-zoom&amp;page-id=2%3A387&amp;starting-point-node-id=217%3A1115">Prototipo alta fidelidade Figma</a> </li>
+</ul>
 <div class="footnote">
 <hr />
 <ol>
@@ -2083,7 +2024,7 @@ o e-mail do usuário logado e sem a possibilidade de alteração.
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 23, 2023 19:27:27</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">January 27, 2023 18:26:49</span>
       
         <br>
         Created:
