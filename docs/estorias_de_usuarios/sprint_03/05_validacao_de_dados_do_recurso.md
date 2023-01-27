@@ -33,19 +33,19 @@ Para que seja feito a edição dos dados de recursos, o portal deve se comportar
 #### **Regra negocial 001.001**: 
 Todos os campos, inferidos ou não, serão validados de acordo com as especificações da da [Frictionless](https://specs.frictionlessdata.io/#overview).
 
-#### **Regra negocial 001.001**:
+#### **Regra negocial 001.002**:
 O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a próxima etapa do fluxo.
 
-#### **Regra negocial 001.001**:
+#### **Regra negocial 001.003**:
 O resultado da validação fica referenciável por hiperlink em uma badge de validação e armazenado em página estática de acordo com [framework da Fricitonless](https://repository.frictionlessdata.io/docs/reports.html).
 
-#### **Regra negocial 001.001**:
+#### **Regra negocial 001.004**:
 Os relatórios de validação deverão ser armazenados no ckan/portal de dados.  
 
-#### **Regra negocial 001.001**:
+#### **Regra negocial 001.005**:
 Não haverá limite de tempo para armazenamento da página estática de resultado do relatório de validação dos metadados. 
 
-#### **Regra negocial 001.001**
+#### **Regra negocial 001.006**
 Além da validação frictionless o sistema deverá validar campos cujo o preenchimento seja obrigatório segundo arquivo de configuração utilizado durante instalação da extensão.
 
 > Regra Negocial DTA a ser incluída apenas em arquivo de configuração durante instalação da extensão:

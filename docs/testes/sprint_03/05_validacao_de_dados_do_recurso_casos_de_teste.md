@@ -18,11 +18,11 @@ Incluir tipo de dado errado em dicionário de dados e verificar relatório de va
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
 ### Resultado 001
-- **Data:** XX/0X/2023
-- **Versão do pacote:** [0.0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
-- **Necessita ser retestado:** XXX
-- **Itens testados:** Documentados em comentário do issue []()
+- **Data:** 27/01/2023
+- **Versão do pacote:** [0.0.23](https://pypi.org/project/ckanext-datapackage-creator/0.0.23/)
+- **Necessita ser retestado:** Sim
+- **Itens testados:** Documentados em comentário do issue [# 120 - Validação de dados do recurso: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/124#issuecomment-1406502062)
 - **Evidências:**    
-    - [Vídeo Gravado]()
-    - [Dataset Utilizado durante teste]()
+    - [Vídeo Gravado](https://youtu.be/rBKfW6mU98o)
+    - [Dataset Utilizado durante teste](http://projetockan.cge.mg.gov.br/dataset/teste-upload-estoria-03-sprint-03-parcial)
 
