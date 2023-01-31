@@ -2,23 +2,11 @@
 
 Testes da aplicação dos critérios e das regras da estória de usuário [validação do conjunto de dados](../../estorias_de_usuarios/07_validacao_de_dados_do_conjunto).
 
-- **CT 001.001:** Verificar se o campo **titulo** é de preenchimento obrigatório.
+- **CT 001.001:** Verificar o comportamento do campo **URL** ao preencher o campo titulo.
 
-- **CT 001.002:** Verificar o comportamento do campo **URL** ao preencher o campo titulo.
+- **CT 001.002:** Verificar se o campo **e-mail** é de preenchimento obrigatório.
 
-- **CT 001.003:** Verificar se o campo **descrição** é de preenchimento obrigatório.
-
-- **CT 001.004:** Verificar se o campo **licença** é de preenchimento obrigatório.
-
-- **CT 001.005:** Verificar se o campo **autor** é de preenchimento obrigatório.
-
-- **CT 001.006:** Verificar se o campo **e-mail** é de preenchimento obrigatório.
-
-- **CT 001.007:** Verificar se o campo **palavra chave** é de preenchimento obrigatório.
-
-- **CT 001.008:** Verificar validação dos campos após acionar o botão **adicionar dados**.
-
-- **CT 001.009:** Verificar se o sistema salvou todos os preenchimentos dos campos após acionar o botão **adicionar dados**.
+- **CT 001.003:** Verificar validação dos campos após acionar o botão **adicionar dados**.
 
 ## Testes realizados pela Stefanini em ambiente prórpio
 
