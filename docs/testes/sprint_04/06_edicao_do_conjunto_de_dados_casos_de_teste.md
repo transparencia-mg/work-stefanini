@@ -2,8 +2,6 @@
 
 Testes da aplicação dos critérios e das regras da estória de usuário [edição do conjunto de dados](../../estorias_de_usuarios/06_edicao_do_conjunto_de_dados).
 
-- **CT 001.001:** Verificar quando o usuário Criar um Conjunto de Dados na opção **tipo** vem as opções tabular e não tabular, devendo vir selecionado por padrão a opção tabular.
-
 - **CT 001.002:** Verificar quando o usuário Criar um Conjunto de Dados na opção **campo**  é habilitado para o usuário digitar.
 
 - **CT 001.003:** Verificar quando o usuário Criar um Conjunto de Dados na opção **versão** é habilitado para o usuário digitar.
