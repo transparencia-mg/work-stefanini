@@ -37,7 +37,7 @@ Para que seja feito a edição dos dados do conjunto, o portal deve se comportar
 ### **Critério 001 – Editar Metadados de arquivo(s) de dados:**
 - **Dado** que quero fazer a edição dos metadados conjunto de dados.
 - **Quando** aciono o botão `Criar Conjunto de Dados`.
-- **Então**o sistema apresenta os campos para fazer a edição dos dados.
+- **Então** o sistema apresenta os campos para fazer a edição dos dados.
 
 #### **Regra negocial 001.001**: 
 Manter a conformidade com a especificação da [Frictionless](https://specs.frictionlessdata.io/#overview).
@@ -59,7 +59,7 @@ Quando o usuário estiver submetido a apenas uma organização,
 o campo deve vir preenchido e sem a possibilidade de alteração. 
 
 #### **Regra negocial 001.007**: 
-Quando o usuário estiver submetido a mais de uma organização, deverá ser mantido o campo busca das organizações vinculadas ao usuário dentro da combobox da Organização, e como padrão a opção **selecione** 
+Quando o usuário estiver submetido a mais de uma organização, deverá ser mantido o campo busca das organizações vinculadas ao usuário dentro da combobox da Organização, e como padrão a opção **selecione**. 
 
 #### **Regra negocial 001.008**: 
 No campo `Visibilidade`, a combobox tem a seguinte apresentação:
@@ -68,7 +68,7 @@ No campo `Visibilidade`, a combobox tem a seguinte apresentação:
 - Por padrão, deverá vir selecionada a opção *Privada*, podendo ser editável, a depender da configuração do Administrador do Portal. 
 
 #### **Regra negocial 001.009**: 
-A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda** e como padrão a opção **selecione**.
+A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda e como padrão a opção **selecione**.
 
 #### **Regra negocial 001.010**: 
 O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.
@@ -76,8 +76,8 @@ O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As
 #### **Regra negocial 001.011**: 
 O sistema deverá apresentar o primeiro campo `Contribuidores` em tela, com as informações do usuário logado, sem a possibilidade de alteração.
 
-#### **Regra negocial 001.012**: 
-O sistema deve apresentar por padrão a opção `selecione` no campo de `Frequência de Atualização`.
+#### **Regra negocial 001.012**:
+Os campos para edição dos dados do conjunto deverão obedecer as regras descritas para os mesmos na tabela abaixo.
 
 ## Prototipação
 
@@ -89,7 +89,7 @@ O sistema deve apresentar por padrão a opção `selecione` no campo de `Frequê
 |    2 |           Descrição    |    O, CT           |       N/A     |Campo descrição sem limitação de quantidade de caracteres |
 |    3 |  Organização|      O, CB         |       N/A     | Seleção da organização na qual o usuário logado faz parte. |
 |    4 |   Visibilidade |        CB        |   N/A          | Seleção do tipo de visibilidade: Privada ou Pública  |
-|    5 |   Tipo                       |  CB               |    N/A        |Selecionar o tipo de arquivo: Tabular ou não tabular. |
+|    5 |   Tipo                       |  CB               |    N/A        |Selecionar o tipo de arquivo: Tabular ou não tabular, devendo vir selecionado a opção Tabular. |
 |    6 |  Versão |         CT      |        N/A       |  Campo para informar a versão do documento.|	
 |    7 |  Contribuidores |       CB      |       N/A     | Seleção do tipo de contribuidor|
 |    8 |  (+) |       B      |      N/A     | Botão para adicionar mais um contribuidor  |
