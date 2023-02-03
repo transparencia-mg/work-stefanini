@@ -83,30 +83,28 @@ O sistema deve apresentar por padrão a opção `selecione` no campo de `Frequê
 
 - [Prototipo baixa fidelidade](/assets/pdfs/prototipo_telas_ckan.pdf)
 
-| Item |                        Nome do Campo                        | Tipo de Dado[^2] | Opções/Domínio |     Descrição/Observações      |
-|------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
-|    1 |    Título               |    O, CT          |     N/A    | Campo título sem limitação de quantidade de caracteres.
-|    2 |           Descrição    |    O, CT           |       N/A     |Campo descrição sem limitação de quantidade de caracteres |
-|    3 |  Organização|      O, CB         |       N/A     | Seleção da organização na qual o usuário logado faz parte. |
-|    4 |   Visibilidade |        CB        |   N/A          | Seleção do tipo de visibilidade: Privada ou Pública  |
-|    5 |   Tipo                       |  CB               |    N/A        |Selecionar o tipo de arquivo: Tabular ou não tabular. |
-|    6 |  Versão |         CT      |        N/A       |  Campo para informar a versão do documento.|	
-|    7 |  Contribuidores |       CB      |       N/A     | Seleção do tipo de contribuidor|
-|    8 |  (+) |       B      |      N/A     | Botão para adicionar mais um contribuidor  |
-|    9 |  Publicador |   O, CT          |    N/A       | Campo que informa o nome do Publicador do Conjunto |
-|    10 |  E-mail |        O, CT     |   N/A        | Campo que informa o e-mail do Publicador do Conjunto |
-|    11 |  URL |        CT     |    N/A      | Campo que informa a URL do Publicador do Conjunto.
-|    12 |  Autor |       O, CT      |   N/A       |  Campo que informa o nome do Autor do Conjunto|
-|    13 | E-mail  |      O, CT       |    N/A       | Campo que informa o e-mail do Autor do Conjunto |
-|    14 | URL  |      CT       |         N/A  | Campo que informa a URL do Autor do Conjunto |
-|    15 | Frequência de Atualização  |   CB          |      N/A     | Seleção da frequência em que o Conjunto será atualizado.  |
-|    16 | Outras Propriedades  |  B           |     N/A      | Botão para Adionar outras propriedades extras  |
-|    17 | Propriedade  |    CT         |  N/A         | Campo para descrever o nome da propriedade  |
-|    18 | Valor |         CT    |          N/A | Campo para descrever o valor da propriedade  |
-|    19 | Palavras-Chave |    CT         |   N/A        | Campo para informar as palavras-chave que compõe aquele determinado conjunto, sendo separado por vírgula.  |
-|    20 | Grupos  |         CT    |     N/A      | Campo para informar grupos que compõe aquele determinado conjunto. O campo será auto completado.[^1]|
+| Item | Nome do Campo              | Tipo de Dado[^2] | Opções/Domínio | Descrição/Observações                                                                                     |   |
+|------|----------------------------|------------------|----------------|-----------------------------------------------------------------------------------------------------------|---|
+| 1    | Título                     | O, CT            | N/A            | Campo título sem limitação de quantidade de caracteres.                                                   |   |
+| 2    | URL                        | O, CT            | N/A            | Campo URL deverá ser preenchido automaticamente após digitar no campo título.                             |   |
+| 3    | Descrição                  | O, CT            | N/A            | Campo descrição sem limitação de quantidade de caracteres.                                                |   |
+| 4    | Organização                | O, CB            | N/A            | Seleção da organização na qual o usuário logado faz parte.                                                |   |
+| 5    | Visibilidade               | CB               | N/A            | Seleção do tipo de visibilidade: Privada ou Pública.                                                      |   |
+| 6    | Tipo                       | CB               | N/A            | Selecionar o tipo de arquivo: Tabular ou não tabular.                                                     |   |
+| 7    | Licença                    | CB               | N/A            | Campo licença deverá vir com as especificações da Frictionless.                                           |   |
+| 8    | Fonte                      | CT               | N/A            | Campo para descrever a fonte da informação (url).                                                         |   |
+| 9    | Versão                     | A                | N/A            | Campo para informar a versão do documento.                                                                |   |
+| 10   | Publicador                 | O, CT            | N/A            | Campo que informa o nome do Publicador (usuário logado) do Conjunto.                                      |   |
+| 11   | E-mail                     | O, CT            | N/A            | Campo que informa o e-mail do Publicador do Conjunto.                                                     |   |
+| 12   | URL                        | CT               | N/A            | Campo que informa a URL do Publicador do Conjunto.                                                        |   |
+| 13   | Autor                      | O, CT            | N/A            | Campo que informa o nome do Autor do Conjunto                                                             |   |
+| 14   | E-mail                     | O, CT            | N/A            | Campo que informa o e-mail do Autor do Conjunto                                                           |   |
+| 15   | URL                        | CT               | N/A            | Campo que informa a URL do Autor do Conjunto.                                                             |   |
+| 16   | (+) Adicionar contribuidor | B                | N/A            | Botão para adicionar mais um contribuidor.                                                                |   |
+| 17   | Frequência de Atualização  | CB               | N/A            | Seleção da frequência em que o Conjunto será atualizado.                                                  |   |
+| 18   | Palavras-Chave             | CT               | N/A            | Campo para informar as palavras-chave que compõe aquele determinado conjunto, sendo separado por vírgula. |   |
+| 19   | (+) Adicionar propriedade  | B                | N/A            | Botão para Adionar outras propriedades extras.                                                            |   |
 
 - [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
 
-[^1]:[gitnore](https://www.toptal.com/developers/gitignore/)
 [^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)

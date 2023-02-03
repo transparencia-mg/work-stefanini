@@ -10,6 +10,7 @@ Testes da aplicação dos critérios e das regras da estória de usuário [ediç
 
 - **CT 001.004:** Verificar quando o usuário Criar um Conjunto de Dados na parte **contribuidores** os campos **publicador** e **e-mail** vem por padrão já preenchidos.
 
+
 - **CT 001.005:** Verificar quando o usuário Criar um Conjunto de Dados na parte **contribuidores** os campos **URL** é habilitado para o usuário digitar.
 
 - **CT 001.006:** Verificar quando o usuário Criar um Conjunto de Dados na parte **contribuidores** os campos **autor** **e-mail** e **URL** é habilitado para o usuário digitar.
