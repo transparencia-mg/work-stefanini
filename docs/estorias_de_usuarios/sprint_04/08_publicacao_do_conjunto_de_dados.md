@@ -5,58 +5,74 @@
 - **Acesso:** 
 
 ```mermaid
-graph LR;
+graph TD;
     1[Acessar Portal Dados Abertos]-->2;
     2[Login]-->3;
     3[Conjunto de dados]-->4;
     4[Adicionar Conjunto de Dados]
 ```
 - **Perfil de acesso:** Publicador. 
-- **Protótipo:** Baixa Fidelidade.
 
-- **Regra negocial:** Para que possa publicar o conjunto de dados, o sistema deve se comportar conforme as regras abaixo:
-	- **RN001** - Para que haja a publicação do conjunto de dados é necessário que seja feita a validação de todo o conjunto. 
-	- **RN002** - O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a publicação do Conjunto de dados. 
-	- **RN003** - O sistema deverá solicitar a confirmação da publicação nos casos de resultado negativo da validação. 
-	- **RN004** - Para habilitar o botão de `Publicar Conjunto de Dados` deverá, ao menos uma vez, acionar o botão de validação. 
-	- **RN005** - Ao acionar o botão de `Publicar Conjunto de Dados` o sistema deverá redirecionar o usuário para a tela do novo conjunto publicado. 
-    - **RN006** - Após acionar o botão de `Publicar Conjunto de Dados` o sistema deverá: 
-    	- Mergear os metadados do CKAN com os da Frictionless. 
-		- Aprimorar página de metadados dos arquivo(s) de dados. (ir para a pagina aprimorar pagina do recurso)
-		- Gerar imagem da entidade de relacionamento, com hiperlink sob cada tabela / entidade, que estará contida dentro de uma aba do conjunto publicado. 
-		- Gerar a URL do conjunto possibilitando a leitura do mesmo via ferramentas de desenvolvimento.[^1]
+- **Testes:** [Resultados Obtidos](../../../testes/sprint_04/08_publicacao_do_conjunto_do_recurso_casos_de_teste/#resultados-obtidos).
+
+
+## Critérios de aceite
+Para que seja feito a edição dos dados do conjunto, o portal deve se comportar conforme as critérios de aceite abaixo:
+
+### **Critério 001 – Botão Publicar desabilitado**
+
+- **Dado**  que não fiz nenhuma validação dos metadados dos recursos
+- **E** desejo fazer a publicação do Conjunto
+- **Então** o sistema mantém o botão de `Publicar Conjunto de Dados` desabilitado.
+
+### **Critério 002 – Botão Publicar Habilitado**
+
+- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
+- **E** desejo fazer a publicação do Conjunto
+- **Então** o sistema habilita o botão de `Publicar Conjunto de Dados`.
+
+### **Critério 003 – Publicar Conjunto de Dados com validação positiva**
+
+- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
+- **E** o resultado da validação for positivo. 
+- **Quando** aciono o botão `Publicar Conjunto de Dados`
+- **Então** o sistema publica o conjunto e redireciona para a página do conjunto publicada.	
+
+### **Critério 004 – Publicar Conjunto de Dados com validação negativa**
+
+- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
+- **E** o resultado da validação for negativo. 
+- **Quando** aciono o botão `Publicar Conjunto de Dados`
+- **Então** o sistema solicita a confirmação da publicação e 
+	- Em caso positivo: Publica o conjunto e redireciona para a página do conjunto publicada
+	- Em caso negativo: Permanece na página para nova validação. 	
+
+#### **Regra negocial 001.001**: 
+Para que haja a publicação do conjunto de dados é necessário que seja feita a validação de todo o conjunto. 
+
+#### **Regra negocial 001.002**: 
+O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a publicação do Conjunto de dados. 
+
+#### **Regra negocial 001.003**: 
+O sistema deverá solicitar a confirmação da publicação nos casos de resultado negativo da validação. 
+
+#### **Regra negocial 001.004**: 
+Para habilitar o botão de `Publicar Conjunto de Dados` deverá, ao menos uma vez, acionar o botão de validação. 
+
+#### **Regra negocial 001.005**: 
+Ao acionar o botão de `Publicar Conjunto de Dados` o sistema deverá redirecionar o usuário para a tela do novo conjunto publicado. 
+
+#### **Regra negocial 001.006**: 
+Após acionar o botão de `Publicar Conjunto de Dados` o sistema deverá: 
+
+- Mergear os metadados do CKAN com os da Frictionless. 
+- Aprimorar página de metadados dos arquivo(s) de dados. (ir para a pagina aprimorar pagina do recurso)
+- Gerar imagem da entidade de relacionamento, com hiperlink sob cada tabela / entidade, que estará contida dentro de uma aba do conjunto publicado. 
+- Gerar a URL do conjunto possibilitando a leitura do mesmo via ferramentas de desenvolvimento.[^1]
  
-### Critérios de aceite
+### Prototipo Baixa Fidelidade
 
-- **Critério 001 –** Botão Publicar desabilitado
-	- **Dado**  que não fiz nenhuma validação dos metadados dos recursos
-	- **E** desejo fazer a publicação do Conjunto
-	- **Então** o sistema mantém o botão de `Publicar Conjunto de Dados` desabilitado.
-
-- **Critério 002 –** Botão Publicar Habilitado
-	- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
-	- **E** desejo fazer a publicação do Conjunto
-	- **Então** o sistema habilita o botão de `Publicar Conjunto de Dados`.
-
-- **Critério 003 –** Publicar Conjunto de Dados com validação positiva
-	- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
-	- **E** o resultado da validação for positivo. 
-	- **Quando** aciono o botão `Publicar Conjunto de Dados`
-	- **Então** o sistema publica o conjunto e redireciona para a página do conjunto publicada.	
-
-- **Critério 004 –** Publicar Conjunto de Dados com validação negativa
-	- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
-	- **E** o resultado da validação for negativo. 
-	- **Quando** aciono o botão `Publicar Conjunto de Dados`
-	- **Então** o sistema solicita a confirmação da publicação e 
-		- Em caso positivo: Publica o conjunto e redireciona para a página do conjunto publicada
-		- Em caso negativo: Permanece na página para nova validação. 	
-
-### Prototipação
-
-[Link para prototipacao](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115)
-
-![imagem-prototipacao](/assets/figura_01.png)
+[Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
 
 | Item |                        Nome do Campo                        | Tipo de Dado[^1] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
@@ -74,4 +90,3 @@ graph LR;
 |   12 | Dados do Recurso: Codificação   | CB                | N/A            | Descrição manual do tipo de codificação, como UTF-8, etc |
 
 [^1]: [Proposta de implementação desta funcionalidade via Frictionless](https://github.com/frictionlessdata/framework/issues/475)
-[^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)

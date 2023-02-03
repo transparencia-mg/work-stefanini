@@ -1,12 +1,6 @@
-# Casos de Teste Validação do conjunto de dados
+# Teste Validação do conjunto de dados
 
 Testes da aplicação dos critérios e das regras da estória de usuário [validação do conjunto de dados](../../estorias_de_usuarios/07_validacao_de_dados_do_conjunto).
-
-- **CT 001.001:** Verificar o comportamento do campo **URL** ao preencher o campo titulo.
-
-- **CT 001.002:** Verificar se o campo **e-mail** é de preenchimento obrigatório.
-
-- **CT 001.003:** Verificar validação dos campos após acionar o botão **adicionar dados**.
 
 ## Testes realizados pela Stefanini em ambiente prórpio
 

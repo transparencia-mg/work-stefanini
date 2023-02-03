@@ -5,7 +5,7 @@
 - **Acesso 1:**
 
 ```mermaid
-graph LR;
+graph TD;
     1[Acessar Portal Dados Abertos]-->2;
     2[Login]-->3;
     3[Conjunto de dados]-->4;
@@ -15,7 +15,7 @@ graph LR;
 - **Acesso 2:**
 
 ```mermaid
-graph LR;
+graph TD;
     1[Acessar Portal Dados Abertos]-->2;
     2[Login]-->3;
     3[Conjunto de dados]-->4;
@@ -71,10 +71,10 @@ No campo `Visibilidade`, a combobox tem a seguinte apresentação:
 A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda e como padrão a opção **selecione**.
 
 #### **Regra negocial 001.010**: 
-O campo `Licença` deverá ser do tipo texto com o recurso de auto completar. As informações deverão ser alimentadas pelo arquivo de configuração da extensão e caso não seja encontrada, poderá ser descrita.
+O campo `Licença` deverá ser do tipo combobox e deverão vir de acordo com as especificações da Frictionless.
 
 #### **Regra negocial 001.011**: 
-O sistema deverá apresentar o primeiro campo `Contribuidores` em tela, com as informações do usuário logado, sem a possibilidade de alteração.
+O sistema deverá apresentar o primeiro campo `Contribuidores` em tela, com as informações do publicador e e-mail, sem a possibilidade de alteração.
 
 #### **Regra negocial 001.012**:
 Os campos para edição dos dados do conjunto deverão obedecer as regras descritas para os mesmos na tabela abaixo.
