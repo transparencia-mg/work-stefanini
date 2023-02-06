@@ -1,4 +1,4 @@
-# Validação do conjunto de dados
+# Validação de dados do recurso
 
 **Como** Publicador, **eu quero**  obter o resultado da validação das informações do(s) arquivo(s) de dados  **para** que sistema me auxilie na identificação de inconsistências antes de publicar o Conjunto de Dados no Portal. 
 
@@ -25,7 +25,7 @@ graph TD;
 ## Critérios de aceite
 Para que seja feito a edição dos dados de recursos, o portal deve se comportar conforme as critérios de aceite abaixo:
 
-### **Critério 001 – Editar Metadados de arquivo(s) de dados:**
+### **Critério 001 – Validar Metadados de arquivo(s) de dados:**
 - **Dado** eu quero idenficar inconsistências antes de publicar informações no Portal.
 - **Quando** o botão `Salvar`, `Validar` ou `Adicionar arquivo(s) de dados` for acionado.
 - **Então** os metadados do recurso documentado deverá ser validado frente seu respectivo dado. 

@@ -1,4 +1,4 @@
-# Edição dos dados do Recurso
+# Edição dos dados do recurso
 
 **Como** publicador, **eu quero**  fazer o upload do(s) arquivo(s) de dados, **para** que eu possa fazer a edição do(s) metadado(s) do(s) mesmo(s).
 
