@@ -23,51 +23,36 @@ graph TD;
 ## Critérios de aceite
 Para que seja feito a edição dos dados do conjunto, o portal deve se comportar conforme as critérios de aceite abaixo:
 
-### **Critério 001 – Título, Descrição, Licença, Autor e Palavras-chave: Campos de preenchimento obrigatórios**
-
-- **Dado** que não preencho alguns dos campos obrigatórios a seguir: Título, Descrição, Licença, Autor e Palavras-chave.
-- **Quando** Aciono o botão `Adicionar Dados`. 
-- **Então** O sistema deverá validar se todos os campos obrigatórios foram preenchidos.
-
-````
-Regra Negocial DTA: Campos Título, Descrição, Licença, Autor e 
-Palavras-chave: são de preenchimento obrigatórios.
-````
-
-### **Critério 002 – Validar Campos**
-- **Dado** que realizo todas as possíveis edições.
-- **E** aciono o botão `Adicionar dados`,
-- **Então** o sistema deverá fazer a validação de todos os campos obrigatórios.
-
-### **Critério 003 – Salvar Dados**
-- **Dado** que realizo todas as possiveis alterações.
-- **E** aciono o botão `Adicionar dados`,
-- **Então** o sistema deverá fazer o salvamento automático dos dados cadastrados. 
+### **Critério 001 – Validar Metadados Conjunto**
+- **Dado** eu quero idenficar inconsistências antes de publicar informações no Portal.
+- **E** aciono o botão `Publicar`.
+- **Então** os metadados do conjunto documentado deverão ser validados.
 
 #### **Regra negocial 001.001**: 
 Manter a conformidade com a especificação da [Frictionless](https://specs.frictionlessdata.io/#overview).
 
 #### **Regra negocial 001.002**: 
-Todos os campos serão validados de acordo com as especificações da Frictionless
+Todos os campos serão validados de acordo com as especificações da Frictionless.
 
 #### **Regra negocial 001.003**: 
-O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a publicação do Conjunto de dados. 
+Além da validação frictionless o sistema deverá validar campos cujo o preenchimento seja obrigatório segundo arquivo de configuração utilizado durante instalação da extensão.
+
+> Regra Negocial DTA: 
+
+> Campos Title, Description, Visibility, Type, License, Author.name e Author.email são obrigatórios e editáveis.
 
 #### **Regra negocial 001.004**: 
-O resultado da validação fica referenciável por hiperlink em uma badge de validação e armazenado em página estática de acordo com framework da Fricitonless. 
+O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a publicação do Conjunto de dados. 
 
 #### **Regra negocial 001.005**: 
-Os relatórios de validação serão armazenados no ckan/portal de dados.  
+O resultado da validação fica referenciável por hiperlink em uma badge de validação e armazenado em página estática de acordo com framework da Fricitonless. 
 
 #### **Regra negocial 001.006**: 
-A lista com os relatorios de validação será visualizada na aba do fluxo de atividades.
+Os relatórios de validação serão armazenados no ckan/portal de dados.  
 
 #### **Regra negocial 001.007**: 
 Não haverá limite de tempo para armazenamento da página estática de resultado do relatório de validação do conjunto de dados.
  
-#### **Regra negocial 001.008**: 
-O campo **URL** deverá ser preenchido automaticamente ao digitar o campo titulo, utilizando o hífen como separador.
-
 ### Prototipo Baixa Fidelidade
 
 [Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
