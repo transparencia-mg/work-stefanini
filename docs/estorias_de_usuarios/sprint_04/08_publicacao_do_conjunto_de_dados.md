@@ -1,4 +1,4 @@
-# Publicação do Conjunto de dados
+# Publicação do conjunto de dados
 
 **Como** publicador, **eu quero**  publicar meu conjunto de dados  **para** que seja feita a divulgação das informações do mesmo no Portal. 
 
@@ -17,38 +17,17 @@ graph TD;
 
 
 ## Critérios de aceite
-Para que seja feito a edição dos dados do conjunto, o portal deve se comportar conforme as critérios de aceite abaixo:
+Para que seja feito a publicação do conjunto, o portal deve se comportar conforme as critérios de aceite abaixo:
 
-### **Critério 001 – Botão Publicar desabilitado**
+### **Critério 001 – Publicar Conjunto de Dados**
 
-- **Dado**  que não fiz nenhuma validação dos metadados dos recursos
-- **E** desejo fazer a publicação do Conjunto
-- **Então** o sistema mantém o botão de `Publicar Conjunto de Dados` desabilitado.
-
-### **Critério 002 – Botão Publicar Habilitado**
-
-- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
-- **E** desejo fazer a publicação do Conjunto
-- **Então** o sistema habilita o botão de `Publicar Conjunto de Dados`.
-
-### **Critério 003 – Publicar Conjunto de Dados com validação positiva**
-
-- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
-- **E** o resultado da validação for positivo. 
-- **Quando** aciono o botão `Publicar Conjunto de Dados`
-- **Então** o sistema publica o conjunto e redireciona para a página do conjunto publicada.	
-
-### **Critério 004 – Publicar Conjunto de Dados com validação negativa**
-
-- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos
-- **E** o resultado da validação for negativo. 
-- **Quando** aciono o botão `Publicar Conjunto de Dados`
-- **Então** o sistema solicita a confirmação da publicação e 
-	- Em caso positivo: Publica o conjunto e redireciona para a página do conjunto publicada
-	- Em caso negativo: Permanece na página para nova validação. 	
+- **Dado**  que fiz, ao menos, uma validação dos metadados dos recursos e do conjunto
+- **E** todos os campos obrigatórios estão preenchidos. 
+- **Quando** aciono o botão `Publicar Conjunto de Dados`.
+- **Então** Publica o conjunto e redireciona para a página do conjunto publicada. 	
 
 #### **Regra negocial 001.001**: 
-Para que haja a publicação do conjunto de dados é necessário que seja feita a validação de todo o conjunto. 
+Para que haja a publicação do conjunto de dados é necessário que seja feita a validação de todo o conjunto e seu(s) recurso(s). 
 
 #### **Regra negocial 001.002**: 
 O resultado positivo da validação de qualquer propriedade não é condição para o usuário prosseguir para a publicação do Conjunto de dados. 
@@ -66,7 +45,7 @@ Ao acionar o botão de `Publicar Conjunto de Dados` o sistema deverá redirecion
 Após acionar o botão de `Publicar Conjunto de Dados` o sistema deverá: 
 
 - Mergear os metadados do CKAN com os da Frictionless. 
-- Aprimorar página de metadados dos arquivo(s) de dados. (ir para a pagina aprimorar pagina do recurso)
+- Gerar aba para consultar validações do conjunto e seu(s) recurso(s).
 - Gerar imagem da entidade de relacionamento, com hiperlink sob cada tabela / entidade, que estará contida dentro de uma aba do conjunto publicado. 
 - Gerar a URL do conjunto possibilitando a leitura do mesmo via ferramentas de desenvolvimento.[^1]
  

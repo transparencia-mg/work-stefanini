@@ -1,4 +1,4 @@
-# Edição do Conjunto de Dados
+# Edição do conjunto de dados
 
 **Como** publicador, **eu quero**  editar os metadados do conjunto de dados **para** que eu possa melhor documentar o mesmo, antes de avançar para a aba de Adicionar Dados.
 
@@ -43,40 +43,65 @@ Para que seja feito a edição dos dados do conjunto, o portal deve se comportar
 Manter a conformidade com a especificação da [Frictionless](https://specs.frictionlessdata.io/#overview).
 
 #### **Regra negocial 001.002**: 
-Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório.
+Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca informando os campos que deverão ser de preenchimento obrigatório. Os campos configuráveis serão os listados abaixo, devendo esta informação constar nas instruções de instalação da biblioteca:
+
+- Title.
+- Description.
+- Visibility.
+- Type.
+- License.
+- Source.
+- Version.
+- Author.name.
+- Author.email.
+- Author.url.
 
 #### **Regra negocial 001.003**: 
-Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca, informando quando os campos deverão ser restritos à edição. 
+Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opção de configurar os campos/propriedades da biblioteca, informando quando os campos deverão ser restritos à edição. Os campos configuráveis serão os listados abaixo, devendo esta informação constar nas instruções de instalação da biblioteca:
+
+- Title.
+- Description.
+- Visibility.
+- Type.
+- License.
+- Source.
+- Version.
+- Author.name.
+- Author.email.
+- Author.url.
 
 #### **Regra negocial 001.004**: 
 Os campos dos formulários deverão estar em conformidade com a especificação da Frictionless e à configuração do Administrador do Portal.
 
 #### **Regra negocial 001.005**: 
-O campo Organização deve ser de preenchimento obrigatório.
+O campo **URL** deverá ser obrigatório e preenchido automaticamente ao digitar o campo titulo, utilizando o hífen como separador.
 
 #### **Regra negocial 001.006**: 
+O campo Organização deve ser de preenchimento obrigatório.
+
+#### **Regra negocial 001.007**: 
 Quando o usuário estiver submetido a apenas uma organização, 
 o campo deve vir preenchido e sem a possibilidade de alteração. 
 
-#### **Regra negocial 001.007**: 
+#### **Regra negocial 001.008**: 
 Quando o usuário estiver submetido a mais de uma organização, deverá ser mantido o campo busca das organizações vinculadas ao usuário dentro da combobox da Organização, e como padrão a opção **selecione**. 
 
-#### **Regra negocial 001.008**: 
+#### **Regra negocial 001.009**: 
 No campo `Visibilidade`, a combobox tem a seguinte apresentação:
 
 - Deverão conter as opções *Privada* e *Pública* 
 - Por padrão, deverá vir selecionada a opção *Privada*, podendo ser editável, a depender da configuração do Administrador do Portal. 
 
-#### **Regra negocial 001.009**: 
+#### **Regra negocial 001.010**: 
 A combobox `Frequência de Atualização` deverá conter as seguintes informações: diário, semanal, quinzenal, mensal, bimestral, trimestral, anual, sob demanda e como padrão a opção **selecione**.
 
-#### **Regra negocial 001.010**: 
+#### **Regra negocial 001.011**: 
 O campo `Licença` deverá ser do tipo combobox e deverão vir de acordo com as especificações da Frictionless.
 
-#### **Regra negocial 001.011**: 
+#### **Regra negocial 001.012**: 
 O sistema deverá apresentar o primeiro campo `Contribuidores` em tela, com as informações do publicador e e-mail, sem a possibilidade de alteração.
 
-#### **Regra negocial 001.012**:
+#### **Regra negocial 001.013**:
 Os campos para edição dos dados do conjunto deverão obedecer as regras descritas para os mesmos na tabela abaixo.
 
 ## Prototipação
