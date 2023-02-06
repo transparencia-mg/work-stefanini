@@ -41,7 +41,7 @@ Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opçã
     - description
     - format
     - type
-    - enconding
+    - encoding
 - Dicionário de dados:
     - title
     - description
@@ -53,7 +53,7 @@ Possibilitar ao Administrador do Portal (que vai instalar a biblioteca) a opçã
 - Recurso:
     - format
     - type
-    - enconding
+    - encoding
 
 #### **Regra negocial 001.004**: 
 Caso algum campo obrigatório do dicionário de dados não seja preenchido o sistema deverá informar mensagem no seguinte padrão: 

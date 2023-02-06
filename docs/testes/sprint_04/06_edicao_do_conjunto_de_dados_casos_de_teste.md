@@ -9,8 +9,8 @@ Testes da aplicação dos critérios e das regras da estória de usuário [ediç
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
 ### Resultado 001
-- Data: XX/01/2023
-- Necessita ser retestado: XXX
+- Data: 06/02/2023
+- Necessita ser retestado: Não
 - Evidências:
   - [Comentário GitHub]()
   - [Vídeo Gravado]()
@@ -24,6 +24,3 @@ Testes da aplicação dos critérios e das regras da estória de usuário [ediç
 - Evidências:
   - [Comentário GitHub]()
   - [Vídeo Gravado]()
-
-
-
