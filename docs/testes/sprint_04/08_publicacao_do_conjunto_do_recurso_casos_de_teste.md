@@ -1,7 +1,6 @@
-# Casos de Teste Publicação do Conjunto
+# Teste Publicação do Conjunto
 
 Testes da aplicação dos critérios e das regras da estória de usuário [validação do conjunto de dados](../../estorias_de_usuarios/07_validacao_de_dados_do_conjunto).
-
 
 ## Testes realizados pela Stefanini em ambiente prórpio
 

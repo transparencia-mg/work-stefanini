@@ -10,9 +10,16 @@ Sistema deverár salvar informação incluída pelo usuário nos metadados do di
 
 ## Testes realizados pela Stefanini em ambiente prórpio
 
+### Resultado 002
+- **Data:** 06/02/2023
+- **Versão do pacote:** [0.0.32](https://pypi.org/project/ckanext-datapackage-creator/0.0.32/)
+- **Necessita ser retestado:** Não
+- **Itens testados:** Documentados em comentário do issue [# 107 - Edição dos Dados do Recurso: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/111#issuecomment-1419643691)
+- **Evidências:**    
+    - [Vídeo Gravado]()
+
 - [Testes realizados na versão 0.5 do documento](0.5/testes/sprint_03/03_edicao_dos_dados_do_recurso_casos_de_teste/)
 - [issue](https://github.com/transparencia-mg/work-stefanini/issues/105)
-
 
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
