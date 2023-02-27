@@ -19,13 +19,13 @@ Opção de inclusão de propriedade `Lista de Valores` deverá aparecer no dicio
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
 ### Resultado 001
-- **Data:** XX/0X/2023
-- **Versão do pacote:** [0.0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
-- **Necessita ser retestado:** XXX
-- **Itens testados:** Documentados em comentário do issue [# 113 - Criação de novos metadados: Desenvolvimento]()
+- **Data:** 27/02/2023
+- **Versão do pacote:** [0.0.42](https://pypi.org/project/ckanext-datapackage-creator/0.0.42/)
+- **Necessita ser retestado:** Não
+- **Itens testados:** Documentados em comentário do issue [# 113 - Criação de novos metadados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/119#issue-1500738055)
 - **Evidências:**    
-    - [Vídeo Gravado]()
-    - [Dataset Utilizado durante teste]()
+    - [Vídeo Gravado](https://youtu.be/Oe0PXi2S_98)
+    - [Dataset Utilizado durante teste](http://projetockan.cge.mg.gov.br/dataset/teste-novos-metadados-estoria-2-sprint-3)
 
 
 
