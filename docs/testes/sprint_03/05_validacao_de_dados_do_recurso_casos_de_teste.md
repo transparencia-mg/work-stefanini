@@ -11,6 +11,9 @@ Verificar o comportamento do sistema ao deixar de preencher o campo `descrição
 - **CT 001.003:** 
 Incluir tipo de dado errado em dicionário de dados e verificar relatório de validação frictionless.
 
+- **CT 001.004:** 
+Verificar o comportamento do sistema ao validar um recurso dentro de um conjunto privado. Nesta hipótese a validação deverá acontecer normalmente.
+
 ## Testes realizados pela Stefanini em ambiente prórpio
 
 - [issue](https://github.com/transparencia-mg/work-stefanini/issues/125)
