@@ -3,7 +3,7 @@
 Registra os testes de todas as regras negociais pensadas para a a estória de usuário [edição dos dados do recurso](../../../estorias_de_usuarios/sprint_03/03_edicao_dos_dados_do_recurso/), bem como testes adicionais caso necessário:
 
 - **CT 001.001:** 
-Sistema deverár salvar informação incluída pelo usuário nos metadados do recurso após inferência, tendo sido este campo inferido ou não, arquivos tabulares ou não.
+Sistema deverá salvar informação incluída pelo usuário nos metadados do recurso após inferência, tendo sido este campo inferido ou não, arquivos tabulares ou não.
 
 - **CT 001.002:** 
 Sistema deverár salvar informação incluída pelo usuário nos metadados do dicionário de dados do recurso após inferência, tendo sido este campo inferido ou não, arquivos tabulares.
