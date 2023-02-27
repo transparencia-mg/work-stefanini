@@ -34,13 +34,13 @@ Sistema deverár salvar informação incluída pelo usuário nos metadados do di
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
 ### Resultado 001
-- **Data:** XX/0X/2023
-- **Versão do pacote:** [0.0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
-- **Necessita ser retestado:** XXX
-- **Itens testados:** Documentados em comentário do issue [# 107 - Edição dos Dados do Recurso: Desenvolvimento]()
+- **Data:** 27/01/2023
+- **Versão do pacote:** [0.0.42](https://pypi.org/project/ckanext-datapackage-creator/0.0.42/)
+- **Necessita ser retestado:** Não
+- **Itens testados:** Documentados em comentário do issue [# 107 - Edição dos Dados do Recurso: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/112)
 - **Evidências:**    
-    - [Vídeo Gravado]()
-    - [Dataset Utilizado durante teste]()
+    - [Vídeo Gravado](https://youtu.be/CyAIPUmWht4)
+    - [Dataset Utilizado durante teste](http://projetockan.cge.mg.gov.br/dataset/teste-edicao-estoria-01-sprint-3)
 
 
 
