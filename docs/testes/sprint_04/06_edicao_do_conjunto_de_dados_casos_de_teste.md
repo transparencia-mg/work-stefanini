@@ -9,18 +9,21 @@ Testes da aplicação dos critérios e das regras da estória de usuário [ediç
 ## Testes realizados pela equipe DCTA em ambiente próprio 
 
 ### Resultado 001
-- Data: 06/02/2023
-- Necessita ser retestado: Não
-- Evidências:
-  - [Comentário GitHub]()
-  - [Vídeo Gravado]()
-- [comentários nos issues relacionados](https://github.com/transparencia-mg/work-stefanini/issues/132)
+- **Data:** 28/02/2023
+- **Versão do pacote:** [0.0.42](https://pypi.org/project/ckanext-datapackage-creator/0.0.42/)
+- **Necessita ser retestado:** Sim
+- **Itens testados:** Documentados em comentário do issue [#127 - Edição do conjunto de dados: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/131#issue-1500783390)
+- **Evidências:**    
+    - [Vídeo Gravado](https://youtu.be/mRgt2PGGKC0)
+    - [Dataset Utilizado durante teste](http://projetockan.cge.mg.gov.br/dataset/teste-2-edicao-conjunto-estoria-1-sprint-4)
 
 ## Testes realizados pela equipe DCTA em ambiente CGE 
 
 ### Resultado 001
-- Data: XX/01/2023
-- Necessita ser retestado: XXX
-- Evidências:
-  - [Comentário GitHub]()
-  - [Vídeo Gravado]()
+- **Data:** xx/xx/2023
+- **Versão do pacote:** [0.0.xx](https://pypi.org/project/ckanext-datapackage-creator/0.0.xx/)
+- **Necessita ser retestado:** XXX
+- **Itens testados:** Documentados em comentário do issue [#127 - Edição do conjunto de dados: Aprovação Ambiente Homologação CGE]()
+- **Evidências:**    
+    - [Vídeo Gravado]()
+    - [Dataset Utilizado durante teste]()
