@@ -20,6 +20,15 @@ Verificar o comportamento do sistema ao validar um recurso dentro de um conjunto
 
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
+### Resultado 003
+- **Data:** 02/03/2023
+- **Versão do pacote:** [0.0.45](https://pypi.org/project/ckanext-datapackage-creator/0.0.45/)
+- **Necessita ser retestado:** Não
+- **Itens testados:** Documentados em comentário do issue [# 120 - Validação de dados do recurso: Aprovação Ambiente Homologação](https://github.com/transparencia-mg/work-stefanini/issues/126#issue-1500767104)
+- **Evidências:**    
+    - [Vídeo Gravado](https://youtu.be/fLXJpivSok4)
+    - [Dataset Utilizado durante teste](http://projetockan.cge.mg.gov.br/dataset/teste-validacao-recurso-3-estoria-da-sprint-3)
+
 ### Resultado 002
 - **Data:** 27/02/2023
 - **Versão do pacote:** [0.0.42](https://pypi.org/project/ckanext-datapackage-creator/0.0.42/)
