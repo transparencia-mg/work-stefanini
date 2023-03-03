@@ -20,10 +20,10 @@ Testes da aplicação dos critérios e das regras da estória de usuário [ediç
 ## Testes realizados pela equipe DCTA em ambiente CGE 
 
 ### Resultado 001
-- **Data:** xx/xx/2023
-- **Versão do pacote:** [0.0.xx](https://pypi.org/project/ckanext-datapackage-creator/0.0.xx/)
-- **Necessita ser retestado:** XXX
-- **Itens testados:** Documentados em comentário do issue [#127 - Edição do conjunto de dados: Aprovação Ambiente Homologação CGE]()
+- **Data:** 03/03/2023
+- **Versão do pacote:** [0.0.45](https://pypi.org/project/ckanext-datapackage-creator/0.0.45/)
+- **Necessita ser retestado:** Não
+- **Itens testados:** Documentados em comentário do issue [#127 - Edição do conjunto de dados: Aprovação Ambiente Homologação CGE](https://github.com/transparencia-mg/work-stefanini/issues/133#issue-1500785532)
 - **Evidências:**    
-    - [Vídeo Gravado]()
-    - [Dataset Utilizado durante teste]()
+    - [Vídeo Gravado](https://youtu.be/EsRW1uSAwkQ)
+    - [Dataset Utilizado durante teste](http://projetockan.cge.mg.gov.br/dataset/teste-edicao-conjunto-1-estoria-da-sprint-04)
