@@ -130,4 +130,4 @@ Os campos para edição dos dados do conjunto deverão obedecer as regras descri
 | 18   | Palavras-Chave             | CT               | N/A            | Campo para informar as palavras-chave que compõe aquele determinado conjunto, sendo separado por vírgula. |   |
 | 19   | (+) Adicionar propriedade  | B                | N/A            | Botão para Adionar outras propriedades extras.                                                            |   |
 
-[^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^2]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)

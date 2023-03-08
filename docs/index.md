@@ -25,8 +25,6 @@ Essas ações indicam um compromisso com a adoção de um processo de abertura d
 
 ![](assets/images/20220428T150210.drawio.svg)
 
-O contexto detalhado, incluindo discussão das escolhas tecnológicas, estão disponíveis [neste link](motivacao-contexto.md).
-
 ## Navegando em nosso documento
 
 Este material foi criado com auxílio da ferramenta mkdocs, mais especificamente com um de seus temas customizados chamado [Material](https://squidfunk.github.io/mkdocs-material/).

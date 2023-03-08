@@ -49,4 +49,4 @@ graph LR;
 |    7 |   |             |           |  |
 
 [^1]: [Exemplo para a tabela de dicionário de dados](https://www.getdbt.com/mrr-playbook/#!/model/model.acme.customer_churn_month)
-[^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^2]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)

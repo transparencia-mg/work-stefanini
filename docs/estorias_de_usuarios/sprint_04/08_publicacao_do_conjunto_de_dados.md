@@ -54,7 +54,7 @@ Após acionar o botão de `Publicar Conjunto de Dados` o sistema deverá atualiz
 
 [Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)
 
-| Item |                        Nome do Campo                        | Tipo de Dado[^1] | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^2] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 | Dic. Dados:	Nome do Recurso        | O, CT              | N/A            | Descrição manual do nome do Recurso.|
 |    2 | Dic. Dados:Título                 | CT              | N/A            | Campo texto para o título do recurso com tamanho máximo de 100 caracteres       |
@@ -70,3 +70,5 @@ Após acionar o botão de `Publicar Conjunto de Dados` o sistema deverá atualiz
 |   12 | Dados do Recurso: Codificação   | CB                | N/A            | Descrição manual do tipo de codificação, como UTF-8, etc |
 
 [^1]: [Proposta de implementação desta funcionalidade via Frictionless](https://github.com/frictionlessdata/framework/issues/475)
+[^2]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)
+

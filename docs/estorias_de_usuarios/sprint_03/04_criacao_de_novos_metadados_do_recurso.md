@@ -80,3 +80,5 @@ Para a criação de um novo metadado do  dicionário de dados, do tipo `Lista de
 |   11 | Salvar  |     B          |       N/A      | Salva as informações sem precisar validar. Estende-se para a estória: [US008  -Salvar dados do recurso](/estorias_de_usuarios/08_salvar_dados_do_recurso) |
 
 - [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
+
+[^1]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)

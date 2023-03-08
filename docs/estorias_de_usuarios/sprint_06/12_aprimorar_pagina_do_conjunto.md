@@ -52,7 +52,7 @@ graph LR;
 
 ![imagem da prototipacao de baixa fidelidade](/caminho_pasta_imagens)
 
-| Item |                        Nome do Campo                        | Tipo de Dado[^2] | Opções/Domínio |     Descrição/Observações      |
+| Item |                        Nome do Campo                        | Tipo de Dado[^1] | Opções/Domínio |     Descrição/Observações      |
 |------|-------------------------------------------------------------|------------------|----------------|--------------------------------|
 |    1 |           |            |              |                    |
 |    2 |           |            |              |                    |                
@@ -62,5 +62,4 @@ graph LR;
 |    6 |           |            |              |                    |
 
 
-[^1]: [Estoria será criada na Sprint06](www.dados.mg.gov.br)
-[^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^1]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)

@@ -63,5 +63,5 @@ graph LR;
 
 
 [^1]: [Chave Primária](https://specs.frictionlessdata.io/table-schema/#primary-key)
-[^2]: [Chave Estrangeira] (https://specs.frictionlessdata.io/table-schema/#foreign-keys)
-[^3]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^2]: [Chave Estrangeira](https://specs.frictionlessdata.io/table-schema/#foreign-keys)
+[^3]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)

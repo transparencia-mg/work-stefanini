@@ -131,4 +131,4 @@ Para arquivos tabulares, no agrupamento Dados do Recurso o campo `Encoding`[^4] 
 [^2]: [Propriedade: Constraints - Required](https://specs.frictionlessdata.io/table-schema/#constraints:~:text=Description-,required,-boolean)
 [^3]: [Propriedade: Constraints - Unique](https://specs.frictionlessdata.io/table-schema/#constraints:~:text=represent%20null%20values.-,unique,-boolean)
 [^4]: [Propriedade: Recomendações](https://specs.frictionlessdata.io/data-resource/#metadata-properties:~:text=Recommended%20Properties) 
-[^5]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^5]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)

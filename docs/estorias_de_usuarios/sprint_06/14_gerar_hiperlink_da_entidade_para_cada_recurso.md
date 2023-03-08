@@ -62,4 +62,4 @@ graph LR;
 
 
 [^1]: [Estoria será criada na Sprint06](www.dados.mg.gov.br)
-[^2]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^2]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)

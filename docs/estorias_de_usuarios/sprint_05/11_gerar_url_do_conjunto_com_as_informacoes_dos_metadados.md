@@ -66,4 +66,4 @@ graph LR;
 |    6 |           |            |              |                    |
 
 
-[^1]: [Tipos de dados](../modelos/tipos_dado_formulario_html.md)
+[^1]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)
