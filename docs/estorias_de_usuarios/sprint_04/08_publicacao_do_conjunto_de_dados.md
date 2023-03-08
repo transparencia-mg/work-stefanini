@@ -42,13 +42,14 @@ Para habilitar o botão de `Publicar Conjunto de Dados` deverá, ao menos uma ve
 Ao acionar o botão de `Publicar Conjunto de Dados` o sistema deverá redirecionar o usuário para a tela do novo conjunto publicado. 
 
 #### **Regra negocial 001.006**: 
-Após acionar o botão de `Publicar Conjunto de Dados` o sistema deverá: 
+Ao acionar o botão de `Publicar Conjunto de Dados` o sistema deverá redirecionar o usuário para a tela do novo conjunto publicado. 
 
-- Mergear os metadados do CKAN com os da Frictionless. 
-- Gerar aba para consultar validações do conjunto e seu(s) recurso(s).
-- Gerar imagem da entidade de relacionamento, com hiperlink sob cada tabela / entidade, que estará contida dentro de uma aba do conjunto publicado. 
-- Gerar a URL do conjunto possibilitando a leitura do mesmo via ferramentas de desenvolvimento.[^1]
- 
+#### **Regra negocial 001.006**: 
+Após acionar o botão de `Publicar Conjunto de Dados` o sistema deverá gerar aba para consultar validações do conjunto e seu(s) recurso(s). 
+
+#### **Regra negocial 001.007**: 
+Após acionar o botão de `Publicar Conjunto de Dados` o sistema deverá atualizar metadados visualizados no endpoint `package_show` da api CKAN (https://DOMINIO/api/3/action/package_show?id=PACKAGE-ID) com os metadados criados pelo usuário, package e resources. 
+
 ### Prototipo Baixa Fidelidade
 
 [Link para prototipacao](/assets/pdfs/prototipo_telas_ckan.pdf)

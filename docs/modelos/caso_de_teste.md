@@ -8,8 +8,6 @@ Registra os testes de todas as regras negociais pensadas para a a estória de us
 
 ## Testes realizados pela Stefanini em ambiente prórpio
 
-- [Testes realizados na versão XX do documento]()
-
 ### Resultado 001
 - **Data:** XX/XX/2023
 - **Versão do pacote:** [0.XX](https://pypi.org/project/ckanext-datapackage-creator/0.0.XX/)
