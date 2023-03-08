@@ -14,31 +14,16 @@ graph LR;
 - **Perfil de acesso:** usuário externo
 - **Protótipo:** Baixa Fidelidade.
 
-- **Regra negocial:** Para que seja gerada a entidade de relacionamento da página do conjunto, o portal deve se comportar conforme as regras abaixo:
-       - **RN001** - 
-	   - **RN002:** - 
-	   - **RN003:** - 
-          - **RN004:** - 
- 	   - **RN005:** - 
-	   - **RN006:** - 
-
 ### Critérios de aceite
 
 - **Critério 001 –** 
-       - **Dado** 
-       - **Quando** 
-       - **Então** 
+       - **Dado** que há a figura da entidade de relacionamento
+       - **Quando** eu clico no hiperlink da imagem de cada recurso representado no diagrama
+       - **Então** o portal redireciona para a URL do recurso referente à parte clicada na imagem do diagrama
 
-- **Critério 002 –** 
-	   - **Dado** 
-	   - **E** 
-	   - **Quando** - 
-	   - **Então** 
+- **Regra negocial:** Para que seja gerada a entidade de relacionamento da página do conjunto, o portal deve se comportar conforme as regras listadas na estoria [anterior](https://transparencia-mg.github.io/work-stefanini/0.6/estorias_de_usuarios/sprint_06/13_gerar_imagem_entidade_de_relacionamento/):
+       - **RN001** - Deve haver o hiperlink do diagrama de entidade de relacionamento para que o usuário seja direcionado a cada respectiva página de cada recurso representado na imagem
 
-- **Critério 003 –** 
-	   - **Dado** 
-	   - **Quando** 
-	   - **Então** 
 
 ### Prototipo Baixa Fidelidade
 
