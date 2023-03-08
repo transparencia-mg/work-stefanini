@@ -13,7 +13,7 @@ graph LR;
 
 - **Perfil de acesso:** Usuário Externo.
 
-- **Testes:** [Resultados Obtidos](../../../testes/sprint_05/10_mergear_os_metadados_ckan_frictionless/#resultados-obtidos).
+- **Testes:** [Resultados Obtidos](../../../testes/sprint_05/10_mergear_os_metadados_do_CKAN_com_os_da_frictionless_casos_de_teste/#resultados-obtidos).
 
 ## Critérios de aceite
 Para que seja feito a publicação do recurso, o portal deve se comportar conforme as critérios de aceite abaixo:

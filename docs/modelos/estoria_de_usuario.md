@@ -35,4 +35,4 @@ XXXXX.
 
 - [Prototipo alta fidelidade Figma](https://www.figma.com/proto/X0SZVAiL6Auf6pqssoewnn/SEPLAG-CKAN?node-id=2%3A387&scaling=min-zoom&page-id=2%3A387&starting-point-node-id=217%3A1115) 
 
-[^1]: [Tipos de dados](../../modelos/tipos_dado_formulario_html.md)
+[^1]: [Tipos de dados](../../../modelos/tipos_dado_formulario_html)
