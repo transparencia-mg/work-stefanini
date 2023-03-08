@@ -927,6 +927,20 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#regra-negocial-001006_1" class="md-nav__link">
+    Regra negocial 001.006:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regra-negocial-001007" class="md-nav__link">
+    Regra negocial 001.007:
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1656,6 +1670,20 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#regra-negocial-001006_1" class="md-nav__link">
+    Regra negocial 001.006:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regra-negocial-001007" class="md-nav__link">
+    Regra negocial 001.007:
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1727,13 +1755,11 @@
 <h4 id="regra-negocial-001005"><strong>Regra negocial 001.005</strong>:<a class="headerlink" href="#regra-negocial-001005" title="Permanent link">⚓︎</a></h4>
 <p>Ao acionar o botão de <code>Publicar Conjunto de Dados</code> o sistema deverá redirecionar o usuário para a tela do novo conjunto publicado. </p>
 <h4 id="regra-negocial-001006"><strong>Regra negocial 001.006</strong>:<a class="headerlink" href="#regra-negocial-001006" title="Permanent link">⚓︎</a></h4>
-<p>Após acionar o botão de <code>Publicar Conjunto de Dados</code> o sistema deverá: </p>
-<ul>
-<li>Mergear os metadados do CKAN com os da Frictionless. </li>
-<li>Gerar aba para consultar validações do conjunto e seu(s) recurso(s).</li>
-<li>Gerar imagem da <abbr title="É um modelo conceitual para descrever os objetos (entidades) envolvidos em um domínio de negócios, com suas características (atributos) e como elas se relacionam entre si.">entidade de relacionamento</abbr>, com hiperlink sob cada tabela / entidade, que estará contida dentro de uma aba do conjunto publicado. </li>
-<li>Gerar a URL do conjunto possibilitando a leitura do mesmo via ferramentas de desenvolvimento.<sup id="fnref2:1"><a class="footnote-ref" href="#fn:1">1</a></sup></li>
-</ul>
+<p>Ao acionar o botão de <code>Publicar Conjunto de Dados</code> o sistema deverá redirecionar o usuário para a tela do novo conjunto publicado. </p>
+<h4 id="regra-negocial-001006_1"><strong>Regra negocial 001.006</strong>:<a class="headerlink" href="#regra-negocial-001006_1" title="Permanent link">⚓︎</a></h4>
+<p>Após acionar o botão de <code>Publicar Conjunto de Dados</code> o sistema deverá gerar aba para consultar validações do conjunto e seu(s) recurso(s). </p>
+<h4 id="regra-negocial-001007"><strong>Regra negocial 001.007</strong>:<a class="headerlink" href="#regra-negocial-001007" title="Permanent link">⚓︎</a></h4>
+<p>Após acionar o botão de <code>Publicar Conjunto de Dados</code> o sistema deverá atualizar metadados visualizados no endpoint <code>package_show</code> da api CKAN (https://DOMINIO/api/3/action/package_show?id=PACKAGE-ID) com os metadados criados pelo usuário, package e resources. </p>
 <h3 id="prototipo-baixa-fidelidade">Prototipo Baixa Fidelidade<a class="headerlink" href="#prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
 <p><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Link para prototipacao</a></p>
 <table>
@@ -1837,7 +1863,7 @@
 <hr />
 <ol>
 <li id="fn:1">
-<p><a href="https://github.com/frictionlessdata/framework/issues/475">Proposta de implementação desta funcionalidade via Frictionless</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a><a class="footnote-backref" href="#fnref2:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+<p><a href="https://github.com/frictionlessdata/framework/issues/475">Proposta de implementação desta funcionalidade via Frictionless</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -1847,7 +1873,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">February 6, 2023 15:55:14</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 8, 2023 17:32:12</span>
       
         <br>
         Created:
