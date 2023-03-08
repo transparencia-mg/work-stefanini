@@ -11,7 +11,7 @@ Em outras palavras, o PdA visa endereçar as questões de _findability_ e _disco
 
 Como forma de reduzir os custos de transação ao longo do ciclo de vida dos dados abertos, a CGE adotou[^4] o padrão de metadados [_Frictionless_](https://frictionlessdata.io/) para documentar conjuntos de dados. 
 Dados documentados de acordo com esse padrão são chamados de _data packages_.
-As necessidades deste projeto estão relacionadas as etapas de produção, publicação, visualização e acesso de [_data packages_](glossario.md#data-package) por parte dos usuários (produtores e consumidores) do [Portal de Dados Abertos](https://dados.mg.gov.br/) (PdA).
+As necessidades deste projeto estão relacionadas as etapas de produção, publicação, visualização e acesso de [_data packages_](https://specs.frictionlessdata.io/data-package/) por parte dos usuários (produtores e consumidores) do [Portal de Dados Abertos](https://dados.mg.gov.br/) (PdA).
 
 ## Motivação
 
