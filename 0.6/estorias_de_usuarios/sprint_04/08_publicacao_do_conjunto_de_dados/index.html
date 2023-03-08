@@ -1021,8 +1021,6 @@
         
           
         
-          
-        
       
       
         <label class="md-nav__link" for="__nav_5_4">
@@ -1059,20 +1057,6 @@
     <li class="md-nav__item">
       <a href="../../sprint_05/10_mergear_os_metadados_do_CKAN_com_os_da_frictionless/" class="md-nav__link">
         Mergear os metadados do CKAN com os da Frictionless
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../sprint_05/11_gerar_url_do_conjunto_com_as_informacoes_dos_metadados/" class="md-nav__link">
-        Gerar URL do conjunto com as informações dos metadados.
       </a>
     </li>
   
@@ -1572,6 +1556,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_7_4">
@@ -1592,8 +1578,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../testes/sprint_05/09_geracao_html_do_conjunto_casos_de_teste/" class="md-nav__link">
-        Casos de Teste Geração do HTML do Conjunto de dados
+      <a href="../../../testes/sprint_05/09_aprimorar_pagina_do_recurso_casos_de_teste/" class="md-nav__link">
+        Teste Aprimorar Página do Recruso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../testes/sprint_05/10_mergear_os_metadados_do_CKAN_com_os_da_frictionless_casos_de_teste/" class="md-nav__link">
+        Teste Mergiar Metadados CKAN Frictionless
       </a>
     </li>
   
@@ -1786,7 +1786,7 @@
 <h4 id="regra-negocial-001006_1"><strong>Regra negocial 001.006</strong>:<a class="headerlink" href="#regra-negocial-001006_1" title="Permanent link">⚓︎</a></h4>
 <p>Após acionar o botão de <code>Publicar Conjunto de Dados</code> o sistema deverá gerar aba para consultar validações do conjunto e seu(s) recurso(s). </p>
 <h4 id="regra-negocial-001007"><strong>Regra negocial 001.007</strong>:<a class="headerlink" href="#regra-negocial-001007" title="Permanent link">⚓︎</a></h4>
-<p>Após acionar o botão de <code>Publicar Conjunto de Dados</code> o sistema deverá atualizar metadados visualizados no endpoint <code>package_show</code> da api CKAN (https://DOMINIO/api/3/action/package_show?id=PACKAGE-ID) com os metadados criados pelo usuário, package e resources. </p>
+<p>Após acionar o botão de <code>Publicar Conjunto de Dados</code> o sistema deverá atualizar metadados visualizados no endpoint <code>package_show</code> da api CKAN<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> com os metadados criados pelo usuário, package e resources. </p>
 <h3 id="prototipo-baixa-fidelidade">Prototipo Baixa Fidelidade<a class="headerlink" href="#prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
 <p><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Link para prototipacao</a></p>
 <table>
@@ -1794,7 +1794,7 @@
 <tr>
 <th>Item</th>
 <th>Nome do Campo</th>
-<th>Tipo de Dado<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></th>
+<th>Tipo de Dado<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup></th>
 <th>Opções/Domínio</th>
 <th>Descrição/Observações</th>
 </tr>
@@ -1893,7 +1893,10 @@
 <p><a href="https://github.com/frictionlessdata/framework/issues/475">Proposta de implementação desta funcionalidade via Frictionless</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
 </li>
 <li id="fn:2">
-<p><a href="../../../modelos/tipos_dado_formulario_html/">Tipos de dados</a>&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+<p>https://DOMINIO/api/3/action/package_show?id=PACKAGE-ID&#160;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">&#8617;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="../../../modelos/tipos_dado_formulario_html/">Tipos de dados</a>&#160;<a class="footnote-backref" href="#fnref:3" title="Jump back to footnote 3 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -1903,7 +1906,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 8, 2023 17:57:44</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 8, 2023 19:02:37</span>
       
         <br>
         Created:

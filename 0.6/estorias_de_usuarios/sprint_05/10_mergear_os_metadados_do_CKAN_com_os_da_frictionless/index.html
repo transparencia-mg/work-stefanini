@@ -898,8 +898,6 @@
         
           
         
-          
-        
       
       
         <label class="md-nav__link" for="__nav_5_4">
@@ -943,24 +941,81 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Mergear os metadados do CKAN com os da Frictionless
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Mergear os metadados do CKAN com os da Frictionless
       </a>
       
-    </li>
-  
+        
 
-            
-          
-            
-              
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
-    <li class="md-nav__item">
-      <a href="../11_gerar_url_do_conjunto_com_as_informacoes_dos_metadados/" class="md-nav__link">
-        Gerar URL do conjunto com as informações dos metadados.
-      </a>
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-aceite" class="md-nav__link">
+    Critérios de aceite
+  </a>
+  
+    <nav class="md-nav" aria-label="Critérios de aceite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterio-001-publicar-conjunto-de-dados" class="md-nav__link">
+    Critério 001 – Publicar Conjunto de Dados
+  </a>
+  
+    <nav class="md-nav" aria-label="Critério 001 – Publicar Conjunto de Dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regra-negocial-001001" class="md-nav__link">
+    Regra negocial 001.001:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regra-negocial-001002" class="md-nav__link">
+    Regra negocial 001.002:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
+    Prototipo Baixa Fidelidade
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1459,6 +1514,8 @@
         
           
         
+          
+        
       
       
         <label class="md-nav__link" for="__nav_7_4">
@@ -1479,8 +1536,22 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../testes/sprint_05/09_geracao_html_do_conjunto_casos_de_teste/" class="md-nav__link">
-        Casos de Teste Geração do HTML do Conjunto de dados
+      <a href="../../../testes/sprint_05/09_aprimorar_pagina_do_recurso_casos_de_teste/" class="md-nav__link">
+        Teste Aprimorar Página do Recruso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../testes/sprint_05/10_mergear_os_metadados_do_CKAN_com_os_da_frictionless_casos_de_teste/" class="md-nav__link">
+        Teste Mergiar Metadados CKAN Frictionless
       </a>
     </li>
   
@@ -1520,6 +1591,61 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-aceite" class="md-nav__link">
+    Critérios de aceite
+  </a>
+  
+    <nav class="md-nav" aria-label="Critérios de aceite">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterio-001-publicar-conjunto-de-dados" class="md-nav__link">
+    Critério 001 – Publicar Conjunto de Dados
+  </a>
+  
+    <nav class="md-nav" aria-label="Critério 001 – Publicar Conjunto de Dados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regra-negocial-001001" class="md-nav__link">
+    Regra negocial 001.001:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regra-negocial-001002" class="md-nav__link">
+    Regra negocial 001.002:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prototipo-baixa-fidelidade" class="md-nav__link">
+    Prototipo Baixa Fidelidade
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1539,13 +1665,149 @@
 
 
 <h1 id="mergear-os-metadados-do-ckan-com-os-da-frictionless">Mergear os metadados do CKAN com os da Frictionless<a class="headerlink" href="#mergear-os-metadados-do-ckan-com-os-da-frictionless" title="Permanent link">⚓︎</a></h1>
+<p><strong>Como</strong> um <abbr title="Entende-se por usuário externo todo servidor público, jornalistas, pesquisadores, fornecedores, ativistas, cidadãos, etc que tenham interesse nas informações divulgadas no Portal.">usuário externo</abbr>, <strong>eu quero</strong> ter acesso a link único do datapackage.json <strong>para</strong> utilizar scripts de programação durante a utilização dos dados.</p>
+<ul>
+<li><strong>Acesso:</strong> </li>
+</ul>
+<div class="mermaid">graph LR;
+    1[Acessar Portal Dados Abertos]--&gt;2;
+    2[Conjuntos de dados]--&gt;3;
+    3[Acessar Conjunto de Dados]</div>
+<ul>
+<li>
+<p><strong>Perfil de acesso:</strong> <abbr title="Entende-se por usuário externo todo servidor público, jornalistas, pesquisadores, fornecedores, ativistas, cidadãos, etc que tenham interesse nas informações divulgadas no Portal.">Usuário Externo</abbr>.</p>
+</li>
+<li>
+<p><strong>Testes:</strong> <a href="../../../testes/sprint_05/10_mergear_os_metadados_do_CKAN_com_os_da_frictionless_casos_de_teste/#resultados-obtidos">Resultados Obtidos</a>.</p>
+</li>
+</ul>
+<h2 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h2>
+<p>Para que seja feito a publicação do recurso, o <abbr title="Portal de Dados Abertos CKAN.">portal</abbr> deve se comportar conforme as critérios de aceite abaixo:</p>
+<h3 id="criterio-001-publicar-conjunto-de-dados"><strong>Critério 001 – Publicar <abbr title="Um conjunto de dados ou &quot;dataset&quot; é uma coleção de dados normalmente tabulados.">Conjunto de Dados</abbr></strong><a class="headerlink" href="#criterio-001-publicar-conjunto-de-dados" title="Permanent link">⚓︎</a></h3>
+<ul>
+<li><strong>Dado</strong> que eu quero visualizar as informações do conjunto.</li>
+<li><strong>E</strong> utilizar scripts automatizados. </li>
+<li><strong>Quando</strong> acesso a página do conjunto</li>
+<li><strong>Então</strong> cesso a link único da documentação via datapackage.json </li>
+</ul>
+<h4 id="regra-negocial-001001"><strong>Regra negocial 001.001</strong>:<a class="headerlink" href="#regra-negocial-001001" title="Permanent link">⚓︎</a></h4>
+<p>Manter a conformidade com a especificação da <a href="https://specs.frictionlessdata.io/#overview">Frictionless</a>.</p>
+<h4 id="regra-negocial-001002"><strong>Regra negocial 001.002</strong>:<a class="headerlink" href="#regra-negocial-001002" title="Permanent link">⚓︎</a></h4>
+<p>Link não deverá sofrer alteração após edição do conjunto.</p>
+<h3 id="prototipo-baixa-fidelidade">Prototipo Baixa Fidelidade<a class="headerlink" href="#prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
+<p><a href="/assets/pdfs/prototipo_telas_ckan.pdf">Link para prototipacao</a></p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Nome do Campo</th>
+<th>Tipo de Dado<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup></th>
+<th>Opções/Domínio</th>
+<th>Descrição/Observações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Dic. Dados:    Nome do Recurso</td>
+<td>O, CT</td>
+<td>N/A</td>
+<td>Descrição manual do nome do Recurso.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dic. Dados:Título</td>
+<td>CT</td>
+<td>N/A</td>
+<td>Campo texto para o título do recurso com tamanho máximo de 100 caracteres</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Dic. Dados:Descrição</td>
+<td>CT</td>
+<td>N/A</td>
+<td>Campo texto para a descrição do recurso com tamanho máximo de 5000 caracteres</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Dic. Dados:Tipo de Dado</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática do tipo possível de dados como: texto, número, etc.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Dic. Dados:Formato de dado</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática com os formatos de dados predeterminados, como: padrão, e-mail, etc.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Dic. Dados:Obrigatório</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Por padrão, a opção <code>NÃO</code> deverá estar selecionada. Estende-se para estória: <a href="/estorias_de_usuarios/03_edicao_dos_dados_do_recurso">US003 - Editar Metadados</a></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Dic. Dados:Único</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Por padrão, a opção <code>NÃO</code> deverá estar selecionada. Estende-se para estória: <a href="/estorias_de_usuarios/03_edicao_dos_dados_do_recurso">US003 - Editar Metadados</a></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Dic. Dados:(+) Adicionar Metadados</td>
+<td>B</td>
+<td>N/A</td>
+<td>Escolha de metadados complementares. <a href="/estorias_de_usuarios/03_edicao_dos_dados_do_recurso">US003 - Editar Metadados</a></td>
+</tr>
+<tr>
+<td>09</td>
+<td>Dic. Dados:Salvar</td>
+<td>B</td>
+<td>N/A</td>
+<td>Ao acionar o botão &lt;<Salvar>&gt; o sistema salva as alterações feitas. Estende-se para estória: <a href="/estorias_de_usuarios/03_edicao_dos_dados_do_recurso">US003 - Editar Metadados</a></td>
+</tr>
+<tr>
+<td>10</td>
+<td><abbr title="Data Resource.">Dados do Recurso</abbr>: Tipo de formato</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática do tipo de extensão: Tabular ou não tabular</td>
+</tr>
+<tr>
+<td>11</td>
+<td><abbr title="Data Resource.">Dados do Recurso</abbr>: Formato do recurso</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Seleção automática do formato do recurso, como: xls, csv, etc.</td>
+</tr>
+<tr>
+<td>12</td>
+<td><abbr title="Data Resource.">Dados do Recurso</abbr>: Codificação</td>
+<td>CB</td>
+<td>N/A</td>
+<td>Descrição manual do tipo de codificação, como UTF-8, etc</td>
+</tr>
+</tbody>
+</table>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="../../../modelos/tipos_dado_formulario_html/">Tipos de dados</a>&#160;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
 
   <hr>
 <div class="md-source-file">
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">December 15, 2022 22:02:14</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 8, 2023 19:20:59</span>
       
         <br>
         Created:
@@ -1595,13 +1857,13 @@
       
       
         
-        <a href="../11_gerar_url_do_conjunto_com_as_informacoes_dos_metadados/" class="md-footer__link md-footer__link--next" aria-label="Next: Gerar URL do conjunto com as informações dos metadados." rel="next">
+        <a href="../../sprint_06/12_aprimorar_pagina_do_conjunto/" class="md-footer__link md-footer__link--next" aria-label="Next: Aprimorar Página do Conjunto" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Gerar URL do conjunto com as informações dos metadados.
+              Aprimorar Página do Conjunto
             </div>
           </div>
           <div class="md-footer__button md-icon">
