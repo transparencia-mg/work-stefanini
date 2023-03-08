@@ -15,4 +15,4 @@ Nenhum teste realizado pela Stefanini registrado.
 - **Itens testados:** Documentados em comentário do issue [#148 - Aprimorar página do recurso: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/152)
 - **Evidências:**    
     - [Vídeo Gravado](https://youtu.be/3mIFv4cnQHs)
-    - [Issues relacionados](https://github.com/transparencia-mg/work-stefanini/issues/152#issuecomment-1460761247):
+    - [Issues relacionados]([https://github.com/transparencia-mg/work-stefanini/issues/152#issuecomment-1460761247](https://github.com/transparencia-mg/work-stefanini/issues/154#issuecomment-1460806767)):
