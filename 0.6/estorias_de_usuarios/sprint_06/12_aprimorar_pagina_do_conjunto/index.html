@@ -1638,24 +1638,10 @@
     4[Adicionar Conjunto de Dados]</div>
 <ul>
 <li><strong>Perfil de acesso:</strong> <abbr title="Entende-se por usuário externo todo servidor público, jornalistas, pesquisadores, fornecedores, ativistas, cidadãos, etc que tenham interesse nas informações divulgadas no Portal.">usuário externo</abbr></li>
-<li>
-<p><strong>Protótipo:</strong> Baixa Fidelidade.</p>
-</li>
-<li>
-<p><strong>Regra negocial:</strong> Para que seja feita o aprimoramento da página do conjunto, o <abbr title="Portal de Dados Abertos CKAN.">portal</abbr> deve se comportar conforme as regras abaixo:</p>
-<ul>
-<li><strong>RN001</strong> - É necessário que a tabela que contém as informações adicionais seja mais completa para que haja um maior entendimento sobre cada dado.</li>
-<li><strong>RN002:</strong> - Será criada mais uma aba no conjunto para que seja inserida a imagem de <abbr title="É um modelo conceitual para descrever os objetos (entidades) envolvidos em um domínio de negócios, com suas características (atributos) e como elas se relacionam entre si.">entidade de relacionamento</abbr>.</li>
-<li><strong>RN003:</strong> - Após a validação das informações, o link com o resultado da validação, será informada dentro da aba de Fluxo de atividades.<ul>
-<li><strong>RN004:</strong> - Cada alteração do conjunto terá um hiperlink com o relatório do resultado da validação. </li>
-</ul>
-</li>
-<li><strong>RN005:</strong> - Dentro da lista de recurso o datapackage.json não será mais apresentado na lista. </li>
-<li><strong>RN006:</strong> - Será criado uma coluna com checkbox ao lado de cada recurso do conjunto para que seja selecionado mais de um recurso para baixar. </li>
-</ul>
-</li>
+<li><strong>Protótipo:</strong> Baixa Fidelidade.</li>
 </ul>
 <h3 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h3>
+<p>Para que seja feito o aprimoramento da página do conjunto, o <abbr title="Portal de Dados Abertos CKAN.">portal</abbr> deve se comportar conforme as regras abaixo:</p>
 <ul>
 <li>
 <p><strong>Critério 001 –</strong> Página do Conjunto</p>
@@ -1664,6 +1650,14 @@
 <li><strong>Quando</strong> desejo visualizar as informações sobre o conjunto</li>
 <li><strong>Então</strong> o sistema apresenta nas Informações Adicionais com todos os dados necessarios para entendimento.</li>
 </ul>
+</li>
+<li>
+<p><strong>RN001</strong> - É necessário que a tabela que contém as informações adicionais seja mais completa para que haja um maior entendimento sobre cada dado.</p>
+</li>
+<li><strong>RN003:</strong> - Após a validação das informações, o link com o resultado da validação, será informada dentro da aba de Fluxo de atividades.</li>
+<li><strong>RN004:</strong> - Cada alteração do conjunto terá um hiperlink com o relatório do resultado da validação. </li>
+<li>
+<p><strong>RN005:</strong> - Dentro da lista de recurso o datapackage.json não será mais apresentado na lista.</p>
 </li>
 <li>
 <p><strong>Critério 002 –</strong> Aba <abbr title="É um modelo conceitual para descrever os objetos (entidades) envolvidos em um domínio de negócios, com suas características (atributos) e como elas se relacionam entre si.">Entidade de Relacionamento</abbr></p>
@@ -1675,12 +1669,18 @@
 </ul>
 </li>
 <li>
+<p><strong>RN002:</strong> - Será criada mais uma aba no conjunto para que seja inserida a imagem de <abbr title="É um modelo conceitual para descrever os objetos (entidades) envolvidos em um domínio de negócios, com suas características (atributos) e como elas se relacionam entre si.">entidade de relacionamento</abbr>.</p>
+</li>
+<li>
 <p><strong>Critério 003 –</strong> Checkbox para selecionar recursos</p>
 <ul>
 <li><strong>Dado</strong> que estou na tela de conjunto</li>
 <li><strong>Quando</strong> seleciono mais de um recurso</li>
 <li><strong>Então</strong> o sistema habilita a opção de baixar todos os recursos selecionados.</li>
 </ul>
+</li>
+<li>
+<p><strong>RN006:</strong> - Será criado uma coluna com checkbox ao lado de cada recurso do conjunto para que seja selecionado mais de um recurso para baixar.</p>
 </li>
 </ul>
 <h3 id="prototipo-baixa-fidelidade">Prototipo Baixa Fidelidade<a class="headerlink" href="#prototipo-baixa-fidelidade" title="Permanent link">⚓︎</a></h3>
@@ -1758,7 +1758,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 8, 2023 17:57:44</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 8, 2023 20:33:00</span>
       
         <br>
         Created:
