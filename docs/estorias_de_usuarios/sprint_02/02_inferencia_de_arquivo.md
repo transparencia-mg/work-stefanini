@@ -20,8 +20,6 @@ graph TD;
 
 - **Status:** Finalizado.
 
-- **Perfil de acesso:** Publicador. 
-
 ## Critérios de aceite
 Para que seja feito a inferência de arquivo(s) de dados, o portal deve se comportar conforme as critérios de aceite abaixo:
 

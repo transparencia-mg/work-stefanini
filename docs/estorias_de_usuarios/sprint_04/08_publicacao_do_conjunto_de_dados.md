@@ -15,7 +15,6 @@ graph TD;
 
 - **Testes:** [Resultados Obtidos](../../../testes/sprint_04/08_publicacao_do_conjunto_do_recurso_casos_de_teste/#resultados-obtidos).
 
-
 ## Critérios de aceite
 Para que seja feito a publicação do conjunto, o portal deve se comportar conforme as critérios de aceite abaixo:
 

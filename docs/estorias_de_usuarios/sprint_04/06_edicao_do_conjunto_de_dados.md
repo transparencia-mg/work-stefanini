@@ -29,8 +29,6 @@ graph TD;
 
 - **Status:** Em revisão.
 
-- **Perfil de acesso:** Publicador. 
-
 ## Critérios de aceite
 Para que seja feito a edição dos dados do conjunto, o portal deve se comportar conforme as critérios de aceite abaixo:
 
