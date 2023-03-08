@@ -18,7 +18,7 @@ graph TD;
 
 - **Testes:** [Resultados Finais Obtidos](../../../testes/sprint_03/03_edicao_dos_dados_do_recurso_casos_de_teste/#testes-realizados-pela-equipe-dcta-em-ambiente-da-cge).
 
-- **Status:** Em revisão.
+- **Status:** Finalizado.
 
 ## Critérios de aceite
 Para que seja feito a edição dos dados de recursos, o portal deve se comportar conforme as critérios de aceite abaixo:
