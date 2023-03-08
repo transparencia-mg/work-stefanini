@@ -12,7 +12,7 @@ Nenhum teste realizado pela Stefanini registrado.
 - **Data:** 08/03/2023
 - **Versão do pacote:** [0.48](https://pypi.org/project/ckanext-datapackage-creator/0.0.48/)
 - **Necessita ser retestado:** Não
-- **Itens testados:** Documentados em comentário do issue [#148 - Aprimorar página do recurso: Desenvolvimento](https://github.com/transparencia-mg/work-stefanini/issues/152)
+- **Itens testados:** Documentados em comentário do issue [#148 - Aprimorar página do recurso: Aprovação Ambiente Homologação CGE](https://github.com/transparencia-mg/work-stefanini/issues/154)
 - **Evidências:**    
     - [Vídeo Gravado](https://youtu.be/3mIFv4cnQHs)
-    - [Issues relacionados]([https://github.com/transparencia-mg/work-stefanini/issues/152#issuecomment-1460761247](https://github.com/transparencia-mg/work-stefanini/issues/154#issuecomment-1460806767)):
+    - [Issues relacionados](https://github.com/transparencia-mg/work-stefanini/issues/154#issuecomment-1460806767)
