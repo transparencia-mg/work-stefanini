@@ -15,31 +15,17 @@ graph LR;
 - **Perfil de acesso:** publicador
 - **Protótipo:** Baixa Fidelidade.
 
-- **Regra negocial:** Para que seja gerada a entidade de relacionamento da página do conjunto, o portal deve se comportar conforme as regras abaixo:
-       - **RN001:** - O diagrama só será gerado quando houver um relacionamento entre os recursos. 
-	- **RN002:** - A relação entre os recursos, quando existir, deverá estar expressa no Dicionário de Dados
-	- **RN003:** - Deverá ser adicionada no Dicionário de Dados, em adicionar novos metadados, a chave primária[^1]/ chave Estrangeira Foreign key[^2]. 
-       - **RN004:** - 
- 	- **RN005:** - 
-	- **RN006:** - 
-
 ### Critérios de aceite
 
 - **Critério 001 –** 
-       - **Dado** 
-       - **Quando** 
-       - **Então** 
+       - **Dado** que existe um conjunto de dados publicado, com pelo menos um recurso
+       - **Quando** eu clico na página inicial do conjunto
+       - **Então** eu acesso uma aba que contém a imagem do diagrama de entidade relacionamento dos recursos
 
-- **Critério 002 –** 
-	   - **Dado** 
-	   - **E** 
-	   - **Quando** - 
-	   - **Então** 
-
-- **Critério 003 –** 
-	   - **Dado** 
-	   - **Quando** 
-	   - **Então** 
+- **Regra negocial:** Para que seja gerada a entidade de relacionamento da página do conjunto, o portal deve se comportar conforme as regras abaixo:
+       - **RN001:** - O diagrama será gerado inclusive quando não houver um relacionamento entre os recursos. 
+	- **RN002:** - A relação entre os recursos, quando existir, deverá estar expressa no Dicionário de Dados
+	- **RN003:** - Deverá ser adicionada no Dicionário de Dados, em adicionar novos metadados, a chave primária[^1]/ chave Estrangeira Foreign key[^2]. 
 
 ### Prototipo Baixa Fidelidade
 
