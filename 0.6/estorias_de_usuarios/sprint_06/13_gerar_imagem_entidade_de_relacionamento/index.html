@@ -1638,46 +1638,24 @@
     4[Adicionar Conjunto de Dados]</div>
 <ul>
 <li><strong>Perfil de acesso:</strong> <abbr title="Usuário logado no sistema.">publicador</abbr></li>
-<li>
-<p><strong>Protótipo:</strong> Baixa Fidelidade.</p>
-</li>
-<li>
-<p><strong>Regra negocial:</strong> Para que seja gerada a <abbr title="É um modelo conceitual para descrever os objetos (entidades) envolvidos em um domínio de negócios, com suas características (atributos) e como elas se relacionam entre si.">entidade de relacionamento</abbr> da página do conjunto, o <abbr title="Portal de Dados Abertos CKAN.">portal</abbr> deve se comportar conforme as regras abaixo:</p>
-<ul>
-<li><strong>RN001:</strong> - O diagrama só será gerado quando houver um relacionamento entre os recursos. </li>
-<li><strong>RN002:</strong> - A relação entre os recursos, quando existir, deverá estar expressa no <abbr title="Table Schema.">Dicionário de Dados</abbr></li>
-<li><strong>RN003:</strong> - Deverá ser adicionada no <abbr title="Table Schema.">Dicionário de Dados</abbr>, em adicionar novos metadados, a chave primária<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>/ chave Estrangeira Foreign key<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </li>
-<li><strong>RN004:</strong> - </li>
-<li><strong>RN005:</strong> - </li>
-<li><strong>RN006:</strong> - </li>
-</ul>
-</li>
+<li><strong>Protótipo:</strong> Baixa Fidelidade.</li>
 </ul>
 <h3 id="criterios-de-aceite">Critérios de aceite<a class="headerlink" href="#criterios-de-aceite" title="Permanent link">⚓︎</a></h3>
 <ul>
 <li>
 <p><strong>Critério 001 –</strong> </p>
 <ul>
-<li><strong>Dado</strong> </li>
-<li><strong>Quando</strong> </li>
-<li><strong>Então</strong> </li>
+<li><strong>Dado</strong> que existe um <abbr title="Um conjunto de dados ou &quot;dataset&quot; é uma coleção de dados normalmente tabulados.">conjunto de dados</abbr> publicado, com pelo menos um recurso</li>
+<li><strong>Quando</strong> eu clico na página inicial do conjunto</li>
+<li><strong>Então</strong> eu acesso uma aba que contém a imagem do diagrama de entidade relacionamento dos recursos</li>
 </ul>
 </li>
 <li>
-<p><strong>Critério 002 –</strong> </p>
+<p><strong>Regra negocial:</strong> Para que seja gerada a <abbr title="É um modelo conceitual para descrever os objetos (entidades) envolvidos em um domínio de negócios, com suas características (atributos) e como elas se relacionam entre si.">entidade de relacionamento</abbr> da página do conjunto, o <abbr title="Portal de Dados Abertos CKAN.">portal</abbr> deve se comportar conforme as regras abaixo:</p>
 <ul>
-<li><strong>Dado</strong> </li>
-<li><strong>E</strong> </li>
-<li><strong>Quando</strong> - </li>
-<li><strong>Então</strong> </li>
-</ul>
-</li>
-<li>
-<p><strong>Critério 003 –</strong> </p>
-<ul>
-<li><strong>Dado</strong> </li>
-<li><strong>Quando</strong> </li>
-<li><strong>Então</strong> </li>
+<li><strong>RN001:</strong> - O diagrama será gerado inclusive quando não houver um relacionamento entre os recursos. </li>
+<li><strong>RN002:</strong> - A relação entre os recursos, quando existir, deverá estar expressa no <abbr title="Table Schema.">Dicionário de Dados</abbr></li>
+<li><strong>RN003:</strong> - Deverá ser adicionada no <abbr title="Table Schema.">Dicionário de Dados</abbr>, em adicionar novos metadados, a chave primária<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup>/ chave Estrangeira Foreign key<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup>. </li>
 </ul>
 </li>
 </ul>
@@ -1762,7 +1740,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 8, 2023 17:57:44</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">March 8, 2023 19:17:58</span>
       
         <br>
         Created:
