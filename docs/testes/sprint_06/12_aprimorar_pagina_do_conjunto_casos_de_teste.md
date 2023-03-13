@@ -9,7 +9,7 @@ Nenhum teste realizado pela Stefanini registrado.
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
 ### Resultado 001
-- **Data:** 13/08/2023
+- **Data:** 13/03/2023
 - **Versão do pacote:** [0.52](https://pypi.org/project/ckanext-datapackage-creator/0.0.52/)
 - **Necessita ser retestado:** Sim
 - **Itens testados:** Documentados em comentário do issue [#169 - Aprimorar Página do Conjunto: Aprovação Ambiente Homologação CGE](https://github.com/transparencia-mg/work-stefanini/issues/175)
