@@ -25,9 +25,8 @@ Para que seja feito o aprimoramento da página do conjunto, o portal deve se com
        - **Então** o sistema apresenta nas Informações Adicionais com todos os dados necessarios para entendimento.
 
 - **RN001** - É necessário que a tabela que contém as informações adicionais seja mais completa para que haja um maior entendimento sobre cada dado.
-- **RN003:** - Após a validação das informações, o link com o resultado da validação, será informada dentro da aba de Fluxo de atividades.
-- **RN004:** - Cada alteração do conjunto terá um hiperlink com o relatório do resultado da validação. 
-- **RN005:** - Dentro da lista de recurso o datapackage.json não será mais apresentado na lista.
+- **RN002:** - Cada alteração do conjunto terá um hiperlink com o relatório do resultado da validação. 
+- **RN003:** - Dentro da lista de recurso o datapackage.json não será mais apresentado na lista.
 
 - **Critério 002 –** Aba Entidade de Relacionamento
 	   - **Dado** que estou na tela de conjunto
