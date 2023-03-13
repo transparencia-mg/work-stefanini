@@ -14,5 +14,5 @@ Nenhum teste realizado pela Stefanini registrado.
 - **Necessita ser retestado:** Sim
 - **Itens testados:** Documentados em comentário do issue [#169 - Aprimorar Página do Conjunto: Aprovação Ambiente Homologação CGE](https://github.com/transparencia-mg/work-stefanini/issues/175)
 - **Evidências:**    
-    - [Vídeo Gravado]()
+    - [Vídeo Gravado](https://youtu.be/BkqDX2GJhmI)
     - [Issues relacionados](https://github.com/transparencia-mg/work-stefanini/issues/175#issue-1503457442)
