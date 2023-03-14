@@ -8,6 +8,15 @@ Nenhum teste realizado pela Stefanini registrado.
 
 ## Testes realizados pela equipe DCTA em ambiente da CGE 
 
+### Resultado 002
+- **Data:** 14/03/2023
+- **Versão do pacote:** [0.55](https://pypi.org/project/ckanext-datapackage-creator/0.0.55/)
+- **Necessita ser retestado:** Não
+- **Itens testados:** Documentados em comentário do issue [#169 - Aprimorar Página do Conjunto: Aprovação Ambiente Homologação CGE](https://github.com/transparencia-mg/work-stefanini/issues/175)
+- **Evidências:**    
+    - [Vídeo Gravado](https://youtu.be/et7Dw8MCOWY)
+    - [Issues relacionados](https://github.com/transparencia-mg/work-stefanini/issues/175#issuecomment-1468712270)
+
 ### Resultado 001
 - **Data:** 13/03/2023
 - **Versão do pacote:** [0.52](https://pypi.org/project/ckanext-datapackage-creator/0.0.52/)
