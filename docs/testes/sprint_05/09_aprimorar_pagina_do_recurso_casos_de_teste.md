@@ -1,4 +1,4 @@
-# Teste Aprimorar Página do Recruso
+# Teste Aprimorar Página do Recurso
 
 Registra os testes de todas as regras negociais pensadas para a a estória de usuário [validação do conjunto de dados](../../../estorias_de_usuarios/sprint_05/09_aprimorar_pagina_do_recurso).
 
