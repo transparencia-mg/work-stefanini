@@ -8,6 +8,7 @@ edit_uri: edit/main/docs/
 # Configuration
 theme:
   name: material
+  language: pt-BR
   custom_dir: overrides
   features:
     # - announce.dismiss
